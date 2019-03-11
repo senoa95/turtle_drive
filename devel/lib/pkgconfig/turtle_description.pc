@@ -1,0 +1,8 @@
+prefix=/home/turtle1/turtle_drive/devel
+
+Name: turtle_description
+Description: Description of turtle_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/turtle1/turtle_drive/devel/lib 
+Requires: 
