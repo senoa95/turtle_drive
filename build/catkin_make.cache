@@ -1,2 +1,0 @@
-Turtles/turtle_control:Turtles/turtle_description:roboteq/src/roboteq_diagnostics:roboteq/src/roboteq_driver:roboteq/src/roboteq_msgs
--DCATKIN_DEVEL_PREFIX=/home/turtle1/turtle_drive/devel -DCMAKE_INSTALL_PREFIX=/home/turtle1/turtle_drive/install -G Unix Makefiles
