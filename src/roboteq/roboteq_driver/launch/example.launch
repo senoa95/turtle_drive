@@ -1,7 +1,9 @@
 <launch>
-  <arg name="port" default="/dev/ttyACM0" />
-  <node pkg="roboteq_driver" type="driver_node" name="roboteq_driver" output="screen">
-    <param name="port" value="$(arg port)" />
-    <param name="baud" value="115200" />
-  </node>
+    <node pkg="roboteq_driver" type="driver_node" name="roboteq_driver" output="screen">
+        <rosparam>
+            port: /dev/ttyACM0
+            baud: 115200
+            channels: [left, right]
+        </rosparam>
+    </node>
 </launch>

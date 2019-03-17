@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+ <node name="turtle" pkg="turtle_control" type="turtle_base"/>
+<include file="$(find turtle_control)/launch/local_ps3_control.launch" />local_xbox_control.launch
+</launch>
