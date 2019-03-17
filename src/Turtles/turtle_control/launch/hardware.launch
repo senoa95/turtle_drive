@@ -1,19 +1,19 @@
 <?xml version="1.0"?>
 <launch>
- <node name="turtle" pkg="turtle_control" type="turtle_base"/>
-    <node pkg="roboteq_driver" type="driver_node" name="roboteq_driver" output="screen">
-        <rosparam>
-            port: /dev/ttyACM1
-            baud: 115200
-            channels: [left, right]
-        </rosparam>
+ <node name="turtle_control" pkg="turtle_control" type="turtle_base"/>
+
+<node pkg="roboteq_driver" type="driver_node" name="roboteq_driver" output="screen">
+    <rosparam>
+        port: /dev/ttyACM0
+        baud: 115200
+        channels: [left, right]
+    </rosparam>
 </node>
-<node name="imu_node" pkg="microstrain_3dmgx2_imu" type="imu_node">
+<!-- <node name="imu_node" pkg="microstrain_3dmgx2_imu" type="imu_node">
         <rosparam>
             port: /dev/ttyACM0
             frame_id: base_link
 
         </rosparam>
-</node>
+</node> -->
 </launch>
-

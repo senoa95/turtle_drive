@@ -138,6 +138,7 @@ include_directories(
 ## With catkin_make all packages are built within a single CMake context
 ## The recommended prefix ensures that target names across packages don't collide
 add_executable(turtle_base src/turtle_base.cpp)
+add_executable(teleop_turtle src/teleop_turtle.cpp)
 
 ## Rename C++ executable without prefix
 ## The above recommended prefix causes long target names, the following renames the
@@ -154,6 +155,7 @@ add_executable(turtle_base src/turtle_base.cpp)
  )
 target_link_libraries(turtle_base  ${PROJECT_NAME} ${catkin_LIBRARIES} ${Boost_LIBRARIES}
  )
+ target_link_libraries(teleop_turtle ${catkin_LIBRARIES})
 #############
 ## Install ##
 #############
