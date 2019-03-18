@@ -61,7 +61,7 @@ roboteq/roboteq_driver/mbs/genc_script_hex.cpp: /home/base/turtle_drive/src/robo
 roboteq/roboteq_driver/mbs/genc_script_hex.cpp: /home/base/turtle_drive/src/roboteq/roboteq_driver/mbs/script.mbs
 roboteq/roboteq_driver/mbs/genc_script_hex.cpp: /home/base/turtle_drive/src/roboteq/roboteq_driver/mbs/script.hex
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating genc_script_hex.cpp"
-	cd /home/base/turtle_drive/src/roboteq/roboteq_driver/mbs && ./genc script_lines script.hex > /home/base/turtle_drive/build/roboteq/roboteq_driver/mbs/genc_script_hex.cpp
+	cd /home/base/turtle_drive/src/roboteq/roboteq_driver/mbs && ./genc script_lines script2.hex > /home/base/turtle_drive/build/roboteq/roboteq_driver/mbs/genc_script_hex.cpp
 
 roboteq/roboteq_driver/mbs/CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o: roboteq/roboteq_driver/mbs/CMakeFiles/roboteq_driver_script.dir/flags.make
 roboteq/roboteq_driver/mbs/CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o: roboteq/roboteq_driver/mbs/genc_script_hex.cpp
