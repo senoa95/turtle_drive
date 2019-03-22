@@ -1,0 +1,4 @@
+Turtles/turtle_description
+/home/base/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig.cmake /home/base/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig.cmake
+/home/base/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake /home/base/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake
+/home/base/turtle_drive/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc /home/base/turtle_drive/devel/lib/pkgconfig/turtle_description.pc
