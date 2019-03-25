@@ -33,9 +33,6 @@ top:
 			' Motor in velocity-control mode.
 			if getvalue(_VAR, ch) = 0 then
 				setconfig(_MMOD, ch, 1)
-				setconfig(_KP, ch, 7)
-				setconfig(_KI, ch, 0.7)
-				setconfig(_KD, ch, 0)
 			end if
 
 			' Motor in position-control mode.

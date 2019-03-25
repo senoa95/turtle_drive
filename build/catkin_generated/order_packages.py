@@ -1,5 +1,5 @@
 # generated from catkin/cmake/template/order_packages.context.py.in
-source_root_dir = "/home/base/turtle_drive/src"
+source_root_dir = "/home/trex/turtle_drive/src"
 whitelisted_packages = "".split(';') if "" != "" else []
 blacklisted_packages = "".split(';') if "" != "" else []
-underlay_workspaces = "/home/base/turtle_drive/devel;/opt/ros/kinetic".split(';') if "/home/base/turtle_drive/devel;/opt/ros/kinetic" != "" else []
+underlay_workspaces = "/home/trex/catkin_ws/devel;/opt/ros/kinetic".split(';') if "/home/trex/catkin_ws/devel;/opt/ros/kinetic" != "" else []

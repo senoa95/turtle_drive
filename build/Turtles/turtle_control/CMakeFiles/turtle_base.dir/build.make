@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/base/turtle_drive/src
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/base/turtle_drive/build
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build
 
 # Include any dependencies generated for this target.
 include Turtles/turtle_control/CMakeFiles/turtle_base.dir/depend.make
@@ -58,17 +58,17 @@ include Turtles/turtle_control/CMakeFiles/turtle_base.dir/progress.make
 include Turtles/turtle_control/CMakeFiles/turtle_base.dir/flags.make
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o: Turtles/turtle_control/CMakeFiles/turtle_base.dir/flags.make
-Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o: /home/base/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o"
-	cd /home/base/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o -c /home/base/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp
+Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o: /home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o"
+	cd /home/trex/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o -c /home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/turtle_base.dir/src/turtle_base.cpp.i"
-	cd /home/base/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/base/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp > CMakeFiles/turtle_base.dir/src/turtle_base.cpp.i
+	cd /home/trex/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp > CMakeFiles/turtle_base.dir/src/turtle_base.cpp.i
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/turtle_base.dir/src/turtle_base.cpp.s"
-	cd /home/base/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/base/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp -o CMakeFiles/turtle_base.dir/src/turtle_base.cpp.s
+	cd /home/trex/turtle_drive/build/Turtles/turtle_control && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp -o CMakeFiles/turtle_base.dir/src/turtle_base.cpp.s
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o.requires:
 
@@ -88,44 +88,44 @@ turtle_base_OBJECTS = \
 # External object files for target turtle_base
 turtle_base_EXTERNAL_OBJECTS =
 
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/build.make
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /home/base/turtle_drive/devel/lib/libturtle_control.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libcontroller_manager.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroscpp.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libclass_loader.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/libPocoFoundation.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libdl.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librostime.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libcpp_common.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroslib.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librospack.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-/home/base/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/base/turtle_drive/devel/lib/turtle_control/turtle_base"
-	cd /home/base/turtle_drive/build/Turtles/turtle_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_base.dir/link.txt --verbose=$(VERBOSE)
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/build.make
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /home/trex/turtle_drive/devel/lib/libturtle_control.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libcontroller_manager.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroscpp.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_signals.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libtinyxml2.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libclass_loader.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/libPocoFoundation.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libdl.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/liblog4cxx.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_regex.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librostime.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libcpp_common.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_thread.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_chrono.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_date_time.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_atomic.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libpthread.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libconsole_bridge.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/libroslib.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /opt/ros/kinetic/lib/librospack.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libpython2.7.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_filesystem.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_program_options.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libboost_system.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: /usr/lib/i386-linux-gnu/libtinyxml.so
+/home/trex/turtle_drive/devel/lib/turtle_control/turtle_base: Turtles/turtle_control/CMakeFiles/turtle_base.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/trex/turtle_drive/devel/lib/turtle_control/turtle_base"
+	cd /home/trex/turtle_drive/build/Turtles/turtle_control && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/turtle_base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-Turtles/turtle_control/CMakeFiles/turtle_base.dir/build: /home/base/turtle_drive/devel/lib/turtle_control/turtle_base
+Turtles/turtle_control/CMakeFiles/turtle_base.dir/build: /home/trex/turtle_drive/devel/lib/turtle_control/turtle_base
 
 .PHONY : Turtles/turtle_control/CMakeFiles/turtle_base.dir/build
 
@@ -134,10 +134,10 @@ Turtles/turtle_control/CMakeFiles/turtle_base.dir/requires: Turtles/turtle_contr
 .PHONY : Turtles/turtle_control/CMakeFiles/turtle_base.dir/requires
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/clean:
-	cd /home/base/turtle_drive/build/Turtles/turtle_control && $(CMAKE_COMMAND) -P CMakeFiles/turtle_base.dir/cmake_clean.cmake
+	cd /home/trex/turtle_drive/build/Turtles/turtle_control && $(CMAKE_COMMAND) -P CMakeFiles/turtle_base.dir/cmake_clean.cmake
 .PHONY : Turtles/turtle_control/CMakeFiles/turtle_base.dir/clean
 
 Turtles/turtle_control/CMakeFiles/turtle_base.dir/depend:
-	cd /home/base/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/base/turtle_drive/src /home/base/turtle_drive/src/Turtles/turtle_control /home/base/turtle_drive/build /home/base/turtle_drive/build/Turtles/turtle_control /home/base/turtle_drive/build/Turtles/turtle_control/CMakeFiles/turtle_base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src /home/trex/turtle_drive/src/Turtles/turtle_control /home/trex/turtle_drive/build /home/trex/turtle_drive/build/Turtles/turtle_control /home/trex/turtle_drive/build/Turtles/turtle_control/CMakeFiles/turtle_base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : Turtles/turtle_control/CMakeFiles/turtle_base.dir/depend
 

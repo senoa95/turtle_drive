@@ -1,8 +1,8 @@
-prefix=/home/base/turtle_drive/devel
+prefix=/home/trex/turtle_drive/devel
 
 Name: turtle_control
 Description: Description of turtle_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/base/turtle_drive/devel/lib 
+Libs: -L/home/trex/turtle_drive/devel/lib 
 Requires: 
