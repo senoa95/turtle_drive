@@ -69,6 +69,8 @@ turtle_control/turtle_hardware.h
 /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control/src/turtle_control/turtle_hardware.h
 ros/ros.h
 /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control/src/ros/ros.h
+iostream
+-
 
 /opt/ros/kinetic/include/class_loader/./multi_library_class_loader.hpp
 boost/thread.hpp

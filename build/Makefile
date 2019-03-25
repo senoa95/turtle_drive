@@ -3507,19 +3507,6 @@ turtle_base/fast:
 .PHONY : turtle_base/fast
 
 #=============================================================================
-# Target rules for targets named controller_manager_msgs_generate_messages_lisp
-
-# Build rule for target.
-controller_manager_msgs_generate_messages_lisp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 controller_manager_msgs_generate_messages_lisp
-.PHONY : controller_manager_msgs_generate_messages_lisp
-
-# fast build rule for target.
-controller_manager_msgs_generate_messages_lisp/fast:
-	$(MAKE) -f Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
-.PHONY : controller_manager_msgs_generate_messages_lisp/fast
-
-#=============================================================================
 # Target rules for targets named controller_manager_msgs_generate_messages_cpp
 
 # Build rule for target.
@@ -3557,6 +3544,32 @@ turtle_control: cmake_check_build_system
 turtle_control/fast:
 	$(MAKE) -f Turtles/turtle_control/CMakeFiles/turtle_control.dir/build.make Turtles/turtle_control/CMakeFiles/turtle_control.dir/build
 .PHONY : turtle_control/fast
+
+#=============================================================================
+# Target rules for targets named controller_manager_msgs_generate_messages_lisp
+
+# Build rule for target.
+controller_manager_msgs_generate_messages_lisp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 controller_manager_msgs_generate_messages_lisp
+.PHONY : controller_manager_msgs_generate_messages_lisp
+
+# fast build rule for target.
+controller_manager_msgs_generate_messages_lisp/fast:
+	$(MAKE) -f Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
+.PHONY : controller_manager_msgs_generate_messages_lisp/fast
+
+#=============================================================================
+# Target rules for targets named teleop_turtle
+
+# Build rule for target.
+teleop_turtle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 teleop_turtle
+.PHONY : teleop_turtle
+
+# fast build rule for target.
+teleop_turtle/fast:
+	$(MAKE) -f Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build.make Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build
+.PHONY : teleop_turtle/fast
 
 #=============================================================================
 # Target rules for targets named _run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch
@@ -4348,10 +4361,11 @@ help:
 	@echo "... controller_manager_msgs_generate_messages_eus"
 	@echo "... controller_manager_msgs_generate_messages_nodejs"
 	@echo "... turtle_base"
-	@echo "... controller_manager_msgs_generate_messages_lisp"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
 	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... turtle_control"
+	@echo "... controller_manager_msgs_generate_messages_lisp"
+	@echo "... teleop_turtle"
 	@echo "... _run_tests_urg_node_roslaunch-check_launch_urg_lidar.launch"
 	@echo "... _run_tests_urg_node_roslint_package"
 	@echo "... _run_tests_urg_node_roslint"

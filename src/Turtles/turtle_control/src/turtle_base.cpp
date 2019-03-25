@@ -37,6 +37,7 @@
 #include "controller_manager/controller_manager.h"
 #include "turtle_control/turtle_hardware.h"
 #include "ros/ros.h"
+#include <iostream>
 
 typedef boost::chrono::steady_clock time_source;
 
@@ -55,6 +56,7 @@ void controlThread(ros::Rate rate, turtle_control::TurtleHardware* robot, contro
     robot->copyJointsFromHardware();
     cm->update(ros::Time::now(), elapsed);
     robot->publishDriveFromController();
+    // std::cout<<"here";
     rate.sleep();
   }
 }

@@ -33,6 +33,7 @@
 
 #include <boost/assign.hpp>
 #include "turtle_control/turtle_hardware.h"
+#include <iostream>
 
 namespace turtle_control
 {
@@ -54,10 +55,10 @@ TurtleHardware::TurtleHardware()
   registerInterface(&joint_state_interface_);
   registerInterface(&velocity_joint_interface_);
 
-  left_feedback_sub_ = nh_.subscribe("/left/feedback", 1, &TurtleHardware::feedbackCallback_left, this);
+  left_feedback_sub_ = nh_.subscribe("left/feedback", 1, &TurtleHardware::feedbackCallback_left, this);
   right_feedback_sub_ = nh_.subscribe("right/feedback", 1, &TurtleHardware::feedbackCallback_right, this);
-  left_motor_pub = nh_.advertise<roboteq_msgs::Command>("left/cmd", 1000);
-  right_motor_pub = nh_.advertise<roboteq_msgs::Command>("right/cmd", 1000);
+  left_motor_pub = nh_.advertise<roboteq_msgs::Command>("/left/cmd", 1000);
+  right_motor_pub = nh_.advertise<roboteq_msgs::Command>("/right/cmd", 1000);
   // Realtime publisher, initializes differently from regular ros::Publisher
   //cmd_drive_pub_.init(nh_, "cmd_drive", 1);
 }
@@ -99,9 +100,13 @@ void TurtleHardware::publishDriveFromController()
   left_msg.mode=0;
   right_msg.mode=0;
 	left_msg.setpoint=(-joints_[0].velocity_command)*.9091*20;
-	right_msg.setpoint=(joints_[1].velocity_command)*.9091*20;
+  // left_msg.setpoint=(-joints_[2].velocity_command)*.9091*20;
+	right_msg.setpoint=(joints_[3].velocity_command)*.9091*20;
+  // right_msg.setpoint=(joints_[3].velocity_command)*.9091*20;
+  // right_msg.setpoint=5;
   left_motor_pub.publish(left_msg);
   right_motor_pub.publish(right_msg);
+  // std::cout<<"here";
 
 }
 
