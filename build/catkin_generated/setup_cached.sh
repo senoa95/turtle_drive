@@ -7,4 +7,10 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/base/turtle_drive/build"
+export CMAKE_PREFIX_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
+export PWD="/home/nishanth/TurtleStuff/turtle_drive/build"
+export PYTHONPATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages:$PYTHONPATH"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nishanth/TurtleStuff/turtle_drive/devel/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/nishanth/TurtleStuff/turtle_drive/src:$ROS_PACKAGE_PATH"

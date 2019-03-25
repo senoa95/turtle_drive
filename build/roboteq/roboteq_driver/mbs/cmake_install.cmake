@@ -1,8 +1,8 @@
-# Install script for directory: /home/base/turtle_drive/src/roboteq/roboteq_driver/mbs
+# Install script for directory: /home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver/mbs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/base/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nishanth/TurtleStuff/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
