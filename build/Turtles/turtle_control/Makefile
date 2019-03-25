@@ -211,21 +211,6 @@ turtle_base/fast:
 .PHONY : turtle_base/fast
 
 # Convenience name for target.
-Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f CMakeFiles/Makefile2 Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
-.PHONY : Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
-
-# Convenience name for target.
-controller_manager_msgs_generate_messages_lisp: Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
-
-.PHONY : controller_manager_msgs_generate_messages_lisp
-
-# fast build rule for target.
-controller_manager_msgs_generate_messages_lisp/fast:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
-.PHONY : controller_manager_msgs_generate_messages_lisp/fast
-
-# Convenience name for target.
 Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule:
 	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f CMakeFiles/Makefile2 Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
 .PHONY : Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_cpp.dir/rule
@@ -269,6 +254,63 @@ turtle_control: Turtles/turtle_control/CMakeFiles/turtle_control.dir/rule
 turtle_control/fast:
 	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/turtle_control.dir/build.make Turtles/turtle_control/CMakeFiles/turtle_control.dir/build
 .PHONY : turtle_control/fast
+
+# Convenience name for target.
+Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f CMakeFiles/Makefile2 Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+.PHONY : Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+
+# Convenience name for target.
+controller_manager_msgs_generate_messages_lisp: Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/rule
+
+.PHONY : controller_manager_msgs_generate_messages_lisp
+
+# fast build rule for target.
+controller_manager_msgs_generate_messages_lisp/fast:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build.make Turtles/turtle_control/CMakeFiles/controller_manager_msgs_generate_messages_lisp.dir/build
+.PHONY : controller_manager_msgs_generate_messages_lisp/fast
+
+# Convenience name for target.
+Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/rule:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f CMakeFiles/Makefile2 Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/rule
+.PHONY : Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/rule
+
+# Convenience name for target.
+teleop_turtle: Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/rule
+
+.PHONY : teleop_turtle
+
+# fast build rule for target.
+teleop_turtle/fast:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build.make Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build
+.PHONY : teleop_turtle/fast
+
+src/teleop_turtle.o: src/teleop_turtle.cpp.o
+
+.PHONY : src/teleop_turtle.o
+
+# target to build an object file
+src/teleop_turtle.cpp.o:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build.make Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o
+.PHONY : src/teleop_turtle.cpp.o
+
+src/teleop_turtle.i: src/teleop_turtle.cpp.i
+
+.PHONY : src/teleop_turtle.i
+
+# target to preprocess a source file
+src/teleop_turtle.cpp.i:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build.make Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.i
+.PHONY : src/teleop_turtle.cpp.i
+
+src/teleop_turtle.s: src/teleop_turtle.cpp.s
+
+.PHONY : src/teleop_turtle.s
+
+# target to generate assembly for a file
+src/teleop_turtle.cpp.s:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(MAKE) -f Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/build.make Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.s
+.PHONY : src/teleop_turtle.cpp.s
 
 src/turtle_base.o: src/turtle_base.cpp.o
 
@@ -336,14 +378,18 @@ help:
 	@echo "... controller_manager_msgs_generate_messages_eus"
 	@echo "... controller_manager_msgs_generate_messages_nodejs"
 	@echo "... turtle_base"
-	@echo "... controller_manager_msgs_generate_messages_lisp"
 	@echo "... controller_manager_msgs_generate_messages_cpp"
-	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... test"
+	@echo "... controller_manager_msgs_generate_messages_py"
 	@echo "... turtle_control"
+	@echo "... controller_manager_msgs_generate_messages_lisp"
+	@echo "... teleop_turtle"
 	@echo "... list_install_components"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... src/teleop_turtle.o"
+	@echo "... src/teleop_turtle.i"
+	@echo "... src/teleop_turtle.s"
 	@echo "... src/turtle_base.o"
 	@echo "... src/turtle_base.i"
 	@echo "... src/turtle_base.s"

@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <launch>
-  <include file="$(find khan_description)/launch/description.launch">
+  <include file="$(find turtle_description)/launch/description.launch">
     <arg name="is_sim" value="0"/>
   </include>
   <include file="$(find turtle_control)/launch/hardware.launch" />
   <include file="$(find turtle_control)/launch/control.launch" />
 
-  <arg name="joy_config" default="xbox" />
+  <arg name="joy_config" default="ps3" />
   <arg name="joy_dev" default="/dev/input/js0" />
   <arg name="config_filepath" default="$(find turtle_control)/config/$(arg joy_config).config.yaml" />
 
@@ -18,7 +18,14 @@
 
   <node pkg="teleop_twist_joy" name="teleop_twist_joy" type="teleop_node">
     <rosparam command="load" file="$(arg config_filepath)" />
-    <remap from="cmd_vel" to="turtle_velocity_controller/cmd_vel"/>
+    <!-- <remap from="cmd_vel" to="turtle_velocity_controller/cmd_vel"/> -->
   </node>
-</launch>
 
+  <param name="axis_linear" value="1" type="int"/>
+  <param name="axis_angular" value="2" type="int"/>
+  <param name="scale_linear" value="2" type="double"/>
+  <param name="scale_angular" value="20" type="double"/>
+
+  <node pkg="turtle_control" type="teleop_turtle" name="teleop"/>
+
+</launch>
