@@ -6,7 +6,7 @@ import time
 import math
 from geometry_msgs.msg import Point32
 # Open Serial connection
-ser = serial.Serial('/dev/ttyUSB2',115200,rtscts=True,dsrdtr=True)
+ser = serial.Serial('/dev/ttyUSB3',115200,rtscts=True,dsrdtr=True)
 
 #SETTING UP Novatel to take RTCM correction
 ser.write('UNLOGALL USB3\r\n')

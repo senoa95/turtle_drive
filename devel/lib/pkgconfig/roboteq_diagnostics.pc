@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: roboteq_diagnostics
-Description: Description of roboteq_diagnostics
-Version: 0.2.0
-Cflags: 
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: 
+/home/trex/turtle_drive/devel/.private/roboteq_diagnostics/lib/pkgconfig/roboteq_diagnostics.pc

@@ -1,8 +1,0 @@
-prefix=/home/base/turtle_drive/install_isolated
-
-Name: turtle_control
-Description: Description of turtle_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/base/turtle_drive/install_isolated/lib 
-Requires: 

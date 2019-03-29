@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laser_transport.dir/src/LaserTransport.cpp.o"
-  "/home/base/turtle_drive/devel/lib/liblaser_transport.pdb"
-  "/home/base/turtle_drive/devel/lib/liblaser_transport.so"
+  "/home/trex/turtle_drive/devel/.private/laser_proc/lib/liblaser_transport.pdb"
+  "/home/trex/turtle_drive/devel/.private/laser_proc/lib/liblaser_transport.so"
 )
 
 # Per-language clean rules from dependency scanning.

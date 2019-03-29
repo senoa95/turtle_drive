@@ -1,7 +1,1 @@
-(cl:defpackage urg_node-msg
-  (:use )
-  (:export
-   "<STATUS>"
-   "STATUS"
-  ))
-
+/home/trex/turtle_drive/devel/.private/urg_node/share/common-lisp/ros/urg_node/msg/_package.lisp

@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/base/turtle_drive/src
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/urg_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/base/turtle_drive/build
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/urg_c
 
 # Include any dependencies generated for this target.
-include urg_c/CMakeFiles/find_port.dir/depend.make
+include CMakeFiles/find_port.dir/depend.make
 
 # Include the progress variables for this target.
-include urg_c/CMakeFiles/find_port.dir/progress.make
+include CMakeFiles/find_port.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include urg_c/CMakeFiles/find_port.dir/flags.make
+include CMakeFiles/find_port.dir/flags.make
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o: urg_c/CMakeFiles/find_port.dir/flags.make
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o: /home/base/turtle_drive/src/urg_c/current/samples/find_port.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o"
-	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/find_port.dir/current/samples/find_port.c.o   -c /home/base/turtle_drive/src/urg_c/current/samples/find_port.c
+CMakeFiles/find_port.dir/current/samples/find_port.c.o: CMakeFiles/find_port.dir/flags.make
+CMakeFiles/find_port.dir/current/samples/find_port.c.o: /home/trex/turtle_drive/src/urg_c/current/samples/find_port.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/find_port.dir/current/samples/find_port.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/find_port.dir/current/samples/find_port.c.o   -c /home/trex/turtle_drive/src/urg_c/current/samples/find_port.c
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.i: cmake_force
+CMakeFiles/find_port.dir/current/samples/find_port.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/find_port.dir/current/samples/find_port.c.i"
-	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/base/turtle_drive/src/urg_c/current/samples/find_port.c > CMakeFiles/find_port.dir/current/samples/find_port.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/trex/turtle_drive/src/urg_c/current/samples/find_port.c > CMakeFiles/find_port.dir/current/samples/find_port.c.i
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.s: cmake_force
+CMakeFiles/find_port.dir/current/samples/find_port.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/find_port.dir/current/samples/find_port.c.s"
-	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/base/turtle_drive/src/urg_c/current/samples/find_port.c -o CMakeFiles/find_port.dir/current/samples/find_port.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/trex/turtle_drive/src/urg_c/current/samples/find_port.c -o CMakeFiles/find_port.dir/current/samples/find_port.c.s
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires:
+CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires:
 
-.PHONY : urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
+.PHONY : CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides: urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
-	$(MAKE) -f urg_c/CMakeFiles/find_port.dir/build.make urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides.build
-.PHONY : urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides
+CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides: CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
+	$(MAKE) -f CMakeFiles/find_port.dir/build.make CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides.build
+.PHONY : CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides
 
-urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides.build: urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o
+CMakeFiles/find_port.dir/current/samples/find_port.c.o.provides.build: CMakeFiles/find_port.dir/current/samples/find_port.c.o
 
 
 # Object files for target find_port
@@ -88,28 +88,28 @@ find_port_OBJECTS = \
 # External object files for target find_port
 find_port_EXTERNAL_OBJECTS =
 
-/home/base/turtle_drive/devel/lib/urg_c/find_port: urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o
-/home/base/turtle_drive/devel/lib/urg_c/find_port: urg_c/CMakeFiles/find_port.dir/build.make
-/home/base/turtle_drive/devel/lib/urg_c/find_port: /home/base/turtle_drive/devel/lib/libopen_urg_sensor.so
-/home/base/turtle_drive/devel/lib/urg_c/find_port: /home/base/turtle_drive/devel/lib/libliburg_c.so
-/home/base/turtle_drive/devel/lib/urg_c/find_port: urg_c/CMakeFiles/find_port.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/base/turtle_drive/devel/lib/urg_c/find_port"
-	cd /home/base/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_port.dir/link.txt --verbose=$(VERBOSE)
+/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port: CMakeFiles/find_port.dir/current/samples/find_port.c.o
+/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port: CMakeFiles/find_port.dir/build.make
+/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port: /home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
+/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port: /home/trex/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
+/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port: CMakeFiles/find_port.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port"
+	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/find_port.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-urg_c/CMakeFiles/find_port.dir/build: /home/base/turtle_drive/devel/lib/urg_c/find_port
+CMakeFiles/find_port.dir/build: /home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port
 
-.PHONY : urg_c/CMakeFiles/find_port.dir/build
+.PHONY : CMakeFiles/find_port.dir/build
 
-urg_c/CMakeFiles/find_port.dir/requires: urg_c/CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
+CMakeFiles/find_port.dir/requires: CMakeFiles/find_port.dir/current/samples/find_port.c.o.requires
 
-.PHONY : urg_c/CMakeFiles/find_port.dir/requires
+.PHONY : CMakeFiles/find_port.dir/requires
 
-urg_c/CMakeFiles/find_port.dir/clean:
-	cd /home/base/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -P CMakeFiles/find_port.dir/cmake_clean.cmake
-.PHONY : urg_c/CMakeFiles/find_port.dir/clean
+CMakeFiles/find_port.dir/clean:
+	$(CMAKE_COMMAND) -P CMakeFiles/find_port.dir/cmake_clean.cmake
+.PHONY : CMakeFiles/find_port.dir/clean
 
-urg_c/CMakeFiles/find_port.dir/depend:
-	cd /home/base/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/base/turtle_drive/src /home/base/turtle_drive/src/urg_c /home/base/turtle_drive/build /home/base/turtle_drive/build/urg_c /home/base/turtle_drive/build/urg_c/CMakeFiles/find_port.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : urg_c/CMakeFiles/find_port.dir/depend
+CMakeFiles/find_port.dir/depend:
+	cd /home/trex/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c/CMakeFiles/find_port.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : CMakeFiles/find_port.dir/depend
 

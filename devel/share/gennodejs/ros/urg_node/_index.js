@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/trex/turtle_drive/devel/.private/urg_node/share/gennodejs/ros/urg_node/_index.js

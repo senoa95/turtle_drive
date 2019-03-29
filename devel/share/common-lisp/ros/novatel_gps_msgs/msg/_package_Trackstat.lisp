@@ -1,12 +1,1 @@
-(cl:in-package novatel_gps_msgs-msg)
-(cl:export '(HEADER-VAL
-          HEADER
-          SOLUTION_STATUS-VAL
-          SOLUTION_STATUS
-          POSITION_TYPE-VAL
-          POSITION_TYPE
-          CUTOFF-VAL
-          CUTOFF
-          CHANNELS-VAL
-          CHANNELS
-))
+/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/share/common-lisp/ros/novatel_gps_msgs/msg/_package_Trackstat.lisp

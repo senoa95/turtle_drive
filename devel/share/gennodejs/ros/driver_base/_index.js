@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/trex/turtle_drive/devel/.private/driver_base/share/gennodejs/ros/driver_base/_index.js

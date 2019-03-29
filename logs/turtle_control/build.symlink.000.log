@@ -1,0 +1,6 @@
+Symlinking /home/trex/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libturtle_control.so
+Symlinking /home/trex/turtle_drive/devel/lib/turtle_control/turtle_base
+Symlinking /home/trex/turtle_drive/devel/lib/turtle_control/teleop_turtle
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/turtle_control.pc

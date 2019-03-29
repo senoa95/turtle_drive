@@ -1,10 +1,1 @@
-
-"use strict";
-
-let HectorIterData = require('./HectorIterData.js');
-let HectorDebugInfo = require('./HectorDebugInfo.js');
-
-module.exports = {
-  HectorIterData: HectorIterData,
-  HectorDebugInfo: HectorDebugInfo,
-};
+/home/trex/turtle_drive/devel/.private/hector_mapping/share/gennodejs/ros/hector_mapping/msg/_index.js

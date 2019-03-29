@@ -1,4 +1,1 @@
-# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
-
-set(driver_base_MSG_INCLUDE_DIRS "/home/base/turtle_drive/src/driver_common/driver_base/msg")
-set(driver_base_MSG_DEPENDENCIES std_msgs)
+/home/trex/turtle_drive/devel/.private/driver_base/share/driver_base/cmake/driver_base-msg-paths.cmake

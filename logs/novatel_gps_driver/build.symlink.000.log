@@ -1,0 +1,6 @@
+Symlinking /home/trex/turtle_drive/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libnovatel_gps_driver.so
+Symlinking /home/trex/turtle_drive/devel/lib/libnovatel_gps_driver_nodelets.so
+Symlinking /home/trex/turtle_drive/devel/lib/novatel_gps_driver/novatel_gps_node
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/novatel_gps_driver.pc

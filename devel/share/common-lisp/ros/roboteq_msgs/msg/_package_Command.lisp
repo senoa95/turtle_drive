@@ -1,6 +1,1 @@
-(cl:in-package roboteq_msgs-msg)
-(cl:export '(MODE-VAL
-          MODE
-          SETPOINT-VAL
-          SETPOINT
-))
+/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/common-lisp/ros/roboteq_msgs/msg/_package_Command.lisp

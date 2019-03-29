@@ -1,8 +1,1 @@
-
-"use strict";
-
-let Status = require('./Status.js');
-
-module.exports = {
-  Status: Status,
-};
+/home/trex/turtle_drive/devel/.private/urg_node/share/gennodejs/ros/urg_node/msg/_index.js

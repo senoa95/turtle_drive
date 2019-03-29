@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: roboteq_msgs
-Description: Description of roboteq_msgs
-Version: 0.2.0
-Cflags: -I/home/base/turtle_drive/devel/include
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: 
+/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/pkgconfig/roboteq_msgs.pc

@@ -1,6 +1,1 @@
-(cl:in-package driver_base-msg)
-(cl:export '(NAME-VAL
-          NAME
-          VALUE-VAL
-          VALUE
-))
+/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/_package_ConfigString.lisp

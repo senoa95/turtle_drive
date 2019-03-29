@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/base/turtle_drive/devel_isolated/roboteq_driver/lib/libroboteq_driver_script.a  CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o
-/usr/bin/ranlib /home/base/turtle_drive/devel_isolated/roboteq_driver/lib/libroboteq_driver_script.a

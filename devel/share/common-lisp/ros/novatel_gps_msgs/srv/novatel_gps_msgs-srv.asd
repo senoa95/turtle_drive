@@ -1,9 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "novatel_gps_msgs-srv"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
-  :components ((:file "_package")
-    (:file "NovatelFRESET" :depends-on ("_package_NovatelFRESET"))
-    (:file "_package_NovatelFRESET" :depends-on ("_package"))
-  ))
+/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/share/common-lisp/ros/novatel_gps_msgs/srv/novatel_gps_msgs-srv.asd

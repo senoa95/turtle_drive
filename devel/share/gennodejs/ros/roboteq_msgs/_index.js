@@ -1,6 +1,1 @@
-
-"use strict";
-
-module.exports = {
-  msg: require('./msg/_index.js'),
-};
+/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/gennodejs/ros/roboteq_msgs/_index.js

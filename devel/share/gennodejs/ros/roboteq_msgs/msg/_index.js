@@ -1,12 +1,1 @@
-
-"use strict";
-
-let Status = require('./Status.js');
-let Feedback = require('./Feedback.js');
-let Command = require('./Command.js');
-
-module.exports = {
-  Status: Status,
-  Feedback: Feedback,
-  Command: Command,
-};
+/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/gennodejs/ros/roboteq_msgs/msg/_index.js

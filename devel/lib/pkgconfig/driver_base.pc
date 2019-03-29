@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: driver_base
-Description: Description of driver_base
-Version: 1.6.8
-Cflags: -I/home/base/turtle_drive/devel/include -I/home/base/turtle_drive/src/driver_common/driver_base/include -I/usr/include
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: message_runtime std_msgs
+/home/trex/turtle_drive/devel/.private/driver_base/lib/pkgconfig/driver_base.pc

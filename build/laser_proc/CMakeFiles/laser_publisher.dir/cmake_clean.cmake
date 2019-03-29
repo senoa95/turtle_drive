@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/laser_publisher.dir/src/LaserPublisher.cpp.o"
-  "/home/base/turtle_drive/devel/lib/liblaser_publisher.pdb"
-  "/home/base/turtle_drive/devel/lib/liblaser_publisher.so"
+  "/home/trex/turtle_drive/devel/.private/laser_proc/lib/liblaser_publisher.pdb"
+  "/home/trex/turtle_drive/devel/.private/laser_proc/lib/liblaser_publisher.so"
 )
 
 # Per-language clean rules from dependency scanning.

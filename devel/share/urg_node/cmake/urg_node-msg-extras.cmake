@@ -1,2 +1,1 @@
-set(urg_node_MESSAGE_FILES "/home/base/turtle_drive/src/urg_node/msg/Status.msg")
-set(urg_node_SERVICE_FILES "")
+/home/trex/turtle_drive/devel/.private/urg_node/share/urg_node/cmake/urg_node-msg-extras.cmake
