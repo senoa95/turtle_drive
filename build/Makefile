@@ -1531,6 +1531,19 @@ visualization_msgs_generate_messages_cpp/fast:
 .PHONY : visualization_msgs_generate_messages_cpp/fast
 
 #=============================================================================
+# Target rules for targets named qtros
+
+# Build rule for target.
+qtros: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 qtros
+.PHONY : qtros
+
+# fast build rule for target.
+qtros/fast:
+	$(MAKE) -f qtros/CMakeFiles/qtros.dir/build.make qtros/CMakeFiles/qtros.dir/build
+.PHONY : qtros/fast
+
+#=============================================================================
 # Target rules for targets named roboteq_driver_script
 
 # Build rule for target.
@@ -2688,45 +2701,6 @@ pcl_msgs_generate_messages_nodejs/fast:
 .PHONY : pcl_msgs_generate_messages_nodejs/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
-
-# Build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
-
-# fast build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test.dir/build
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test/fast
-
-#=============================================================================
-# Target rules for targets named run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-
-# Build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-
-# fast build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast
-
-#=============================================================================
-# Target rules for targets named pcl_msgs_generate_messages_py
-
-# Build rule for target.
-pcl_msgs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_py
-.PHONY : pcl_msgs_generate_messages_py
-
-# fast build rule for target.
-pcl_msgs_generate_messages_py/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
-.PHONY : pcl_msgs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named pcl_ros_gencfg
 
 # Build rule for target.
@@ -2857,32 +2831,6 @@ std_srvs_generate_messages_cpp/fast:
 .PHONY : std_srvs_generate_messages_cpp/fast
 
 #=============================================================================
-# Target rules for targets named _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-
-# Build rule for target.
-_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
-
-# fast build rule for target.
-_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build
-.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast
-
-#=============================================================================
-# Target rules for targets named std_srvs_generate_messages_py
-
-# Build rule for target.
-std_srvs_generate_messages_py: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
-.PHONY : std_srvs_generate_messages_py
-
-# fast build rule for target.
-std_srvs_generate_messages_py/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/std_srvs_generate_messages_py.dir/build
-.PHONY : std_srvs_generate_messages_py/fast
-
-#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_cpp
 
 # Build rule for target.
@@ -2974,6 +2922,32 @@ pcl_msgs_generate_messages_eus/fast:
 .PHONY : pcl_msgs_generate_messages_eus/fast
 
 #=============================================================================
+# Target rules for targets named std_srvs_generate_messages_py
+
+# Build rule for target.
+std_srvs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 std_srvs_generate_messages_py
+.PHONY : std_srvs_generate_messages_py
+
+# fast build rule for target.
+std_srvs_generate_messages_py/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/std_srvs_generate_messages_py.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/std_srvs_generate_messages_py.dir/build
+.PHONY : std_srvs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+
+# Build rule for target.
+_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+
+# fast build rule for target.
+_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build
+.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast
+
+#=============================================================================
 # Target rules for targets named dynamic_reconfigure_generate_messages_nodejs
 
 # Build rule for target.
@@ -2998,6 +2972,45 @@ dynamic_reconfigure_generate_messages_py: cmake_check_build_system
 dynamic_reconfigure_generate_messages_py/fast:
 	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/build
 .PHONY : dynamic_reconfigure_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
+
+# Build rule for target.
+run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
+.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test
+
+# fast build rule for target.
+run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test.dir/build
+.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test/fast
+
+#=============================================================================
+# Target rules for targets named pcl_msgs_generate_messages_py
+
+# Build rule for target.
+pcl_msgs_generate_messages_py: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 pcl_msgs_generate_messages_py
+.PHONY : pcl_msgs_generate_messages_py
+
+# fast build rule for target.
+pcl_msgs_generate_messages_py/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/pcl_msgs_generate_messages_py.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/pcl_msgs_generate_messages_py.dir/build
+.PHONY : pcl_msgs_generate_messages_py/fast
+
+#=============================================================================
+# Target rules for targets named run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+
+# Build rule for target.
+run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch
+
+# fast build rule for target.
+run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch.dir/build
+.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch/fast
 
 #=============================================================================
 # Target rules for targets named nodelet_topic_tools_gencfg
@@ -3063,6 +3076,19 @@ ar_track_alvar_gencfg: cmake_check_build_system
 ar_track_alvar_gencfg/fast:
 	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar_gencfg.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/ar_track_alvar_gencfg.dir/build
 .PHONY : ar_track_alvar_gencfg/fast
+
+#=============================================================================
+# Target rules for targets named trainMarkerBundle
+
+# Build rule for target.
+trainMarkerBundle: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 trainMarkerBundle
+.PHONY : trainMarkerBundle
+
+# fast build rule for target.
+trainMarkerBundle/fast:
+	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build
+.PHONY : trainMarkerBundle/fast
 
 #=============================================================================
 # Target rules for targets named ar_track_alvar
@@ -3221,19 +3247,6 @@ _run_tests_ar_track_alvar/fast:
 .PHONY : _run_tests_ar_track_alvar/fast
 
 #=============================================================================
-# Target rules for targets named run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-
-# Build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-
-# fast build rule for target.
-run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch.dir/build
-.PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch/fast
-
-#=============================================================================
 # Target rules for targets named run_tests_ar_track_alvar_roslaunch-check
 
 # Build rule for target.
@@ -3258,32 +3271,6 @@ run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive
 run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch/fast:
 	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch.dir/build
 .PHONY : run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch/fast
-
-#=============================================================================
-# Target rules for targets named trainMarkerBundle
-
-# Build rule for target.
-trainMarkerBundle: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 trainMarkerBundle
-.PHONY : trainMarkerBundle
-
-# fast build rule for target.
-trainMarkerBundle/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/trainMarkerBundle.dir/build
-.PHONY : trainMarkerBundle/fast
-
-#=============================================================================
-# Target rules for targets named _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-
-# Build rule for target.
-_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch
-
-# fast build rule for target.
-_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch/fast:
-	$(MAKE) -f ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch.dir/build.make ar_track_alvar/ar_track_alvar/CMakeFiles/_run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch.dir/build
-.PHONY : _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch/fast
 
 #=============================================================================
 # Target rules for targets named hector_mapping_generate_messages_py
@@ -4209,6 +4196,7 @@ help:
 	@echo "... visualization_msgs_generate_messages_lisp"
 	@echo "... visualization_msgs_generate_messages_py"
 	@echo "... visualization_msgs_generate_messages_cpp"
+	@echo "... qtros"
 	@echo "... roboteq_driver_script"
 	@echo "... roboteq_driver_node"
 	@echo "... run_tests_timestamp_tools_gtest"
@@ -4298,9 +4286,6 @@ help:
 	@echo "... topic_tools_generate_messages_cpp"
 	@echo "... std_srvs_generate_messages_nodejs"
 	@echo "... pcl_msgs_generate_messages_nodejs"
-	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test"
-	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch"
-	@echo "... pcl_msgs_generate_messages_py"
 	@echo "... pcl_ros_gencfg"
 	@echo "... createMarker"
 	@echo "... _run_tests_ar_track_alvar_rostest_test_marker_arg_config-full.test"
@@ -4311,8 +4296,6 @@ help:
 	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv.launch"
 	@echo "... _run_tests_ar_track_alvar_rostest_test_marker_arg_config-basic.test"
 	@echo "... std_srvs_generate_messages_cpp"
-	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch"
-	@echo "... std_srvs_generate_messages_py"
 	@echo "... dynamic_reconfigure_generate_messages_cpp"
 	@echo "... run_tests_ar_track_alvar"
 	@echo "... topic_tools_generate_messages_lisp"
@@ -4320,13 +4303,19 @@ help:
 	@echo "... dynamic_reconfigure_gencfg"
 	@echo "... run_tests_ar_track_alvar_rostest_test_marker_arg_config-full.test"
 	@echo "... pcl_msgs_generate_messages_eus"
+	@echo "... std_srvs_generate_messages_py"
+	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch"
 	@echo "... dynamic_reconfigure_generate_messages_nodejs"
 	@echo "... dynamic_reconfigure_generate_messages_py"
+	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_test_marker_param_config-basic.test"
+	@echo "... pcl_msgs_generate_messages_py"
+	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinect.launch"
 	@echo "... nodelet_topic_tools_gencfg"
 	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle_no_kinect.launch"
 	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch"
 	@echo "... ar_track_alvar_4markers_tork.bag"
 	@echo "... ar_track_alvar_gencfg"
+	@echo "... trainMarkerBundle"
 	@echo "... ar_track_alvar"
 	@echo "... _run_tests_ar_track_alvar_roslaunch-check"
 	@echo "... dynamic_reconfigure_generate_messages_lisp"
@@ -4339,11 +4328,8 @@ help:
 	@echo "... findMarkerBundlesNoKinect"
 	@echo "... std_srvs_generate_messages_lisp"
 	@echo "... _run_tests_ar_track_alvar"
-	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch"
 	@echo "... run_tests_ar_track_alvar_roslaunch-check"
 	@echo "... run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_bundle.launch"
-	@echo "... trainMarkerBundle"
-	@echo "... _run_tests_ar_track_alvar_roslaunch-check__home_nishanth_TurtleStuff_turtle_drive_src_ar_track_alvar_ar_track_alvar_launch_pr2_indiv_no_kinectEDIT.launch"
 	@echo "... hector_mapping_generate_messages_py"
 	@echo "... hector_mapping"
 	@echo "... hector_mapping_gennodejs"

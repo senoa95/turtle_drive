@@ -9,8 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/qtros.dir/qrc_images.cxx.o"
   "CMakeFiles/qtros.dir/include/qtros/moc_main_window.cxx.o"
   "CMakeFiles/qtros.dir/include/qtros/moc_qnode.cxx.o"
-  "../devel/lib/qtros/qtros.pdb"
-  "../devel/lib/qtros/qtros"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/qtros/qtros.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/qtros/qtros"
 )
 
 # Per-language clean rules from dependency scanning.

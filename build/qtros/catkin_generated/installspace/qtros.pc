@@ -1,8 +1,8 @@
-prefix=/usr/local
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: qtros
 Description: Description of qtros
 Version: 0.1.0
 Cflags: 
-Libs: -L/usr/local/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: 

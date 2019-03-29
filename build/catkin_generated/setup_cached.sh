@@ -9,6 +9,7 @@
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel:$CMAKE_PREFIX_PATH"
 export LD_LIBRARY_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib:$LD_LIBRARY_PATH"
+export PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/bin:$PATH"
 export PKG_CONFIG_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/nishanth/TurtleStuff/turtle_drive/build"
 export PYTHONPATH="/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages:$PYTHONPATH"
