@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_lisp"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/common-lisp/ros/urg_node/msg/Status.lisp"
+  "/home/base/turtle_drive/devel/share/common-lisp/ros/urg_node/msg/Status.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

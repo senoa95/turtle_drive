@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/getID.dir/src/getID.cpp.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_node/getID.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_node/getID"
+  "/home/base/turtle_drive/devel/lib/urg_node/getID.pdb"
+  "/home/base/turtle_drive/devel/lib/urg_node/getID"
 )
 
 # Per-language clean rules from dependency scanning.

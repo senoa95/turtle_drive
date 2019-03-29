@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/test_trigger_matcher.dir/test/test_trigger_matcher.cpp.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/timestamp_tools/test_trigger_matcher.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/timestamp_tools/test_trigger_matcher"
+  "/home/base/turtle_drive/devel/lib/timestamp_tools/test_trigger_matcher.pdb"
+  "/home/base/turtle_drive/devel/lib/timestamp_tools/test_trigger_matcher"
 )
 
 # Per-language clean rules from dependency scanning.

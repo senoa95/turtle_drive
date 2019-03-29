@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/base/turtle_drive/devel_isolated/hector_slam_launch/setup.sh

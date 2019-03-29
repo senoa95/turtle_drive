@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/get_distance.dir/current/samples/get_distance.c.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance"
+  "/home/base/turtle_drive/devel/lib/urg_c/get_distance.pdb"
+  "/home/base/turtle_drive/devel/lib/urg_c/get_distance"
 )
 
 # Per-language clean rules from dependency scanning.

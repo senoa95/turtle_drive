@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/get_multiecho.dir/current/samples/get_multiecho.c.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_multiecho.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_multiecho"
+  "/home/base/turtle_drive/devel/lib/urg_c/get_multiecho.pdb"
+  "/home/base/turtle_drive/devel/lib/urg_c/get_multiecho"
 )
 
 # Per-language clean rules from dependency scanning.

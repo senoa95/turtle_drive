@@ -1,0 +1,17 @@
+<launch>
+  <include file="$(find novatel_gps_driver)/launch/tester_for_usb.launch"/>
+   <node name="imu_node" pkg="novatel_imu" type="read_imu.py"/>
+  <node name="pure_pursuite" pkg="agbot_nav" type="new_ppcontroller.py"/>
+  <include file="$(find novatel_gps_driver)/launch/tester_for_usb.launch"/>
+  <!-- <param name="file_name" value="waypoints_5_7_1.txt"/> -->
+  <!-- <node pkg="speed_pid" type="speed_control.py" name="speed_control"/> -->
+  <!-- <node pkg="TCP_command" type="TCPTest.py" name="TPCtoArduino"/> -->
+  <!-- <param name="pidBypass" value="True"/> -->
+  <!-- <node name="rtk_node" pkg="rtk" type="rtk.py"/> -->
+  <!-- <node pkg="rosserial_python" type="serial_node.py" name="serial_node">
+    <param name="port" value="/dev/ttyUSB3"/>
+    <param name="baud" value="9600"/>
+  </node> -->
+
+
+</launch>

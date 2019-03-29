@@ -8,8 +8,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/liburg_c.dir/current/src/urg_serial_utils.c.o"
   "CMakeFiles/liburg_c.dir/current/src/urg_tcpclient.c.o"
   "CMakeFiles/liburg_c.dir/current/src/urg_time.c.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libliburg_c.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libliburg_c.so"
+  "/home/base/turtle_drive/devel/lib/libliburg_c.pdb"
+  "/home/base/turtle_drive/devel/lib/libliburg_c.so"
 )
 
 # Per-language clean rules from dependency scanning.

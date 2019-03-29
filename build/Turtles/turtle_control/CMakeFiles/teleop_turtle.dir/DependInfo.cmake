@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control/src/teleop_turtle.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o"
+  "/home/base/turtle_drive/src/Turtles/turtle_control/src/teleop_turtle.cpp" "/home/base/turtle_drive/build/Turtles/turtle_control/CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,8 +17,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control/include"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include"
+  "/home/base/turtle_drive/src/Turtles/turtle_control/include"
+  "/home/base/turtle_drive/devel/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

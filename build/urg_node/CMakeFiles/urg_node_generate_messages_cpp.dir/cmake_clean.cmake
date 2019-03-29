@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_cpp"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/urg_node/Status.h"
+  "/home/base/turtle_drive/devel/include/urg_node/Status.h"
 )
 
 # Per-language clean rules from dependency scanning.

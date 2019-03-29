@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src
+CMAKE_SOURCE_DIR = /home/base/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build
+CMAKE_BINARY_DIR = /home/base/turtle_drive/build
 
 # Include any dependencies generated for this target.
 include urg_c/CMakeFiles/calculate_xy.dir/depend.make
@@ -58,17 +58,17 @@ include urg_c/CMakeFiles/calculate_xy.dir/progress.make
 include urg_c/CMakeFiles/calculate_xy.dir/flags.make
 
 urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o: urg_c/CMakeFiles/calculate_xy.dir/flags.make
-urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o: /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/calculate_xy.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o"
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/calculate_xy.c
+urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o: /home/base/turtle_drive/src/urg_c/current/samples/calculate_xy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o"
+	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o   -c /home/base/turtle_drive/src/urg_c/current/samples/calculate_xy.c
 
 urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.i"
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/calculate_xy.c > CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.i
+	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/base/turtle_drive/src/urg_c/current/samples/calculate_xy.c > CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.i
 
 urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.s"
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/calculate_xy.c -o CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.s
+	cd /home/base/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/base/turtle_drive/src/urg_c/current/samples/calculate_xy.c -o CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.s
 
 urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o.requires:
 
@@ -88,16 +88,16 @@ calculate_xy_OBJECTS = \
 # External object files for target calculate_xy
 calculate_xy_EXTERNAL_OBJECTS =
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o
-/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/build.make
-/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libopen_urg_sensor.so
-/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libliburg_c.so
-/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy"
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculate_xy.dir/link.txt --verbose=$(VERBOSE)
+/home/base/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o
+/home/base/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/build.make
+/home/base/turtle_drive/devel/lib/urg_c/calculate_xy: /home/base/turtle_drive/devel/lib/libopen_urg_sensor.so
+/home/base/turtle_drive/devel/lib/urg_c/calculate_xy: /home/base/turtle_drive/devel/lib/libliburg_c.so
+/home/base/turtle_drive/devel/lib/urg_c/calculate_xy: urg_c/CMakeFiles/calculate_xy.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/base/turtle_drive/devel/lib/urg_c/calculate_xy"
+	cd /home/base/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculate_xy.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-urg_c/CMakeFiles/calculate_xy.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy
+urg_c/CMakeFiles/calculate_xy.dir/build: /home/base/turtle_drive/devel/lib/urg_c/calculate_xy
 
 .PHONY : urg_c/CMakeFiles/calculate_xy.dir/build
 
@@ -106,10 +106,10 @@ urg_c/CMakeFiles/calculate_xy.dir/requires: urg_c/CMakeFiles/calculate_xy.dir/cu
 .PHONY : urg_c/CMakeFiles/calculate_xy.dir/requires
 
 urg_c/CMakeFiles/calculate_xy.dir/clean:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -P CMakeFiles/calculate_xy.dir/cmake_clean.cmake
+	cd /home/base/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -P CMakeFiles/calculate_xy.dir/cmake_clean.cmake
 .PHONY : urg_c/CMakeFiles/calculate_xy.dir/clean
 
 urg_c/CMakeFiles/calculate_xy.dir/depend:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/build /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles/calculate_xy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/base/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/base/turtle_drive/src /home/base/turtle_drive/src/urg_c /home/base/turtle_drive/build /home/base/turtle_drive/build/urg_c /home/base/turtle_drive/build/urg_c/CMakeFiles/calculate_xy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_c/CMakeFiles/calculate_xy.dir/depend
 

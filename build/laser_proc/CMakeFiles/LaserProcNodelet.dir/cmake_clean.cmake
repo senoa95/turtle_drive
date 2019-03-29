@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/LaserProcNodelet.dir/src/LaserProcNodelet.cpp.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libLaserProcNodelet.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libLaserProcNodelet.so"
+  "/home/base/turtle_drive/devel/lib/libLaserProcNodelet.pdb"
+  "/home/base/turtle_drive/devel/lib/libLaserProcNodelet.so"
 )
 
 # Per-language clean rules from dependency scanning.

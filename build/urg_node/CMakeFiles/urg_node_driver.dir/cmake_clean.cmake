@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_driver.dir/src/urg_node_driver.cpp.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/liburg_node_driver.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/liburg_node_driver.so"
+  "/home/base/turtle_drive/devel/lib/liburg_node_driver.pdb"
+  "/home/base/turtle_drive/devel/lib/liburg_node_driver.so"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-# Install script for directory: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_imu_tools
+# Install script for directory: /home/base/turtle_drive/src/hector_slam/hector_imu_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nishanth/TurtleStuff/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/base/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_tools.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/base/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_tools.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_imu_tools/cmake" TYPE FILE FILES
-    "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_toolsConfig.cmake"
-    "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_toolsConfig-version.cmake"
+    "/home/base/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_toolsConfig.cmake"
+    "/home/base/turtle_drive/build/hector_slam/hector_imu_tools/catkin_generated/installspace/hector_imu_toolsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_imu_tools" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_imu_tools/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_imu_tools" TYPE FILE FILES "/home/base/turtle_drive/src/hector_slam/hector_imu_tools/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,7 +54,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hector_imu_tools" TYPE EXECUTABLE FILES "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hector_imu_tools" TYPE EXECUTABLE FILES "/home/base/turtle_drive/devel/lib/hector_imu_tools/pose_and_orientation_to_imu_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_imu_tools/pose_and_orientation_to_imu_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_imu_tools/pose_and_orientation_to_imu_node")
     file(RPATH_CHANGE
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_imu_tools/launch/" TYPE DIRECTORY FILES "/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_imu_tools/launch/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_imu_tools/launch/" TYPE DIRECTORY FILES "/home/base/turtle_drive/src/hector_slam/hector_imu_tools/launch/")
 endif()
 

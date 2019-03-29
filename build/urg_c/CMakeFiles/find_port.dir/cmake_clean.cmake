@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/find_port.dir/current/samples/find_port.c.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/find_port.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/find_port"
+  "/home/base/turtle_drive/devel/lib/urg_c/find_port.pdb"
+  "/home/base/turtle_drive/devel/lib/urg_c/find_port"
 )
 
 # Per-language clean rules from dependency scanning.

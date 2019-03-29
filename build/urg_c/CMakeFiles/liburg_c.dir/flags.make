@@ -6,5 +6,5 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -DROS_BUILD_SHARED_LIBS=1 -Dliburg_c_EXPORTS
 
-C_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include 
+C_INCLUDES = -I/home/base/turtle_drive/src/urg_c/current/include 
 

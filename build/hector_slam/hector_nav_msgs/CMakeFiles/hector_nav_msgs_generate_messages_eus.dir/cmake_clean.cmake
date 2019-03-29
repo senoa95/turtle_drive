@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_nav_msgs_generate_messages_eus"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/manifest.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l"
+  "/home/base/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

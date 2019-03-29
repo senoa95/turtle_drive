@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src
+CMAKE_SOURCE_DIR = /home/base/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build
+CMAKE_BINARY_DIR = /home/base/turtle_drive/build
 
 # Utility rule file for dynamic_reconfigure_generate_messages_eus.
 
@@ -63,10 +63,10 @@ urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build: dynamic
 .PHONY : urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/build
 
 urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/base/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -P CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 
 urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src /home/nishanth/TurtleStuff/turtle_drive/src/urg_node /home/nishanth/TurtleStuff/turtle_drive/build /home/nishanth/TurtleStuff/turtle_drive/build/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/base/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/base/turtle_drive/src /home/base/turtle_drive/src/urg_node /home/base/turtle_drive/build /home/base/turtle_drive/build/urg_node /home/base/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 
