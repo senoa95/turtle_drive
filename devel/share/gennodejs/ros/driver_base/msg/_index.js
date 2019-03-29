@@ -1,12 +1,1 @@
-
-"use strict";
-
-let ConfigValue = require('./ConfigValue.js');
-let SensorLevels = require('./SensorLevels.js');
-let ConfigString = require('./ConfigString.js');
-
-module.exports = {
-  ConfigValue: ConfigValue,
-  SensorLevels: SensorLevels,
-  ConfigString: ConfigString,
-};
+/home/trex/turtle_drive/devel/.private/driver_base/share/gennodejs/ros/driver_base/msg/_index.js

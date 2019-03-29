@@ -1,1 +1,0 @@
-set(ORDERED_PATHS "/home/base/turtle_drive/devel_isolated/urg_c/lib;/home/base/turtle_drive/devel_isolated/laser_proc/lib;/opt/ros/kinetic/lib")

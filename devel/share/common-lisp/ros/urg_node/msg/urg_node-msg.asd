@@ -1,9 +1,1 @@
-
-(cl:in-package :asdf)
-
-(defsystem "urg_node-msg"
-  :depends-on (:roslisp-msg-protocol :roslisp-utils )
-  :components ((:file "_package")
-    (:file "Status" :depends-on ("_package_Status"))
-    (:file "_package_Status" :depends-on ("_package"))
-  ))
+/home/trex/turtle_drive/devel/.private/urg_node/share/common-lisp/ros/urg_node/msg/urg_node-msg.asd

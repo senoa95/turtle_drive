@@ -1,4 +1,1 @@
-(cl:in-package hector_mapping-msg)
-(cl:export '(ITERDATA-VAL
-          ITERDATA
-))
+/home/trex/turtle_drive/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/_package_HectorDebugInfo.lisp

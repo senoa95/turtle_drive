@@ -55,7 +55,7 @@ class NavController:
 
         self.nPts = len(self.wpList)
 
-    def compute_err(self, current):
+    def compute_err(self, current, goal):
         # Compute vector from current position to current waypoint:
         vecRobot2Wp = np.zeros((2,1))
         vecRobot2Wp[0,0] =  self.wpList[self.currWpIdx].x - current.x
@@ -63,7 +63,7 @@ class NavController:
 
         distance2Goal = pow(pow(vecRobot2Wp[0,0],2), pow(vecRobot2Wp[1,0],2), 0.5)
 
-        theta_des_init = math.atan2(self.wpList[idx].y - current.y, self.wpList[idx].x - current.x)
+        theta_des_init = math.atan2(goal.y - current.y, goal.x - current.x)
         heading_err_init = theta_des_init - current.heading
         if heading_err_init > pi:
             heading_err_init = heading_err_init - 2*pi

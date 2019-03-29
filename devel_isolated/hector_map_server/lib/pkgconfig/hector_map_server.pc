@@ -1,8 +1,0 @@
-prefix=/home/base/turtle_drive/devel_isolated/hector_map_server
-
-Name: hector_map_server
-Description: Description of hector_map_server
-Version: 0.3.5
-Cflags: 
-Libs: -L/home/base/turtle_drive/devel_isolated/hector_map_server/lib 
-Requires: 

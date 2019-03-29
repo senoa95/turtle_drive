@@ -6,7 +6,7 @@ import math
 from geometry_msgs.msg import Point32,Pose,Twist
 from sensor_msgs.msg import NavSatFix
 from std_msgs.msg import Float32
-from utilities import Point, AckermannVehicle , PPController
+from utilities import Point, DiffDriverVehicle, NavController
 import transforms3d as tf
 import numpy as np
 import os
@@ -61,6 +61,8 @@ def execute(cntrl):
 
     global currentPos
     distance2Goal = 100000000
+    heading_err_init = 100000
+    heading_err_goal = 1000000
     cmd_vel = Twist()
     cmd_vel.angular.x = 0;
     cmd_vel.angular.y = 0;
@@ -76,9 +78,9 @@ def execute(cntrl):
     rospy.Subscriber("/fix", NavSatFix, pose_callback)
     rospy.Subscriber("/novatel_imu", Point32, heading_callback)
     pub_goal_point = rospy.Publisher('/current_goalpoint',Point32,queue_size=10)
-    pub_goal_heading = rospy.Publisher('/current_goalheading',Point32,queue_size=10)
+    pub_goal_heading = rospy.Publisher('/current_goalheading',Float32,queue_size=10)
     pub_vel = rospy.Publisher('turtle_velocity_controller/cmd_vel', Twist,queue_size=10)
-    rospy.init_node('waypoint_ctlr', anonymous=True)
+    rospy.init_node('waypoint_ctlr', anonymous=False)
 
     rate = rospy.Rate(10)
 
@@ -90,8 +92,8 @@ def execute(cntrl):
     # 2. Goal:
     goal = cntrl.wpList[cntrl.currWpIdx]
 
-    stationaryCommand.x = 0
-    stationaryCommand.y = 0
+    # stationaryCommand.x = 0
+    # stationaryCommand.y = 0
 
     # Loop through as long as the node is not shutdown:
     while not rospy.is_shutdown():
@@ -129,7 +131,7 @@ def execute(cntrl):
             print (goal.y)
             print (goal.heading)
         else:
-            if heading_err_init > 2
+            if heading_err_init > 2:
                 cmd_vel.angular.z = k_heading_init*heading_err_init;
                 cmd_vel.linear.x = 0;
             cmd_vel.angular.z = k_heading_init_low*heading_err_init;
@@ -137,10 +139,10 @@ def execute(cntrl):
 
         # Case #2:
         #Compute the error between the goal and current
-        heading_err_init, distance2Goal = cntrl.compute_err(currentPos)
+        heading_err_init, distance2Goal = cntrl.compute_err(currentPos, goal)
 
         # Publish the computed command:
-        pub_steering.publish(cmd_vel)
+        pub_vel.publish(cmd_vel)
 
         rate.sleep()
 

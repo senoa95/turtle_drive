@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: novatel_imu
-Description: Description of novatel_imu
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: 
+/home/trex/turtle_drive/devel/.private/novatel_imu/lib/pkgconfig/novatel_imu.pc

@@ -1,14 +1,1 @@
-(cl:in-package novatel_gps_msgs-msg)
-(cl:export '(ORIGINAL_MASK-VAL
-          ORIGINAL_MASK
-          GPS_L1_USED_IN_SOLUTION-VAL
-          GPS_L1_USED_IN_SOLUTION
-          GPS_L2_USED_IN_SOLUTION-VAL
-          GPS_L2_USED_IN_SOLUTION
-          GPS_L3_USED_IN_SOLUTION-VAL
-          GPS_L3_USED_IN_SOLUTION
-          GLONASS_L1_USED_IN_SOLUTION-VAL
-          GLONASS_L1_USED_IN_SOLUTION
-          GLONASS_L2_USED_IN_SOLUTION-VAL
-          GLONASS_L2_USED_IN_SOLUTION
-))
+/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/share/common-lisp/ros/novatel_gps_msgs/msg/_package_NovatelSignalMask.lisp

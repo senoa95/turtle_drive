@@ -1,6 +1,1 @@
-(cl:in-package novatel_gps_msgs-srv)
-(cl:export '(TARGET-VAL
-          TARGET
-          SUCCESS-VAL
-          SUCCESS
-))
+/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/share/common-lisp/ros/novatel_gps_msgs/srv/_package_NovatelFRESET.lisp

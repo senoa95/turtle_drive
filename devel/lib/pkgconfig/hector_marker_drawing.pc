@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: hector_marker_drawing
-Description: Description of hector_marker_drawing
-Version: 0.3.5
-Cflags: -I/home/base/turtle_drive/src/hector_slam/hector_marker_drawing/include -I/usr/include/eigen3
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: roscpp visualization_msgs
+/home/trex/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc

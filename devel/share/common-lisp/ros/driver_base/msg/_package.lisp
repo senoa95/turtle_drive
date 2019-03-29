@@ -1,11 +1,1 @@
-(cl:defpackage driver_base-msg
-  (:use )
-  (:export
-   "<CONFIGSTRING>"
-   "CONFIGSTRING"
-   "<CONFIGVALUE>"
-   "CONFIGVALUE"
-   "<SENSORLEVELS>"
-   "SENSORLEVELS"
-  ))
-
+/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/_package.lisp

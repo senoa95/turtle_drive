@@ -1,8 +1,1 @@
-prefix=/home/base/turtle_drive/devel
-
-Name: rtk
-Description: Description of rtk
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/base/turtle_drive/devel/lib 
-Requires: 
+/home/trex/turtle_drive/devel/.private/rtk/lib/pkgconfig/rtk.pc
