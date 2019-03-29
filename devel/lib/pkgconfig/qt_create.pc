@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: qt_create
+Description: Description of qt_create
+Version: 0.2.10
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
+Requires: 

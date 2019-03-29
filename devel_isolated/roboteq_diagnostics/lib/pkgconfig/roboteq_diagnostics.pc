@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_diagnostics
+
+Name: roboteq_diagnostics
+Description: Description of roboteq_diagnostics
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_diagnostics/lib 
+Requires: 

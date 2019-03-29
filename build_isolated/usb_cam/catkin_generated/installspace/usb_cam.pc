@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
+
+Name: usb_cam
+Description: Description of usb_cam
+Version: 0.3.6
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -lusb_cam
+Requires: 

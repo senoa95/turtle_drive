@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
+
+Name: turtle_description
+Description: Description of turtle_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib 
+Requires: 
