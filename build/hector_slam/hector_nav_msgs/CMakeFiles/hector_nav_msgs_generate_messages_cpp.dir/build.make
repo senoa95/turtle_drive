@@ -43,88 +43,88 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src
+CMAKE_SOURCE_DIR = /home/base/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build
+CMAKE_BINARY_DIR = /home/base/turtle_drive/build
 
 # Utility rule file for hector_nav_msgs_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/progress.make
 
-hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
-hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
-hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
-hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
-hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
+hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
 
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/PointStamped.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
-	cd /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs && /home/nishanth/TurtleStuff/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/geometry_msgs/msg/PointStamped.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
+	cd /home/base/turtle_drive/src/hector_slam/hector_nav_msgs && /home/base/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/base/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/geometry_msgs/msg/PointStamped.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetDistanceToObstacle.srv"
-	cd /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs && /home/nishanth/TurtleStuff/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
+	cd /home/base/turtle_drive/src/hector_slam/hector_nav_msgs && /home/base/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/base/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/nav_msgs/msg/Path.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
-	cd /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs && /home/nishanth/TurtleStuff/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/nav_msgs/msg/Path.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from hector_nav_msgs/GetRecoveryInfo.srv"
+	cd /home/base/turtle_drive/src/hector_slam/hector_nav_msgs && /home/base/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/base/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/nav_msgs/msg/Path.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
-	cd /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs && /home/nishanth/TurtleStuff/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/Vector3.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/geometry_msgs/msg/PointStamped.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from hector_nav_msgs/GetNormal.srv"
+	cd /home/base/turtle_drive/src/hector_slam/hector_nav_msgs && /home/base/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/base/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetSearchPosition.srv"
-	cd /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs && /home/nishanth/TurtleStuff/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/nav_msgs/msg/Path.msg
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/base/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from hector_nav_msgs/GetRobotTrajectory.srv"
+	cd /home/base/turtle_drive/src/hector_slam/hector_nav_msgs && /home/base/turtle_drive/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/base/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv -Inav_msgs:/opt/ros/kinetic/share/nav_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Iactionlib_msgs:/opt/ros/kinetic/share/actionlib_msgs/cmake/../msg -p hector_nav_msgs -o /home/base/turtle_drive/devel/include/hector_nav_msgs -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 hector_nav_msgs_generate_messages_cpp: hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp
-hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
-hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
-hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
-hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
-hector_nav_msgs_generate_messages_cpp: /home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
+hector_nav_msgs_generate_messages_cpp: /home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
 hector_nav_msgs_generate_messages_cpp: hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/build.make
 
 .PHONY : hector_nav_msgs_generate_messages_cpp
@@ -135,10 +135,10 @@ hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/build
 
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_nav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/base/turtle_drive/build/hector_slam/hector_nav_msgs && $(CMAKE_COMMAND) -P CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/clean
 
 hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend:
-	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/build /home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/base/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/base/turtle_drive/src /home/base/turtle_drive/src/hector_slam/hector_nav_msgs /home/base/turtle_drive/build /home/base/turtle_drive/build/hector_slam/hector_nav_msgs /home/base/turtle_drive/build/hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : hector_slam/hector_nav_msgs/CMakeFiles/hector_nav_msgs_generate_messages_cpp.dir/depend
 

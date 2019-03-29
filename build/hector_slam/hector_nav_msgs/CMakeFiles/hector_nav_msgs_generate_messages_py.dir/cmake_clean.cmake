@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_nav_msgs_generate_messages_py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py"
+  "/home/base/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

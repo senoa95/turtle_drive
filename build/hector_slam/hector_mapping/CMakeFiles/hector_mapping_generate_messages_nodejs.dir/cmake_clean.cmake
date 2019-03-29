@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_nodejs"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
+  "/home/base/turtle_drive/devel/share/gennodejs/ros/hector_mapping/msg/HectorDebugInfo.js"
+  "/home/base/turtle_drive/devel/share/gennodejs/ros/hector_mapping/msg/HectorIterData.js"
 )
 
 # Per-language clean rules from dependency scanning.

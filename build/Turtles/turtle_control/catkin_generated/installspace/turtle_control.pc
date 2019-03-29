@@ -1,8 +1,8 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install
+prefix=/home/base/turtle_drive/install
 
 Name: turtle_control
 Description: Description of turtle_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
+Libs: -L/home/base/turtle_drive/install/lib 
 Requires: 

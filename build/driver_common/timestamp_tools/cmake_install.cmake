@@ -1,8 +1,8 @@
-# Install script for directory: /home/nishanth/TurtleStuff/turtle_drive/src/driver_common/timestamp_tools
+# Install script for directory: /home/base/turtle_drive/src/driver_common/timestamp_tools
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nishanth/TurtleStuff/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/base/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,21 +33,21 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_tools.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/base/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_tools.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/timestamp_tools/cmake" TYPE FILE FILES
-    "/home/nishanth/TurtleStuff/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_toolsConfig.cmake"
-    "/home/nishanth/TurtleStuff/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_toolsConfig-version.cmake"
+    "/home/base/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_toolsConfig.cmake"
+    "/home/base/turtle_drive/build/driver_common/timestamp_tools/catkin_generated/installspace/timestamp_toolsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/timestamp_tools" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/src/driver_common/timestamp_tools/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/timestamp_tools" TYPE FILE FILES "/home/base/turtle_drive/src/driver_common/timestamp_tools/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/timestamp_tools" TYPE DIRECTORY FILES "/home/nishanth/TurtleStuff/turtle_drive/src/driver_common/timestamp_tools/include/timestamp_tools/" FILES_MATCHING REGEX "/[^/]*\\.h$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/timestamp_tools" TYPE DIRECTORY FILES "/home/base/turtle_drive/src/driver_common/timestamp_tools/include/timestamp_tools/" FILES_MATCHING REGEX "/[^/]*\\.h$")
 endif()
 

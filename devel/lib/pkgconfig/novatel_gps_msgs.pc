@@ -1,0 +1,8 @@
+prefix=/home/base/turtle_drive/devel
+
+Name: novatel_gps_msgs
+Description: Description of novatel_gps_msgs
+Version: 3.4.0
+Cflags: -I/home/base/turtle_drive/devel/include
+Libs: -L/home/base/turtle_drive/devel/lib 
+Requires: message_runtime std_msgs

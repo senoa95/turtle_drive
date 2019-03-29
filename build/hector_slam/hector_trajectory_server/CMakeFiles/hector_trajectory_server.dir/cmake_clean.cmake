@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_trajectory_server.dir/src/hector_trajectory_server.cpp.o"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server"
+  "/home/base/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server.pdb"
+  "/home/base/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_base_generate_messages_nodejs"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/ConfigValue.js"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/ConfigString.js"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/SensorLevels.js"
+  "/home/base/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/ConfigString.js"
+  "/home/base/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/SensorLevels.js"
+  "/home/base/turtle_drive/devel/share/gennodejs/ros/driver_base/msg/ConfigValue.js"
 )
 
 # Per-language clean rules from dependency scanning.

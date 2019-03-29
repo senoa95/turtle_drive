@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "roboteq_driver"
-PROJECT_SPACE_DIR = "/home/nishanth/TurtleStuff/turtle_drive/devel"
+PROJECT_SPACE_DIR = "/home/base/turtle_drive/devel"
 PROJECT_VERSION = "0.2.0"

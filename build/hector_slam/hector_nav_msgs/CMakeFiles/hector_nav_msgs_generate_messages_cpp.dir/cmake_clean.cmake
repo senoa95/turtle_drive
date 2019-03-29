@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_nav_msgs_generate_messages_cpp"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h"
-  "/home/nishanth/TurtleStuff/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h"
+  "/home/base/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h"
+  "/home/base/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h"
+  "/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h"
+  "/home/base/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h"
+  "/home/base/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h"
 )
 
 # Per-language clean rules from dependency scanning.

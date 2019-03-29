@@ -1,8 +1,8 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install
+prefix=/home/base/turtle_drive/install
 
 Name: usb_cam
 Description: Description of usb_cam
 Version: 0.3.6
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib -lusb_cam
+Cflags: -I/home/base/turtle_drive/install/include
+Libs: -L/home/base/turtle_drive/install/lib -lusb_cam
 Requires: 

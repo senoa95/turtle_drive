@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_BUILD_SHARED_LIBS=1 -DROS_PACKAGE_NAME=\"turtle_control\" -Dturtle_control_EXPORTS
 
-CXX_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control/include -I/home/nishanth/TurtleStuff/turtle_drive/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/base/turtle_drive/src/Turtles/turtle_control/include -I/home/base/turtle_drive/devel/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

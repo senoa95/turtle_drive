@@ -1,8 +1,8 @@
-# Install script for directory: /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff_plugins
+# Install script for directory: /home/base/turtle_drive/src/hector_slam/hector_geotiff_plugins
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/nishanth/TurtleStuff/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/base/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,18 +33,18 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_plugins.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/base/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_plugins.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_geotiff_plugins/cmake" TYPE FILE FILES
-    "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_pluginsConfig.cmake"
-    "/home/nishanth/TurtleStuff/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_pluginsConfig-version.cmake"
+    "/home/base/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_pluginsConfig.cmake"
+    "/home/base/turtle_drive/build/hector_slam/hector_geotiff_plugins/catkin_generated/installspace/hector_geotiff_pluginsConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_geotiff_plugins" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff_plugins/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_geotiff_plugins" TYPE FILE FILES "/home/base/turtle_drive/src/hector_slam/hector_geotiff_plugins/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -54,12 +54,12 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_geotiff_plugins.so"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libhector_geotiff_plugins.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/base/turtle_drive/devel/lib/libhector_geotiff_plugins.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_geotiff_plugins.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_geotiff_plugins.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_geotiff_plugins.so"
-         OLD_RPATH "/home/nishanth/TurtleStuff/turtle_drive/devel/lib:/opt/ros/kinetic/lib:"
+         OLD_RPATH "/home/base/turtle_drive/devel/lib:/opt/ros/kinetic/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libhector_geotiff_plugins.so")
@@ -68,6 +68,6 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_geotiff_plugins" TYPE FILE FILES "/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff_plugins/hector_geotiff_plugins.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_geotiff_plugins" TYPE FILE FILES "/home/base/turtle_drive/src/hector_slam/hector_geotiff_plugins/hector_geotiff_plugins.xml")
 endif()
 
