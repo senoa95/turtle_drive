@@ -1,1 +1,4 @@
-/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(hector_nav_msgs_MSG_INCLUDE_DIRS "")
+set(hector_nav_msgs_MSG_DEPENDENCIES nav_msgs;std_msgs)

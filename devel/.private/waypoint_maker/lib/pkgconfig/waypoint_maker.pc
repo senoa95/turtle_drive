@@ -1,8 +1,0 @@
-prefix=/home/trex/turtle_drive/devel/.private/waypoint_maker
-
-Name: waypoint_maker
-Description: Description of waypoint_maker
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/waypoint_maker/lib 
-Requires: 

@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/laser_proc/lib/pkgconfig/laser_proc.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: laser_proc
+Description: Description of laser_proc
+Version: 0.1.5
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/src/laser_proc/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib -llaser_proc_library -llaser_publisher -llaser_transport -llaser_proc_ROS -lLaserProcNodelet
+Requires: roscpp sensor_msgs rosconsole nodelet

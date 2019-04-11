@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/turtle_control/lib/pkgconfig/turtle_control.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: turtle_control
+Description: Description of turtle_control
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
+Requires: 

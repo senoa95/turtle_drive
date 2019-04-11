@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/urg_c
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/urg_c
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/get_distance.dir/depend.make
+include urg_c/CMakeFiles/get_distance.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/get_distance.dir/progress.make
+include urg_c/CMakeFiles/get_distance.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/get_distance.dir/flags.make
+include urg_c/CMakeFiles/get_distance.dir/flags.make
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.o: CMakeFiles/get_distance.dir/flags.make
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.o: /home/trex/turtle_drive/src/urg_c/current/samples/get_distance.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/get_distance.dir/current/samples/get_distance.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get_distance.dir/current/samples/get_distance.c.o   -c /home/trex/turtle_drive/src/urg_c/current/samples/get_distance.c
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o: urg_c/CMakeFiles/get_distance.dir/flags.make
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o: /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/get_distance.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o"
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/get_distance.dir/current/samples/get_distance.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/get_distance.c
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.i: cmake_force
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/get_distance.dir/current/samples/get_distance.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/trex/turtle_drive/src/urg_c/current/samples/get_distance.c > CMakeFiles/get_distance.dir/current/samples/get_distance.c.i
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/get_distance.c > CMakeFiles/get_distance.dir/current/samples/get_distance.c.i
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.s: cmake_force
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/get_distance.dir/current/samples/get_distance.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/trex/turtle_drive/src/urg_c/current/samples/get_distance.c -o CMakeFiles/get_distance.dir/current/samples/get_distance.c.s
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && /usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/get_distance.c -o CMakeFiles/get_distance.dir/current/samples/get_distance.c.s
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires:
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires:
 
-.PHONY : CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
+.PHONY : urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides: CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
-	$(MAKE) -f CMakeFiles/get_distance.dir/build.make CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides.build
-.PHONY : CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides: urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
+	$(MAKE) -f urg_c/CMakeFiles/get_distance.dir/build.make urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides.build
+.PHONY : urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides
 
-CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides.build: CMakeFiles/get_distance.dir/current/samples/get_distance.c.o
+urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.provides.build: urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o
 
 
 # Object files for target get_distance
@@ -88,28 +88,28 @@ get_distance_OBJECTS = \
 # External object files for target get_distance
 get_distance_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance: CMakeFiles/get_distance.dir/current/samples/get_distance.c.o
-/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance: CMakeFiles/get_distance.dir/build.make
-/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance: /home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
-/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance: /home/trex/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
-/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance: CMakeFiles/get_distance.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/get_distance.dir/link.txt --verbose=$(VERBOSE)
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance: urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance: urg_c/CMakeFiles/get_distance.dir/build.make
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libopen_urg_sensor.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libliburg_c.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance: urg_c/CMakeFiles/get_distance.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance"
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/get_distance.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/get_distance.dir/build: /home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance
+urg_c/CMakeFiles/get_distance.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_distance
 
-.PHONY : CMakeFiles/get_distance.dir/build
+.PHONY : urg_c/CMakeFiles/get_distance.dir/build
 
-CMakeFiles/get_distance.dir/requires: CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
+urg_c/CMakeFiles/get_distance.dir/requires: urg_c/CMakeFiles/get_distance.dir/current/samples/get_distance.c.o.requires
 
-.PHONY : CMakeFiles/get_distance.dir/requires
+.PHONY : urg_c/CMakeFiles/get_distance.dir/requires
 
-CMakeFiles/get_distance.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/get_distance.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/get_distance.dir/clean
+urg_c/CMakeFiles/get_distance.dir/clean:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -P CMakeFiles/get_distance.dir/cmake_clean.cmake
+.PHONY : urg_c/CMakeFiles/get_distance.dir/clean
 
-CMakeFiles/get_distance.dir/depend:
-	cd /home/trex/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c/CMakeFiles/get_distance.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/get_distance.dir/depend
+urg_c/CMakeFiles/get_distance.dir/depend:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/build /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles/get_distance.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : urg_c/CMakeFiles/get_distance.dir/depend
 

@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: turtle_description
+Description: Description of turtle_description
+Version: 0.0.1
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
+Requires: 

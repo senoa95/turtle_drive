@@ -1,1 +1,4 @@
-/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/share/novatel_gps_msgs/cmake/novatel_gps_msgs-msg-paths.cmake
+# generated from genmsg/cmake/pkg-msg-paths.cmake.develspace.in
+
+set(novatel_gps_msgs_MSG_INCLUDE_DIRS "/home/nishanth/TurtleStuff/turtle_drive/src/novatel_gps_driver/novatel_gps_msgs/msg")
+set(novatel_gps_msgs_MSG_DEPENDENCIES std_msgs)

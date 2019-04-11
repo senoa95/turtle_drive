@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/reboot_test.dir/current/samples/reboot_test.c.o"
-  "/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/reboot_test.pdb"
-  "/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/reboot_test"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/reboot_test.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/reboot_test"
 )
 
 # Per-language clean rules from dependency scanning.

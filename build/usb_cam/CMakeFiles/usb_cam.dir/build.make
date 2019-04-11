@@ -43,42 +43,42 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/usb_cam
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/usb_cam
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build
 
 # Include any dependencies generated for this target.
-include CMakeFiles/usb_cam.dir/depend.make
+include usb_cam/CMakeFiles/usb_cam.dir/depend.make
 
 # Include the progress variables for this target.
-include CMakeFiles/usb_cam.dir/progress.make
+include usb_cam/CMakeFiles/usb_cam.dir/progress.make
 
 # Include the compile flags for this target's objects.
-include CMakeFiles/usb_cam.dir/flags.make
+include usb_cam/CMakeFiles/usb_cam.dir/flags.make
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o: CMakeFiles/usb_cam.dir/flags.make
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o: /home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/usb_cam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o -c /home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o: usb_cam/CMakeFiles/usb_cam.dir/flags.make
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o: /home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/src/usb_cam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o"
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o -c /home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/src/usb_cam.cpp
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i: cmake_force
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp > CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/src/usb_cam.cpp > CMakeFiles/usb_cam.dir/src/usb_cam.cpp.i
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s: cmake_force
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp -o CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/src/usb_cam.cpp -o CMakeFiles/usb_cam.dir/src/usb_cam.cpp.s
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires:
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires:
 
-.PHONY : CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides: CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
-	$(MAKE) -f CMakeFiles/usb_cam.dir/build.make CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides.build
-.PHONY : CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides: usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
+	$(MAKE) -f usb_cam/CMakeFiles/usb_cam.dir/build.make usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides.build
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides
 
-CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides.build: CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
+usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.provides.build: usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
 
 
 # Object files for target usb_cam
@@ -88,58 +88,58 @@ usb_cam_OBJECTS = \
 # External object files for target usb_cam
 usb_cam_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: CMakeFiles/usb_cam.dir/build.make
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libimage_transport.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcamera_info_manager.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so: CMakeFiles/usb_cam.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/usb_cam/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb_cam.dir/link.txt --verbose=$(VERBOSE)
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: usb_cam/CMakeFiles/usb_cam.dir/build.make
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libimage_transport.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/libPocoFoundation.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroslib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/librospack.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/librostime.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so: usb_cam/CMakeFiles/usb_cam.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so"
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/usb_cam.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/usb_cam.dir/build: /home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so
+usb_cam/CMakeFiles/usb_cam.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so
 
-.PHONY : CMakeFiles/usb_cam.dir/build
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/build
 
-CMakeFiles/usb_cam.dir/requires: CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
+usb_cam/CMakeFiles/usb_cam.dir/requires: usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o.requires
 
-.PHONY : CMakeFiles/usb_cam.dir/requires
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/requires
 
-CMakeFiles/usb_cam.dir/clean:
-	$(CMAKE_COMMAND) -P CMakeFiles/usb_cam.dir/cmake_clean.cmake
-.PHONY : CMakeFiles/usb_cam.dir/clean
+usb_cam/CMakeFiles/usb_cam.dir/clean:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam && $(CMAKE_COMMAND) -P CMakeFiles/usb_cam.dir/cmake_clean.cmake
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/clean
 
-CMakeFiles/usb_cam.dir/depend:
-	cd /home/trex/turtle_drive/build/usb_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/usb_cam /home/trex/turtle_drive/src/usb_cam /home/trex/turtle_drive/build/usb_cam /home/trex/turtle_drive/build/usb_cam /home/trex/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake --color=$(COLOR)
-.PHONY : CMakeFiles/usb_cam.dir/depend
+usb_cam/CMakeFiles/usb_cam.dir/depend:
+	cd /home/nishanth/TurtleStuff/turtle_drive/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src /home/nishanth/TurtleStuff/turtle_drive/src/usb_cam /home/nishanth/TurtleStuff/turtle_drive/build /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam /home/nishanth/TurtleStuff/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake --color=$(COLOR)
+.PHONY : usb_cam/CMakeFiles/usb_cam.dir/depend
 

@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_nodejs"
-  "/home/trex/turtle_drive/devel/.private/urg_node/share/gennodejs/ros/urg_node/msg/Status.js"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/share/gennodejs/ros/urg_node/msg/Status.js"
 )
 
 # Per-language clean rules from dependency scanning.

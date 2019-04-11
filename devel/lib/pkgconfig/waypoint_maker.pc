@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/waypoint_maker/lib/pkgconfig/waypoint_maker.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: waypoint_maker
+Description: Description of waypoint_maker
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
+Requires: 

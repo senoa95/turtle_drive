@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calculate_xy.dir/current/samples/calculate_xy.c.o"
-  "/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/calculate_xy.pdb"
-  "/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/calculate_xy"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/calculate_xy"
 )
 
 # Per-language clean rules from dependency scanning.

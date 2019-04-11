@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_FLAGS =  
 
-C_DEFINES = 
+C_DEFINES = -DROS_BUILD_SHARED_LIBS=1
 
-C_INCLUDES = -I/home/trex/turtle_drive/src/urg_c/current/include 
+C_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include 
 

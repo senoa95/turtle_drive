@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/urg_c/lib/pkgconfig/urg_c.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: urg_c
+Description: Description of urg_c
+Version: 1.0.405
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib -lliburg_c
+Requires: 

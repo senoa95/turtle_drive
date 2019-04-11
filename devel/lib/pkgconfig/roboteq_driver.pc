@@ -1,1 +1,8 @@
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
+
+Name: roboteq_driver
+Description: Description of roboteq_driver
+Version: 0.2.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
+Requires: 

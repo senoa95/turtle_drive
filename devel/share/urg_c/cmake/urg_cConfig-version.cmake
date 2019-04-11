@@ -1,1 +1,14 @@
-/home/trex/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake
+# generated from catkin/cmake/template/pkgConfig-version.cmake.in
+set(PACKAGE_VERSION "1.0.405")
+
+set(PACKAGE_VERSION_EXACT False)
+set(PACKAGE_VERSION_COMPATIBLE False)
+
+if("${PACKAGE_FIND_VERSION}" VERSION_EQUAL "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_EXACT True)
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()
+
+if("${PACKAGE_FIND_VERSION}" VERSION_LESS "${PACKAGE_VERSION}")
+  set(PACKAGE_VERSION_COMPATIBLE True)
+endif()

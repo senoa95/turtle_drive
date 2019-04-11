@@ -1,8 +1,0 @@
-prefix=/home/trex/turtle_drive/install
-
-Name: timestamp_tools
-Description: Description of timestamp_tools
-Version: 1.6.8
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib 
-Requires: roslib roscpp
