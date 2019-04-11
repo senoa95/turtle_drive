@@ -18,7 +18,6 @@
 
   <node pkg="teleop_twist_joy" name="teleop_twist_joy" type="teleop_node">
     <rosparam command="load" file="$(arg config_filepath)" />
-    <!-- <remap from="cmd_vel" to="turtle_velocity_controller/cmd_vel"/> -->
   </node>
 
   <param name="axis_linear" value="1" type="int"/>

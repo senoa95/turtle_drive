@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
-
-Name: uvc_camera
-Description: Description of uvc_camera
-Version: 0.2.7
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib -lnodelet_uvc_camera
-Requires: roscpp nodelet sensor_msgs

@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/build/devel
-
-Name: roboteq_msgs
-Description: Description of roboteq_msgs
-Version: 0.2.0
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/build/devel/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/build/devel/lib 
-Requires: 

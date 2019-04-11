@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/get_multiecho.dir/current/samples/get_multiecho.c.o  -o /home/nishanth/TurtleStuff/turtle_drive/devel/lib/urg_c/get_multiecho -rdynamic /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libopen_urg_sensor.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libliburg_c.so -lrt -lm -Wl,-rpath,/home/nishanth/TurtleStuff/turtle_drive/devel/lib: 

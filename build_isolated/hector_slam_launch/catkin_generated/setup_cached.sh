@@ -7,6 +7,3 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_slam_launch:$CMAKE_PREFIX_PATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_slam_launch/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_slam_launch:$ROS_PACKAGE_PATH"

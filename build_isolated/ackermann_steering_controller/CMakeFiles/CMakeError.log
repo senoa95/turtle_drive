@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28717/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28717.dir/build.make CMakeFiles/cmTC_28717.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28717.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_28717.dir/CheckSymbolExists.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_28717
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28717.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_28717.dir/CheckSymbolExists.c.o  -o cmTC_28717 -rdynamic 
+CMakeFiles/cmTC_28717.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_28717.dir/build.make:97: recipe for target 'cmTC_28717' failed
+make[1]: *** [cmTC_28717] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_28717/fast' failed
+make: *** [cmTC_28717/fast] Error 2
+
+File /home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_afdfe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_afdfe.dir/build.make CMakeFiles/cmTC_afdfe.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afdfe.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_afdfe.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_afdfe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afdfe.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_afdfe.dir/CheckFunctionExists.c.o  -o cmTC_afdfe -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_afdfe.dir/build.make:97: recipe for target 'cmTC_afdfe' failed
+make[1]: *** [cmTC_afdfe] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build_isolated/ackermann_steering_controller/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_afdfe/fast' failed
+make: *** [cmTC_afdfe/fast] Error 2
+
+

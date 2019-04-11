@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
+
+Name: novatel_gps_msgs
+Description: Description of novatel_gps_msgs
+Version: 3.4.0
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib 
+Requires: message_runtime std_msgs

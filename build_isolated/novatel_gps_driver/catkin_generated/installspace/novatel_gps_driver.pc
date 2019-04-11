@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
+
+Name: novatel_gps_driver
+Description: Description of novatel_gps_driver
+Version: 3.4.0
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include -I/usr/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -lnovatel_gps_driver -lnovatel_gps_driver_nodelets /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libpcap.so
+Requires: diagnostic_msgs diagnostic_updater gps_common nav_msgs nodelet novatel_gps_msgs roscpp sensor_msgs std_msgs swri_math_util swri_roscpp swri_serial_util swri_string_util tf

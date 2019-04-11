@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/novatel_imu
+
+Name: novatel_imu
+Description: Description of novatel_imu
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/novatel_imu/lib 
+Requires: 

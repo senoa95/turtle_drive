@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/devel
-
-Name: qtros
-Description: Description of qtros
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/lib 
-Requires: 
