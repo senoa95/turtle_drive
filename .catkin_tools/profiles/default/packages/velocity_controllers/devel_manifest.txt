@@ -1,0 +1,5 @@
+ros_controllers/velocity_controllers
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/velocity_controllers/lib/libvelocity_controllers.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libvelocity_controllers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/velocity_controllers/lib/pkgconfig/velocity_controllers.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/velocity_controllers.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/velocity_controllers/cmake/velocity_controllersConfig.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/velocity_controllers/share/velocity_controllers/cmake/velocity_controllersConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/velocity_controllers/cmake/velocity_controllersConfig-version.cmake

@@ -1,0 +1,5 @@
+ros_controllers/position_controllers
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/position_controllers/lib/libposition_controllers.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libposition_controllers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/position_controllers/lib/pkgconfig/position_controllers.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/position_controllers.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/position_controllers/share/position_controllers/cmake/position_controllersConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/position_controllers/cmake/position_controllersConfig.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/position_controllers/share/position_controllers/cmake/position_controllersConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/position_controllers/cmake/position_controllersConfig-version.cmake

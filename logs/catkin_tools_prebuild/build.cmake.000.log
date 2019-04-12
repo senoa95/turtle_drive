@@ -1,0 +1,41 @@
+Not searching for unused variables given on the command line.
+[36m--[0m The C compiler identification is GNU 5.4.0
+[36m--[0m The CXX compiler identification is GNU 5.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/catkin_tools_prebuild
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/nishanth/TurtleStuff/turtle_drive/devel_isolated/waypoint_nav;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/waypoint_maker;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/velocity_controllers;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/uvc_camera;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/usb_cam;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/urg_node;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/urg_c;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/turtle_description;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/turtle_control;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/timestamp_tools;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/rtk;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/rqt_joint_trajectory_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/ros_controllers;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_driver;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_msgs;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_diagnostics;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/qtros;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/position_controllers;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/novatel_imu;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/novatel_gps_driver;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/novatel_gps_msgs;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/laser_proc;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/jpeg_streamer;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/joint_trajectory_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/joint_state_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/imu_sensor_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_trajectory_server;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_slam_launch;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_slam;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_map_server;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_geotiff_plugins;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_geotiff;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_nav_msgs;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_marker_drawing;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_mapping;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_compressed_map_transport;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_map_tools;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_imu_tools;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/hector_imu_attitude_to_tf;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/gripper_action_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/four_wheel_steering_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/effort_controllers;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/forward_command_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/force_torque_sensor_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/driver_common;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/driver_base;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/ackermann_steering_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/diff_drive_controller;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/camera_umd;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/ar_track_alvar;/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/ar_track_alvar_msgs;/opt/ros/kinetic;/home/nishanth/TurtleStuff/turtle_drive/devel
+[36m--[0m This workspace overlays: /opt/ros/kinetic;/home/nishanth/TurtleStuff/turtle_drive/devel
+[36m--[0m Found PythonInterp: /usr/bin/python (found version "2.7.12")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/nishanth/TurtleStuff/turtle_drive/build/catkin_tools_prebuild/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Looking for pthread_create
+[36m--[0m Looking for pthread_create - not found
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.14
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/nishanth/TurtleStuff/turtle_drive/build/catkin_tools_prebuild

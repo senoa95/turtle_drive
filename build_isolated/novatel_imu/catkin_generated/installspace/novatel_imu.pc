@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: novatel_imu
-Description: Description of novatel_imu
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib 
-Requires: 

@@ -1,0 +1,5 @@
+ros_controllers/effort_controllers
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/effort_controllers/lib/libeffort_controllers.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libeffort_controllers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/effort_controllers/lib/pkgconfig/effort_controllers.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/effort_controllers.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/effort_controllers/cmake/effort_controllersConfig-version.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/effort_controllers/share/effort_controllers/cmake/effort_controllersConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/effort_controllers/cmake/effort_controllersConfig.cmake

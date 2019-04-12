@@ -1,0 +1,4 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libposition_controllers.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/position_controllers.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/position_controllers/cmake/position_controllersConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/position_controllers/cmake/position_controllersConfig-version.cmake

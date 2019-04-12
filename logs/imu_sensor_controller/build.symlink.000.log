@@ -1,0 +1,4 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libimu_sensor_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/imu_sensor_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/imu_sensor_controller/cmake/imu_sensor_controllerConfig.cmake

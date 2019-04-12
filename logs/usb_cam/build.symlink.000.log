@@ -1,0 +1,5 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libusb_cam.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/usb_cam/usb_cam_node
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/usb_cam.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake

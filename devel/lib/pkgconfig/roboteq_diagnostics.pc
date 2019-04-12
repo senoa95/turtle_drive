@@ -1,0 +1,1 @@
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics/lib/pkgconfig/roboteq_diagnostics.pc

@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: four_wheel_steering_controller
-Description: Description of four_wheel_steering_controller
-Version: 0.15.0
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -lfour_wheel_steering_controller
-Requires: controller_interface nav_msgs four_wheel_steering_msgs realtime_tools tf urdf_geometry_parser

@@ -1,0 +1,13 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libdiff_drive_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/diff_drive_controller/skidsteerbot
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/diff_drive_controller/diffbot
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/diff_drive_controller/__init__.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/diff_drive_controller/cfg/__init__.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/diff_drive_controller/cfg/DiffDriveControllerConfig.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/diff_drive_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/diff_drive_controller/cmake/diff_drive_controllerConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/diff_drive_controller/cmake/diff_drive_controllerConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig-usage.dox
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig.dox
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/diff_drive_controller/docs/DiffDriveControllerConfig.wikidoc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/include/diff_drive_controller/DiffDriveControllerConfig.h

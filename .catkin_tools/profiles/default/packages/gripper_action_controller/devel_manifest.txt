@@ -1,0 +1,5 @@
+ros_controllers/gripper_action_controller
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/gripper_action_controller/lib/libgripper_action_controller.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libgripper_action_controller.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/gripper_action_controller/lib/pkgconfig/gripper_action_controller.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/gripper_action_controller.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/gripper_action_controller/share/gripper_action_controller/cmake/gripper_action_controllerConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/gripper_action_controller/cmake/gripper_action_controllerConfig.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/gripper_action_controller/share/gripper_action_controller/cmake/gripper_action_controllerConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/gripper_action_controller/cmake/gripper_action_controllerConfig-version.cmake

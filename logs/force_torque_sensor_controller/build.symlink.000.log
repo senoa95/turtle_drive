@@ -1,0 +1,4 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libforce_torque_sensor_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/force_torque_sensor_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig.cmake

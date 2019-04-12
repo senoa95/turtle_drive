@@ -1,0 +1,13 @@
+[  9%] [34m[1mGenerating include/qtros/moc_qnode.cxx[0m
+[ 18%] [34m[1mGenerating qrc_images.cxx[0m
+[ 27%] [34m[1mGenerating ui_main_window.h[0m
+[ 36%] [34m[1mGenerating include/qtros/moc_main_window.cxx[0m
+[35m[1mScanning dependencies of target qtros[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/main.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/main_window.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/qtros.dir/src/qnode.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/qtros.dir/qrc_images.cxx.o[0m
+[ 81%] [32mBuilding CXX object CMakeFiles/qtros.dir/include/qtros/moc_main_window.cxx.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/qtros.dir/include/qtros/moc_qnode.cxx.o[0m
+[100%] [32m[1mLinking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/qtros/lib/qtros/qtros[0m
+[100%] Built target qtros

@@ -1,0 +1,5 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libackermann_steering_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ackermann_steering_controller/ackermann_steering_controller_ackermann_steering_bot
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/ackermann_steering_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ackermann_steering_controller/cmake/ackermann_steering_controllerConfig.cmake

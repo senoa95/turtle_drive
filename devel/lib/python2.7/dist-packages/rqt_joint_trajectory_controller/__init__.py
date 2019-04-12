@@ -1,0 +1,1 @@
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/rqt_joint_trajectory_controller/lib/python2.7/dist-packages/rqt_joint_trajectory_controller/__init__.py

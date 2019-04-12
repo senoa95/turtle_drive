@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/turtle_control
-
-Name: turtle_control
-Description: Description of turtle_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/turtle_control/lib 
-Requires: 

@@ -1,0 +1,1 @@
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/joint_trajectory_controller/lib/pkgconfig/joint_trajectory_controller.pc

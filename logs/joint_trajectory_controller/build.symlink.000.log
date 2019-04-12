@@ -1,0 +1,6 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libjoint_trajectory_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/joint_trajectory_controller/rrbot
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/joint_trajectory_controller/rrbot_wrapping
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/joint_trajectory_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/joint_trajectory_controller/cmake/joint_trajectory_controllerConfig.cmake

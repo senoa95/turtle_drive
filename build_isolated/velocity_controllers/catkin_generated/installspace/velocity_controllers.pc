@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: velocity_controllers
-Description: Description of velocity_controllers
-Version: 0.15.0
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -lvelocity_controllers
-Requires: angles control_msgs control_toolbox controller_interface forward_command_controller realtime_tools urdf

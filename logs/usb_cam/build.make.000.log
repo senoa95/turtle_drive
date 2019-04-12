@@ -1,0 +1,8 @@
+[35m[1mScanning dependencies of target usb_cam[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library /home/nishanth/TurtleStuff/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so[0m
+[ 50%] Built target usb_cam
+[35m[1mScanning dependencies of target usb_cam_node[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node[0m
+[100%] Built target usb_cam_node

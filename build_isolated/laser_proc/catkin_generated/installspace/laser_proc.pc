@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: laser_proc
-Description: Description of laser_proc
-Version: 0.1.5
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -llaser_proc_library -llaser_publisher -llaser_transport -llaser_proc_ROS -lLaserProcNodelet
-Requires: roscpp sensor_msgs rosconsole nodelet

@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_msgs
-
-Name: roboteq_msgs
-Description: Description of roboteq_msgs
-Version: 0.2.0
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_msgs/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel_isolated/roboteq_msgs/lib 
-Requires: 

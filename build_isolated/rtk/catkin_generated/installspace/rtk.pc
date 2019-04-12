@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: rtk
-Description: Description of rtk
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib 
-Requires: 

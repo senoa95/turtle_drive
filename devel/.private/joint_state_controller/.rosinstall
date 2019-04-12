@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/joint_state_controller/setup.sh

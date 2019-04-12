@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3ba96/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3ba96.dir/build.make CMakeFiles/cmTC_3ba96.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ba96.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_3ba96.dir/CheckSymbolExists.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3ba96
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ba96.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_3ba96.dir/CheckSymbolExists.c.o  -o cmTC_3ba96 -rdynamic 
+CMakeFiles/cmTC_3ba96.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_3ba96.dir/build.make:97: recipe for target 'cmTC_3ba96' failed
+make[1]: *** [cmTC_3ba96] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_3ba96/fast' failed
+make: *** [cmTC_3ba96/fast] Error 2
+
+File /home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ea793/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ea793.dir/build.make CMakeFiles/cmTC_ea793.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ea793.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ea793.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_ea793
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea793.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ea793.dir/CheckFunctionExists.c.o  -o cmTC_ea793 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_ea793.dir/build.make:97: recipe for target 'cmTC_ea793' failed
+make[1]: *** [cmTC_ea793] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_ea793/fast' failed
+make: *** [cmTC_ea793/fast] Error 2
+
+

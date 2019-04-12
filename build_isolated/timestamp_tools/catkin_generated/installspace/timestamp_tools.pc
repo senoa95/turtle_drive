@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: timestamp_tools
-Description: Description of timestamp_tools
-Version: 1.6.8
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib 
-Requires: roslib roscpp

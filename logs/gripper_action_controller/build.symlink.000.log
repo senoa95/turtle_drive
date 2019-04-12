@@ -1,0 +1,4 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libgripper_action_controller.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/gripper_action_controller.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/gripper_action_controller/cmake/gripper_action_controllerConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/gripper_action_controller/cmake/gripper_action_controllerConfig-version.cmake

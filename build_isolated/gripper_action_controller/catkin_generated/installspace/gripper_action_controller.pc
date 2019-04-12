@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/install_isolated
-
-Name: gripper_action_controller
-Description: Description of gripper_action_controller
-Version: 0.15.0
-Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install_isolated/include
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install_isolated/lib -lgripper_action_controller
-Requires: actionlib cmake_modules controller_interface control_msgs hardware_interface realtime_tools trajectory_msgs
