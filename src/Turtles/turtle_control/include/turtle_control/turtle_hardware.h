@@ -38,7 +38,6 @@
 #include "hardware_interface/joint_state_interface.h"
 #include "hardware_interface/joint_command_interface.h"
 #include "hardware_interface/robot_hw.h"
-#include "hardware_interface/imu_sensor_interface"
 #include "ros/ros.h"
 #include "sensor_msgs/JointState.h"
 #include "roboteq_msgs/Feedback.h"
@@ -64,11 +63,9 @@ private:
   ros::Publisher left_motor_pub;
   ros::Subscriber right_feedback_sub_;
   ros::Publisher right_motor_pub;
-  //realtime_tools::RealtimePublisher<jackal_msgs::Drive> cmd_drive_pub_;
 
   hardware_interface::JointStateInterface joint_state_interface_;
   hardware_interface::VelocityJointInterface velocity_joint_interface_;
-  hardware_interface::ImuSensorHandle imu_state_interface_;
 
   // These are mutated on the controls thread only.
   struct Joint
@@ -77,9 +74,8 @@ private:
     double velocity;
     double effort;
     double velocity_command;
-    double angular_velocity
 
-    Joint() : position(0), velocity(0), effort(0), velocity_command(0), angular_velocity(0)
+    Joint() : position(0), velocity(0), effort(0), velocity_command(0)
     {
     }
   }
@@ -92,6 +88,6 @@ private:
   boost::mutex right_feedback_msg_mutex_;
 };
 
-}  // namespace turtle_base
+}
 
-#endif  // TURTLE_BASE_TURTLE_HARDWARE_H
+#endif

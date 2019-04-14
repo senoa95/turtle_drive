@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/trex/turtle_drive/devel/.private/force_torque_sensor_controller/setup.sh

@@ -8,9 +8,9 @@
       connection_type: serial
       device: /dev/ttyUSB1
       publish_novatel_positions: true
-      frame_id: /gps
+      frame_id: /world
       use_binary_messages: true
-      imu_rate: 100
+      imu_rate: 20
       imu_frame_id: base_link
       publish_imu_messages: true
       publish_novatel_velocity: true
