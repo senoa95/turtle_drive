@@ -1,0 +1,380 @@
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:60:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_message_extractor.h:127:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint32_t NOVATEL_CRC32_POLYNOMIAL = 0xEDB88320L;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_message_extractor.h:127:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:62:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:43:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:45:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:47:104:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelPositionPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:49:106:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelPositionPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                          ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 42;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 72;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:53:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_LENGTH = 21;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestpos.h:53:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:63:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:43:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:45:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:47:107:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelUtmPositionPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                           ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:49:109:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelUtmPositionPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 726;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 80;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:53:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_LENGTH = 23;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestutm.h:53:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:64:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:42:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:44:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:46:104:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelVelocityPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:48:106:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelVelocityPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                          ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 99;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:50:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_LENGTH = 8;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 44;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/bestvel.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:65:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:45:112:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelCorrectedImuDataPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:47:114:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::NovatelCorrectedImuDataPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 812;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 60;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:50:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELDS = 8;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/corrimudata.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:66:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgga.h:44:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgga.h:46:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgga.h:48:93:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::GpggaPtr ParseAscii(const NmeaSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                             ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:67:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsa.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsa.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsa.h:45:93:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::GpgsaPtr ParseAscii(const NmeaSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                             ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:68:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsv.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsv.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gpgsv.h:45:93:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::GpgsvPtr ParseAscii(const NmeaSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                             ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:69:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gprmc.h:45:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gprmc.h:47:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gprmc.h:49:93:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::GprmcPtr ParseAscii(const NmeaSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gprmc.h:54:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr double KNOTS_TO_MPS = 0.5144444;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/gprmc.h:54:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:70:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:45:95:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InspvaPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                               ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:47:97:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InspvaPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint32_t MESSAGE_ID = 507;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 88;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELDS = 12;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inspva.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:71:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:45:97:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InsstdevPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:47:99:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InsstdevPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint32_t MESSAGE_ID = 2051;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 52;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELDS = 14;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/insstdev.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:72:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:45:94:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::RangePtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:47:96:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::RangePtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_OBSERVATION_SIZE = 44;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 43;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:50:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELDS = 10;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/range.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:73:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:40:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:42:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:44:93:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::TimePtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:46:95:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::TimePtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                               ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:48:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 44;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:48:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 101;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELD = 11;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/time.h:50:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:74:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:45:98:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::TrackstatPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                                  ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:47:100:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::TrackstatPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                    ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint16_t MESSAGE_ID = 83;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:50:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_BODY_FIELDS = 4;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:50:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_CHANNEL_FIELDS = 10;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_CHANNEL_LENGTH = 40;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:53:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_BODY_LENGTH = 16;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/trackstat.h:53:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:77:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:41:29:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     uint32_t GetMessageId() const override;
+[01;32m[K                             ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:43:40:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     const std::string GetMessageName() const override;
+[01;32m[K                                        ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:45:95:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InscovPtr ParseBinary(const BinaryMessage& bin_msg) throw(ParseException) override;
+[01;32m[K                                                                                               ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:47:97:[m[K [01;35m[Kwarning: [m[Koverride controls (override/final) only available with -std=c++11 or -std=gnu++11
+     novatel_gps_msgs::InscovPtr ParseAscii(const NovatelSentence& sentence) throw(ParseException) override;
+[01;32m[K                                                                                                 ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:49:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr uint32_t MESSAGE_ID = 264;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:49:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:51:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t BINARY_LENGTH = 228;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:51:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:52:12:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+     static constexpr size_t ASCII_FIELDS = 29;
+[01;32m[K            ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/parsers/inscov.h:52:12:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:45:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:381:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr uint16_t DEFAULT_TCP_PORT = 3001;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:381:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:382:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr uint16_t DEFAULT_UDP_PORT = 3002;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:382:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:383:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr size_t MAX_BUFFER_SIZE = 100;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:383:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:384:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr size_t SYNC_BUFFER_SIZE = 10;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:384:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:385:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr uint32_t SECONDS_PER_WEEK = 604800;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:385:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:386:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr double IMU_TOLERANCE_S = 0.0002;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:386:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:387:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kconstexpr[m[K’ does not name a type
+       static constexpr double DEGREES_TO_RADIANS = M_PI / 180.0;
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:387:14:[m[K [01;36m[Knote: [m[KC++11 ‘[01m[Kconstexpr[m[K’ only available with -std=c++11 or -std=gnu++11
+[01m[K/opt/ros/kinetic/include/novatel_gps_driver/novatel_gps.h:420:25:[m[K [01;31m[Kerror: [m[K‘[01m[KMAX_BUFFER_SIZE[m[K’ was not declared in this scope
+       char pcap_errbuf_[MAX_BUFFER_SIZE];
+[01;32m[K                         ^[m[K
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:15:[m[K [01;31m[Kerror: [m[KISO C++ forbids declaration of ‘[01m[KIMUMessages[m[K’ with no type [-fpermissive]
+   IMUMessages();
+[01;32m[K               ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:99:69:[m[K [01;31m[Kerror: [m[K‘[01m[KcorrImuData[m[K’ in ‘[01m[Knovatel_gps_msgs::NovatelCorrectedImuData {aka struct novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> >}[m[K’ does not name a type
+   void imuCallback(const novatel_gps_msgs::NovatelCorrectedImuData::corrImuData);
+[01;32m[K                                                                     ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

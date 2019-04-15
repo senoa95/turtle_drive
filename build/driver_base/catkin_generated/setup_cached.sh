@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/driver_base:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/driver_base/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/driver_base/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/trex/turtle_drive/build/driver_base"
+export PYTHONPATH="/home/trex/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/driver_common/driver_base:$ROS_PACKAGE_PATH"

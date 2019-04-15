@@ -1,0 +1,10 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In constructor ‘[01m[Kturtle_control::TurtleHardware::TurtleHardware()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:60:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_velocity_sub_[m[K’ was not declared in this scope
+   angular_velocity_sub_ = nh_.subscribe("/imu", 1, &TurtleHardware::imu_callback, this);
+[01;32m[K   ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:60:53:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu_callback[m[K’ is not a member of ‘[01m[Kturtle_control::TurtleHardware[m[K’
+   angular_velocity_sub_ = nh_.subscribe("/imu", 1, &TurtleHardware::imu_callback, this);
+[01;32m[K                                                     ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

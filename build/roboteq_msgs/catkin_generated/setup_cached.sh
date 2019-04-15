@@ -8,6 +8,9 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/roboteq_msgs:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/trex/turtle_drive/build/roboteq_msgs"
+export PYTHONPATH="/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages:$PYTHONPATH"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/roboteq/roboteq_msgs:$ROS_PACKAGE_PATH"

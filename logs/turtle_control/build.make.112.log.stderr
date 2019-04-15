@@ -1,0 +1,11 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:117:40:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_msgs[m[K’ does not name a type
+ void TurtleHardware::imuCallback(const novatel_msgs::CORRIMUDATA msg)
+[01;32m[K                                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:117:66:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+ void TurtleHardware::imuCallback(const novatel_msgs::CORRIMUDATA msg)
+[01;32m[K                                                                  ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:117:66:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:117:66:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

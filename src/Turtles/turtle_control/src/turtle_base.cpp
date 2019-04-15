@@ -56,7 +56,7 @@ void controlThread(ros::Rate rate, turtle_control::TurtleHardware* robot, contro
     robot->copyJointsFromHardware();
     cm->update(ros::Time::now(), elapsed);
     robot->publishDriveFromController();
-    // std::cout<<"here";
+    robot->subscribeToImu();
     rate.sleep();
   }
 }

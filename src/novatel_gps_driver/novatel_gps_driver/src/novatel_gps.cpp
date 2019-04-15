@@ -545,7 +545,7 @@ namespace novatel_gps_driver
       if (!Configure(opts))
       {
         // We will not kill the connection here, because the device may already
-        // be setup to communicate correctly, but we will print a warning         
+        // be setup to communicate correctly, but we will print a warning
         ROS_ERROR("Failed to configure GPS. This port may be read only, or the "
                  "device may not be functioning as expected; however, the "
                  "driver may still function correctly if the port has already "

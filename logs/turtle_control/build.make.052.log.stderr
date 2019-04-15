@@ -1,0 +1,134 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In constructor ‘[01m[Kturtle_control::ImuFeedback::ImuFeedback()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::subscribe(const char [13], int, void (turtle_control::ImuFeedback::*)(novatel_gps_msgs::NovatelCorrectedImuDataPtr))[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), T* obj, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:402:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, T* obj, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:413:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’ have incompatible cv-qualifiers
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const T>&), T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:465:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<const T>&[m[K’ and ‘[01m[Knovatel_gps_msgs::NovatelCorrectedImuDataPtr {aka boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const T>&) const, T*, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:475:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const T>&) const[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’ have incompatible cv-qualifiers
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M), 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:529:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 3 provided
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(T::*fp)(M) const, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:540:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(M) const[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’ have incompatible cv-qualifiers
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const T>&), const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:594:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::shared_ptr<const T>&[m[K’ and ‘[01m[Knovatel_gps_msgs::NovatelCorrectedImuDataPtr {aka boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class T> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(const boost::shared_ptr<const T>&) const, const boost::shared_ptr<U>&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, 
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:605:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  types ‘[01m[Kvoid (T::)(const boost::shared_ptr<const T>&) const[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’ have incompatible cv-qualifiers
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(M), const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(M), const TransportHints& transport_hints = TransportHints())
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:656:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(M)[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::*)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::*)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (*)(const boost::shared_ptr<const T>&), const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, void(*fp)(const boost::shared_ptr<M const>&), const TransportHints& transport_hints = TransportHints())
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:704:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kvoid (*)(const boost::shared_ptr<const T>&)[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::*)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::*)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(const boost::shared_ptr<const T>&)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (const boost::shared_ptr<M const>&)>& callback,
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:750:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(const boost::shared_ptr<const T>&)>[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::*)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::*)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[Kcandidate: template<class M, class C> ros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, const boost::function<void(C)>&, const VoidConstPtr&, const ros::TransportHints&)
+   Subscriber subscribe(const std::string& topic, uint32_t queue_size, const boost::function<void (C)>& callback,
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:799:14:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:68:73:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst boost::function<void(C)>[m[K’ and ‘[01m[Kvoid (turtle_control::ImuFeedback::*)(novatel_gps_msgs::NovatelCorrectedImuDataPtr) {aka void (turtle_control::ImuFeedback::*)(boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >)}[m[K’
+   imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback);
+[01;32m[K                                                                         ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[Kcandidate: ros::Subscriber ros::NodeHandle::subscribe(ros::SubscribeOptions&)
+   Subscriber subscribe(SubscribeOptions& ops);
+[01;32m[K              ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:836:14:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 3 provided
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

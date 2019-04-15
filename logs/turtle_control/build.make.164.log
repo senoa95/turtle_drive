@@ -1,0 +1,34 @@
+[35m[1mScanning dependencies of target turtle_control[0m
+[ 33%] Built target teleop_turtle
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o[0m
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:96:9:[m[K [01;31m[Kerror: [m[K‘[01m[KangularVel_[m[K’ was not declared in this scope
+   print(angularVel_)
+[01;32m[K         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:96:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kprint[m[K’ was not declared in this scope
+   print(angularVel_)
+[01;32m[K                    ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:96:20:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/internal/resource_manager.h:40:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/internal/hardware_resource_manager.h:36[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/joint_state_interface.h:33[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:38[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/console.h:160:22:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::print[m[K’
+ ROSCONSOLE_DECL void print(FilterBase* filter, void* logger, Level level,
+[01;32m[K                      ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/console.h:35:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/internal/resource_manager.h:40[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/internal/hardware_resource_manager.h:36[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/joint_state_interface.h:33[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:38[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/console_backend.h:60:6:[m[K [01;36m[Knote: [m[K  ‘[01m[Kros::console::backend::print[m[K’
+ void print(void* logger_handle, ::ros::console::Level level, const char* str, const char* file, const char* function, int line);
+[01;32m[K      ^[m[K
+CMakeFiles/turtle_control.dir/build.make:62: recipe for target 'CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o' failed
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+CMakeFiles/Makefile2:845: recipe for target 'CMakeFiles/turtle_control.dir/all' failed
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

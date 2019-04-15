@@ -1,0 +1,20 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:70:3:[m[K [01;31m[Kerror: [m[K‘[01m[KQuaternionf[m[K’ was not declared in this scope
+   Quaternionf quat;
+[01;32m[K   ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:70:3:[m[K [01;36m[Knote: [m[Ksuggested alternative:
+In file included from [01m[K/usr/include/eigen3/Eigen/Geometry:42:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:48[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Geometry/Quaternion.h:300:27:[m[K [01;36m[Knote: [m[K  ‘[01m[KEigen::Quaternionf[m[K’
+ typedef Quaternion<float> Quaternionf;
+[01;32m[K                           ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:91:2:[m[K [01;31m[Kerror: [m[K‘[01m[Kquat[m[K’ was not declared in this scope
+  quat.w() = t0 * t2 * t4 + t1 * t3 * t5;
+[01;32m[K  ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:110:1:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

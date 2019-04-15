@@ -1,0 +1,10 @@
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:102:72:[m[K [01;31m[Kerror: [m[K‘[01m[KcorrImuData[m[K’ in ‘[01m[Knovatel_gps_msgs::NovatelCorrectedImuDataPtr {aka class boost::shared_ptr<novatel_gps_msgs::NovatelCorrectedImuData_<std::allocator<void> > >}[m[K’ does not name a type
+   void imuCallback(const novatel_gps_msgs::NovatelCorrectedImuDataPtr::corrImuData);
+[01;32m[K                                                                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:110:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

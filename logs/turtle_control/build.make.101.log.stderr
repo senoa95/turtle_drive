@@ -1,0 +1,28 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:72:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ and ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_pitch_rate_type {aka double}[m[K’)
+   angularVel_[0] = angular_vel_msg_.pitch_rate * 20;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[Kcandidate: turtle_control::TurtleHardware::AngularVel& turtle_control::TurtleHardware::AngularVel::operator=(const turtle_control::TurtleHardware::AngularVel&)
+   struct AngularVel
+[01;32m[K          ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_pitch_rate_type {aka double}[m[K’ to ‘[01m[Kconst turtle_control::TurtleHardware::AngularVel&[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:73:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ and ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_roll_rate_type {aka double}[m[K’)
+   angularVel_[1] = angular_vel_msg_.roll_rate * 20;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[Kcandidate: turtle_control::TurtleHardware::AngularVel& turtle_control::TurtleHardware::AngularVel::operator=(const turtle_control::TurtleHardware::AngularVel&)
+   struct AngularVel
+[01;32m[K          ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_roll_rate_type {aka double}[m[K’ to ‘[01m[Kconst turtle_control::TurtleHardware::AngularVel&[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:74:18:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ and ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_yaw_rate_type {aka double}[m[K’)
+   angularVel_[2] = angular_vel_msg_.yaw_rate * 20;
+[01;32m[K                  ^[m[K
+In file included from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[Kcandidate: turtle_control::TurtleHardware::AngularVel& turtle_control::TurtleHardware::AngularVel::operator=(const turtle_control::TurtleHardware::AngularVel&)
+   struct AngularVel
+[01;32m[K          ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:96:10:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knovatel_msgs::CORRIMUDATA_<std::allocator<void> >::_yaw_rate_type {aka double}[m[K’ to ‘[01m[Kconst turtle_control::TurtleHardware::AngularVel&[m[K’
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

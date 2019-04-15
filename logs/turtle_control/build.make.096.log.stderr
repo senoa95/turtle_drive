@@ -1,0 +1,16 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:46:[m[K [01;31m[Kerror: [m[K‘[01m[Kangular_vel_msg_mutex_[m[K’ was not declared in this scope
+   boost::mutex::scoped_lock angular_vel_msg_(angular_vel_msg_mutex_, boost::try_to_lock);
+[01;32m[K                                              ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:72:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::mutex::scoped_lock {aka class boost::unique_lock<boost::mutex>}[m[K’ has no member named ‘[01m[Kroll_rate[m[K’
+   angularVel_[0] = angular_vel_msg_.roll_rate * 20;
+[01;32m[K                                     ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:73:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::mutex::scoped_lock {aka class boost::unique_lock<boost::mutex>}[m[K’ has no member named ‘[01m[Kpitch_rate[m[K’
+   angularVel_[1] = angular_vel_msg_.pitch_rate * 20;
+[01;32m[K                                     ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:74:37:[m[K [01;31m[Kerror: [m[K‘[01m[Kboost::mutex::scoped_lock {aka class boost::unique_lock<boost::mutex>}[m[K’ has no member named ‘[01m[Kyaw_rate[m[K’
+   angularVel_[2] = angular_vel_msg_.yaw_rate * 20;
+[01;32m[K                                     ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

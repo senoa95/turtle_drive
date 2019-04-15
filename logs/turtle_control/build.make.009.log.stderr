@@ -1,0 +1,7 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:72:60:[m[K [01;31m[Kerror: [m[K‘[01m[Kleonardo[m[K’ was not declared in this scope
+   boost::thread(boost::bind(controlThread, ros::Rate(50), &leonardo, &cm));
+[01;32m[K                                                            ^[m[K
+make[2]: *** [CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_base.dir/all] Error 2
+make: *** [all] Error 2

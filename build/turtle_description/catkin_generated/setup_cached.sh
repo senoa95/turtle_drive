@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/turtle_description:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/turtle_description/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/turtle_description/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/trex/turtle_drive/build/turtle_description"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/turtle_description/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/Turtles/turtle_description:$ROS_PACKAGE_PATH"

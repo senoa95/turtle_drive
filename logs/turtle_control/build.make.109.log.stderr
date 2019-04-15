@@ -1,0 +1,492 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:13:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<<[m[K’ (operand types are ‘[01m[Kstd::ostream {aka std::basic_ostream<char>}[m[K’ and ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’)
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:108:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ostream_type& (*)(std::basic_ostream<_CharT, _Traits>::__ostream_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(__ostream_type& (*__pf)(__ostream_type&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:108:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ostream_type& (*)(std::basic_ostream<char>::__ostream_type&) {aka std::basic_ostream<char>& (*)(std::basic_ostream<char>&)}[m[K’
+[01m[K/usr/include/c++/5/ostream:117:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__ios_type& (*)(std::basic_ostream<_CharT, _Traits>::__ios_type&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>; std::basic_ostream<_CharT, _Traits>::__ios_type = std::basic_ios<char>]
+       operator<<(__ios_type& (*__pf)(__ios_type&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:117:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__ios_type& (*)(std::basic_ostream<char>::__ios_type&) {aka std::basic_ios<char>& (*)(std::basic_ios<char>&)}[m[K’
+[01m[K/usr/include/c++/5/ostream:127:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(std::ios_base& (*)(std::ios_base&)) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(ios_base& (*__pf) (ios_base&))
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:127:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kstd::ios_base& (*)(std::ios_base&)[m[K’
+[01m[K/usr/include/c++/5/ostream:166:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:166:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Klong int[m[K’
+[01m[K/usr/include/c++/5/ostream:170:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:170:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Klong unsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:174:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(bool) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(bool __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:174:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kbool[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iterator:64[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(short int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:91:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kshort int[m[K’
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:181:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(short unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned short __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:181:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kshort unsigned int[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iterator:64[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(int) [with _CharT = char; _Traits = std::char_traits<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:105:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kint[m[K’
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:192:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned int __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:192:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kunsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:201:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:201:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Klong long int[m[K’
+[01m[K/usr/include/c++/5/ostream:205:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long long unsigned int) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(unsigned long long __n)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:205:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Klong long unsigned int[m[K’
+[01m[K/usr/include/c++/5/ostream:220:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(double __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:220:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kdouble[m[K’
+[01m[K/usr/include/c++/5/ostream:224:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(float) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(float __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:224:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kfloat[m[K’
+[01m[K/usr/include/c++/5/ostream:232:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(long double) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(long double __f)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:232:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Klong double[m[K’
+[01m[K/usr/include/c++/5/ostream:245:7:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>::__ostream_type& std::basic_ostream<_CharT, _Traits>::operator<<(const void*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__ostream_type = std::basic_ostream<char>]
+       operator<<(const void* __p)
+[01;32m[K       ^[m[K
+[01m[K/usr/include/c++/5/ostream:245:7:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kconst void*[m[K’
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iterator:64[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[Kcandidate: std::basic_ostream<_CharT, _Traits>& std::basic_ostream<_CharT, _Traits>::operator<<(std::basic_ostream<_CharT, _Traits>::__streambuf_type*) [with _CharT = char; _Traits = std::char_traits<char>; std::basic_ostream<_CharT, _Traits>::__streambuf_type = std::basic_streambuf<char>]
+     basic_ostream<_CharT, _Traits>::
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:119:5:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kstd::basic_ostream<char>::__streambuf_type* {aka std::basic_streambuf<char>*}[m[K’
+In file included from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:52:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:192:15:[m[K [01;36m[Knote: [m[Kcandidate: std::ostream& operator<<(std::ostream&, const XmlRpc::XmlRpcValue&)
+ std::ostream& operator<<(std::ostream& os, const XmlRpc::XmlRpcValue& v);
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h:192:15:[m[K [01;36m[Knote: [m[K  no known conversion for argument 2 from ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ to ‘[01m[Kconst XmlRpc::XmlRpcValue&[m[K’
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:238:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setw)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setw __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:238:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kstd::_Setw[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:208:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setprecision)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setprecision __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:208:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kstd::_Setprecision[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:178:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setfill<_CharT>)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setfill<_CharT> __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:178:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ is not derived from ‘[01m[Kstd::_Setfill<_CharT>[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:143:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setbase)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setbase __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:143:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kstd::_Setbase[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:109:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Setiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Setiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:109:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kstd::_Setiosflags[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/exception/detail/object_hex_dump.hpp:16:0[m[K,
+                 from [01m[K/usr/include/boost/exception/to_string_stub.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/info.hpp:16[m[K,
+                 from [01m[K/usr/include/boost/exception/detail/exception_ptr.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/exception_ptr.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/thread/exceptional_ptr.hpp:10[m[K,
+                 from [01m[K/usr/include/boost/thread/future.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:24[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/iomanip:79:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, std::_Resetiosflags)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, _Resetiosflags __f)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/iomanip:79:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kstd::_Resetiosflags[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/detail/container_fwd.hpp:98:0[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/hash.hpp:558[m[K,
+                 from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/complex:526:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Tp, class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::complex<_Tp>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os, const complex<_Tp>& __x)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/complex:526:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/boost/detail/container_fwd.hpp:96:0[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/extensions.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/functional/hash/hash.hpp:558[m[K,
+                 from [01m[K/usr/include/boost/functional/hash.hpp:6[m[K,
+                 from [01m[K/usr/include/boost/thread/detail/thread.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/thread/thread_only.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/thread/thread.hpp:12[m[K,
+                 from [01m[K/usr/include/boost/thread.hpp:13[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:37[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/usr/include/c++/5/bitset:1530:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, unsigned int _Nb> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::bitset<_Nb>&)
+     operator<<(std::basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bitset:1530:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ is not derived from ‘[01m[Kconst std::bitset<_Nb>[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:574:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const unsigned char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const unsigned char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:574:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kconst unsigned char*[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:569:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const signed char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const signed char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:569:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kconst signed char*[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:556:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, const char*)
+     operator<<(basic_ostream<char, _Traits>& __out, const char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:556:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kconst char*[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/ostream:638:0[m[K,
+                 from [01m[K/usr/include/c++/5/iterator:64[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const char*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const char* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/ostream.tcc:321:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kconst char*[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:539:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const _CharT*)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, const _CharT* __s)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:539:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:519:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, unsigned char)
+     operator<<(basic_ostream<char, _Traits>& __out, unsigned char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:519:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kunsigned char[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:514:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, signed char)
+     operator<<(basic_ostream<char, _Traits>& __out, signed char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:514:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Ksigned char[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:508:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _Traits> std::basic_ostream<char, _Traits>& std::operator<<(std::basic_ostream<char, _Traits>&, char)
+     operator<<(basic_ostream<char, _Traits>& __out, char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:508:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kchar[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:502:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, char)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, char __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:502:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  cannot convert ‘[01m[K((turtle_control::TurtleHardware*)this)->turtle_control::TurtleHardware::angularVel_[3][m[K’ (type ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’) to type ‘[01m[Kchar[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/iterator:64:0[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/ostream:497:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, _CharT)
+     operator<<(basic_ostream<_CharT, _Traits>& __out, _CharT __c)
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/ostream:497:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  deduced conflicting types for parameter ‘[01m[K_CharT[m[K’ (‘[01m[Kchar[m[K’ and ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’)
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+In file included from [01m[K/usr/include/c++/5/string:52:0[m[K,
+                 from [01m[K/usr/include/c++/5/bits/locale_classes.h:40[m[K,
+                 from [01m[K/usr/include/c++/5/bits/ios_base.h:41[m[K,
+                 from [01m[K/usr/include/c++/5/ios:42[m[K,
+                 from [01m[K/usr/include/c++/5/ostream:38[m[K,
+                 from [01m[K/usr/include/c++/5/iterator:64[m[K,
+                 from [01m[K/usr/include/boost/detail/iterator.hpp:11[m[K,
+                 from [01m[K/usr/include/boost/iterator/iterator_traits.hpp:8[m[K,
+                 from [01m[K/usr/include/boost/range/mutable_iterator.hpp:23[m[K,
+                 from [01m[K/usr/include/boost/range/iterator.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/begin.hpp:24[m[K,
+                 from [01m[K/usr/include/boost/assign/list_inserter.hpp:22[m[K,
+                 from [01m[K/usr/include/boost/assign/std/vector.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign/std.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/assign.hpp:19[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:34[m[K:
+[01m[K/usr/include/c++/5/bits/basic_string.h:5172:5:[m[K [01;36m[Knote: [m[Kcandidate: template<class _CharT, class _Traits, class _Alloc> std::basic_ostream<_CharT, _Traits>& std::operator<<(std::basic_ostream<_CharT, _Traits>&, const std::__cxx11::basic_string<_CharT, _Traits, _Alloc>&)
+     operator<<(basic_ostream<_CharT, _Traits>& __os,
+[01;32m[K     ^[m[K
+[01m[K/usr/include/c++/5/bits/basic_string.h:5172:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:71:29:[m[K [01;36m[Knote: [m[K  ‘[01m[Kturtle_control::TurtleHardware::AngularVel[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Alloc>[m[K’
+   std::cout << angularVel_[3] << '\n';
+[01;32m[K                             ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

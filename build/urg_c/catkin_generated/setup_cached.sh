@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/urg_c:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/urg_c/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/urg_c/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/trex/turtle_drive/build/urg_c"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/urg_c/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/urg_c:$ROS_PACKAGE_PATH"

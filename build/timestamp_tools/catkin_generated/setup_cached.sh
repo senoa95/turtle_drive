@@ -8,6 +8,8 @@
 
 # modified environment variables
 export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/timestamp_tools:$CMAKE_PREFIX_PATH"
+export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/timestamp_tools/lib:$LD_LIBRARY_PATH"
+export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/timestamp_tools/lib/pkgconfig:$PKG_CONFIG_PATH"
 export PWD="/home/trex/turtle_drive/build/timestamp_tools"
 export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/timestamp_tools/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
 export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/driver_common/timestamp_tools:$ROS_PACKAGE_PATH"

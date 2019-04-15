@@ -1,0 +1,50 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In constructor ‘[01m[Kturtle_control::TurtleHardware::TurtleHardware()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompiled_imu_pub[m[K’ was not declared in this scope
+   compiled_imu_pub = nh_.advertise<sensor_msgs::imu>("/compiled_imu", 1000);
+[01;32m[K   ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+   compiled_imu_pub = nh_.advertise<sensor_msgs::imu>("/compiled_imu", 1000);
+[01;32m[K                                    ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:36:[m[K [01;31m[Kerror: [m[K‘[01m[Kimu[m[K’ is not a member of ‘[01m[Ksensor_msgs[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:75:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kros::NodeHandle::advertise(const char [14], int)[m[K’
+   compiled_imu_pub = nh_.advertise<sensor_msgs::imu>("/compiled_imu", 1000);
+[01;32m[K                                                                           ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, bool)
+     Publisher advertise(const std::string& topic, uint32_t queue_size, bool latch = false)
+[01;32m[K               ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:249:15:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   compiled_imu_pub = nh_.advertise<sensor_msgs::imu>("/compiled_imu", 1000);
+[01;32m[K                                                                           ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[Kcandidate: template<class M> ros::Publisher ros::NodeHandle::advertise(const string&, uint32_t, const SubscriberStatusCallback&, const SubscriberStatusCallback&, const VoidConstPtr&, bool)
+   Publisher advertise(const std::string& topic, uint32_t queue_size,
+[01;32m[K             ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:315:13:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:66:75:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   compiled_imu_pub = nh_.advertise<sensor_msgs::imu>("/compiled_imu", 1000);
+[01;32m[K                                                                           ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:85:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::x[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const {aka const double& (tf2::QuadWord::)() const}[m[K’ to type ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >::_x_type {aka double}[m[K’
+   imu_msg.orientation.x = quat.x;
+[01;32m[K                         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:86:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::y[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const {aka const double& (tf2::QuadWord::)() const}[m[K’ to type ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >::_y_type {aka double}[m[K’
+   imu_msg.orientation.y = quat.y;
+[01;32m[K                         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:87:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::z[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const {aka const double& (tf2::QuadWord::)() const}[m[K’ to type ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >::_z_type {aka double}[m[K’
+   imu_msg.orientation.z = quat.z;
+[01;32m[K                         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:88:25:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ktf2::QuadWord::w[m[K’ from type ‘[01m[Kconst tf2Scalar& (tf2::QuadWord::)() const {aka const double& (tf2::QuadWord::)() const}[m[K’ to type ‘[01m[Kgeometry_msgs::Quaternion_<std::allocator<void> >::_w_type {aka double}[m[K’
+   imu_msg.orientation.w = quat.w;
+[01;32m[K                         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:95:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcompiled_imu_pub[m[K’ was not declared in this scope
+   compiled_imu_pub.publish(imu_msg)
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

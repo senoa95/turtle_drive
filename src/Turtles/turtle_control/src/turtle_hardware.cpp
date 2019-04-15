@@ -57,11 +57,40 @@ TurtleHardware::TurtleHardware()
 
   left_feedback_sub_ = nh_.subscribe("left/feedback", 1, &TurtleHardware::feedbackCallback_left, this);
   right_feedback_sub_ = nh_.subscribe("right/feedback", 1, &TurtleHardware::feedbackCallback_right, this);
-  angular_velocity_sub_ = nh_.subscribe("/imu", 1, &TurtleHardware::imu_callback, this);
+  corrimudata_sub_ = nh_.subscribe("/corrimudata", 1, &TurtleHardware::corrimudataCallback, this);
+  inspva_sub_ = nh_.subscribe("/inspva", 1, &TurtleHardware::inspvaCallback, this);
   left_motor_pub = nh_.advertise<roboteq_msgs::Command>("/left/cmd", 1000);
   right_motor_pub = nh_.advertise<roboteq_msgs::Command>("/right/cmd", 1000);
-  // Realtime publisher, initializes differently from regular ros::Publisher
-  //cmd_drive_pub_.init(nh_, "cmd_drive", 1);
+  compiled_imu_pub = nh_.advertise<sensor_msgs::Imu>("/compiled_imu", 1000);
+}
+
+void TurtleHardware::subscribeToImu()
+{
+  boost::mutex::scoped_lock corrimudata_msg_lock(corrimudata_msg_mutex_, boost::try_to_lock);
+  tf2::Quaternion quat;
+  sensor_msgs::Imu imu_msg;
+  corrimudata_.pitch_rate = corrimudata_msg_.pitch_rate * 20;
+  corrimudata_.roll_rate = corrimudata_msg_.roll_rate * 20;
+  corrimudata_.yaw_rate = corrimudata_msg_.yaw_rate * 20;
+  corrimudata_.lateral_acceleration = corrimudata_msg_.lateral_acceleration;
+  corrimudata_.longitudinal_acceleration = corrimudata_msg_.longitudinal_acceleration;
+  corrimudata_.vertical_acceleration = corrimudata_msg_.vertical_acceleration;
+  boost::mutex::scoped_lock inspva_data_msg_lock(inspva_data_msg_mutex_, boost::try_to_lock);
+  inspva_data_.pitch = inspva_data_msg_.pitch;
+  inspva_data_.roll = inspva_data_msg_.roll;
+  inspva_data_.azimuth = inspva_data_msg_.azimuth;
+  quat.setRPY(inspva_data_.roll, inspva_data_.pitch, inspva_data_.azimuth); // create quaternion
+  imu_msg.orientation.x = quat[0];
+  imu_msg.orientation.y = quat[1];
+  imu_msg.orientation.z = quat[2];
+  imu_msg.orientation.w = quat[3];
+  imu_msg.angular_velocity.x = corrimudata_.roll_rate;
+  imu_msg.angular_velocity.y = corrimudata_.pitch_rate;
+  imu_msg.angular_velocity.z = corrimudata_.yaw_rate;
+  imu_msg.linear_acceleration.x = corrimudata_.lateral_acceleration;
+  imu_msg.linear_acceleration.y = corrimudata_.longitudinal_acceleration;
+  imu_msg.linear_acceleration.z = corrimudata_.vertical_acceleration;
+  compiled_imu_pub.publish(imu_msg);
 }
 
 /**
@@ -86,7 +115,6 @@ void TurtleHardware::copyJointsFromHardware()
       joints_[3].position = right_feedback_msg_.measured_position/20;
       joints_[3].velocity = right_feedback_msg_.measured_velocity/20;
       joints_[3].effort = 0;  // TODO(mikepurvis): determine this from amperage data.
-
   }
 
 /**
@@ -104,6 +132,22 @@ void TurtleHardware::publishDriveFromController()
 	right_msg.setpoint=(joints_[3].velocity_command)*.9091*20;
   left_motor_pub.publish(left_msg);
   right_motor_pub.publish(right_msg);
+}
+
+void TurtleHardware::corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg)
+{
+  // Update the feedback message pointer to point to the current message. Block
+  // until the control thread is not using the lock.
+  boost::mutex::scoped_lock corrimu_lock(corrimudata_msg_mutex_);
+  corrimudata_msg_ = msg;
+}
+
+void TurtleHardware::inspvaCallback(const novatel_gps_msgs::Inspva msg)
+{
+  // Update the feedback message pointer to point to the current message. Block
+  // until the control thread is not using the lock.
+  boost::mutex::scoped_lock inspva_lock(inspva_data_msg_mutex_);
+  inspva_data_msg_ = msg;
 
 }
 
@@ -124,5 +168,13 @@ void TurtleHardware::feedbackCallback_right(const roboteq_msgs::Feedback msg)
   right_feedback_msg_ = msg;
 
 }
+}
 
-}  // namespace jackal_base
+// namespace turte_sensor
+// {
+//
+//   ImuFeedback::ImuFeedback()
+//   {
+//     imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback, this);
+//   }
+// }
