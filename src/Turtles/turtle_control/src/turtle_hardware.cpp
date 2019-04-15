@@ -80,6 +80,8 @@ void TurtleHardware::subscribeToImu()
   inspva_data_.roll = inspva_data_msg_.roll;
   inspva_data_.azimuth = inspva_data_msg_.azimuth;
   quat.setRPY(inspva_data_.roll, inspva_data_.pitch, inspva_data_.azimuth); // create quaternion
+  imu_msg.header.stamp = ros::Time::now();
+  imu_msg.header.frame_id = "base_link";
   imu_msg.orientation.x = quat[0];
   imu_msg.orientation.y = quat[1];
   imu_msg.orientation.z = quat[2];
