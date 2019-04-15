@@ -1,0 +1,12 @@
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/turtle_localization.pc
+Symlinking /home/sena/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig.cmake
+Symlinking /home/sena/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake, /home/trex/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig.cmake, /home/trex/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/turtle_localization/lib/pkgconfig/turtle_localization.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/turtle_localization.pc)
+Unlinking: /home/trex/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/turtle_localization.pc
+Already unlinked: {}

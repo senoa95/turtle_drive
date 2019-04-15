@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/novatel_imu
+prefix=/home/sena/turtle_drive/devel/.private/novatel_imu
 
 Name: novatel_imu
 Description: Description of novatel_imu
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/novatel_imu/lib 
+Libs: -L/home/sena/turtle_drive/devel/.private/novatel_imu/lib 
 Requires: 

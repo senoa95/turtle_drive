@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/home/trex/turtle_drive/build/novatel_gps_driver/novatel_gps_node.cpp
+/home/sena/turtle_drive/build/novatel_gps_driver/novatel_gps_node.cpp
 boost/shared_ptr.hpp
 -
 ros/ros.h
-/home/trex/turtle_drive/build/novatel_gps_driver/ros/ros.h
+/home/sena/turtle_drive/build/novatel_gps_driver/ros/ros.h
 nodelet/nodelet.h
-/home/trex/turtle_drive/build/novatel_gps_driver/nodelet/nodelet.h
+/home/sena/turtle_drive/build/novatel_gps_driver/nodelet/nodelet.h
 
 /opt/ros/kinetic/include/nodelet/exception.h
 stdexcept

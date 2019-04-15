@@ -1,0 +1,16 @@
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc
+Symlinking /home/sena/turtle_drive/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node
+Symlinking /home/sena/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake
+Symlinking /home/sena/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake, /home/trex/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake, /home/trex/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_imu_attitude_to_tf/lib/pkgconfig/hector_imu_attitude_to_tf.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_imu_attitude_to_tf/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node, /home/trex/turtle_drive/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node)
+Unlinking: /home/trex/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node
+Already unlinked: {}

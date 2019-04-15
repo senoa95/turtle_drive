@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/novatel_imu
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/novatel_imu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/novatel_imu
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/novatel_imu
 
 # Utility rule file for roscpp_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/roscpp_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/clean
 
 CMakeFiles/roscpp_generate_messages_cpp.dir/depend:
-	cd /home/trex/turtle_drive/build/novatel_imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/novatel_imu /home/trex/turtle_drive/src/novatel_imu /home/trex/turtle_drive/build/novatel_imu /home/trex/turtle_drive/build/novatel_imu /home/trex/turtle_drive/build/novatel_imu/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/novatel_imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/novatel_imu /home/sena/turtle_drive/src/novatel_imu /home/sena/turtle_drive/build/novatel_imu /home/sena/turtle_drive/build/novatel_imu /home/sena/turtle_drive/build/novatel_imu/CMakeFiles/roscpp_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roscpp_generate_messages_cpp.dir/depend
 

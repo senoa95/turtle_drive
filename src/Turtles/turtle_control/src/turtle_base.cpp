@@ -44,6 +44,7 @@ typedef boost::chrono::steady_clock time_source;
 void controlThread(ros::Rate rate, turtle_control::TurtleHardware* robot, controller_manager::ControllerManager* cm)
 {
   time_source::time_point last_time = time_source::now();
+  std::string odom_type;
 
   while (1)
   {
@@ -52,12 +53,21 @@ void controlThread(ros::Rate rate, turtle_control::TurtleHardware* robot, contro
     boost::chrono::duration<double> elapsed_duration = this_time - last_time;
     ros::Duration elapsed(elapsed_duration.count());
     last_time = this_time;
+    ros::param::set("odom_type", "imu");
 
     robot->copyJointsFromHardware();
     cm->update(ros::Time::now(), elapsed);
-    robot->publishDriveFromController();
     robot->subscribeToImu();
     rate.sleep();
+
+    if (ros::param::get("encoders", odom_type))
+    {
+      robot->publishDriveFromController();
+    }
+    else if (ros::param::get("imu", odom_type))
+    {
+      robot->publishDriveFromMath();
+    }
   }
 }
 

@@ -550,12 +550,12 @@ def _get_struct_7d():
     if _struct_7d is None:
         _struct_7d = struct.Struct("<7d")
     return _struct_7d
-_struct_2I = None
-def _get_struct_2I():
-    global _struct_2I
-    if _struct_2I is None:
-        _struct_2I = struct.Struct("<2I")
-    return _struct_2I
+_struct_7d3I = None
+def _get_struct_7d3I():
+    global _struct_7d3I
+    if _struct_7d3I is None:
+        _struct_7d3I = struct.Struct("<7d3I")
+    return _struct_7d3I
 _struct_3I = None
 def _get_struct_3I():
     global _struct_3I
@@ -568,12 +568,12 @@ def _get_struct_4d():
     if _struct_4d is None:
         _struct_4d = struct.Struct("<4d")
     return _struct_4d
-_struct_7d3I = None
-def _get_struct_7d3I():
-    global _struct_7d3I
-    if _struct_7d3I is None:
-        _struct_7d3I = struct.Struct("<7d3I")
-    return _struct_7d3I
+_struct_2I = None
+def _get_struct_2I():
+    global _struct_2I
+    if _struct_2I is None:
+        _struct_2I = struct.Struct("<2I")
+    return _struct_2I
 _struct_3d = None
 def _get_struct_3d():
     global _struct_3d

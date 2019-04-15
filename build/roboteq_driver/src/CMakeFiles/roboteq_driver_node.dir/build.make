@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/roboteq/roboteq_driver
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/roboteq/roboteq_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/roboteq_driver
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/roboteq_driver
 
 # Include any dependencies generated for this target.
 include src/CMakeFiles/roboteq_driver_node.dir/depend.make
@@ -58,17 +58,17 @@ include src/CMakeFiles/roboteq_driver_node.dir/progress.make
 include src/CMakeFiles/roboteq_driver_node.dir/flags.make
 
 src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o: src/CMakeFiles/roboteq_driver_node.dir/flags.make
-src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o: /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/driver.cpp.o -c /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp
+src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o: /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sena/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o"
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/driver.cpp.o -c /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp
 
 src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/roboteq_driver_node.dir/driver.cpp.i"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp > CMakeFiles/roboteq_driver_node.dir/driver.cpp.i
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp > CMakeFiles/roboteq_driver_node.dir/driver.cpp.i
 
 src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/roboteq_driver_node.dir/driver.cpp.s"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp -o CMakeFiles/roboteq_driver_node.dir/driver.cpp.s
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/driver.cpp -o CMakeFiles/roboteq_driver_node.dir/driver.cpp.s
 
 src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o.requires:
 
@@ -82,17 +82,17 @@ src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o.provides.build: src/CMakeFil
 
 
 src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o: src/CMakeFiles/roboteq_driver_node.dir/flags.make
-src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o: /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/controller.cpp.o -c /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp
+src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o: /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sena/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o"
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/controller.cpp.o -c /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp
 
 src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/roboteq_driver_node.dir/controller.cpp.i"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp > CMakeFiles/roboteq_driver_node.dir/controller.cpp.i
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp > CMakeFiles/roboteq_driver_node.dir/controller.cpp.i
 
 src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/roboteq_driver_node.dir/controller.cpp.s"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp -o CMakeFiles/roboteq_driver_node.dir/controller.cpp.s
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/controller.cpp -o CMakeFiles/roboteq_driver_node.dir/controller.cpp.s
 
 src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o.requires:
 
@@ -106,17 +106,17 @@ src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o.provides.build: src/CMak
 
 
 src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o: src/CMakeFiles/roboteq_driver_node.dir/flags.make
-src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o: /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/channel.cpp.o -c /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp
+src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o: /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sena/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o"
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/roboteq_driver_node.dir/channel.cpp.o -c /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp
 
 src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/roboteq_driver_node.dir/channel.cpp.i"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp > CMakeFiles/roboteq_driver_node.dir/channel.cpp.i
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp > CMakeFiles/roboteq_driver_node.dir/channel.cpp.i
 
 src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/roboteq_driver_node.dir/channel.cpp.s"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp -o CMakeFiles/roboteq_driver_node.dir/channel.cpp.s
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sena/turtle_drive/src/roboteq/roboteq_driver/src/channel.cpp -o CMakeFiles/roboteq_driver_node.dir/channel.cpp.s
 
 src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o.requires:
 
@@ -138,37 +138,37 @@ roboteq_driver_node_OBJECTS = \
 # External object files for target roboteq_driver_node
 roboteq_driver_node_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/build.make
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /home/trex/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libserial.so
-/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node"
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roboteq_driver_node.dir/link.txt --verbose=$(VERBOSE)
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/driver.cpp.o
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/controller.cpp.o
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/channel.cpp.o
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/build.make
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /home/sena/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/librostime.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: /opt/ros/kinetic/lib/libserial.so
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node: src/CMakeFiles/roboteq_driver_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sena/turtle_drive/build/roboteq_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node"
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/roboteq_driver_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-src/CMakeFiles/roboteq_driver_node.dir/build: /home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node
+src/CMakeFiles/roboteq_driver_node.dir/build: /home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node
 
 .PHONY : src/CMakeFiles/roboteq_driver_node.dir/build
 
@@ -179,10 +179,10 @@ src/CMakeFiles/roboteq_driver_node.dir/requires: src/CMakeFiles/roboteq_driver_n
 .PHONY : src/CMakeFiles/roboteq_driver_node.dir/requires
 
 src/CMakeFiles/roboteq_driver_node.dir/clean:
-	cd /home/trex/turtle_drive/build/roboteq_driver/src && $(CMAKE_COMMAND) -P CMakeFiles/roboteq_driver_node.dir/cmake_clean.cmake
+	cd /home/sena/turtle_drive/build/roboteq_driver/src && $(CMAKE_COMMAND) -P CMakeFiles/roboteq_driver_node.dir/cmake_clean.cmake
 .PHONY : src/CMakeFiles/roboteq_driver_node.dir/clean
 
 src/CMakeFiles/roboteq_driver_node.dir/depend:
-	cd /home/trex/turtle_drive/build/roboteq_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/roboteq/roboteq_driver /home/trex/turtle_drive/src/roboteq/roboteq_driver/src /home/trex/turtle_drive/build/roboteq_driver /home/trex/turtle_drive/build/roboteq_driver/src /home/trex/turtle_drive/build/roboteq_driver/src/CMakeFiles/roboteq_driver_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/roboteq_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/roboteq/roboteq_driver /home/sena/turtle_drive/src/roboteq/roboteq_driver/src /home/sena/turtle_drive/build/roboteq_driver /home/sena/turtle_drive/build/roboteq_driver/src /home/sena/turtle_drive/build/roboteq_driver/src/CMakeFiles/roboteq_driver_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : src/CMakeFiles/roboteq_driver_node.dir/depend
 

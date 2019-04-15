@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/trex/turtle_drive/build/turtle_localization")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/sena/turtle_drive/build/turtle_localization")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/trex/turtle_drive/src/laser_proc/include/laser_proc/LaserProc.h
+/home/sena/turtle_drive/src/laser_proc/include/laser_proc/LaserProc.h
 sensor_msgs/LaserScan.h
 -
 sensor_msgs/MultiEchoLaserScan.h
@@ -24,7 +24,7 @@ stdexcept
 sstream
 -
 
-/home/trex/turtle_drive/src/laser_proc/src/LaserProc.cpp
+/home/sena/turtle_drive/src/laser_proc/src/LaserProc.cpp
 laser_proc/LaserProc.h
 -
 

@@ -46,6 +46,10 @@
 #include "novatel_gps_msgs/NovatelCorrectedImuData.h"
 #include "novatel_gps_msgs/Inspva.h"
 #include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include "geometry_msgs/Twist.h"
+#include "geometry_msgs/Point.h"
+#include "sensor_msgs/Joy.h"
+#include "math.h"
 
 namespace turtle_control
 {
@@ -57,6 +61,7 @@ public:
   void copyJointsFromHardware();
   void publishDriveFromController();
   void subscribeToImu();
+  void publishDriveFromMath();
 
 
 private:
@@ -64,6 +69,7 @@ private:
   void feedbackCallback_right(const roboteq_msgs::Feedback msg);
   void corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg);
   void inspvaCallback(const novatel_gps_msgs::Inspva msg);
+  void cmdvelCallback(const geometry_msgs::Twist msg);
 
   ros::NodeHandle nh_;
   ros::Subscriber left_feedback_sub_;
@@ -73,6 +79,7 @@ private:
   ros::Subscriber corrimudata_sub_;
   ros::Subscriber inspva_sub_;
   ros::Publisher compiled_imu_pub;
+  ros::Subscriber cmd_vel_sub_;
 
   hardware_interface::JointStateInterface joint_state_interface_;
   hardware_interface::VelocityJointInterface velocity_joint_interface_;
@@ -102,8 +109,11 @@ private:
     float pitch;
     float roll;
     float azimuth;
+    float x_vel;
+    float y_vel;
+    float z_vel;
 
-    InspvaData() : pitch(0), roll(0), azimuth(0)
+    InspvaData() : pitch(0), roll(0), azimuth(0), x_vel(0), y_vel(0), z_vel(0)
     {
     }
   }
@@ -129,19 +139,22 @@ private:
   novatel_gps_msgs::NovatelCorrectedImuData corrimudata_msg_;
   boost::mutex corrimudata_msg_mutex_;
 
-  // struct LinearAccel
-  // {
-  //   float x_accel;
-  //   float y_accel;
-  //   float z_accel;
-  //
-  //   LinearAccel() : x_accel(0), y_accel(0), z_accel(0)
-  //   {
-  //   }
-  // }
-  // linearAccel_;
-  // novatel_gps_msgs::NovatelCorrectedImuData linear_accel_msg_;
-  // boost::mutex linear_accel_msg_mutex_;
+  struct VelocityCommand
+  {
+    float linearX;
+    float linearY;
+    float linearZ;
+    float angularX;
+    float angularY;
+    float angularZ;
+
+    VelocityCommand() : linearX(0), linearY(0), linearZ(0), angularX(0), angularY(), angularZ()
+    {
+    }
+  }
+  velocity_cmd_;
+  geometry_msgs::Twist cmd_vel_msg_;
+  boost::mutex cmd_vel_msg_mutex_;
 };
 
 }

@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/turtle_control
+prefix=/home/sena/turtle_drive/devel/.private/turtle_control
 
 Name: turtle_control
 Description: Description of turtle_control
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/turtle_control/lib 
+Libs: -L/home/sena/turtle_drive/devel/.private/turtle_control/lib 
 Requires: 

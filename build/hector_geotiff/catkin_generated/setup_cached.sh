@@ -7,9 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/hector_geotiff:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/hector_geotiff/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/hector_geotiff/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/trex/turtle_drive/build/hector_geotiff"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/hector_geotiff/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/hector_slam/hector_geotiff:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/hector_geotiff:$CMAKE_PREFIX_PATH"
+export PWD="/home/sena/turtle_drive/build/hector_geotiff"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/hector_geotiff/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/hector_slam/hector_geotiff:$ROS_PACKAGE_PATH"

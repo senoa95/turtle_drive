@@ -1,6 +1,6 @@
-devel_space: /home/trex/turtle_drive/devel
+devel_space: /home/sena/turtle_drive/devel
 install: false
-install_space: /home/trex/turtle_drive/install
+install_space: /home/sena/turtle_drive/install
 profile: default
-source_space: /home/trex/turtle_drive/src
-workspace: /home/trex/turtle_drive
+source_space: /home/sena/turtle_drive/src
+workspace: /home/sena/turtle_drive

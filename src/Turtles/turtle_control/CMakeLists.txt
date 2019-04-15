@@ -14,6 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
   hardware_interface
   controller_manager
   roboteq_msgs
+  novatel_gps_msgs
 
 )
 

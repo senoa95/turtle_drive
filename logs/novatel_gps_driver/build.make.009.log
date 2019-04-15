@@ -1,0 +1,11 @@
+[ 81%] Built target novatel_gps_driver
+[ 86%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver_nodelets.dir/src/nodelets/novatel_gps_nodelet.cpp.o[0m
+[01m[K/home/sena/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/nodelets/novatel_gps_nodelet.cpp:775:22:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+           std::cout<<'what is this';
+[01;32m[K                      ^[m[K
+[ 90%] [32m[1mLinking CXX shared library /home/sena/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver_nodelets.so[0m
+[ 90%] Built target novatel_gps_driver_nodelets
+[35m[1mScanning dependencies of target novatel_gps_node[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/novatel_gps_node.dir/novatel_gps_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/sena/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/novatel_gps_node[0m
+[100%] Built target novatel_gps_node

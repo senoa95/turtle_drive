@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roboteq_msgs_generate_messages_py"
-  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Feedback.py"
-  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Command.py"
-  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Status.py"
-  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/__init__.py"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Status.py"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Feedback.py"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/_Command.py"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/lib/python2.7/dist-packages/roboteq_msgs/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

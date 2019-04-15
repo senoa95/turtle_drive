@@ -1,0 +1,76 @@
+In file included from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:69:42:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   void cmdvelCallback(const sensor_msgs::Joy msg);
+[01;32m[K                                          ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:79:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Subscriber turtle_control::TurtleHardware::compiled_imu_pub[m[K’
+   ros::Subscriber compiled_imu_pub;
+[01;32m[K                   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:78:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kros::Publisher turtle_control::TurtleHardware::compiled_imu_pub[m[K’
+   ros::Publisher compiled_imu_pub;
+[01;32m[K                  ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:115:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity_data_[m[K’ does not name a type
+   linear_velocity_data_;
+[01;32m[K   ^[m[K
+In file included from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:[m[K In constructor ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand::VelocityCommand()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:25:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KlinearX[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                         ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:36:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KlinearY[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                    ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:47:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KlinearZ[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                               ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:58:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KangularX[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                          ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:70:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KangularY[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                                      ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:82:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’ does not have any field named ‘[01m[KangularZ[m[K’
+     VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                                                  ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In constructor ‘[01m[Kturtle_control::TurtleHardware::TurtleHardware()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:62:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_vel_sub_[m[K’ was not declared in this scope
+   cmd_vel_sub_ = nh_.subscribe("/turtle_velocity_controller/cmd_vel", 1, &TurtleHardware::cmdvelCallback, this);
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:84:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity_data_[m[K’ was not declared in this scope
+   linear_velocity_data_.x = inspva_data_msg_.north_velocity;
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::publishDriveFromMath()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:148:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kfloat[m[K’
+   float prev_xVel_err
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:155:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kright_msg[m[K’ was not declared in this scope
+   right_msg.mode=0;
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:156:3:[m[K [01;31m[Kerror: [m[K‘[01m[KxVel_err[m[K’ was not declared in this scope
+   xVel_err =
+[01;32m[K   ^[m[K
+In file included from [01m[K/opt/ros/kinetic/include/ros/serialization.h:37:0[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/publisher.h:34[m[K,
+                 from [01m[K/opt/ros/kinetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/kinetic/include/hardware_interface/robot_hw.h:39[m[K,
+                 from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:40[m[K,
+                 from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35[m[K:
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::MD5Sum<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:228:102:[m[K   required from ‘[01m[Kconst char* ros::message_traits::md5sum() [with M = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:89:49:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = int; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = int; T = turtle_control::TurtleHardware; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:62:111:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:121:28:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getMD5Sum[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return M::__s_getMD5Sum().c_str();
+[01;32m[K                            ^[m[K
+/opt/ros/kinetic/include/ros/message_traits.h: In instantiation of ‘[01m[Kstatic const char* ros::message_traits::DataType<M>::value() [with M = int][m[K’:
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:237:104:[m[K   required from ‘[01m[Kconst char* ros::message_traits::datatype() [with M = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/subscribe_options.h:90:53:[m[K   required from ‘[01m[Kvoid ros::SubscribeOptions::initByFullCallbackType(const string&, uint32_t, const boost::function<void(P)>&, const boost::function<boost::shared_ptr<typename ros::ParameterAdapter<P>::Message>()>&) [with P = int; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int; typename ros::ParameterAdapter<P>::Message = int][m[K’
+[01m[K/opt/ros/kinetic/include/ros/node_handle.h:406:5:[m[K   required from ‘[01m[Kros::Subscriber ros::NodeHandle::subscribe(const string&, uint32_t, void (T::*)(M), T*, const ros::TransportHints&) [with M = int; T = turtle_control::TurtleHardware; std::__cxx11::string = std::__cxx11::basic_string<char>; uint32_t = unsigned int][m[K’
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:62:111:[m[K   required from here
+[01m[K/opt/ros/kinetic/include/ros/message_traits.h:138:30:[m[K [01;31m[Kerror: [m[K‘[01m[K__s_getDataType[m[K’ is not a member of ‘[01m[Kint[m[K’
+     return M::__s_getDataType().c_str();
+[01;32m[K                              ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/urg_c
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/urg_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/urg_c
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/urg_c
 
 # Include any dependencies generated for this target.
 include CMakeFiles/open_urg_sensor.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/open_urg_sensor.dir/progress.make
 include CMakeFiles/open_urg_sensor.dir/flags.make
 
 CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o: CMakeFiles/open_urg_sensor.dir/flags.make
-CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o: /home/trex/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o   -c /home/trex/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c
+CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o: /home/sena/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sena/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o   -c /home/sena/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c
 
 CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/trex/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c > CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/sena/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c > CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.i
 
 CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/trex/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c -o CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/sena/turtle_drive/src/urg_c/current/samples/open_urg_sensor.c -o CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.s
 
 CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o.requires:
 
@@ -88,15 +88,15 @@ open_urg_sensor_OBJECTS = \
 # External object files for target open_urg_sensor
 open_urg_sensor_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o
-/home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/build.make
-/home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: /home/trex/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
-/home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library /home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so"
+/home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/current/samples/open_urg_sensor.c.o
+/home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/build.make
+/home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: /home/sena/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
+/home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so: CMakeFiles/open_urg_sensor.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sena/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C shared library /home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/open_urg_sensor.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/open_urg_sensor.dir/build: /home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
+CMakeFiles/open_urg_sensor.dir/build: /home/sena/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
 
 .PHONY : CMakeFiles/open_urg_sensor.dir/build
 
@@ -109,6 +109,6 @@ CMakeFiles/open_urg_sensor.dir/clean:
 .PHONY : CMakeFiles/open_urg_sensor.dir/clean
 
 CMakeFiles/open_urg_sensor.dir/depend:
-	cd /home/trex/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c/CMakeFiles/open_urg_sensor.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/urg_c /home/sena/turtle_drive/src/urg_c /home/sena/turtle_drive/build/urg_c /home/sena/turtle_drive/build/urg_c /home/sena/turtle_drive/build/urg_c/CMakeFiles/open_urg_sensor.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/open_urg_sensor.dir/depend
 

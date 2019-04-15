@@ -7,10 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/urg_node:$CMAKE_PREFIX_PATH"
-export LD_LIBRARY_PATH="/home/trex/turtle_drive/devel/.private/urg_node/lib:$LD_LIBRARY_PATH"
-export PKG_CONFIG_PATH="/home/trex/turtle_drive/devel/.private/urg_node/lib/pkgconfig:$PKG_CONFIG_PATH"
-export PWD="/home/trex/turtle_drive/build/urg_node"
-export PYTHONPATH="/home/trex/turtle_drive/devel/.private/urg_node/lib/python2.7/dist-packages:$PYTHONPATH"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/urg_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/urg_node:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/urg_node:$CMAKE_PREFIX_PATH"
+export PWD="/home/sena/turtle_drive/build/urg_node"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/urg_node/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/urg_node:$ROS_PACKAGE_PATH"

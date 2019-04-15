@@ -1,0 +1,48 @@
+In file included from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:68:42:[m[K [01;31m[Kerror: [m[K‘[01m[KJoy[m[K’ in namespace ‘[01m[Ksensor_msgs[m[K’ does not name a type
+   void cmdvelCallback(const sensor_msgs::Joy msg);
+[01;32m[K                                          ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:78:19:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kros::Subscriber turtle_control::TurtleHardware::compiled_imu_pub[m[K’
+   ros::Subscriber compiled_imu_pub;
+[01;32m[K                   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:77:18:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kros::Publisher turtle_control::TurtleHardware::compiled_imu_pub[m[K’
+   ros::Publisher compiled_imu_pub;
+[01;32m[K                  ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:114:3:[m[K [01;31m[Kerror: [m[K‘[01m[Klinear_velocity_data_[m[K’ does not name a type
+   linear_velocity_data_;
+[01;32m[K   ^[m[K
+In file included from [01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:35:0[m[K:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:136:3:[m[K [01;31m[Kerror: [m[Knew types may not be defined in a return type
+   struct VelocityCommand
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:136:3:[m[K [01;36m[Knote: [m[K(perhaps a semicolon is missing after the definition of ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand[m[K’)
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:[m[K In member function ‘[01m[Kturtle_control::TurtleHardware::VelocityCommand turtle_control::TurtleHardware::VelocityCommand()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:23:[m[K [01;31m[Kerror: [m[Konly constructors take member initializers
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                       ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:23:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KlinearX[m[K’
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:34:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KlinearY[m[K’
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                  ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:45:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KlinearZ[m[K’
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                             ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:56:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KangularX[m[K’
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                        ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:68:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KangularY[m[K’
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                                    ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:142:80:[m[K [01;31m[Kerror: [m[Kclass ‘[01m[Kturtle_control::TurtleHardware[m[K’ does not have any field named ‘[01m[KangularZ[m[K’
+   VelocityCommand() : linearX(), linearY(), linearZ(), angularX(), angularY(), angularZ()
+[01;32m[K                                                                                ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:[m[K At global scope:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:147:18:[m[K [01;31m[Kerror: [m[K‘[01m[KTwist[m[K’ in namespace ‘[01m[Kgeometry_msgs[m[K’ does not name a type
+   geometry_msgs::Twist velcoty_cmd_msg_;
+[01;32m[K                  ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/include/turtle_control/turtle_hardware.h:151:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

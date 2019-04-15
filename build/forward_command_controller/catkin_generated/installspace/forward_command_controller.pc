@@ -1,8 +1,0 @@
-prefix=/home/trex/turtle_drive/install
-
-Name: forward_command_controller
-Description: Description of forward_command_controller
-Version: 0.15.0
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib 
-Requires: controller_interface hardware_interface std_msgs realtime_tools

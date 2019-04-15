@@ -1,0 +1,10 @@
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::publishDriveFromMath()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:188:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_lin_vel[m[K’ was not declared in this scope
+   cmd_lin_vel = kp_lin_vel*xVel_err + ki_lin_vel*xVel_err_sum + kd_lin_vel*xVel_err_diff;
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:189:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kcmd_ang_vel[m[K’ was not declared in this scope
+   cmd_ang_vel = kp_ang_vel*thetaDot_err + ki_ang_vel*thetaDot_err_sum + kd_ang_vel*thetaDot_err_diff;
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

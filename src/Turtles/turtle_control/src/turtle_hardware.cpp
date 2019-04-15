@@ -59,6 +59,7 @@ TurtleHardware::TurtleHardware()
   right_feedback_sub_ = nh_.subscribe("right/feedback", 1, &TurtleHardware::feedbackCallback_right, this);
   corrimudata_sub_ = nh_.subscribe("/corrimudata", 1, &TurtleHardware::corrimudataCallback, this);
   inspva_sub_ = nh_.subscribe("/inspva", 1, &TurtleHardware::inspvaCallback, this);
+  cmd_vel_sub_ = nh_.subscribe("/turtle_velocity_controller/cmd_vel", 1, &TurtleHardware::cmdvelCallback, this);
   left_motor_pub = nh_.advertise<roboteq_msgs::Command>("/left/cmd", 1000);
   right_motor_pub = nh_.advertise<roboteq_msgs::Command>("/right/cmd", 1000);
   compiled_imu_pub = nh_.advertise<sensor_msgs::Imu>("/compiled_imu", 1000);
@@ -69,9 +70,10 @@ void TurtleHardware::subscribeToImu()
   boost::mutex::scoped_lock corrimudata_msg_lock(corrimudata_msg_mutex_, boost::try_to_lock);
   tf2::Quaternion quat;
   sensor_msgs::Imu imu_msg;
-  corrimudata_.pitch_rate = corrimudata_msg_.pitch_rate * 20;
-  corrimudata_.roll_rate = corrimudata_msg_.roll_rate * 20;
-  corrimudata_.yaw_rate = corrimudata_msg_.yaw_rate * 20;
+  int imu_rate_ = 20;
+  corrimudata_.pitch_rate = corrimudata_msg_.pitch_rate * imu_rate_;
+  corrimudata_.roll_rate = corrimudata_msg_.roll_rate * imu_rate_;
+  corrimudata_.yaw_rate = corrimudata_msg_.yaw_rate * imu_rate_;
   corrimudata_.lateral_acceleration = corrimudata_msg_.lateral_acceleration;
   corrimudata_.longitudinal_acceleration = corrimudata_msg_.longitudinal_acceleration;
   corrimudata_.vertical_acceleration = corrimudata_msg_.vertical_acceleration;
@@ -79,6 +81,9 @@ void TurtleHardware::subscribeToImu()
   inspva_data_.pitch = inspva_data_msg_.pitch;
   inspva_data_.roll = inspva_data_msg_.roll;
   inspva_data_.azimuth = inspva_data_msg_.azimuth;
+  inspva_data_.x_vel = inspva_data_msg_.north_velocity;
+  inspva_data_.y_vel = inspva_data_msg_.east_velocity;
+  inspva_data_.z_vel = inspva_data_msg_.up_velocity;
   quat.setRPY(inspva_data_.roll, inspva_data_.pitch, inspva_data_.azimuth); // create quaternion
   imu_msg.orientation.x = quat[0];
   imu_msg.orientation.y = quat[1];
@@ -134,6 +139,68 @@ void TurtleHardware::publishDriveFromController()
   right_motor_pub.publish(right_msg);
 }
 
+
+void TurtleHardware::publishDriveFromMath()
+{
+	roboteq_msgs::Command left_msg;
+  roboteq_msgs::Command right_msg;
+  double curr_time = ros::Time::now().toSec();
+  double prev_time;
+  float des_vel;
+  float xVel_err;
+  float xVel;
+  float prev_xVel_err;
+  float thetaDot_err;
+  float prev_thetaDot_err;
+  float xVel_err_diff;
+  float thetaDot_err_diff;
+  float xVel_err_sum;
+  float thetaDot_err_sum;
+  float cmd_lin_vel;
+  float cmd_ang_vel;
+
+
+
+  int yaw_rate = 20;
+  double L = 0.7; //0.7 meters wheel separation
+  double R = 0.41; //0.41 meter diameter
+  double del_time = curr_time - prev_time;
+
+  float kp_lin_vel = 1;
+  float ki_lin_vel = 0.1;
+  float kd_lin_vel = 0.2;
+
+  float kp_ang_vel = 1;
+  float ki_ang_vel = 0.1;
+  float kd_ang_vel = 0.2;
+
+  float thetaDot = corrimudata_msg_.yaw_rate * yaw_rate;
+  float des_xVel = cmd_vel_msg_.linear.x;
+  float des_thetaDot = cmd_vel_msg_.angular.z;
+
+  std::cout << "here" << '\n';
+
+  xVel = (((2*R*joints_[0].velocity - thetaDot*L) / 2) + ((2*R*joints_[1].velocity + thetaDot*L) / 2))/2;
+
+  xVel_err = des_xVel - xVel;
+  thetaDot_err = des_thetaDot - thetaDot;
+
+  xVel_err_diff = xVel_err - prev_xVel_err;
+  thetaDot_err_diff = thetaDot_err - prev_thetaDot_err;
+  xVel_err_sum = xVel_err_sum + xVel_err;
+  thetaDot_err_sum = thetaDot_err_sum + thetaDot_err;
+
+  cmd_lin_vel = kp_lin_vel*xVel_err + ki_lin_vel*xVel_err_sum + kd_lin_vel*xVel_err_diff;
+  cmd_ang_vel = kp_ang_vel*thetaDot_err + ki_ang_vel*thetaDot_err_sum + kd_ang_vel*thetaDot_err_diff;
+
+  left_msg.mode=0;
+  right_msg.mode=0;
+	left_msg.setpoint= (2*cmd_lin_vel - cmd_ang_vel*L) / (2*R);
+	right_msg.setpoint= (2*cmd_lin_vel + cmd_ang_vel*L) / (2*R);;
+  left_motor_pub.publish(left_msg);
+  right_motor_pub.publish(right_msg);
+}
+
 void TurtleHardware::corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg)
 {
   // Update the feedback message pointer to point to the current message. Block
@@ -148,7 +215,6 @@ void TurtleHardware::inspvaCallback(const novatel_gps_msgs::Inspva msg)
   // until the control thread is not using the lock.
   boost::mutex::scoped_lock inspva_lock(inspva_data_msg_mutex_);
   inspva_data_msg_ = msg;
-
 }
 
 void TurtleHardware::feedbackCallback_left(const roboteq_msgs::Feedback msg)
@@ -166,15 +232,12 @@ void TurtleHardware::feedbackCallback_right(const roboteq_msgs::Feedback msg)
   // until the control thread is not using the lock.
   boost::mutex::scoped_lock right_lock(right_feedback_msg_mutex_);
   right_feedback_msg_ = msg;
-
-}
 }
 
-// namespace turte_sensor
-// {
-//
-//   ImuFeedback::ImuFeedback()
-//   {
-//     imu_sub_ = nh_.subscribe("/corrimudata", 10, &ImuFeedback::imuCallback, this);
-//   }
-// }
+void TurtleHardware::cmdvelCallback(const geometry_msgs::Twist msg)
+{
+
+  boost::mutex::scoped_lock cmdvel_lock(cmd_vel_msg_mutex_);
+  cmd_vel_msg_ = msg;
+}
+}

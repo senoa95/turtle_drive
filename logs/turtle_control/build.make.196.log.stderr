@@ -1,0 +1,10 @@
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::publishDriveFromMath()[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:148:3:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kfloat[m[K’
+   float prev_xVel_err
+[01;32m[K   ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:158:3:[m[K [01;31m[Kerror: [m[K‘[01m[KxVel_err[m[K’ was not declared in this scope
+   xVel_err = 0;
+[01;32m[K   ^[m[K
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

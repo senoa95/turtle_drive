@@ -1,1 +1,1 @@
-/home/trex/turtle_drive/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake
+/home/sena/turtle_drive/devel/.private/hector_imu_attitude_to_tf/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake

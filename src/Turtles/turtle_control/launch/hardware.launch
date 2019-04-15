@@ -9,11 +9,4 @@
         channels: [left, right]
     </rosparam>
 </node>
-<!-- <node name="imu_node" pkg="microstrain_3dmgx2_imu" type="imu_node">
-        <rosparam>
-            port: /dev/ttyACM0
-            frame_id: base_link
-
-        </rosparam>
-</node> -->
 </launch>

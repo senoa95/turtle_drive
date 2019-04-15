@@ -1,0 +1,21 @@
+[ 66%] Built target teleop_turtle
+[ 66%] Built target turtle_control
+[35m[1mScanning dependencies of target turtle_base[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o[0m
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:[m[K In function ‘[01m[Kvoid controlThread(ros::Rate, turtle_control::TurtleHardware*, controller_manager::ControllerManager*)[m[K’:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:65:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ before ‘[01m[Kelse[m[K’
+     else if (ros::param::get("imu", odom_type))
+[01;32m[K     ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:66:14:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass turtle_control::TurtleHardware[m[K’ has no member named ‘[01m[KpiblishDriverFromMath[m[K’
+       robot->piblishDriverFromMath();
+[01;32m[K              ^[m[K
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:[m[K At global scope:
+[01m[K/home/sena/turtle_drive/src/Turtles/turtle_control/src/turtle_base.cpp:69:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+ }
+[01;32m[K ^[m[K
+CMakeFiles/turtle_base.dir/build.make:62: recipe for target 'CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o' failed
+make[2]: *** [CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o] Error 1
+CMakeFiles/Makefile2:67: recipe for target 'CMakeFiles/turtle_base.dir/all' failed
+make[1]: *** [CMakeFiles/turtle_base.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

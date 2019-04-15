@@ -1,0 +1,16 @@
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_map_server.pc
+Symlinking /home/sena/turtle_drive/devel/lib/hector_map_server/hector_map_server
+Symlinking /home/sena/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig-version.cmake
+Symlinking /home/sena/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_map_server/share/hector_map_server/cmake/hector_map_serverConfig-version.cmake, /home/trex/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_map_server/share/hector_map_server/cmake/hector_map_serverConfig.cmake, /home/trex/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_map_server/lib/pkgconfig/hector_map_server.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/hector_map_server.pc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server, /home/trex/turtle_drive/devel/lib/hector_map_server/hector_map_server)
+Unlinking: /home/trex/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/hector_map_server/cmake/hector_map_serverConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/hector_map_server.pc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/hector_map_server/hector_map_server
+Already unlinked: {}

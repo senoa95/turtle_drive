@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/hector_slam/hector_compressed_map_transport
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_compressed_map_transport
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/hector_compressed_map_transport
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_compressed_map_transport
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/trex/turtle_drive/build/hector_compressed_map_transport && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/hector_slam/hector_compressed_map_transport /home/trex/turtle_drive/src/hector_slam/hector_compressed_map_transport /home/trex/turtle_drive/build/hector_compressed_map_transport /home/trex/turtle_drive/build/hector_compressed_map_transport /home/trex/turtle_drive/build/hector_compressed_map_transport/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/hector_compressed_map_transport && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_compressed_map_transport /home/sena/turtle_drive/src/hector_slam/hector_compressed_map_transport /home/sena/turtle_drive/build/hector_compressed_map_transport /home/sena/turtle_drive/build/hector_compressed_map_transport /home/sena/turtle_drive/build/hector_compressed_map_transport/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 
