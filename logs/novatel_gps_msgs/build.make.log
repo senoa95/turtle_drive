@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelFRESET
+=======
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_RangeInformation
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gprmc
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_TrackstatChannel
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelFRESET
+[  0%] Built target std_msgs_generate_messages_py
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgga
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelExtendedSolutionStatus
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Range
+>>>>>>> 476c0da5dccd9e5c1636c8035f3b869379c7cdc1
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Inscov
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelReceiverStatus
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelVelocity
@@ -18,6 +29,7 @@
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_NovatelMessageHeader
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gprmc
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Insstdev
+<<<<<<< HEAD
 [  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgsa
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target std_msgs_generate_messages_py
@@ -29,4 +41,19 @@
 [ 76%] Built target novatel_gps_msgs_generate_messages_eus
 [ 80%] Built target novatel_gps_msgs_generate_messages_nodejs
 [100%] Built target novatel_gps_msgs_generate_messages_lisp
+=======
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Trackstat
+[  0%] Built target std_msgs_generate_messages_lisp
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Inspva
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgsa
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_cpp
+[  0%] Built target std_msgs_generate_messages_nodejs
+[  0%] Built target _novatel_gps_msgs_generate_messages_check_deps_Gpgsv
+[ 19%] Built target novatel_gps_msgs_generate_messages_lisp
+[ 41%] Built target novatel_gps_msgs_generate_messages_py
+[ 62%] Built target novatel_gps_msgs_generate_messages_eus
+[ 81%] Built target novatel_gps_msgs_generate_messages_cpp
+[100%] Built target novatel_gps_msgs_generate_messages_nodejs
+>>>>>>> 476c0da5dccd9e5c1636c8035f3b869379c7cdc1
 [100%] Built target novatel_gps_msgs_generate_messages

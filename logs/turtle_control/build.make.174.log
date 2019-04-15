@@ -1,0 +1,16 @@
+[35m[1mScanning dependencies of target turtle_control[0m
+[ 33%] Built target teleop_turtle
+[ 50%] [32mBuilding CXX object CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o[0m
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:83:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::Imu_<std::allocator<void> >::_header_type {aka struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Ktime[m[K’
+   imu_msg.header.time = ros::Time::now();
+[01;32m[K                  ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:84:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ksensor_msgs::Imu_<std::allocator<void> >::_header_type {aka struct std_msgs::Header_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kfram_id[m[K’
+   imu_msg.header.fram_id = "base_link"
+[01;32m[K                  ^[m[K
+CMakeFiles/turtle_control.dir/build.make:62: recipe for target 'CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o' failed
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+CMakeFiles/Makefile2:845: recipe for target 'CMakeFiles/turtle_control.dir/all' failed
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2
