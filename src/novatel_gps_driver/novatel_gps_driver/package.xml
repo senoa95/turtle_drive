@@ -1,7 +1,7 @@
 <?xml version="1.0" ?>
 <package format="2">
   <name>novatel_gps_driver</name>
-  <version>3.4.0</version>
+  <version>3.7.0</version>
   <description>
   Driver for NovAtel receivers
   </description>
@@ -34,4 +34,3 @@
     <nodelet plugin="${prefix}/nodelet_plugins.xml"/>
   </export>
 </package>
-

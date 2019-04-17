@@ -1,9 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
-  "/home/sena/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver.pdb"
-  "/home/sena/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver"
-  "/home/sena/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver.pdb"
-  "CMakeFiles/CMakeRelink.dir/geotiff_saver"
+  "/home/trex/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver.pdb"
+  "/home/trex/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_saver"
 )
 
 # Per-language clean rules from dependency scanning.

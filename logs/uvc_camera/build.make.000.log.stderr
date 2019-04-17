@@ -1,0 +1,7 @@
+In file included from [01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/include/uvc_camera/stereocamera.h:6:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/src/stereo_node.cpp:4[m[K:
+[01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/include/uvc_cam/uvc_cam.h:26:21:[m[K [01;31m[Kfatal error: [m[Klibv4l2.h: No such file or directory
+compilation terminated.
+make[2]: *** [CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uvc_stereo_node.dir/all] Error 2
+make: *** [all] Error 2

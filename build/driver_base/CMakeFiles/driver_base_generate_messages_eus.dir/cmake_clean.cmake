@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_base_generate_messages_eus"
-  "/home/sena/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigString.l"
-  "/home/sena/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/SensorLevels.l"
-  "/home/sena/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigValue.l"
-  "/home/sena/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/manifest.l"
+  "/home/trex/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigValue.l"
+  "/home/trex/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigString.l"
+  "/home/trex/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/SensorLevels.l"
+  "/home/trex/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

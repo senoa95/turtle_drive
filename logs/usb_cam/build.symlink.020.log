@@ -1,0 +1,20 @@
+Symlinking /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libusb_cam.so
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/usb_cam.pc
+Symlinking /home/trex/turtle_drive/devel/lib/usb_cam/usb_cam_node
+Cleaning: (/home/sena/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so, /home/sena/turtle_drive/devel/lib/libusb_cam.so)
+Cleaning: (/home/sena/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node, /home/sena/turtle_drive/devel/lib/usb_cam/usb_cam_node)
+Cleaning: (/home/sena/turtle_drive/devel/.private/usb_cam/lib/pkgconfig/usb_cam.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/usb_cam.pc)
+Cleaning: (/home/sena/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake, /home/sena/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake, /home/sena/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake)
+Unlinking: /home/sena/turtle_drive/devel/lib/libusb_cam.so
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/usb_cam/usb_cam_node
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/usb_cam.pc
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake
+Already unlinked: {}
