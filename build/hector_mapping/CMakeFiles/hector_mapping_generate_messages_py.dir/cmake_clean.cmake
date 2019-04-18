@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_py"
-  "/home/sena/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
-  "/home/sena/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
-  "/home/sena/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
+  "/home/trex/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/_HectorIterData.py"
+  "/home/trex/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/_HectorDebugInfo.py"
+  "/home/trex/turtle_drive/devel/.private/hector_mapping/lib/python2.7/dist-packages/hector_mapping/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

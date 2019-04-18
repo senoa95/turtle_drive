@@ -1,1 +1,1 @@
-/home/sena/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigString.l
+/home/trex/turtle_drive/devel/.private/driver_base/share/roseus/ros/driver_base/msg/ConfigString.l

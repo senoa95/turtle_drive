@@ -1,12 +1,12 @@
 
 "use strict";
 
-let SensorLevels = require('./SensorLevels.js');
 let ConfigValue = require('./ConfigValue.js');
+let SensorLevels = require('./SensorLevels.js');
 let ConfigString = require('./ConfigString.js');
 
 module.exports = {
-  SensorLevels: SensorLevels,
   ConfigValue: ConfigValue,
+  SensorLevels: SensorLevels,
   ConfigString: ConfigString,
 };

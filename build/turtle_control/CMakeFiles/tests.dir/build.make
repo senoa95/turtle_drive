@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/Turtles/turtle_control
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/Turtles/turtle_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/turtle_control
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/turtle_control
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/sena/turtle_drive/build/turtle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/Turtles/turtle_control /home/sena/turtle_drive/src/Turtles/turtle_control /home/sena/turtle_drive/build/turtle_control /home/sena/turtle_drive/build/turtle_control /home/sena/turtle_drive/build/turtle_control/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build/turtle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/Turtles/turtle_control /home/trex/turtle_drive/src/Turtles/turtle_control /home/trex/turtle_drive/build/turtle_control /home/trex/turtle_drive/build/turtle_control /home/trex/turtle_drive/build/turtle_control/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roboteq_msgs_generate_messages_eus"
-  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Status.l"
-  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Feedback.l"
-  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Command.l"
-  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/manifest.l"
+  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Feedback.l"
+  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Command.l"
+  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/msg/Status.l"
+  "/home/trex/turtle_drive/devel/.private/roboteq_msgs/share/roseus/ros/roboteq_msgs/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

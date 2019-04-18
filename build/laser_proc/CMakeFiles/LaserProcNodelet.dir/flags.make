@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DLaserProcNodelet_EXPORTS -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"laser_proc\"
 
-CXX_INCLUDES = -I/home/sena/turtle_drive/src/laser_proc/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/trex/turtle_drive/src/laser_proc/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

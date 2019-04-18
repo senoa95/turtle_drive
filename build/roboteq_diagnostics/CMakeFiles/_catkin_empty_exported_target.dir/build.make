@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/roboteq/roboteq_diagnostics
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/roboteq_diagnostics
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/roboteq_diagnostics
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/sena/turtle_drive/build/roboteq_diagnostics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/roboteq/roboteq_diagnostics /home/sena/turtle_drive/src/roboteq/roboteq_diagnostics /home/sena/turtle_drive/build/roboteq_diagnostics /home/sena/turtle_drive/build/roboteq_diagnostics /home/sena/turtle_drive/build/roboteq_diagnostics/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build/roboteq_diagnostics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

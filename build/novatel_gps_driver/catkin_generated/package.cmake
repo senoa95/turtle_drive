@@ -1,5 +1,5 @@
 set(_CATKIN_CURRENT_PACKAGE "novatel_gps_driver")
-set(novatel_gps_driver_VERSION "3.4.0")
+set(novatel_gps_driver_VERSION "3.7.0")
 set(novatel_gps_driver_MAINTAINER "P. J. Reed <preed@swri.org>, Ed Venator <evenator@swri.org>, Kris Kozak <kkozak@swri.org>")
 set(novatel_gps_driver_PACKAGE_FORMAT "2")
 set(novatel_gps_driver_BUILD_DEPENDS "boost" "diagnostic_msgs" "diagnostic_updater" "gps_common" "libpcap" "nav_msgs" "nodelet" "novatel_gps_msgs" "roscpp" "sensor_msgs" "std_msgs" "swri_math_util" "swri_nodelet" "swri_roscpp" "swri_serial_util" "swri_string_util" "tf")

@@ -1,0 +1,12 @@
+[35m[1mScanning dependencies of target uvc_stereo_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o[0m
+In file included from [01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/include/uvc_camera/stereocamera.h:6:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/src/stereo_node.cpp:4[m[K:
+[01m[K/home/trex/turtle_drive/src/camera_umd/uvc_camera/include/uvc_cam/uvc_cam.h:26:21:[m[K [01;31m[Kfatal error: [m[Klibv4l2.h: No such file or directory
+compilation terminated.
+CMakeFiles/uvc_stereo_node.dir/build.make:62: recipe for target 'CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o' failed
+CMakeFiles/Makefile2:675: recipe for target 'CMakeFiles/uvc_stereo_node.dir/all' failed
+make[2]: *** [CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o] Error 1
+make[1]: *** [CMakeFiles/uvc_stereo_node.dir/all] Error 2
+Makefile:138: recipe for target 'all' failed
+make: *** [all] Error 2

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/Turtles/turtle_description
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/Turtles/turtle_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/turtle_description
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/turtle_description
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/sena/turtle_drive/build/turtle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/Turtles/turtle_description /home/sena/turtle_drive/src/Turtles/turtle_description /home/sena/turtle_drive/build/turtle_description /home/sena/turtle_drive/build/turtle_description /home/sena/turtle_drive/build/turtle_description/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build/turtle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/Turtles/turtle_description /home/trex/turtle_drive/src/Turtles/turtle_description /home/trex/turtle_drive/build/turtle_description /home/trex/turtle_drive/build/turtle_description /home/trex/turtle_drive/build/turtle_description/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

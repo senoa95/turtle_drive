@@ -4,21 +4,21 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_connection.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_connection.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_debug.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_debug.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_ring_buffer.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_ring_buffer.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_sensor.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_sensor.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_serial.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_serial.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_serial_utils.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_serial_utils.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_tcpclient.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_tcpclient.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_time.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_time.c.o"
-  "/home/sena/turtle_drive/src/urg_c/current/src/urg_utils.c" "/home/sena/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_utils.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_connection.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_connection.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_debug.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_debug.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_ring_buffer.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_ring_buffer.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_sensor.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_sensor.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_serial.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_serial.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_serial_utils.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_serial_utils.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_tcpclient.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_tcpclient.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_time.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_time.c.o"
+  "/home/trex/turtle_drive/src/urg_c/current/src/urg_utils.c" "/home/trex/turtle_drive/build/urg_c/CMakeFiles/liburg_c.dir/current/src/urg_utils.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/sena/turtle_drive/src/urg_c/current/include"
+  "/home/trex/turtle_drive/src/urg_c/current/include"
   )
 
 # Targets to which this target links.

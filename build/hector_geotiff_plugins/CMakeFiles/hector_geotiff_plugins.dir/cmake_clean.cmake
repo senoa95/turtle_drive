@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_geotiff_plugins.dir/src/trajectory_geotiff_plugin.cpp.o"
-  "/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.pdb"
-  "/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so"
+  "/home/trex/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.pdb"
+  "/home/trex/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so"
 )
 
 # Per-language clean rules from dependency scanning.

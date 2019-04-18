@@ -1,0 +1,257 @@
+[35m[1mScanning dependencies of target novatel_gps_driver[0m
+[  4%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o[0m
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:40[m[K:
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:[m[K In member function ‘[01m[Knovatel_gps_driver::NovatelGps::ReadResult novatel_gps_driver::NovatelGps::ProcessData()[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kstd::vector<novatel_gps_driver::NmeaSentence>::size_type {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:214:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Parsed: %lu NMEA / %lu NovAtel / %lu Binary messages",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 9 has type ‘[01m[Kstd::vector<novatel_gps_driver::NovatelSentence>::size_type {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:214:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Parsed: %lu NMEA / %lu NovAtel / %lu Binary messages",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 10 has type ‘[01m[Kstd::vector<novatel_gps_driver::BinaryMessage>::size_type {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:214:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Parsed: %lu NMEA / %lu NovAtel / %lu Binary messages",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kstd::__cxx11::basic_string<char>::size_type {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:218:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+         ROS_DEBUG("%lu unparsed bytes left over.", nmea_buffer_.size());
+[01;32m[K         ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:[m[K In member function ‘[01m[Kvoid novatel_gps_driver::NovatelGps::GenerateImuMessages()[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:968:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+     ROS_DEBUG("Created %lu new sensor_msgs/Imu messages.", new_size);
+[01;32m[K     ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:[m[K In member function ‘[01m[Kbool novatel_gps_driver::NovatelGps::Write(const string&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp:1254:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+         ROS_DEBUG("Wrote %lu bytes.", written);
+[01;32m[K         ^[m[K
+[  9%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o[0m
+In file included from [01m[K/opt/ros/kinetic/include/ros/ros.h:40:0[m[K,
+                 from [01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:38[m[K:
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:[m[K In member function ‘[01m[Kint32_t novatel_gps_driver::NovatelMessageExtractor::GetNovatelSentence(const string&, size_t, std::__cxx11::string&)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lx[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kuint64_t {aka long long unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_WARN(...) ROS_LOG(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:249:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+         ROS_WARN("Expected checksum: [%lx]", calculated_checksum);
+[01;32m[K         ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:[m[K In member function ‘[01m[Kint32_t novatel_gps_driver::NovatelMessageExtractor::GetNmeaSentence(const string&, size_t, std::__cxx11::string&, bool)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lx[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Kuint64_t {aka long long unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:162:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_WARN(...) ROS_LOG(::ros::console::levels::Warn, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                       ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:302:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_WARN[m[K’
+         ROS_WARN("Expected: [%lx]", calculated_checksum);
+[01;32m[K         ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:[m[K In member function ‘[01m[Kbool novatel_gps_driver::NovatelMessageExtractor::ExtractCompleteMessages(std::__cxx11::string, std::vector<novatel_gps_driver::NmeaSentence>&, std::vector<novatel_gps_driver::NovatelSentence>&, std::vector<novatel_gps_driver::BinaryMessage>&, std::__cxx11::string&, bool)[m[K’:
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 8 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Binary start: %lu   ASCII start / end / invalid: %lu / %lu / %lu",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 9 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Binary start: %lu   ASCII start / end / invalid: %lu / %lu / %lu",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 10 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Binary start: %lu   ASCII start / end / invalid: %lu / %lu / %lu",
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:346:176:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%lu[m[K’ expects argument of type ‘[01m[Klong unsigned int[m[K’, but argument 11 has type ‘[01m[Ksize_t {aka unsigned int}[m[K’ [-Wformat=]
+     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, __VA_ARGS__)
+[01;32m[K                                                                                                                                                                                ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:349:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+     ROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER(0, __VA_ARGS__)
+[01;32m[K     ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+       ROSCONSOLE_PRINT_AT_LOCATION(__VA_ARGS__); \
+[01;32m[K       ^[m[K
+[01m[K/opt/ros/kinetic/include/ros/console.h:561:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+ #define ROS_LOG(level, name, ...) ROS_LOG_COND(true, level, name, __VA_ARGS__)
+[01;32m[K                                   ^[m[K
+[01m[K/opt/ros/kinetic/include/rosconsole/macros_generated.h:58:24:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+ #define ROS_DEBUG(...) ROS_LOG(::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+[01;32m[K                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp:379:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG[m[K’
+       ROS_DEBUG("Binary start: %lu   ASCII start / end / invalid: %lu / %lu / %lu",
+[01;32m[K       ^[m[K
+[ 22%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o[0m
+[ 72%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o[0m
+[ 81%] [32m[1mLinking CXX shared library /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so[0m
+[ 81%] Built target novatel_gps_driver
+[35m[1mScanning dependencies of target novatel_gps_driver_nodelets[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver_nodelets.dir/src/nodelets/novatel_gps_nodelet.cpp.o[0m
+[01m[K/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/nodelets/novatel_gps_nodelet.cpp:775:22:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+           std::cout<<'what is this';
+[01;32m[K                      ^[m[K
+[ 90%] [32m[1mLinking CXX shared library /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver_nodelets.so[0m
+[ 90%] Built target novatel_gps_driver_nodelets
+[35m[1mScanning dependencies of target novatel_gps_node[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/novatel_gps_node.dir/novatel_gps_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/novatel_gps_node[0m
+[100%] Built target novatel_gps_node

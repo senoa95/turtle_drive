@@ -1,1 +1,1 @@
-/home/sena/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
+/home/trex/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
