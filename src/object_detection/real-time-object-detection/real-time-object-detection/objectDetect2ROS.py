@@ -102,7 +102,7 @@ while True:
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
 	# show the output frame
-	cv2.imshow("Frame", frame)
+	# cv2.imshow("Frame", frame)
 
 
 	####### START OF ROS CONVERSION ########
@@ -119,7 +119,7 @@ while True:
 	except CvBridgeError as e:
 		print(e)
 	label_pub.publish(label)
-	
+
 
 	obj_pos.publish(np.array([startX, startY, endX, endY]))
 
@@ -171,13 +171,3 @@ print("[INFO] approx. FPS: {:.2f}".format(fps.fps()))
 # do a bit of cleanup
 cv2.destroyAllWindows()
 vs.stop()
-
-
-
-
-
-
-
-
-
-

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4797f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4797f.dir/build.make CMakeFiles/cmTC_4797f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_9d276/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9d276.dir/build.make CMakeFiles/cmTC_9d276.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4797f.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4797f.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4797f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4797f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4797f.dir/CheckSymbolExists.c.o  -o cmTC_4797f -rdynamic 
-CMakeFiles/cmTC_4797f.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_9d276.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_9d276.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_9d276
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d276.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_9d276.dir/CheckSymbolExists.c.o  -o cmTC_9d276 -rdynamic 
+CMakeFiles/cmTC_9d276.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4797f.dir/build.make:97: recipe for target 'cmTC_4797f' failed
-make[1]: *** [cmTC_4797f] Error 1
+CMakeFiles/cmTC_9d276.dir/build.make:97: recipe for target 'cmTC_9d276' failed
+make[1]: *** [cmTC_9d276] Error 1
 make[1]: Leaving directory '/home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4797f/fast' failed
-make: *** [cmTC_4797f/fast] Error 2
+Makefile:126: recipe for target 'cmTC_9d276/fast' failed
+make: *** [cmTC_9d276/fast] Error 2
 
 File /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31eab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31eab.dir/build.make CMakeFiles/cmTC_31eab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_110a6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_110a6.dir/build.make CMakeFiles/cmTC_110a6.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_31eab.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_31eab.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_31eab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31eab.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_31eab.dir/CheckFunctionExists.c.o  -o cmTC_31eab -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_110a6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_110a6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_110a6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_110a6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_110a6.dir/CheckFunctionExists.c.o  -o cmTC_110a6 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_31eab.dir/build.make:97: recipe for target 'cmTC_31eab' failed
-make[1]: *** [cmTC_31eab] Error 1
+CMakeFiles/cmTC_110a6.dir/build.make:97: recipe for target 'cmTC_110a6' failed
+make[1]: *** [cmTC_110a6] Error 1
 make[1]: Leaving directory '/home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_31eab/fast' failed
-make: *** [cmTC_31eab/fast] Error 2
+Makefile:126: recipe for target 'cmTC_110a6/fast' failed
+make: *** [cmTC_110a6/fast] Error 2
 
 

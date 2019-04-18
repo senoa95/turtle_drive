@@ -1,16 +1,4 @@
-Symlinking /home/trex/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
-Symlinking /home/trex/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake
-Symlinking /home/trex/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server
-Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/hector_trajectory_server.pc
-Cleaning: (/home/sena/turtle_drive/devel/.private/hector_trajectory_server/lib/pkgconfig/hector_trajectory_server.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/hector_trajectory_server.pc)
-Cleaning: (/home/sena/turtle_drive/devel/.private/hector_trajectory_server/lib/hector_trajectory_server/hector_trajectory_server, /home/sena/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server)
-Cleaning: (/home/sena/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake, /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake)
-Cleaning: (/home/sena/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake, /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake)
-Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/hector_trajectory_server.pc
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake
-Already unlinked: {}
+Linked: (/home/trex/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake, /home/trex/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake, /home/trex/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/hector_trajectory_server/lib/hector_trajectory_server/hector_trajectory_server, /home/trex/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server)
+Linked: (/home/trex/turtle_drive/devel/.private/hector_trajectory_server/lib/pkgconfig/hector_trajectory_server.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/hector_trajectory_server.pc)

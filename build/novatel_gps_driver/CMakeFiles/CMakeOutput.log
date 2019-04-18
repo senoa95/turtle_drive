@@ -28,28 +28,28 @@ The CXX compiler identification is GNU, found in "/home/trex/turtle_drive/build/
 Determining if the C compiler works passed with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d2ccd/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d2ccd.dir/build.make CMakeFiles/cmTC_d2ccd.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8105c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8105c.dir/build.make CMakeFiles/cmTC_8105c.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_d2ccd.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_d2ccd.dir/testCCompiler.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_d2ccd
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2ccd.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_d2ccd.dir/testCCompiler.c.o  -o cmTC_d2ccd -rdynamic 
+Building C object CMakeFiles/cmTC_8105c.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8105c.dir/testCCompiler.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_8105c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8105c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8105c.dir/testCCompiler.c.o  -o cmTC_8105c -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07e02/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07e02.dir/build.make CMakeFiles/cmTC_07e02.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_ca97d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ca97d.dir/build.make CMakeFiles/cmTC_ca97d.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_07e02
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07e02.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o  -o cmTC_07e02 -rdynamic  
+Building C object CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_ca97d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca97d.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o  -o cmTC_ca97d -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
@@ -59,8 +59,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07e02' '-rdynamic' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOZa0iw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_07e02 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca97d' '-rdynamic' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceZlZhw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_ca97d /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -68,14 +68,14 @@ Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_07e02/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_07e02.dir/build.make CMakeFiles/cmTC_07e02.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_ca97d/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_ca97d.dir/build.make CMakeFiles/cmTC_ca97d.dir/build]
   ignore line: [make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_07e02]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07e02.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o  -o cmTC_07e02 -rdynamic  ]
+  ignore line: [Building C object CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_ca97d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ca97d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o  -o cmTC_ca97d -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper]
@@ -85,13 +85,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_07e02' '-rdynamic' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOZa0iw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_07e02 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_ca97d' '-rdynamic' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cceZlZhw.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_ca97d /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccOZa0iw.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cceZlZhw.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_07e02] ==> ignore
+    arg [cmTC_ca97d] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_07e02.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_ca97d.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -155,14 +155,14 @@ Parsed C implicit link information from above output:
 Detecting C [-std=c11] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a466f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a466f.dir/build.make CMakeFiles/cmTC_a466f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d2b34/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d2b34.dir/build.make CMakeFiles/cmTC_d2b34.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a466f.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_a466f.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
-Linking C executable cmTC_a466f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a466f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a466f.dir/feature_tests.c.o  -o cmTC_a466f -rdynamic 
+Building C object CMakeFiles/cmTC_d2b34.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_d2b34.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
+Linking C executable cmTC_d2b34
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d2b34.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_d2b34.dir/feature_tests.c.o  -o cmTC_d2b34 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -175,14 +175,14 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Detecting C [-std=c99] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fdf1c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fdf1c.dir/build.make CMakeFiles/cmTC_fdf1c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_54ca3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_54ca3.dir/build.make CMakeFiles/cmTC_54ca3.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fdf1c.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_fdf1c.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
-Linking C executable cmTC_fdf1c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fdf1c.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_fdf1c.dir/feature_tests.c.o  -o cmTC_fdf1c -rdynamic 
+Building C object CMakeFiles/cmTC_54ca3.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_54ca3.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
+Linking C executable cmTC_54ca3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54ca3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_54ca3.dir/feature_tests.c.o  -o cmTC_54ca3 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -195,14 +195,14 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Detecting C [-std=c90] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_508de/fast"
-/usr/bin/make -f CMakeFiles/cmTC_508de.dir/build.make CMakeFiles/cmTC_508de.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_1dad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1dad4.dir/build.make CMakeFiles/cmTC_1dad4.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_508de.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_508de.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
-Linking C executable cmTC_508de
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_508de.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_508de.dir/feature_tests.c.o  -o cmTC_508de -rdynamic 
+Building C object CMakeFiles/cmTC_1dad4.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_1dad4.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.c
+Linking C executable cmTC_1dad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1dad4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1dad4.dir/feature_tests.c.o  -o cmTC_1dad4 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -213,28 +213,28 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Determining if the CXX compiler works passed with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31ef5/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31ef5.dir/build.make CMakeFiles/cmTC_31ef5.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_92d37/fast"
+/usr/bin/make -f CMakeFiles/cmTC_92d37.dir/build.make CMakeFiles/cmTC_92d37.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31ef5.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_31ef5.dir/testCXXCompiler.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_31ef5
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31ef5.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_31ef5.dir/testCXXCompiler.cxx.o  -o cmTC_31ef5 -rdynamic 
+Building CXX object CMakeFiles/cmTC_92d37.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_92d37.dir/testCXXCompiler.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_92d37
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92d37.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_92d37.dir/testCXXCompiler.cxx.o  -o cmTC_92d37 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b28be/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b28be.dir/build.make CMakeFiles/cmTC_b28be.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f06c4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f06c4.dir/build.make CMakeFiles/cmTC_f06c4.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_b28be
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28be.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b28be -rdynamic  
+Building CXX object CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_f06c4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06c4.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f06c4 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
@@ -244,8 +244,8 @@ Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
 COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b28be' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUnZ5C8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_b28be /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f06c4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
+ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4oePR6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_f06c4 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -253,14 +253,14 @@ Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
   ignore line: [Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_b28be/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_b28be.dir/build.make CMakeFiles/cmTC_b28be.dir/build]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f06c4/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f06c4.dir/build.make CMakeFiles/cmTC_f06c4.dir/build]
   ignore line: [make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_b28be]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28be.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_b28be -rdynamic  ]
+  ignore line: [Building CXX object CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_f06c4]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f06c4.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_f06c4 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper]
@@ -270,13 +270,13 @@ Parsed CXX implicit link information from above output:
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_b28be' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccUnZ5C8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_b28be /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f06c4' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
+  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4oePR6.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_f06c4 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/i686-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccUnZ5C8.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc4oePR6.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib/ld-linux.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_b28be] ==> ignore
+    arg [cmTC_f06c4] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/i686-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_b28be.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_f06c4.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -338,14 +338,14 @@ Parsed CXX implicit link information from above output:
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_cbfee/fast"
-/usr/bin/make -f CMakeFiles/cmTC_cbfee.dir/build.make CMakeFiles/cmTC_cbfee.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_05116/fast"
+/usr/bin/make -f CMakeFiles/cmTC_05116.dir/build.make CMakeFiles/cmTC_05116.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_cbfee.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_cbfee.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_cbfee
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cbfee.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_cbfee.dir/feature_tests.cxx.o  -o cmTC_cbfee -rdynamic 
+Building CXX object CMakeFiles/cmTC_05116.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_05116.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_05116
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05116.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_05116.dir/feature_tests.cxx.o  -o cmTC_05116 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -411,14 +411,14 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4520a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4520a.dir/build.make CMakeFiles/cmTC_4520a.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c2c30/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c2c30.dir/build.make CMakeFiles/cmTC_c2c30.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_4520a.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_4520a.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_4520a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4520a.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_4520a.dir/feature_tests.cxx.o  -o cmTC_4520a -rdynamic 
+Building CXX object CMakeFiles/cmTC_c2c30.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_c2c30.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_c2c30
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2c30.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_c2c30.dir/feature_tests.cxx.o  -o cmTC_c2c30 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -484,14 +484,14 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_98fab/fast"
-/usr/bin/make -f CMakeFiles/cmTC_98fab.dir/build.make CMakeFiles/cmTC_98fab.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_5405a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5405a.dir/build.make CMakeFiles/cmTC_5405a.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_98fab.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_98fab.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_98fab
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_98fab.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_98fab.dir/feature_tests.cxx.o  -o cmTC_98fab -rdynamic 
+Building CXX object CMakeFiles/cmTC_5405a.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_5405a.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5405a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5405a.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_5405a.dir/feature_tests.cxx.o  -o cmTC_5405a -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
@@ -555,28 +555,28 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMa
 Determining if the include file pthread.h exists passed with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8ed7b/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8ed7b.dir/build.make CMakeFiles/cmTC_8ed7b.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_16792/fast"
+/usr/bin/make -f CMakeFiles/cmTC_16792.dir/build.make CMakeFiles/cmTC_16792.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_8ed7b.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_8ed7b.dir/CheckIncludeFile.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_8ed7b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8ed7b.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_8ed7b.dir/CheckIncludeFile.c.o  -o cmTC_8ed7b -rdynamic 
+Building C object CMakeFiles/cmTC_16792.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_16792.dir/CheckIncludeFile.c.o   -c /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_16792
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16792.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_16792.dir/CheckIncludeFile.c.o  -o cmTC_16792 -rdynamic 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
 Change Dir: /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a306c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a306c.dir/build.make CMakeFiles/cmTC_a306c.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_d4957/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4957.dir/build.make CMakeFiles/cmTC_d4957.dir/build
 make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a306c.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a306c.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_a306c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a306c.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_a306c.dir/CheckFunctionExists.c.o  -o cmTC_a306c -rdynamic -lpthread 
+Building C object CMakeFiles/cmTC_d4957.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_d4957.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d4957
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4957.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_d4957.dir/CheckFunctionExists.c.o  -o cmTC_d4957 -rdynamic -lpthread 
 make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeTmp'
 
 

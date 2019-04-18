@@ -1,20 +1,5 @@
-Symlinking /home/trex/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
-Symlinking /home/trex/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
-Symlinking /home/trex/turtle_drive/devel/lib/libroboteq_driver_script.a
-Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
-Symlinking /home/trex/turtle_drive/devel/lib/roboteq_driver/driver_node
-Cleaning: (/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a, /home/sena/turtle_drive/devel/lib/libroboteq_driver_script.a)
-Cleaning: (/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc)
-Cleaning: (/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node, /home/sena/turtle_drive/devel/lib/roboteq_driver/driver_node)
-Cleaning: (/home/sena/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake, /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake)
-Cleaning: (/home/sena/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake, /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake)
-Unlinking: /home/sena/turtle_drive/devel/lib/libroboteq_driver_script.a
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/lib/roboteq_driver/driver_node
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
-Already unlinked: {}
-Unlinking: /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
-Already unlinked: {}
+Linked: (/home/trex/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake, /home/trex/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake, /home/trex/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a, /home/trex/turtle_drive/devel/lib/libroboteq_driver_script.a)
+Linked: (/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc)
+Linked: (/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node, /home/trex/turtle_drive/devel/lib/roboteq_driver/driver_node)
