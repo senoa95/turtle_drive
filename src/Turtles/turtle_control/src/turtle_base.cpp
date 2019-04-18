@@ -62,11 +62,11 @@ void controlThread(ros::Rate rate, turtle_control::TurtleHardware* robot, contro
 
     // if (ros::param::get("encoders", odom_type))
     // {
-      // robot->publishDriveFromController();
+      robot->publishDriveFromController();
     // }
     // else if (ros::param::get("imu", odom_type))
     // {
-      robot->publishDriveFromMath();
+      // robot->publishDriveFromMath();
     // }
   }
 }
