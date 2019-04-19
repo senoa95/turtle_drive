@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/sena/turtle_drive/devel/.private/follow_waypoints/setup.sh

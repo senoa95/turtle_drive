@@ -1,0 +1,16 @@
+Symlinking /home/sena/turtle_drive/devel/lib/libopen_urg_sensor.so
+Symlinking /home/sena/turtle_drive/devel/lib/libliburg_c.so
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/urg_c.pc
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/sync_time_stamp
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/reboot_test
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/get_multiecho
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/timeout_test
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/get_distance
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/get_distance_intensity
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/get_multiecho_intensity
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/angle_convert_test
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/find_port
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/sensor_parameter
+Symlinking /home/sena/turtle_drive/devel/lib/urg_c/calculate_xy
+Symlinking /home/sena/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake
+Symlinking /home/sena/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake

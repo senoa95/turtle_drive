@@ -1,0 +1,4 @@
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_trajectory_server.pc
+Symlinking /home/sena/turtle_drive/devel/lib/hector_trajectory_server/hector_trajectory_server
+Symlinking /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig.cmake
+Symlinking /home/sena/turtle_drive/devel/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake

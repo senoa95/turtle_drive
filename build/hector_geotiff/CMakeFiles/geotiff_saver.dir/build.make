@@ -130,55 +130,6 @@ CMakeFiles/geotiff_saver.dir/build: /home/sena/turtle_drive/devel/.private/hecto
 
 .PHONY : CMakeFiles/geotiff_saver.dir/build
 
-# Object files for target geotiff_saver
-geotiff_saver_OBJECTS = \
-"CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o"
-
-# External object files for target geotiff_saver
-geotiff_saver_EXTERNAL_OBJECTS =
-
-CMakeFiles/CMakeRelink.dir/geotiff_saver: CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o
-CMakeFiles/CMakeRelink.dir/geotiff_saver: CMakeFiles/geotiff_saver.dir/build.make
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /home/sena/turtle_drive/devel/.private/hector_geotiff/lib/libgeotiff_writer.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libclass_loader.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/libPocoFoundation.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libdl.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libroslib.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/librospack.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libroscpp.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/librosconsole.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libxmlrpcpp.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libroscpp_serialization.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/librostime.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /opt/ros/kinetic/lib/libcpp_common.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_system.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libpthread.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libQtGui.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: /usr/lib/x86_64-linux-gnu/libQtCore.so
-CMakeFiles/CMakeRelink.dir/geotiff_saver: CMakeFiles/geotiff_saver.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CMakeFiles/CMakeRelink.dir/geotiff_saver"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geotiff_saver.dir/relink.txt --verbose=$(VERBOSE)
-
-# Rule to relink during preinstall.
-CMakeFiles/geotiff_saver.dir/preinstall: CMakeFiles/CMakeRelink.dir/geotiff_saver
-
-.PHONY : CMakeFiles/geotiff_saver.dir/preinstall
-
 CMakeFiles/geotiff_saver.dir/requires: CMakeFiles/geotiff_saver.dir/src/geotiff_saver.cpp.o.requires
 
 .PHONY : CMakeFiles/geotiff_saver.dir/requires

@@ -90,6 +90,17 @@ install/fast: preinstall/fast
 	/usr/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
+# Special rule for the target test
+test:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
+	/usr/bin/ctest --force-new-ctest-process $(ARGS)
+.PHONY : test
+
+# Special rule for the target test
+test/fast: test
+
+.PHONY : test/fast
+
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -111,16 +122,16 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target test
-test:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running tests..."
-	/usr/bin/ctest --force-new-ctest-process $(ARGS)
-.PHONY : test
+# Special rule for the target install/strip
+install/strip: preinstall
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
+	/usr/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+.PHONY : install/strip
 
-# Special rule for the target test
-test/fast: test
+# Special rule for the target install/strip
+install/strip/fast: install/strip
 
-.PHONY : test/fast
+.PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -296,6 +307,19 @@ rosgraph_msgs_generate_messages_cpp: cmake_check_build_system
 rosgraph_msgs_generate_messages_cpp/fast:
 	$(MAKE) -f CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build.make CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/build
 .PHONY : rosgraph_msgs_generate_messages_cpp/fast
+
+#=============================================================================
+# Target rules for targets named geometry_msgs_generate_messages_cpp
+
+# Build rule for target.
+geometry_msgs_generate_messages_cpp: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
+.PHONY : geometry_msgs_generate_messages_cpp
+
+# fast build rule for target.
+geometry_msgs_generate_messages_cpp/fast:
+	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
+.PHONY : geometry_msgs_generate_messages_cpp/fast
 
 #=============================================================================
 # Target rules for targets named std_msgs_generate_messages_cpp
@@ -661,55 +685,6 @@ geotiff_writer/fast:
 	$(MAKE) -f CMakeFiles/geotiff_writer.dir/build.make CMakeFiles/geotiff_writer.dir/build
 .PHONY : geotiff_writer/fast
 
-# Manual pre-install relink rule for target.
-geotiff_writer/preinstall:
-	$(MAKE) -f CMakeFiles/geotiff_writer.dir/build.make CMakeFiles/geotiff_writer.dir/preinstall
-.PHONY : geotiff_writer/preinstall
-
-#=============================================================================
-# Target rules for targets named nav_msgs_generate_messages_eus
-
-# Build rule for target.
-nav_msgs_generate_messages_eus: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
-.PHONY : nav_msgs_generate_messages_eus
-
-# fast build rule for target.
-nav_msgs_generate_messages_eus/fast:
-	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/build
-.PHONY : nav_msgs_generate_messages_eus/fast
-
-#=============================================================================
-# Target rules for targets named geotiff_saver
-
-# Build rule for target.
-geotiff_saver: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geotiff_saver
-.PHONY : geotiff_saver
-
-# fast build rule for target.
-geotiff_saver/fast:
-	$(MAKE) -f CMakeFiles/geotiff_saver.dir/build.make CMakeFiles/geotiff_saver.dir/build
-.PHONY : geotiff_saver/fast
-
-# Manual pre-install relink rule for target.
-geotiff_saver/preinstall:
-	$(MAKE) -f CMakeFiles/geotiff_saver.dir/build.make CMakeFiles/geotiff_saver.dir/preinstall
-.PHONY : geotiff_saver/preinstall
-
-#=============================================================================
-# Target rules for targets named geometry_msgs_generate_messages_cpp
-
-# Build rule for target.
-geometry_msgs_generate_messages_cpp: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 geometry_msgs_generate_messages_cpp
-.PHONY : geometry_msgs_generate_messages_cpp
-
-# fast build rule for target.
-geometry_msgs_generate_messages_cpp/fast:
-	$(MAKE) -f CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build.make CMakeFiles/geometry_msgs_generate_messages_cpp.dir/build
-.PHONY : geometry_msgs_generate_messages_cpp/fast
-
 #=============================================================================
 # Target rules for targets named rosgraph_msgs_generate_messages_nodejs
 
@@ -736,10 +711,31 @@ geotiff_node/fast:
 	$(MAKE) -f CMakeFiles/geotiff_node.dir/build.make CMakeFiles/geotiff_node.dir/build
 .PHONY : geotiff_node/fast
 
-# Manual pre-install relink rule for target.
-geotiff_node/preinstall:
-	$(MAKE) -f CMakeFiles/geotiff_node.dir/build.make CMakeFiles/geotiff_node.dir/preinstall
-.PHONY : geotiff_node/preinstall
+#=============================================================================
+# Target rules for targets named nav_msgs_generate_messages_eus
+
+# Build rule for target.
+nav_msgs_generate_messages_eus: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 nav_msgs_generate_messages_eus
+.PHONY : nav_msgs_generate_messages_eus
+
+# fast build rule for target.
+nav_msgs_generate_messages_eus/fast:
+	$(MAKE) -f CMakeFiles/nav_msgs_generate_messages_eus.dir/build.make CMakeFiles/nav_msgs_generate_messages_eus.dir/build
+.PHONY : nav_msgs_generate_messages_eus/fast
+
+#=============================================================================
+# Target rules for targets named geotiff_saver
+
+# Build rule for target.
+geotiff_saver: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 geotiff_saver
+.PHONY : geotiff_saver
+
+# fast build rule for target.
+geotiff_saver/fast:
+	$(MAKE) -f CMakeFiles/geotiff_saver.dir/build.make CMakeFiles/geotiff_saver.dir/build
+.PHONY : geotiff_saver/fast
 
 #=============================================================================
 # Target rules for targets named gmock
@@ -894,6 +890,8 @@ help:
 	@echo "... actionlib_msgs_generate_messages_eus"
 	@echo "... run_tests"
 	@echo "... rosgraph_msgs_generate_messages_cpp"
+	@echo "... test"
+	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... std_msgs_generate_messages_cpp"
 	@echo "... actionlib_msgs_generate_messages_cpp"
 	@echo "... nav_msgs_generate_messages_cpp"
@@ -924,12 +922,11 @@ help:
 	@echo "... roscpp_generate_messages_eus"
 	@echo "... roscpp_generate_messages_py"
 	@echo "... geotiff_writer"
-	@echo "... nav_msgs_generate_messages_eus"
-	@echo "... geotiff_saver"
-	@echo "... geometry_msgs_generate_messages_cpp"
-	@echo "... test"
 	@echo "... rosgraph_msgs_generate_messages_nodejs"
 	@echo "... geotiff_node"
+	@echo "... nav_msgs_generate_messages_eus"
+	@echo "... geotiff_saver"
+	@echo "... install/strip"
 	@echo "... gmock"
 	@echo "... gmock_main"
 	@echo "... gtest"

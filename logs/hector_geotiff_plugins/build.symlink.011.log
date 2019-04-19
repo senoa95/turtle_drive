@@ -1,0 +1,4 @@
+Symlinking /home/sena/turtle_drive/devel/lib/libhector_geotiff_plugins.so
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc
+Symlinking /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+Symlinking /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake

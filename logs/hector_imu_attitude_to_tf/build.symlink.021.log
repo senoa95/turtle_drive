@@ -1,0 +1,4 @@
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_imu_attitude_to_tf.pc
+Symlinking /home/sena/turtle_drive/devel/lib/hector_imu_attitude_to_tf/imu_attitude_to_tf_node
+Symlinking /home/sena/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig.cmake
+Symlinking /home/sena/turtle_drive/devel/share/hector_imu_attitude_to_tf/cmake/hector_imu_attitude_to_tfConfig-version.cmake

@@ -129,54 +129,6 @@ CMakeFiles/geotiff_writer.dir/build: /home/sena/turtle_drive/devel/.private/hect
 
 .PHONY : CMakeFiles/geotiff_writer.dir/build
 
-# Object files for target geotiff_writer
-geotiff_writer_OBJECTS = \
-"CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o"
-
-# External object files for target geotiff_writer
-geotiff_writer_EXTERNAL_OBJECTS =
-
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: CMakeFiles/geotiff_writer.dir/build.make
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libclass_loader.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/libPocoFoundation.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libdl.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libroslib.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/librospack.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libroscpp.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/librosconsole.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/librostime.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /opt/ros/kinetic/lib/libcpp_common.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libpthread.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libQtGui.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: /usr/lib/x86_64-linux-gnu/libQtCore.so
-CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so: CMakeFiles/geotiff_writer.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX shared library CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so"
-	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/geotiff_writer.dir/relink.txt --verbose=$(VERBOSE)
-
-# Rule to relink during preinstall.
-CMakeFiles/geotiff_writer.dir/preinstall: CMakeFiles/CMakeRelink.dir/libgeotiff_writer.so
-
-.PHONY : CMakeFiles/geotiff_writer.dir/preinstall
-
 CMakeFiles/geotiff_writer.dir/requires: CMakeFiles/geotiff_writer.dir/src/geotiff_writer/geotiff_writer.cpp.o.requires
 
 .PHONY : CMakeFiles/geotiff_writer.dir/requires

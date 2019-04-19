@@ -1,0 +1,6 @@
+Symlinking /home/sena/turtle_drive/devel/lib/libnovatel_gps_driver.so
+Symlinking /home/sena/turtle_drive/devel/lib/libnovatel_gps_driver_nodelets.so
+Symlinking /home/sena/turtle_drive/devel/lib/novatel_gps_driver/novatel_gps_node
+Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/novatel_gps_driver.pc
+Symlinking /home/sena/turtle_drive/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig-version.cmake
+Symlinking /home/sena/turtle_drive/devel/share/novatel_gps_driver/cmake/novatel_gps_driverConfig.cmake

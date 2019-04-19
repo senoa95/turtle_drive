@@ -23,7 +23,7 @@ global currentPos
 currentPos = Point()
 global file_name
 # file_name = rospy.get_param("/file_name")
-file_name = "test_waypoints.txt"
+file_name = "/home/sena/turtle_drive/src/waypoint_nav/src/test_waypoints_normalized.txt"
 # Callback function for subscriber to Position and orientation topic:
 
 def pose_callback(data):

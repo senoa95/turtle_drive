@@ -1,6 +1,0 @@
-[ 33%] Built target teleop_turtle
-[ 66%] Built target turtle_control
-[35m[1mScanning dependencies of target turtle_base[0m
-[ 83%] [32mBuilding CXX object CMakeFiles/turtle_base.dir/src/turtle_base.cpp.o[0m
-[100%] [32m[1mLinking CXX executable /home/sena/turtle_drive/devel/.private/turtle_control/lib/turtle_control/turtle_base[0m
-[100%] Built target turtle_base
