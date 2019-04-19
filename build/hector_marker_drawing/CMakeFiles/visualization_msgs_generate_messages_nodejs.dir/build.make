@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/hector_slam/hector_marker_drawing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_marker_drawing
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/hector_marker_drawing
 
 # Utility rule file for visualization_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/sena/turtle_drive/build/hector_marker_drawing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build/hector_marker_drawing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/hector_slam/hector_marker_drawing /home/trex/turtle_drive/src/hector_slam/hector_marker_drawing /home/trex/turtle_drive/build/hector_marker_drawing /home/trex/turtle_drive/build/hector_marker_drawing /home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/depend
 

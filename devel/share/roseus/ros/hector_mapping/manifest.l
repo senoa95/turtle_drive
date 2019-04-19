@@ -1,1 +1,1 @@
-/home/sena/turtle_drive/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/manifest.l
+/home/trex/turtle_drive/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/manifest.l

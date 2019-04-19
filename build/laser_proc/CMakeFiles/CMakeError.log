@@ -1,6 +1,7 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
+Change Dir: /home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"/usr/bin/make" "cmTC_4d6ac/fast"
 /usr/bin/make -f CMakeFiles/cmTC_4d6ac.dir/build.make CMakeFiles/cmTC_4d6ac.dir/build
 make[1]: Entering directory '/home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
@@ -17,8 +18,26 @@ make[1]: *** [cmTC_4d6ac] Error 1
 make[1]: Leaving directory '/home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
 Makefile:126: recipe for target 'cmTC_4d6ac/fast' failed
 make: *** [cmTC_4d6ac/fast] Error 2
+=======
+Run Build Command:"/usr/bin/make" "cmTC_7902a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7902a.dir/build.make CMakeFiles/cmTC_7902a.dir/build
+make[1]: Entering directory '/home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7902a.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7902a.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7902a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7902a.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7902a.dir/CheckSymbolExists.c.o  -o cmTC_7902a -rdynamic 
+CMakeFiles/cmTC_7902a.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7902a.dir/build.make:97: recipe for target 'cmTC_7902a' failed
+make[1]: *** [cmTC_7902a] Error 1
+make[1]: Leaving directory '/home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7902a/fast' failed
+make: *** [cmTC_7902a/fast] Error 2
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 
-File /home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,8 +53,9 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
+Change Dir: /home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"/usr/bin/make" "cmTC_242f0/fast"
 /usr/bin/make -f CMakeFiles/cmTC_242f0.dir/build.make CMakeFiles/cmTC_242f0.dir/build
 make[1]: Entering directory '/home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
@@ -51,5 +71,22 @@ make[1]: *** [cmTC_242f0] Error 1
 make[1]: Leaving directory '/home/sena/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
 Makefile:126: recipe for target 'cmTC_242f0/fast' failed
 make: *** [cmTC_242f0/fast] Error 2
+=======
+Run Build Command:"/usr/bin/make" "cmTC_7d549/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7d549.dir/build.make CMakeFiles/cmTC_7d549.dir/build
+make[1]: Entering directory '/home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7d549.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_7d549.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_7d549
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7d549.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_7d549.dir/CheckFunctionExists.c.o  -o cmTC_7d549 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_7d549.dir/build.make:97: recipe for target 'cmTC_7d549' failed
+make[1]: *** [cmTC_7d549] Error 1
+make[1]: Leaving directory '/home/trex/turtle_drive/build/laser_proc/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7d549/fast' failed
+make: *** [cmTC_7d549/fast] Error 2
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 
 

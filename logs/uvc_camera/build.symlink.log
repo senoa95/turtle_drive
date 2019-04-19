@@ -1,0 +1,6 @@
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake, /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake, /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake)
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so, /home/trex/turtle_drive/devel/lib/libnodelet_uvc_camera.so)
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node, /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node)
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node, /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_camera_node)
+Linked: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc)

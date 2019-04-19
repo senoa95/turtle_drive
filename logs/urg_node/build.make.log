@@ -1,17 +1,23 @@
+<<<<<<< HEAD
 [ 12%] Built target urg_c_wrapper
 [ 12%] Built target std_msgs_generate_messages_cpp
 [ 18%] Built target urg_node_gencfg
+=======
+[  6%] Built target urg_node_gencfg
+[ 18%] Built target urg_c_wrapper
+[ 18%] Built target std_msgs_generate_messages_cpp
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 [ 18%] Built target std_msgs_generate_messages_py
 [ 18%] Built target _urg_node_generate_messages_check_deps_Status
-[ 18%] Built target std_msgs_generate_messages_nodejs
 [ 18%] Built target std_msgs_generate_messages_lisp
 [ 18%] Built target std_msgs_generate_messages_eus
-[ 31%] Built target getID
-[ 37%] Built target urg_node_generate_messages_cpp
-[ 50%] Built target urg_node_generate_messages_py
-[ 56%] Built target urg_node_generate_messages_nodejs
-[ 62%] Built target urg_node_generate_messages_lisp
-[ 75%] Built target urg_node_generate_messages_eus
+[ 25%] Built target urg_node_generate_messages_cpp
+[ 25%] Built target std_msgs_generate_messages_nodejs
+[ 37%] Built target getID
+[ 56%] Built target urg_node_generate_messages_lisp
+[ 56%] Built target urg_node_generate_messages_py
+[ 68%] Built target urg_node_generate_messages_eus
+[ 75%] Built target urg_node_generate_messages_nodejs
 [ 75%] Built target urg_node_gencpp
 [ 75%] Built target urg_node_generate_messages
 [ 87%] Built target urg_node_driver

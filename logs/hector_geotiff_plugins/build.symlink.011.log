@@ -1,4 +1,23 @@
+<<<<<<< HEAD
 Symlinking /home/sena/turtle_drive/devel/lib/libhector_geotiff_plugins.so
 Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc
 Symlinking /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
 Symlinking /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+=======
+Symlinking /home/trex/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libhector_geotiff_plugins.so
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so, /home/sena/turtle_drive/devel/lib/libhector_geotiff_plugins.so)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/lib/pkgconfig/hector_geotiff_plugins.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake, /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake, /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake)
+Unlinking: /home/sena/turtle_drive/devel/lib/libhector_geotiff_plugins.so
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+Already unlinked: {}
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b

@@ -1,0 +1,6 @@
+Symlinking /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libnodelet_uvc_camera.so
+Symlinking /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
+Symlinking /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc

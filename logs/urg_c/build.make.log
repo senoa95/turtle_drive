@@ -1,5 +1,6 @@
 [ 29%] Built target liburg_c
 [ 35%] Built target open_urg_sensor
+<<<<<<< HEAD
 [ 41%] Built target get_distance_intensity
 [ 47%] Built target calculate_xy
 [ 52%] Built target angle_convert_test
@@ -10,4 +11,16 @@
 [ 82%] Built target get_distance
 [ 88%] Built target sensor_parameter
 [ 94%] Built target get_multiecho
+=======
+[ 41%] Built target timeout_test
+[ 47%] Built target get_distance
+[ 52%] Built target reboot_test
+[ 58%] Built target angle_convert_test
+[ 64%] Built target get_distance_intensity
+[ 70%] Built target get_multiecho_intensity
+[ 76%] Built target find_port
+[ 82%] Built target get_multiecho
+[ 88%] Built target sensor_parameter
+[ 94%] Built target calculate_xy
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 [100%] Built target sync_time_stamp

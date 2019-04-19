@@ -1,1 +1,1 @@
-/home/sena/turtle_drive/devel/.private/catkin_tools_prebuild/setup.bash
+/home/trex/turtle_drive/devel/.private/catkin_tools_prebuild/setup.bash

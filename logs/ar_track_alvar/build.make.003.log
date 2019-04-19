@@ -1,0 +1,10 @@
+[ 64%] Built target ar_track_alvar
+[ 66%] Built target ar_track_alvar_gencfg
+[ 70%] Built target kinect_filtering
+[ 75%] Built target medianFilter
+[ 79%] Built target findMarkerBundlesNoKinect
+[ 83%] Built target individualMarkers
+[ 87%] Built target createMarker
+[ 91%] Built target trainMarkerBundle
+[ 95%] Built target individualMarkersNoKinect
+[100%] Built target findMarkerBundles

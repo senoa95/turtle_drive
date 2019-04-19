@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "rtk"
-PROJECT_SPACE_DIR = "/home/sena/turtle_drive/devel/.private/rtk"
+PROJECT_SPACE_DIR = "/home/trex/turtle_drive/devel/.private/rtk"
 PROJECT_VERSION = "0.0.0"

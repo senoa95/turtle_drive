@@ -1,8 +1,8 @@
-prefix=/home/sena/turtle_drive/devel/.private/turtle_localization
+prefix=/home/trex/turtle_drive/devel/.private/turtle_localization
 
 Name: turtle_localization
 Description: Description of turtle_localization
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/sena/turtle_drive/devel/.private/turtle_localization/lib 
+Libs: -L/home/trex/turtle_drive/devel/.private/turtle_localization/lib 
 Requires: 

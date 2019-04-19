@@ -1,7 +1,7 @@
 # generated from genmsg/cmake/pkg-genmsg.context.in
 
 messages_str = ""
-services_str = "/home/sena/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv;/home/sena/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv;/home/sena/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv;/home/sena/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv;/home/sena/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
+services_str = "/home/trex/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetDistanceToObstacle.srv;/home/trex/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRecoveryInfo.srv;/home/trex/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetRobotTrajectory.srv;/home/trex/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetSearchPosition.srv;/home/trex/turtle_drive/src/hector_slam/hector_nav_msgs/srv/GetNormal.srv"
 pkg_name = "hector_nav_msgs"
 dependencies_str = "nav_msgs;std_msgs"
 langs = "gencpp;geneus;genlisp;gennodejs;genpy"

@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/roboteq_diagnostics:$CMAKE_PREFIX_PATH"
-export PWD="/home/sena/turtle_drive/build/roboteq_diagnostics"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/roboteq_diagnostics/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/roboteq/roboteq_diagnostics:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/roboteq_diagnostics:$CMAKE_PREFIX_PATH"
+export PWD="/home/trex/turtle_drive/build/roboteq_diagnostics"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/roboteq_diagnostics/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/roboteq/roboteq_diagnostics:$ROS_PACKAGE_PATH"

@@ -6,7 +6,7 @@
     <rosparam>
       verbose: true
       connection_type: serial
-      device: /dev/ttyUSB1
+      device: /dev/ttyUSB0
       publish_novatel_positions: true
       frame_id: /world
       use_binary_messages: true

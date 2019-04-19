@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/novatel_imu.pc
 Symlinking /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake
 Symlinking /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake
+=======
+Symlinking /home/trex/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/novatel_imu.pc
+Cleaning: (/home/sena/turtle_drive/devel/.private/novatel_imu/lib/pkgconfig/novatel_imu.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/novatel_imu.pc)
+Cleaning: (/home/sena/turtle_drive/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig-version.cmake, /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig.cmake, /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake)
+Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/novatel_imu.pc
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/novatel_imu/cmake/novatel_imuConfig.cmake
+Already unlinked: {}
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b

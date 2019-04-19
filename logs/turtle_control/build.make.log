@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 [ 33%] Built target turtle_control
 [ 66%] Built target teleop_turtle
+=======
+[ 33%] Built target teleop_turtle
+[ 66%] Built target turtle_control
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 [100%] Built target turtle_base

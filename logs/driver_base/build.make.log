@@ -1,14 +1,25 @@
 [  0%] Built target _driver_base_generate_messages_check_deps_SensorLevels
+<<<<<<< HEAD
 [  0%] Built target std_msgs_generate_messages_lisp
 [  0%] Built target _driver_base_generate_messages_check_deps_ConfigString
+=======
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 [  0%] Built target std_msgs_generate_messages_nodejs
 [  0%] Built target _driver_base_generate_messages_check_deps_ConfigValue
 [  0%] Built target std_msgs_generate_messages_py
-[  0%] Built target std_msgs_generate_messages_eus
 [  0%] Built target std_msgs_generate_messages_cpp
+<<<<<<< HEAD
 [ 17%] Built target driver_base_generate_messages_lisp
 [ 41%] Built target driver_base_generate_messages_py
 [ 58%] Built target driver_base_generate_messages_nodejs
+=======
+[  0%] Built target _driver_base_generate_messages_check_deps_ConfigString
+[  0%] Built target std_msgs_generate_messages_eus
+[  0%] Built target std_msgs_generate_messages_lisp
+[ 17%] Built target driver_base_generate_messages_nodejs
+[ 41%] Built target driver_base_generate_messages_py
+[ 58%] Built target driver_base_generate_messages_cpp
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 [ 82%] Built target driver_base_generate_messages_eus
-[100%] Built target driver_base_generate_messages_cpp
+[100%] Built target driver_base_generate_messages_lisp
 [100%] Built target driver_base_generate_messages

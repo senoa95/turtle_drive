@@ -1,8 +1,8 @@
-# Install script for directory: /home/sena/turtle_drive/src/hector_slam/hector_map_server
+# Install script for directory: /home/trex/turtle_drive/src/hector_slam/hector_map_server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/sena/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/trex/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,89 +44,89 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/_setup_util.py")
+   "/home/trex/turtle_drive/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE PROGRAM FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE PROGRAM FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/env.sh")
+   "/home/trex/turtle_drive/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE PROGRAM FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE PROGRAM FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/setup.bash")
+   "/home/trex/turtle_drive/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE FILE FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/setup.sh")
+   "/home/trex/turtle_drive/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE FILE FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/setup.zsh")
+   "/home/trex/turtle_drive/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE FILE FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/sena/turtle_drive/install/.rosinstall")
+   "/home/trex/turtle_drive/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/trex/turtle_drive/install" TYPE FILE FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_server.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_server.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_map_server/cmake" TYPE FILE FILES
-    "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_serverConfig.cmake"
-    "/home/sena/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_serverConfig-version.cmake"
+    "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_serverConfig.cmake"
+    "/home/trex/turtle_drive/build/hector_map_server/catkin_generated/installspace/hector_map_serverConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_map_server" TYPE FILE FILES "/home/sena/turtle_drive/src/hector_slam/hector_map_server/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hector_map_server" TYPE FILE FILES "/home/trex/turtle_drive/src/hector_slam/hector_map_server/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
@@ -136,7 +136,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_map_server/hector_map_server"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hector_map_server" TYPE EXECUTABLE FILES "/home/sena/turtle_drive/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/hector_map_server" TYPE EXECUTABLE FILES "/home/trex/turtle_drive/devel/.private/hector_map_server/lib/hector_map_server/hector_map_server")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_map_server/hector_map_server" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/hector_map_server/hector_map_server")
     file(RPATH_CHANGE
@@ -151,7 +151,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/sena/turtle_drive/build/hector_map_server/gtest/cmake_install.cmake")
+  include("/home/trex/turtle_drive/build/hector_map_server/gtest/cmake_install.cmake")
 
 endif()
 
@@ -163,5 +163,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/sena/turtle_drive/build/hector_map_server/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/trex/turtle_drive/build/hector_map_server/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

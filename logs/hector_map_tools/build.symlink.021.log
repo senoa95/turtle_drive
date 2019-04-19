@@ -1,3 +1,18 @@
+<<<<<<< HEAD
 Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/hector_map_tools.pc
 Symlinking /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig-version.cmake
 Symlinking /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig.cmake
+=======
+Symlinking /home/trex/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/hector_map_tools.pc
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_map_tools/lib/pkgconfig/hector_map_tools.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/hector_map_tools.pc)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_map_tools/share/hector_map_tools/cmake/hector_map_toolsConfig-version.cmake, /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig-version.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_map_tools/share/hector_map_tools/cmake/hector_map_toolsConfig.cmake, /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig.cmake)
+Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/hector_map_tools.pc
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_map_tools/cmake/hector_map_toolsConfig.cmake
+Already unlinked: {}
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b

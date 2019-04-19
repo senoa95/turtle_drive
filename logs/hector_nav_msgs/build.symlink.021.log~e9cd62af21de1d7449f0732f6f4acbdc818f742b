@@ -1,0 +1,208 @@
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionRequest.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoResponse.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionResponse.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetNormalRequest.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoRequest.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleRequest.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetNormalResponse.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryRequest.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleResponse.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryResponse.h
+Symlinking /home/trex/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/_index.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/_index.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+Symlinking /home/trex/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/manifest.l
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l
+Symlinking /home/trex/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l
+Symlinking /home/trex/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-extras.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-paths.cmake
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetNormal.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRecoveryInfo.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRobotTrajectory.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/hector_nav_msgs-srv.asd
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetDistanceToObstacle.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package.lisp
+Symlinking /home/trex/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetSearchPosition.lisp
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/hector_nav_msgs.pc
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/__init__.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
+Symlinking /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/pkgconfig/hector_nav_msgs.pc, /home/sena/turtle_drive/devel/lib/pkgconfig/hector_nav_msgs.pc)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/__init__.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/__init__.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py, /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPosition.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfo.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfoResponse.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoResponse.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormalRequest.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormalRequest.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectoryResponse.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryResponse.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectoryRequest.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryRequest.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormalResponse.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormalResponse.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPositionResponse.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionResponse.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacleResponse.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleResponse.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacle.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetDistanceToObstacleRequest.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleRequest.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRobotTrajectory.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetSearchPositionRequest.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionRequest.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetRecoveryInfoRequest.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoRequest.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/include/hector_nav_msgs/GetNormal.h, /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/_index.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/_index.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/_index.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/_index.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js, /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/manifest.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/manifest.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l, /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetDistanceToObstacle.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetDistanceToObstacle.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRobotTrajectory.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRobotTrajectory.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/hector_nav_msgs-srv.asd, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/hector_nav_msgs-srv.asd)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetSearchPosition.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetSearchPosition.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetNormal.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetNormal.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRecoveryInfo.lisp, /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRecoveryInfo.lisp)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-paths.cmake, /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-paths.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/hector_nav_msgs/cmake/hector_nav_msgsConfig.cmake, /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-extras.cmake, /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-extras.cmake)
+Cleaning: (/home/sena/turtle_drive/devel/.private/hector_nav_msgs/share/hector_nav_msgs/cmake/hector_nav_msgsConfig-version.cmake, /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig-version.cmake)
+Unlinking: /home/sena/turtle_drive/devel/lib/pkgconfig/hector_nav_msgs.pc
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/__init__.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/__init__.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetNormal.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRobotTrajectory.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetSearchPosition.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetRecoveryInfo.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/hector_nav_msgs/srv/_GetDistanceToObstacle.py
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPosition.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfo.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoResponse.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormalRequest.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryResponse.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectoryRequest.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormalResponse.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionResponse.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleResponse.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacle.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetDistanceToObstacleRequest.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRobotTrajectory.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetSearchPositionRequest.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetRecoveryInfoRequest.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/include/hector_nav_msgs/GetNormal.h
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/_index.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetSearchPosition.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/_index.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRecoveryInfo.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetNormal.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetRobotTrajectory.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/gennodejs/ros/hector_nav_msgs/srv/GetDistanceToObstacle.js
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/manifest.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRobotTrajectory.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetDistanceToObstacle.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetSearchPosition.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/roseus/ros/hector_nav_msgs/srv/GetRecoveryInfo.l
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetDistanceToObstacle.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRobotTrajectory.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/hector_nav_msgs-srv.asd
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetSearchPosition.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetNormal.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/common-lisp/ros/hector_nav_msgs/srv/_package_GetRecoveryInfo.lisp
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgs-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/sena/turtle_drive/devel/share/hector_nav_msgs/cmake/hector_nav_msgsConfig-version.cmake
+Already unlinked: {}

@@ -1,6 +1,7 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp
+Change Dir: /home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"/usr/bin/make" "cmTC_eb555/fast"
 /usr/bin/make -f CMakeFiles/cmTC_eb555.dir/build.make CMakeFiles/cmTC_eb555.dir/build
 make[1]: Entering directory '/home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
@@ -17,8 +18,26 @@ make[1]: *** [cmTC_eb555] Error 1
 make[1]: Leaving directory '/home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
 Makefile:126: recipe for target 'cmTC_eb555/fast' failed
 make: *** [cmTC_eb555/fast] Error 2
+=======
+Run Build Command:"/usr/bin/make" "cmTC_401f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_401f1.dir/build.make CMakeFiles/cmTC_401f1.dir/build
+make[1]: Entering directory '/home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_401f1.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_401f1.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_401f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_401f1.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_401f1.dir/CheckSymbolExists.c.o  -o cmTC_401f1 -rdynamic 
+CMakeFiles/cmTC_401f1.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_401f1.dir/build.make:97: recipe for target 'cmTC_401f1' failed
+make[1]: *** [cmTC_401f1] Error 1
+make[1]: Leaving directory '/home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_401f1/fast' failed
+make: *** [cmTC_401f1/fast] Error 2
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 
-File /home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,8 +53,9 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp
+Change Dir: /home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp
 
+<<<<<<< HEAD
 Run Build Command:"/usr/bin/make" "cmTC_2723c/fast"
 /usr/bin/make -f CMakeFiles/cmTC_2723c.dir/build.make CMakeFiles/cmTC_2723c.dir/build
 make[1]: Entering directory '/home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
@@ -51,5 +71,22 @@ make[1]: *** [cmTC_2723c] Error 1
 make[1]: Leaving directory '/home/sena/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
 Makefile:126: recipe for target 'cmTC_2723c/fast' failed
 make: *** [cmTC_2723c/fast] Error 2
+=======
+Run Build Command:"/usr/bin/make" "cmTC_f9ec6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f9ec6.dir/build.make CMakeFiles/cmTC_f9ec6.dir/build
+make[1]: Entering directory '/home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f9ec6.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_f9ec6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_f9ec6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9ec6.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_f9ec6.dir/CheckFunctionExists.c.o  -o cmTC_f9ec6 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_f9ec6.dir/build.make:97: recipe for target 'cmTC_f9ec6' failed
+make[1]: *** [cmTC_f9ec6] Error 1
+make[1]: Leaving directory '/home/trex/turtle_drive/build/waypoint_nav/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_f9ec6/fast' failed
+make: *** [cmTC_f9ec6/fast] Error 2
+>>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
 
 

@@ -1,0 +1,30 @@
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K In member function ‘[01m[Kvoid turtle_control::TurtleHardware::subscribeToImu()[m[K’:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:77:56:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_msgs::CORRIMUDATA {aka struct novatel_msgs::CORRIMUDATA_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Klateral_acceleration[m[K’
+   corrimudata_.lateral_acceleration = corrimudata_msg_.lateral_acceleration;
+[01;32m[K                                                        ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:78:61:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_msgs::CORRIMUDATA {aka struct novatel_msgs::CORRIMUDATA_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Klongitudinal_acceleration[m[K’
+   corrimudata_.longitudinal_acceleration = corrimudata_msg_.longitudinal_acceleration;
+[01;32m[K                                                             ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:79:57:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_msgs::CORRIMUDATA {aka struct novatel_msgs::CORRIMUDATA_<std::allocator<void> >}[m[K’ has no member named ‘[01m[Kvertical_acceleration[m[K’
+   corrimudata_.vertical_acceleration = corrimudata_msg_.vertical_acceleration;
+[01;32m[K                                                         ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:[m[K At global scope:
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:206:48:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_gps_msgs[m[K’ does not name a type
+ void TurtleHardware::corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg)
+[01;32m[K                                                ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:206:90:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+ void TurtleHardware::corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg)
+[01;32m[K                                                                                          ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:206:90:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:206:90:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:214:44:[m[K [01;31m[Kerror: [m[K‘[01m[Knovatel_gps_msgs[m[K’ does not name a type
+ void TurtleHardware::INSPVAXCallback(const novatel_gps_msgs::INSPVAX msg)
+[01;32m[K                                            ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:214:70:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before ‘[01m[Kmsg[m[K’
+ void TurtleHardware::INSPVAXCallback(const novatel_gps_msgs::INSPVAX msg)
+[01;32m[K                                                                      ^[m[K
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:214:70:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[Kmsg[m[K’
+[01m[K/home/trex/turtle_drive/src/Turtles/turtle_control/src/turtle_hardware.cpp:214:70:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kmsg[m[K’
+make[2]: *** [CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o] Error 1
+make[1]: *** [CMakeFiles/turtle_control.dir/all] Error 2
+make: *** [all] Error 2

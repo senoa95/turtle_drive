@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "genc_script_hex.cpp"
   "CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o"
-  "/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.pdb"
-  "/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a"
+  "/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.pdb"
+  "/home/trex/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a"
 )
 
 # Per-language clean rules from dependency scanning.

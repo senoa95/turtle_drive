@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/urg_node
+CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/urg_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/urg_node
+CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/urg_node
 
 # Utility rule file for urg_node_gennodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/urg_node_gennodejs.dir/clean:
 .PHONY : CMakeFiles/urg_node_gennodejs.dir/clean
 
 CMakeFiles/urg_node_gennodejs.dir/depend:
-	cd /home/sena/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/urg_node /home/sena/turtle_drive/src/urg_node /home/sena/turtle_drive/build/urg_node /home/sena/turtle_drive/build/urg_node /home/sena/turtle_drive/build/urg_node/CMakeFiles/urg_node_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/trex/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/urg_node /home/trex/turtle_drive/src/urg_node /home/trex/turtle_drive/build/urg_node /home/trex/turtle_drive/build/urg_node /home/trex/turtle_drive/build/urg_node/CMakeFiles/urg_node_gennodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/urg_node_gennodejs.dir/depend
 

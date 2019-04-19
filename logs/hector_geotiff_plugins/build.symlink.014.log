@@ -1,0 +1,4 @@
+Symlinking /home/trex/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake
+Symlinking /home/trex/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
+Symlinking /home/trex/turtle_drive/devel/lib/libhector_geotiff_plugins.so
+Symlinking /home/trex/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc

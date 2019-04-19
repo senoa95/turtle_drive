@@ -45,7 +45,8 @@
 #include "roboteq_msgs/Command.h"
 #include "novatel_gps_msgs/NovatelCorrectedImuData.h"
 #include "novatel_gps_msgs/Inspva.h"
-#include <tf2_geometry_msgs/tf2_geometry_msgs.h>
+#include "novatel_gps_msgs/Insstdev.h"
+#include "tf/tf.h"
 #include "geometry_msgs/Twist.h"
 #include "geometry_msgs/Point.h"
 #include "sensor_msgs/Joy.h"
@@ -69,6 +70,7 @@ private:
   void feedbackCallback_right(const roboteq_msgs::Feedback msg);
   void corrimudataCallback(const novatel_gps_msgs::NovatelCorrectedImuData msg);
   void inspvaCallback(const novatel_gps_msgs::Inspva msg);
+  void insstdevCallback(const novatel_gps_msgs::Insstdev msg);
   void cmdvelCallback(const geometry_msgs::Twist msg);
 
   ros::NodeHandle nh_;
@@ -78,6 +80,7 @@ private:
   ros::Publisher right_motor_pub;
   ros::Subscriber corrimudata_sub_;
   ros::Subscriber inspva_sub_;
+  ros::Subscriber insstdev_sub_;
   ros::Publisher compiled_imu_pub;
   ros::Subscriber cmd_vel_sub_;
 
@@ -121,6 +124,20 @@ private:
   novatel_gps_msgs::Inspva inspva_data_msg_;
   boost::mutex inspva_data_msg_mutex_;
 
+  struct Insstdev
+  {
+    float roll_dev;
+    float pitch_dev;
+    float azimuth_dev;
+
+    Insstdev() : roll_dev(0), pitch_dev(0), azimuth_dev(0)
+    {
+    }
+  }
+  insstdev_data_;
+  novatel_gps_msgs::Insstdev insstdev_data_msg_;
+  boost::mutex insstdev_data_msg_mutex_;
+
 
   struct Corrimudata
   {
@@ -131,7 +148,8 @@ private:
     float longitudinal_acceleration;
     float vertical_acceleration;
 
-    Corrimudata() : pitch_rate(0), roll_rate(0), yaw_rate(0), lateral_acceleration(0), longitudinal_acceleration(0), vertical_acceleration(0)
+    Corrimudata() : pitch_rate(0), roll_rate(0), yaw_rate(0),
+    lateral_acceleration(0), longitudinal_acceleration(0), vertical_acceleration(0)
     {
     }
   }
