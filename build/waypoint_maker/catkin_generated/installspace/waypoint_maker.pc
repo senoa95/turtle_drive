@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: waypoint_maker
 Description: Description of waypoint_maker
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/install/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: 

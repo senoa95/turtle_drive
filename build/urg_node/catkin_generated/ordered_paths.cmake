@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/trex/turtle_drive/devel/.private/laser_proc/lib;/home/trex/turtle_drive/devel/.private/urg_c/lib;/opt/ros/kinetic/lib")
+set(ORDERED_PATHS "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib;/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib;/opt/ros/kinetic/lib")

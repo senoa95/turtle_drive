@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: novatel_gps_msgs
 Description: Description of novatel_gps_msgs
 Version: 3.4.0
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib 
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: message_runtime std_msgs

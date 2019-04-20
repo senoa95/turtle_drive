@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/hector_slam/hector_map_server
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_map_server
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/hector_map_server
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/hector_map_server
 
 # Utility rule file for actionlib_msgs_generate_messages_cpp.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend:
-	cd /home/trex/turtle_drive/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/hector_slam/hector_map_server /home/trex/turtle_drive/src/hector_slam/hector_map_server /home/trex/turtle_drive/build/hector_map_server /home/trex/turtle_drive/build/hector_map_server /home/trex/turtle_drive/build/hector_map_server/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/hector_map_server && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_map_server /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_map_server /home/nishanth/TurtleStuff/turtle_drive/build/hector_map_server /home/nishanth/TurtleStuff/turtle_drive/build/hector_map_server /home/nishanth/TurtleStuff/turtle_drive/build/hector_map_server/CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/depend
 

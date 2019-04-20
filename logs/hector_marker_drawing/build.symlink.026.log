@@ -1,0 +1,12 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake, /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake, /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc)
+Unlinking: /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc
+Already unlinked: {}

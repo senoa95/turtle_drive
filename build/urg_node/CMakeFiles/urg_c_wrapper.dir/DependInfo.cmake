@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trex/turtle_drive/src/urg_node/src/urg_c_wrapper.cpp" "/home/trex/turtle_drive/build/urg_node/CMakeFiles/urg_c_wrapper.dir/src/urg_c_wrapper.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/src/urg_c_wrapper.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/urg_node/CMakeFiles/urg_c_wrapper.dir/src/urg_c_wrapper.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,10 +16,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/trex/turtle_drive/devel/.private/urg_node/include"
-  "/home/trex/turtle_drive/src/urg_node/include"
-  "/home/trex/turtle_drive/src/laser_proc/include"
-  "/home/trex/turtle_drive/src/urg_c/current/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_node/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/laser_proc/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

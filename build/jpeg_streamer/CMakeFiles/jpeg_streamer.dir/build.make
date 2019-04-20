@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/camera_umd/jpeg_streamer
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/jpeg_streamer
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer
 
 # Include any dependencies generated for this target.
 include CMakeFiles/jpeg_streamer.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/jpeg_streamer.dir/progress.make
 include CMakeFiles/jpeg_streamer.dir/flags.make
 
 CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o: CMakeFiles/jpeg_streamer.dir/flags.make
-CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o: /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o -c /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
+CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o: /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o -c /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
 
 CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp > CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp > CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.i
 
 CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp -o CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp -o CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.s
 
 CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o: CMakeFiles/jpeg_streamer.dir/flags.make
-CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o: /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o   -c /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
+CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o: /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
 
 CMakeFiles/jpeg_streamer.dir/src/mongoose.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/jpeg_streamer.dir/src/mongoose.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c > CMakeFiles/jpeg_streamer.dir/src/mongoose.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c > CMakeFiles/jpeg_streamer.dir/src/mongoose.c.i
 
 CMakeFiles/jpeg_streamer.dir/src/mongoose.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/jpeg_streamer.dir/src/mongoose.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c -o CMakeFiles/jpeg_streamer.dir/src/mongoose.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c -o CMakeFiles/jpeg_streamer.dir/src/mongoose.c.s
 
 CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o.requires:
 
@@ -113,75 +113,75 @@ jpeg_streamer_OBJECTS = \
 # External object files for target jpeg_streamer
 jpeg_streamer_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/build.make
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libimage_transport.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libimage_transport.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer"
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/build.make
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libimage_transport.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libclass_loader.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/libPocoFoundation.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroslib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librospack.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librostime.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libimage_transport.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libclass_loader.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/libPocoFoundation.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroslib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librospack.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/librostime.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer: CMakeFiles/jpeg_streamer.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/jpeg_streamer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/jpeg_streamer.dir/build: /home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer
+CMakeFiles/jpeg_streamer.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer
 
 .PHONY : CMakeFiles/jpeg_streamer.dir/build
 
@@ -195,6 +195,6 @@ CMakeFiles/jpeg_streamer.dir/clean:
 .PHONY : CMakeFiles/jpeg_streamer.dir/clean
 
 CMakeFiles/jpeg_streamer.dir/depend:
-	cd /home/trex/turtle_drive/build/jpeg_streamer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/camera_umd/jpeg_streamer /home/trex/turtle_drive/src/camera_umd/jpeg_streamer /home/trex/turtle_drive/build/jpeg_streamer /home/trex/turtle_drive/build/jpeg_streamer /home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer /home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer /home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer /home/nishanth/TurtleStuff/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/jpeg_streamer.dir/depend
 

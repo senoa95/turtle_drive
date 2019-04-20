@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_base_generate_messages_lisp"
-  "/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/ConfigValue.lisp"
-  "/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/ConfigString.lisp"
-  "/home/trex/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/SensorLevels.lisp"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/ConfigValue.lisp"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/ConfigString.lisp"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/share/common-lisp/ros/driver_base/msg/SensorLevels.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

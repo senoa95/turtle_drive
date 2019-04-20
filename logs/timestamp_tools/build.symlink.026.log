@@ -1,0 +1,12 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/timestamp_tools.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/timestamp_tools/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake, /home/trex/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/timestamp_tools/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake, /home/trex/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/timestamp_tools/lib/pkgconfig/timestamp_tools.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/timestamp_tools.pc)
+Unlinking: /home/trex/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/timestamp_tools.pc
+Already unlinked: {}

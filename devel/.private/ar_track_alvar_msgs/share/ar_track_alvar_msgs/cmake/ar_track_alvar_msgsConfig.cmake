@@ -67,14 +67,14 @@ set(ar_track_alvar_msgs_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(ar_track_alvar_msgs_SOURCE_PREFIX /home/trex/turtle_drive/src/ar_track_alvar/ar_track_alvar_msgs)
-  set(ar_track_alvar_msgs_DEVEL_PREFIX /home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs)
+  set(ar_track_alvar_msgs_SOURCE_PREFIX /home/nishanth/TurtleStuff/turtle_drive/src/ar_track_alvar/ar_track_alvar_msgs)
+  set(ar_track_alvar_msgs_DEVEL_PREFIX /home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs)
   set(ar_track_alvar_msgs_INSTALL_PREFIX "")
   set(ar_track_alvar_msgs_PREFIX ${ar_track_alvar_msgs_DEVEL_PREFIX})
 else()
   set(ar_track_alvar_msgs_SOURCE_PREFIX "")
   set(ar_track_alvar_msgs_DEVEL_PREFIX "")
-  set(ar_track_alvar_msgs_INSTALL_PREFIX /home/trex/turtle_drive/install)
+  set(ar_track_alvar_msgs_INSTALL_PREFIX /home/nishanth/TurtleStuff/turtle_drive/install)
   set(ar_track_alvar_msgs_PREFIX ${ar_track_alvar_msgs_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(ar_track_alvar_msgs_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/include " STREQUAL " ")
+if(NOT "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs/include " STREQUAL " ")
   set(ar_track_alvar_msgs_INCLUDE_DIRS "")
-  set(_include_dirs "/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/include")
+  set(_include_dirs "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://ros.org/wiki/ar_track_alvar " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/include " STR
         message(FATAL_ERROR "Project 'ar_track_alvar_msgs' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'ar_track_alvar_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/trex/turtle_drive/src/ar_track_alvar/ar_track_alvar_msgs/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'ar_track_alvar_msgs' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nishanth/TurtleStuff/turtle_drive/src/ar_track_alvar/ar_track_alvar_msgs/${idir}'.  ${_report}")
     endif()
     _list_append_unique(ar_track_alvar_msgs_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib;/home/trex/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs/lib;/home/nishanth/TurtleStuff/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"hector_trajectory_server\"
 
-CXX_INCLUDES = -I/home/trex/turtle_drive/devel/.private/hector_nav_msgs/include -I/home/trex/turtle_drive/src/hector_slam/hector_map_tools/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_nav_msgs/include -I/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_map_tools/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

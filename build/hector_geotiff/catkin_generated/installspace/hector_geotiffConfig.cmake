@@ -67,14 +67,14 @@ set(hector_geotiff_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(hector_geotiff_SOURCE_PREFIX /home/trex/turtle_drive/src/hector_slam/hector_geotiff)
-  set(hector_geotiff_DEVEL_PREFIX /home/trex/turtle_drive/devel/.private/hector_geotiff)
+  set(hector_geotiff_SOURCE_PREFIX /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff)
+  set(hector_geotiff_DEVEL_PREFIX /home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_geotiff)
   set(hector_geotiff_INSTALL_PREFIX "")
   set(hector_geotiff_PREFIX ${hector_geotiff_DEVEL_PREFIX})
 else()
   set(hector_geotiff_SOURCE_PREFIX "")
   set(hector_geotiff_DEVEL_PREFIX "")
-  set(hector_geotiff_INSTALL_PREFIX /home/trex/turtle_drive/install)
+  set(hector_geotiff_INSTALL_PREFIX /home/nishanth/TurtleStuff/turtle_drive/install)
   set(hector_geotiff_PREFIX ${hector_geotiff_INSTALL_PREFIX})
 endif()
 
@@ -110,13 +110,13 @@ if(NOT "include;/usr/include/eigen3 " STREQUAL " ")
         message(FATAL_ERROR "Project 'hector_geotiff' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'hector_geotiff' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/trex/turtle_drive/install/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'hector_geotiff' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/nishanth/TurtleStuff/turtle_drive/install/${idir}'.  ${_report}")
     endif()
     _list_append_unique(hector_geotiff_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "geotiff_writer;/usr/lib/i386-linux-gnu/libQtGui.so;/usr/lib/i386-linux-gnu/libQtCore.so")
+set(libraries "geotiff_writer;/usr/lib/x86_64-linux-gnu/libQtGui.so;/usr/lib/x86_64-linux-gnu/libQtCore.so")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/trex/turtle_drive/install/lib;/home/trex/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/nishanth/TurtleStuff/turtle_drive/install/lib;/home/nishanth/TurtleStuff/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

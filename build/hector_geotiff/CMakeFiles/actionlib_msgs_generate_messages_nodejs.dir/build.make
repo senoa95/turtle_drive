@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/hector_slam/hector_geotiff
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/hector_geotiff
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/trex/turtle_drive/build/hector_geotiff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/hector_slam/hector_geotiff /home/trex/turtle_drive/src/hector_slam/hector_geotiff /home/trex/turtle_drive/build/hector_geotiff /home/trex/turtle_drive/build/hector_geotiff /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_geotiff /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

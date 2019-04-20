@@ -1,24 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_2c942/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2c942.dir/build.make CMakeFiles/cmTC_2c942.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2c942.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_2c942.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_2c942
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c942.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_2c942.dir/CheckSymbolExists.c.o  -o cmTC_2c942 -rdynamic 
-CMakeFiles/cmTC_2c942.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
+Run Build Command:"/usr/bin/make" "cmTC_17984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_17984.dir/build.make CMakeFiles/cmTC_17984.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_17984.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_17984.dir/CheckSymbolExists.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_17984
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_17984.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_17984.dir/CheckSymbolExists.c.o  -o cmTC_17984 -rdynamic 
+CMakeFiles/cmTC_17984.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2c942.dir/build.make:97: recipe for target 'cmTC_2c942' failed
-make[1]: *** [cmTC_2c942] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2c942/fast' failed
-make: *** [cmTC_2c942/fast] Error 2
+CMakeFiles/cmTC_17984.dir/build.make:97: recipe for target 'cmTC_17984' failed
+make[1]: *** [cmTC_17984] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_17984/fast' failed
+make: *** [cmTC_17984/fast] Error 2
 
-File /home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -34,22 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp
+Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b3b40/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b3b40.dir/build.make CMakeFiles/cmTC_b3b40.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b3b40.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b3b40.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b3b40
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b3b40.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b3b40.dir/CheckFunctionExists.c.o  -o cmTC_b3b40 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_2221e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2221e.dir/build.make CMakeFiles/cmTC_2221e.dir/build
+make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2221e.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2221e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2221e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2221e.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2221e.dir/CheckFunctionExists.c.o  -o cmTC_2221e -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_b3b40.dir/build.make:97: recipe for target 'cmTC_b3b40' failed
-make[1]: *** [cmTC_b3b40] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_b3b40/fast' failed
-make: *** [cmTC_b3b40/fast] Error 2
+CMakeFiles/cmTC_2221e.dir/build.make:97: recipe for target 'cmTC_2221e' failed
+make[1]: *** [cmTC_2221e] Error 1
+make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_marker_drawing/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_2221e/fast' failed
+make: *** [cmTC_2221e/fast] Error 2
 
 

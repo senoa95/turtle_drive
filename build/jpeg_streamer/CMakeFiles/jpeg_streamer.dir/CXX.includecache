@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/include/mongoose.h
+/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/include/mongoose.h
 
-/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
+/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp
 ros/ros.h
 -
 sensor_msgs/CompressedImage.h
@@ -22,7 +22,7 @@ boost/tuple/tuple.hpp
 boost/lexical_cast.hpp
 -
 mongoose.h
-/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.h
+/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.h
 
 /opt/ros/kinetic/include/image_transport/camera_publisher.h
 ros/ros.h

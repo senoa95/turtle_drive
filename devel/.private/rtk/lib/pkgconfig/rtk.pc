@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/rtk
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/rtk
 
 Name: rtk
 Description: Description of rtk
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/rtk/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/rtk/lib 
 Requires: 

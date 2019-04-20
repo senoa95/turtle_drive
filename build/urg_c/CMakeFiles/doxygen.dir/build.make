@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/urg_c
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/urg_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/urg_c
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/urg_c
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/trex/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/src/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c /home/trex/turtle_drive/build/urg_c/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

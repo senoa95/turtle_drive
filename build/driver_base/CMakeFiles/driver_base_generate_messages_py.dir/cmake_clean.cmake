@@ -1,9 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/driver_base_generate_messages_py"
-  "/home/trex/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_ConfigValue.py"
-  "/home/trex/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_ConfigString.py"
-  "/home/trex/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_SensorLevels.py"
-  "/home/trex/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/__init__.py"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_ConfigValue.py"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_ConfigString.py"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/_SensorLevels.py"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/driver_base/lib/python2.7/dist-packages/driver_base/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

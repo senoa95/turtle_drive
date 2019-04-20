@@ -1,1 +1,1 @@
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc

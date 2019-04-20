@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/jpeg_streamer
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer
 
 Name: jpeg_streamer
 Description: Description of jpeg_streamer
 Version: 0.2.7
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib 
 Requires: 

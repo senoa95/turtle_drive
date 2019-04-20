@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/roboteq/roboteq_driver
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/roboteq_driver
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver
 
 # Utility rule file for roboteq_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/depend:
-	cd /home/trex/turtle_drive/build/roboteq_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/roboteq/roboteq_driver /home/trex/turtle_drive/src/roboteq/roboteq_driver /home/trex/turtle_drive/build/roboteq_driver /home/trex/turtle_drive/build/roboteq_driver /home/trex/turtle_drive/build/roboteq_driver/CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver /home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver /home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver /home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver /home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver/CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/roboteq_msgs_generate_messages_lisp.dir/depend
 

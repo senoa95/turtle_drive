@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/waypoint_nav
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav
 
 Name: waypoint_nav
 Description: Description of waypoint_nav
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/waypoint_nav/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav/lib 
 Requires: 

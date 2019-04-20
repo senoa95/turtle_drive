@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trex/turtle_drive/src/camera_umd/uvc_camera/src/stereo.cpp" "/home/trex/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/stereo.cpp.o"
-  "/home/trex/turtle_drive/src/camera_umd/uvc_camera/src/stereo_node.cpp" "/home/trex/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o"
-  "/home/trex/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp" "/home/trex/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/uvc_cam.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/stereo.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/stereo.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/stereo_node.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_stereo_node.dir/src/uvc_cam.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/trex/turtle_drive/src/camera_umd/uvc_camera/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

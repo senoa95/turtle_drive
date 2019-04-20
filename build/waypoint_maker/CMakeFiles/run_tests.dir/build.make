@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/waypoint_maker
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_maker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/waypoint_maker
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_maker
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/trex/turtle_drive/build/waypoint_maker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/waypoint_maker /home/trex/turtle_drive/src/waypoint_maker /home/trex/turtle_drive/build/waypoint_maker /home/trex/turtle_drive/build/waypoint_maker /home/trex/turtle_drive/build/waypoint_maker/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_maker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_maker /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_maker /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_maker /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_maker /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_maker/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

@@ -1,0 +1,76 @@
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libkinect_filtering.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libar_track_alvar.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libmedianFilter.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/createMarker
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/individualMarkersNoKinect
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/individualMarkers
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/trainMarkerBundle
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundles
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/__init__.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/ar_track_alvar.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.dox
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.wikidoc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig-usage.dox
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/include/ar_track_alvar/ParamsConfig.h
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/include/ar_track_alvar/ParamsConfig.h, /home/trex/turtle_drive/devel/include/ar_track_alvar/ParamsConfig.h)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig.wikidoc, /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.wikidoc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig-usage.dox, /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig-usage.dox)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig.dox, /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.dox)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/libkinect_filtering.so, /home/trex/turtle_drive/devel/lib/libkinect_filtering.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/libar_track_alvar.so, /home/trex/turtle_drive/devel/lib/libar_track_alvar.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/libmedianFilter.so, /home/trex/turtle_drive/devel/lib/libmedianFilter.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/trainMarkerBundle, /home/trex/turtle_drive/devel/lib/ar_track_alvar/trainMarkerBundle)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/individualMarkersNoKinect, /home/trex/turtle_drive/devel/lib/ar_track_alvar/individualMarkersNoKinect)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/createMarker, /home/trex/turtle_drive/devel/lib/ar_track_alvar/createMarker)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect, /home/trex/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundles, /home/trex/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundles)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/individualMarkers, /home/trex/turtle_drive/devel/lib/ar_track_alvar/individualMarkers)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/pkgconfig/ar_track_alvar.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/ar_track_alvar.pc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/__init__.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/__init__.py)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py)
+Unlinking: /home/trex/turtle_drive/devel/include/ar_track_alvar/ParamsConfig.h
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.wikidoc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig-usage.dox
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.dox
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libkinect_filtering.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libar_track_alvar.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libmedianFilter.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/trainMarkerBundle
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/individualMarkersNoKinect
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/createMarker
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundles
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/ar_track_alvar/individualMarkers
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/ar_track_alvar.pc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/__init__.py
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py
+Already unlinked: {}

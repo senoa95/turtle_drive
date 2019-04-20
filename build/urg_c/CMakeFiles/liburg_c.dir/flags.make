@@ -6,5 +6,5 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -Dliburg_c_EXPORTS
 
-C_INCLUDES = -I/home/trex/turtle_drive/src/urg_c/current/include 
+C_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include 
 

@@ -1,0 +1,8 @@
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/obj_detect
+
+Name: obj_detect
+Description: Description of obj_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/obj_detect/lib 
+Requires: 

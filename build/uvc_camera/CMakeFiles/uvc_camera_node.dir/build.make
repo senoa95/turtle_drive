@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/camera_umd/uvc_camera
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/uvc_camera
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera
 
 # Include any dependencies generated for this target.
 include CMakeFiles/uvc_camera_node.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/uvc_camera_node.dir/progress.make
 include CMakeFiles/uvc_camera_node.dir/flags.make
 
 CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o: CMakeFiles/uvc_camera_node.dir/flags.make
-CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o: /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o -c /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp
+CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o: /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o -c /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp
 
 CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp > CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp > CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.i
 
 CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp -o CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp -o CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.s
 
 CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o.provides.build: CMakeFiles/
 
 
 CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o: CMakeFiles/uvc_camera_node.dir/flags.make
-CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o: /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o -c /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp
+CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o: /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o -c /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp
 
 CMakeFiles/uvc_camera_node.dir/src/camera.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uvc_camera_node.dir/src/camera.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp > CMakeFiles/uvc_camera_node.dir/src/camera.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp > CMakeFiles/uvc_camera_node.dir/src/camera.cpp.i
 
 CMakeFiles/uvc_camera_node.dir/src/camera.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uvc_camera_node.dir/src/camera.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp -o CMakeFiles/uvc_camera_node.dir/src/camera.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp -o CMakeFiles/uvc_camera_node.dir/src/camera.cpp.s
 
 CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o.provides.build: CMakeFiles/uvc_c
 
 
 CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o: CMakeFiles/uvc_camera_node.dir/flags.make
-CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o: /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o -c /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp
+CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o: /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o -c /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp
 
 CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp > CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp > CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.i
 
 CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp -o CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp -o CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.s
 
 CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o.requires:
 
@@ -138,86 +138,86 @@ uvc_camera_node_OBJECTS = \
 # External object files for target uvc_camera_node
 uvc_camera_node_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/build.make
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_info_manager.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libuuid.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libbondcpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_info_manager.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libimage_transport.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libuuid.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libbondcpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node"
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/build.make
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libbondcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/libPocoFoundation.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroslib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librospack.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librostime.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_info_manager.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcamera_calibration_parsers.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libimage_transport.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libbondcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libclass_loader.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/libPocoFoundation.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroslib.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librospack.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/librostime.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /opt/ros/kinetic/lib/libcpp_common.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node: CMakeFiles/uvc_camera_node.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/uvc_camera_node.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/uvc_camera_node.dir/build: /home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node
+CMakeFiles/uvc_camera_node.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node
 
 .PHONY : CMakeFiles/uvc_camera_node.dir/build
 
@@ -232,6 +232,6 @@ CMakeFiles/uvc_camera_node.dir/clean:
 .PHONY : CMakeFiles/uvc_camera_node.dir/clean
 
 CMakeFiles/uvc_camera_node.dir/depend:
-	cd /home/trex/turtle_drive/build/uvc_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/camera_umd/uvc_camera /home/trex/turtle_drive/src/camera_umd/uvc_camera /home/trex/turtle_drive/build/uvc_camera /home/trex/turtle_drive/build/uvc_camera /home/trex/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera /home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera /home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera /home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera /home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uvc_camera_node.dir/depend
 

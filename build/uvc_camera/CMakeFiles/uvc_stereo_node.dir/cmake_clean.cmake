@@ -2,8 +2,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o"
   "CMakeFiles/uvc_stereo_node.dir/src/stereo.cpp.o"
   "CMakeFiles/uvc_stereo_node.dir/src/uvc_cam.cpp.o"
-  "/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node.pdb"
-  "/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/hector_map_server
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_map_server
 
 Name: hector_map_server
 Description: Description of hector_map_server
 Version: 0.3.5
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/hector_map_server/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_map_server/lib 
 Requires: 

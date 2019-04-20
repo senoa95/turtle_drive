@@ -1,1 +1,1 @@
-/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_nav_msgs/share/roseus/ros/hector_nav_msgs/srv/GetNormal.l
