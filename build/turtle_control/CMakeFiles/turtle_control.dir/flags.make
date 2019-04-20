@@ -6,5 +6,5 @@ CXX_FLAGS = -fPIC
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"turtle_control\" -Dturtle_control_EXPORTS
 
-CXX_INCLUDES = -I/home/trex/turtle_drive/src/Turtles/turtle_control/include -I/home/trex/turtle_drive/devel/.private/roboteq_msgs/include -I/home/trex/turtle_drive/devel/.private/novatel_gps_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/turtle1/turtle_drive/src/Turtles/turtle_control/include -I/home/turtle1/turtle_drive/devel/.private/roboteq_msgs/include -I/home/turtle1/turtle_drive/devel/.private/novatel_gps_msgs/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

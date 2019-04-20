@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_c_wrapper.dir/src/urg_c_wrapper.cpp.o"
-  "/home/trex/turtle_drive/devel/.private/urg_node/lib/liburg_c_wrapper.pdb"
-  "/home/trex/turtle_drive/devel/.private/urg_node/lib/liburg_c_wrapper.so"
+  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/liburg_c_wrapper.pdb"
+  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/liburg_c_wrapper.so"
 )
 
 # Per-language clean rules from dependency scanning.

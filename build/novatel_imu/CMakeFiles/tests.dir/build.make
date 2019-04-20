@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/novatel_imu
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/novatel_imu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/novatel_imu
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/novatel_imu
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/trex/turtle_drive/build/novatel_imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/novatel_imu /home/trex/turtle_drive/src/novatel_imu /home/trex/turtle_drive/build/novatel_imu /home/trex/turtle_drive/build/novatel_imu /home/trex/turtle_drive/build/novatel_imu/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/novatel_imu && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/novatel_imu /home/turtle1/turtle_drive/src/novatel_imu /home/turtle1/turtle_drive/build/novatel_imu /home/turtle1/turtle_drive/build/novatel_imu /home/turtle1/turtle_drive/build/novatel_imu/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

@@ -2,9 +2,10 @@
 
   <node pkg="robot_localization" type="navsat_transform_node" name="navsat_transform_node" clear_params="true">
     <rosparam command="load" file="$(find turtle_localization)/config/turtle_navsat_transform_config.yaml" />
+    <rosparam param="datum">[37.193198, -80.391889, 0.0, map, base_link]</rosparam>
 
       <!-- Placeholders for input remapping. Set your topic names as the "to" values. -->
-      <remap from="imu/data" to="/imu"/>
+      <remap from="/imu/data" to="/compiled_imu"/>
       <remap from="odometry/filtered" to="/turtle_velocity_controller/odom"/>
       <remap from="gps/fix" to="/fix"/>
 
@@ -13,11 +14,13 @@
 
   <node pkg="robot_localization" type="ekf_localization_node" name="ekf_se" clear_params="true">
     <rosparam command="load" file="$(find turtle_localization)/config/turtle_ekf.yaml" />
-
     <!-- Placeholder for output topic remapping -->
     <remap from="odometry/filtered" to="turtle_velocity_controller/odom"/>
-    <!-- <remap from="accel/filtered" to=""/> -->
+  </node>
 
-
+  <node pkg="robot_localization" type="ekf_localization_node" name="ekf_odom2baseLink" clear_params="true">
+    <rosparam command="load" file="$(find turtle_localization)/config/turtle_ekf_odom2baseLink.yaml" />
+    <!-- Placeholder for output topic remapping -->
+    <remap from="odometry/filtered" to="turtle_velocity_controller/odom"/>
   </node>
 </launch>

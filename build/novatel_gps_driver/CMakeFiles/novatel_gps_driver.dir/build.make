@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/novatel_gps_driver
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/novatel_gps_driver
 
 # Include any dependencies generated for this target.
 include CMakeFiles/novatel_gps_driver.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/novatel_gps_driver.dir/progress.make
 include CMakeFiles/novatel_gps_driver.dir/flags.make
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp
+CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp > CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp > CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp -o CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_gps.cpp -o CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o.requires:
 
@@ -82,17 +82,17 @@ CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o.provides.build: CMakeFil
 
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp
+CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp > CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp > CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp -o CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/novatel_message_extractor.cpp -o CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o.requires:
 
@@ -106,17 +106,17 @@ CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o.provides.b
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestpos.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o.requires:
 
@@ -130,17 +130,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o.provides.build: CMak
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/bestvel.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o.requires:
 
@@ -154,17 +154,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o.provides.build: CMak
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/corrimudata.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o.requires:
 
@@ -178,17 +178,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o.provides.build: 
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgga.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o.requires:
 
@@ -202,17 +202,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsa.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o.requires:
 
@@ -226,17 +226,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gpgsv.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o.requires:
 
@@ -250,17 +250,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/gprmc.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o.requires:
 
@@ -274,17 +274,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/header.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o.requires:
 
@@ -298,17 +298,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o.provides.build: CMake
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inscov.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o.requires:
 
@@ -322,17 +322,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o.provides.build: CMake
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/inspva.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o.requires:
 
@@ -346,17 +346,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o.provides.build: CMake
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/insstdev.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o.requires:
 
@@ -370,17 +370,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o.provides.build: CMa
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/parsing_utils.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o.requires:
 
@@ -394,17 +394,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o.provides.build
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/range.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o.requires:
 
@@ -418,17 +418,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o.provides.build: CMakeF
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/time.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o.requires:
 
@@ -442,17 +442,17 @@ CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o.provides.build: CMakeFi
 
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o: CMakeFiles/novatel_gps_driver.dir/flags.make
-CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp
+CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp > CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.i
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/parsers/trackstat.cpp -o CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.s
 
 CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o.requires:
 
@@ -488,79 +488,79 @@ novatel_gps_driver_OBJECTS = \
 # External object files for target novatel_gps_driver
 novatel_gps_driver_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/build.make
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_math_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_serial_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_string_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libactionlib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf2.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libuuid.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libbondcpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libpcap.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/i386-linux-gnu/libpcap.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so"
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsa.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgsv.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/gprmc.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/header.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/inscov.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/inspva.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/insstdev.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/parsing_utils.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/build.make
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_math_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_serial_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libswri_string_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libactionlib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libtf2.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libbondcpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libclass_loader.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/libPocoFoundation.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroslib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librospack.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroscpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/librostime.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /opt/ros/kinetic/lib/libcpp_common.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libpcap.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: /usr/lib/x86_64-linux-gnu/libpcap.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so: CMakeFiles/novatel_gps_driver.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX shared library /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/novatel_gps_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/novatel_gps_driver.dir/build: /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so
+CMakeFiles/novatel_gps_driver.dir/build: /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so
 
 .PHONY : CMakeFiles/novatel_gps_driver.dir/build
 
@@ -589,6 +589,6 @@ CMakeFiles/novatel_gps_driver.dir/clean:
 .PHONY : CMakeFiles/novatel_gps_driver.dir/clean
 
 CMakeFiles/novatel_gps_driver.dir/depend:
-	cd /home/trex/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/novatel_gps_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles/novatel_gps_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/novatel_gps_driver.dir/depend
 

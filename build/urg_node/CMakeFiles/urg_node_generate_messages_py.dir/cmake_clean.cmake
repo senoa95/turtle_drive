@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node_generate_messages_py"
-  "/home/trex/turtle_drive/devel/.private/urg_node/lib/python2.7/dist-packages/urg_node/msg/_Status.py"
-  "/home/trex/turtle_drive/devel/.private/urg_node/lib/python2.7/dist-packages/urg_node/msg/__init__.py"
+  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/python2.7/dist-packages/urg_node/msg/_Status.py"
+  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/python2.7/dist-packages/urg_node/msg/__init__.py"
 )
 
 # Per-language clean rules from dependency scanning.

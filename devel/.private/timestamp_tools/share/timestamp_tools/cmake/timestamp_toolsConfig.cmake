@@ -67,14 +67,14 @@ set(timestamp_tools_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(timestamp_tools_SOURCE_PREFIX /home/trex/turtle_drive/src/driver_common/timestamp_tools)
-  set(timestamp_tools_DEVEL_PREFIX /home/trex/turtle_drive/devel/.private/timestamp_tools)
+  set(timestamp_tools_SOURCE_PREFIX /home/turtle1/turtle_drive/src/driver_common/timestamp_tools)
+  set(timestamp_tools_DEVEL_PREFIX /home/turtle1/turtle_drive/devel/.private/timestamp_tools)
   set(timestamp_tools_INSTALL_PREFIX "")
   set(timestamp_tools_PREFIX ${timestamp_tools_DEVEL_PREFIX})
 else()
   set(timestamp_tools_SOURCE_PREFIX "")
   set(timestamp_tools_DEVEL_PREFIX "")
-  set(timestamp_tools_INSTALL_PREFIX /home/trex/turtle_drive/install)
+  set(timestamp_tools_INSTALL_PREFIX /home/turtle1/turtle_drive/install)
   set(timestamp_tools_PREFIX ${timestamp_tools_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(timestamp_tools_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/trex/turtle_drive/src/driver_common/timestamp_tools/include " STREQUAL " ")
+if(NOT "/home/turtle1/turtle_drive/src/driver_common/timestamp_tools/include " STREQUAL " ")
   set(timestamp_tools_INCLUDE_DIRS "")
-  set(_include_dirs "/home/trex/turtle_drive/src/driver_common/timestamp_tools/include")
+  set(_include_dirs "/home/turtle1/turtle_drive/src/driver_common/timestamp_tools/include")
   if(NOT "https://github.com/ros-drivers/driver_common/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-drivers/driver_common/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/timestamp_tools " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/trex/turtle_drive/src/driver_common/timestamp_tools/include " STRE
         message(FATAL_ERROR "Project 'timestamp_tools' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'timestamp_tools' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/trex/turtle_drive/src/driver_common/timestamp_tools/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'timestamp_tools' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/turtle1/turtle_drive/src/driver_common/timestamp_tools/${idir}'.  ${_report}")
     endif()
     _list_append_unique(timestamp_tools_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/trex/turtle_drive/devel/.private/timestamp_tools/lib;/home/trex/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/turtle1/turtle_drive/devel/.private/timestamp_tools/lib;/home/turtle1/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

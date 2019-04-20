@@ -1,43 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:"/usr/bin/make" "cmTC_ffd05/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ffd05.dir/build.make CMakeFiles/cmTC_ffd05.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ffd05.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ffd05.dir/CheckSymbolExists.c.o   -c /home/sena/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_ffd05
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ffd05.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ffd05.dir/CheckSymbolExists.c.o  -o cmTC_ffd05 -rdynamic 
-CMakeFiles/cmTC_ffd05.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_7417c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7417c.dir/build.make CMakeFiles/cmTC_7417c.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7417c.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7417c.dir/CheckSymbolExists.c.o   -c /home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7417c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7417c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7417c.dir/CheckSymbolExists.c.o  -o cmTC_7417c -rdynamic 
+CMakeFiles/cmTC_7417c.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ffd05.dir/build.make:97: recipe for target 'cmTC_ffd05' failed
-make[1]: *** [cmTC_ffd05] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ffd05/fast' failed
-make: *** [cmTC_ffd05/fast] Error 2
-=======
-Run Build Command:"/usr/bin/make" "cmTC_3ca4f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_3ca4f.dir/build.make CMakeFiles/cmTC_3ca4f.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_3ca4f.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_3ca4f.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_3ca4f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ca4f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_3ca4f.dir/CheckSymbolExists.c.o  -o cmTC_3ca4f -rdynamic 
-CMakeFiles/cmTC_3ca4f.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_3ca4f.dir/build.make:97: recipe for target 'cmTC_3ca4f' failed
-make[1]: *** [cmTC_3ca4f] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_3ca4f/fast' failed
-make: *** [cmTC_3ca4f/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
+CMakeFiles/cmTC_7417c.dir/build.make:97: recipe for target 'cmTC_7417c' failed
+make[1]: *** [cmTC_7417c] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7417c/fast' failed
+make: *** [cmTC_7417c/fast] Error 2
 
-File /home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -53,40 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:"/usr/bin/make" "cmTC_c700a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c700a.dir/build.make CMakeFiles/cmTC_c700a.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c700a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c700a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c700a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c700a.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c700a.dir/CheckFunctionExists.c.o  -o cmTC_c700a -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_480cc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_480cc.dir/build.make CMakeFiles/cmTC_480cc.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_480cc.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_480cc.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_480cc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_480cc.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_480cc.dir/CheckFunctionExists.c.o  -o cmTC_480cc -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_c700a.dir/build.make:97: recipe for target 'cmTC_c700a' failed
-make[1]: *** [cmTC_c700a] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_c700a/fast' failed
-make: *** [cmTC_c700a/fast] Error 2
-=======
-Run Build Command:"/usr/bin/make" "cmTC_21885/fast"
-/usr/bin/make -f CMakeFiles/cmTC_21885.dir/build.make CMakeFiles/cmTC_21885.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_21885.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_21885.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_21885
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21885.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_21885.dir/CheckFunctionExists.c.o  -o cmTC_21885 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_21885.dir/build.make:97: recipe for target 'cmTC_21885' failed
-make[1]: *** [cmTC_21885] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_21885/fast' failed
-make: *** [cmTC_21885/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
+CMakeFiles/cmTC_480cc.dir/build.make:97: recipe for target 'cmTC_480cc' failed
+make[1]: *** [cmTC_480cc] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_480cc/fast' failed
+make: *** [cmTC_480cc/fast] Error 2
 
 

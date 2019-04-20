@@ -1,0 +1,20 @@
+Symlinking /home/turtle1/turtle_drive/devel/lib/libusb_cam.so
+Symlinking /home/turtle1/turtle_drive/devel/lib/usb_cam/usb_cam_node
+Symlinking /home/turtle1/turtle_drive/devel/lib/pkgconfig/usb_cam.pc
+Symlinking /home/turtle1/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake, /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake, /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/usb_cam/lib/libusb_cam.so, /home/trex/turtle_drive/devel/lib/libusb_cam.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/usb_cam/lib/pkgconfig/usb_cam.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/usb_cam.pc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node, /home/trex/turtle_drive/devel/lib/usb_cam/usb_cam_node)
+Unlinking: /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/usb_cam/cmake/usb_camConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libusb_cam.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/usb_cam.pc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/usb_cam/usb_cam_node
+Already unlinked: {}

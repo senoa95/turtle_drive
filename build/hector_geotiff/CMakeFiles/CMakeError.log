@@ -1,45 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-<<<<<<< HEAD
-Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_79017/fast"
-/usr/bin/make -f CMakeFiles/cmTC_79017.dir/build.make CMakeFiles/cmTC_79017.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_79017.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_79017.dir/CheckSymbolExists.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_79017
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_79017.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_79017.dir/CheckSymbolExists.c.o  -o cmTC_79017 -rdynamic 
-CMakeFiles/cmTC_79017.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_112d5/fast"
+/usr/bin/make -f CMakeFiles/cmTC_112d5.dir/build.make CMakeFiles/cmTC_112d5.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_112d5.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_112d5.dir/CheckSymbolExists.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_112d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_112d5.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_112d5.dir/CheckSymbolExists.c.o  -o cmTC_112d5 -rdynamic 
+CMakeFiles/cmTC_112d5.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_79017.dir/build.make:97: recipe for target 'cmTC_79017' failed
-make[1]: *** [cmTC_79017] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_79017/fast' failed
-make: *** [cmTC_79017/fast] Error 2
-=======
-Change Dir: /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+CMakeFiles/cmTC_112d5.dir/build.make:97: recipe for target 'cmTC_112d5' failed
+make[1]: *** [cmTC_112d5] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_112d5/fast' failed
+make: *** [cmTC_112d5/fast] Error 2
 
-Run Build Command:"/usr/bin/make" "cmTC_9ebea/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9ebea.dir/build.make CMakeFiles/cmTC_9ebea.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9ebea.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_9ebea.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_9ebea
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ebea.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9ebea.dir/CheckSymbolExists.c.o  -o cmTC_9ebea -rdynamic 
-CMakeFiles/cmTC_9ebea.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_9ebea.dir/build.make:97: recipe for target 'cmTC_9ebea' failed
-make[1]: *** [cmTC_9ebea] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_9ebea/fast' failed
-make: *** [cmTC_9ebea/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
-
-File /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -55,83 +34,44 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-<<<<<<< HEAD
-Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ccea2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ccea2.dir/build.make CMakeFiles/cmTC_ccea2.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ccea2.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_ccea2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_ccea2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ccea2.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_ccea2.dir/CheckFunctionExists.c.o  -o cmTC_ccea2 -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_62b3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_62b3d.dir/build.make CMakeFiles/cmTC_62b3d.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_62b3d.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_62b3d.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_62b3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_62b3d.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_62b3d.dir/CheckFunctionExists.c.o  -o cmTC_62b3d -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ccea2.dir/build.make:97: recipe for target 'cmTC_ccea2' failed
-make[1]: *** [cmTC_ccea2] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_ccea2/fast' failed
-make: *** [cmTC_ccea2/fast] Error 2
+CMakeFiles/cmTC_62b3d.dir/build.make:97: recipe for target 'cmTC_62b3d' failed
+make[1]: *** [cmTC_62b3d] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_62b3d/fast' failed
+make: *** [cmTC_62b3d/fast] Error 2
 
 
 Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8cc7c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8cc7c.dir/build.make CMakeFiles/cmTC_8cc7c.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8cc7c.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_8cc7c.dir/CheckSymbolExists.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_a62a3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a62a3.dir/build.make CMakeFiles/cmTC_a62a3.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a62a3.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_a62a3.dir/CheckSymbolExists.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
    return ((int*)(&Q_WS_WIN))[argc];
                    ^
-CMakeFiles/cmTC_8cc7c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_8cc7c.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_8cc7c.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_8cc7c/fast' failed
-make: *** [cmTC_8cc7c/fast] Error 2
-=======
-Change Dir: /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+CMakeFiles/cmTC_a62a3.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a62a3.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_a62a3.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a62a3/fast' failed
+make: *** [cmTC_a62a3/fast] Error 2
 
-Run Build Command:"/usr/bin/make" "cmTC_2af21/fast"
-/usr/bin/make -f CMakeFiles/cmTC_2af21.dir/build.make CMakeFiles/cmTC_2af21.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_2af21.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_2af21.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_2af21
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2af21.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2af21.dir/CheckFunctionExists.c.o  -o cmTC_2af21 -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_2af21.dir/build.make:97: recipe for target 'cmTC_2af21' failed
-make[1]: *** [cmTC_2af21] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_2af21/fast' failed
-make: *** [cmTC_2af21/fast] Error 2
-
-
-Determining if the Q_WS_WIN exist failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
-
-Run Build Command:"/usr/bin/make" "cmTC_78635/fast"
-/usr/bin/make -f CMakeFiles/cmTC_78635.dir/build.make CMakeFiles/cmTC_78635.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_78635.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_78635.dir/CheckSymbolExists.cxx.o -c /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_WIN’ was not declared in this scope
-   return ((int*)(&Q_WS_WIN))[argc];
-                   ^
-CMakeFiles/cmTC_78635.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_78635.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_78635.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_78635/fast' failed
-make: *** [cmTC_78635/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
-
-File /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -147,43 +87,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_QWS exist failed with the following output:
-<<<<<<< HEAD
-Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d9f95/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d9f95.dir/build.make CMakeFiles/cmTC_d9f95.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d9f95.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_d9f95.dir/CheckSymbolExists.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_9a6f1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9a6f1.dir/build.make CMakeFiles/cmTC_9a6f1.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a6f1.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_9a6f1.dir/CheckSymbolExists.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
    return ((int*)(&Q_WS_QWS))[argc];
                    ^
-CMakeFiles/cmTC_d9f95.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_d9f95.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_d9f95.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_d9f95/fast' failed
-make: *** [cmTC_d9f95/fast] Error 2
-=======
-Change Dir: /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+CMakeFiles/cmTC_9a6f1.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_9a6f1.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_9a6f1.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_9a6f1/fast' failed
+make: *** [cmTC_9a6f1/fast] Error 2
 
-Run Build Command:"/usr/bin/make" "cmTC_72d91/fast"
-/usr/bin/make -f CMakeFiles/cmTC_72d91.dir/build.make CMakeFiles/cmTC_72d91.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_72d91.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_72d91.dir/CheckSymbolExists.cxx.o -c /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_QWS’ was not declared in this scope
-   return ((int*)(&Q_WS_QWS))[argc];
-                   ^
-CMakeFiles/cmTC_72d91.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_72d91.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_72d91.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_72d91/fast' failed
-make: *** [cmTC_72d91/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
-
-File /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 
@@ -199,43 +120,24 @@ int main(int argc, char** argv)
 }
 
 Determining if the Q_WS_MAC exist failed with the following output:
-<<<<<<< HEAD
-Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a45b8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a45b8.dir/build.make CMakeFiles/cmTC_a45b8.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_a45b8.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_a45b8.dir/CheckSymbolExists.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
+Run Build Command:"/usr/bin/make" "cmTC_38b45/fast"
+/usr/bin/make -f CMakeFiles/cmTC_38b45.dir/build.make CMakeFiles/cmTC_38b45.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_38b45.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_38b45.dir/CheckSymbolExists.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
+/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
    return ((int*)(&Q_WS_MAC))[argc];
                    ^
-CMakeFiles/cmTC_a45b8.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_a45b8.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_a45b8.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_a45b8/fast' failed
-make: *** [cmTC_a45b8/fast] Error 2
-=======
-Change Dir: /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+CMakeFiles/cmTC_38b45.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_38b45.dir/CheckSymbolExists.cxx.o' failed
+make[1]: *** [CMakeFiles/cmTC_38b45.dir/CheckSymbolExists.cxx.o] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_38b45/fast' failed
+make: *** [cmTC_38b45/fast] Error 2
 
-Run Build Command:"/usr/bin/make" "cmTC_fd77c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fd77c.dir/build.make CMakeFiles/cmTC_fd77c.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_fd77c.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_fd77c.dir/CheckSymbolExists.cxx.o -c /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx: In function ‘int main(int, char**)’:
-/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:8:19: error: ‘Q_WS_MAC’ was not declared in this scope
-   return ((int*)(&Q_WS_MAC))[argc];
-                   ^
-CMakeFiles/cmTC_fd77c.dir/build.make:65: recipe for target 'CMakeFiles/cmTC_fd77c.dir/CheckSymbolExists.cxx.o' failed
-make[1]: *** [CMakeFiles/cmTC_fd77c.dir/CheckSymbolExists.cxx.o] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_fd77c/fast' failed
-make: *** [cmTC_fd77c/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
-
-File /home/trex/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

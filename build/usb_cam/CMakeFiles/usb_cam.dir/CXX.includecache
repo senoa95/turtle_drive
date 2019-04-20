@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/trex/turtle_drive/src/usb_cam/include/usb_cam/usb_cam.h
+/home/turtle1/turtle_drive/src/usb_cam/include/usb_cam/usb_cam.h
 asm/types.h
 -
 linux/videodev2.h
@@ -26,7 +26,7 @@ sstream
 sensor_msgs/Image.h
 -
 
-/home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp
+/home/turtle1/turtle_drive/src/usb_cam/src/usb_cam.cpp
 stdio.h
 -
 stdlib.h
@@ -772,43 +772,43 @@ vector
 time.h
 -
 
-/usr/include/i386-linux-gnu/asm/ioctls.h
+/usr/include/x86_64-linux-gnu/asm/ioctls.h
 asm-generic/ioctls.h
 -
 
-/usr/include/i386-linux-gnu/asm/types.h
+/usr/include/x86_64-linux-gnu/asm/types.h
 asm-generic/types.h
 -
 
-/usr/include/i386-linux-gnu/bits/ioctl-types.h
+/usr/include/x86_64-linux-gnu/bits/ioctl-types.h
 asm/ioctls.h
 -
 
-/usr/include/i386-linux-gnu/bits/ioctls.h
+/usr/include/x86_64-linux-gnu/bits/ioctls.h
 asm/ioctls.h
 -
 
-/usr/include/i386-linux-gnu/bits/mman-linux.h
+/usr/include/x86_64-linux-gnu/bits/mman-linux.h
 
-/usr/include/i386-linux-gnu/bits/mman.h
+/usr/include/x86_64-linux-gnu/bits/mman.h
 bits/mman-linux.h
 -
 
-/usr/include/i386-linux-gnu/bits/pthreadtypes.h
+/usr/include/x86_64-linux-gnu/bits/pthreadtypes.h
 bits/wordsize.h
 -
 
-/usr/include/i386-linux-gnu/bits/select.h
+/usr/include/x86_64-linux-gnu/bits/select.h
 bits/wordsize.h
 -
 
-/usr/include/i386-linux-gnu/bits/select2.h
+/usr/include/x86_64-linux-gnu/bits/select2.h
 
-/usr/include/i386-linux-gnu/bits/sigset.h
+/usr/include/x86_64-linux-gnu/bits/sigset.h
 
-/usr/include/i386-linux-gnu/bits/stat.h
+/usr/include/x86_64-linux-gnu/bits/stat.h
 
-/usr/include/i386-linux-gnu/bits/time.h
+/usr/include/x86_64-linux-gnu/bits/time.h
 bits/types.h
 -
 bits/types.h
@@ -816,11 +816,11 @@ bits/types.h
 bits/timex.h
 -
 
-/usr/include/i386-linux-gnu/bits/timex.h
+/usr/include/x86_64-linux-gnu/bits/timex.h
 bits/types.h
 -
 
-/usr/include/i386-linux-gnu/bits/types.h
+/usr/include/x86_64-linux-gnu/bits/types.h
 features.h
 -
 bits/wordsize.h
@@ -828,195 +828,195 @@ bits/wordsize.h
 bits/typesizes.h
 -
 
-/usr/include/i386-linux-gnu/bits/typesizes.h
+/usr/include/x86_64-linux-gnu/bits/typesizes.h
 
-/usr/include/i386-linux-gnu/bits/wordsize.h
+/usr/include/x86_64-linux-gnu/bits/wordsize.h
 
-/usr/include/i386-linux-gnu/libavcodec/avcodec.h
+/usr/include/x86_64-linux-gnu/libavcodec/avcodec.h
 errno.h
 -
 libavutil/samplefmt.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/samplefmt.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/samplefmt.h
 libavutil/attributes.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/attributes.h
 libavutil/avutil.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/avutil.h
 libavutil/buffer.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/buffer.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/buffer.h
 libavutil/cpu.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/cpu.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/cpu.h
 libavutil/channel_layout.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/channel_layout.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/channel_layout.h
 libavutil/dict.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/dict.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/dict.h
 libavutil/frame.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/frame.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/frame.h
 libavutil/log.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/log.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/log.h
 libavutil/pixfmt.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/pixfmt.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/pixfmt.h
 libavutil/rational.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/rational.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/rational.h
 version.h
-/usr/include/i386-linux-gnu/libavcodec/version.h
+/usr/include/x86_64-linux-gnu/libavcodec/version.h
 old_codec_ids.h
-/usr/include/i386-linux-gnu/libavcodec/old_codec_ids.h
+/usr/include/x86_64-linux-gnu/libavcodec/old_codec_ids.h
 
-/usr/include/i386-linux-gnu/libavcodec/old_codec_ids.h
+/usr/include/x86_64-linux-gnu/libavcodec/old_codec_ids.h
 
-/usr/include/i386-linux-gnu/libavcodec/version.h
+/usr/include/x86_64-linux-gnu/libavcodec/version.h
 libavutil/version.h
-/usr/include/i386-linux-gnu/libavcodec/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavcodec/libavutil/version.h
 
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 
-/usr/include/i386-linux-gnu/libavutil/avconfig.h
+/usr/include/x86_64-linux-gnu/libavutil/avconfig.h
 
-/usr/include/i386-linux-gnu/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavutil/avutil.h
 common.h
-/usr/include/i386-linux-gnu/libavutil/common.h
+/usr/include/x86_64-linux-gnu/libavutil/common.h
 error.h
-/usr/include/i386-linux-gnu/libavutil/error.h
+/usr/include/x86_64-linux-gnu/libavutil/error.h
 rational.h
-/usr/include/i386-linux-gnu/libavutil/rational.h
+/usr/include/x86_64-linux-gnu/libavutil/rational.h
 version.h
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 macros.h
-/usr/include/i386-linux-gnu/libavutil/macros.h
+/usr/include/x86_64-linux-gnu/libavutil/macros.h
 mathematics.h
-/usr/include/i386-linux-gnu/libavutil/mathematics.h
+/usr/include/x86_64-linux-gnu/libavutil/mathematics.h
 log.h
-/usr/include/i386-linux-gnu/libavutil/log.h
+/usr/include/x86_64-linux-gnu/libavutil/log.h
 pixfmt.h
-/usr/include/i386-linux-gnu/libavutil/pixfmt.h
+/usr/include/x86_64-linux-gnu/libavutil/pixfmt.h
 
-/usr/include/i386-linux-gnu/libavutil/buffer.h
+/usr/include/x86_64-linux-gnu/libavutil/buffer.h
 stdint.h
 -
 
-/usr/include/i386-linux-gnu/libavutil/channel_layout.h
+/usr/include/x86_64-linux-gnu/libavutil/channel_layout.h
 stdint.h
 -
 
-/usr/include/i386-linux-gnu/libavutil/cpu.h
+/usr/include/x86_64-linux-gnu/libavutil/cpu.h
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 
-/usr/include/i386-linux-gnu/libavutil/dict.h
+/usr/include/x86_64-linux-gnu/libavutil/dict.h
 stdint.h
 -
 version.h
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 
-/usr/include/i386-linux-gnu/libavutil/error.h
+/usr/include/x86_64-linux-gnu/libavutil/error.h
 errno.h
 -
 stddef.h
 -
 
-/usr/include/i386-linux-gnu/libavutil/frame.h
+/usr/include/x86_64-linux-gnu/libavutil/frame.h
 stdint.h
 -
 avutil.h
-/usr/include/i386-linux-gnu/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavutil/avutil.h
 buffer.h
-/usr/include/i386-linux-gnu/libavutil/buffer.h
+/usr/include/x86_64-linux-gnu/libavutil/buffer.h
 dict.h
-/usr/include/i386-linux-gnu/libavutil/dict.h
+/usr/include/x86_64-linux-gnu/libavutil/dict.h
 rational.h
-/usr/include/i386-linux-gnu/libavutil/rational.h
+/usr/include/x86_64-linux-gnu/libavutil/rational.h
 samplefmt.h
-/usr/include/i386-linux-gnu/libavutil/samplefmt.h
+/usr/include/x86_64-linux-gnu/libavutil/samplefmt.h
 pixfmt.h
-/usr/include/i386-linux-gnu/libavutil/pixfmt.h
+/usr/include/x86_64-linux-gnu/libavutil/pixfmt.h
 version.h
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 
-/usr/include/i386-linux-gnu/libavutil/intfloat.h
+/usr/include/x86_64-linux-gnu/libavutil/intfloat.h
 stdint.h
 -
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 
-/usr/include/i386-linux-gnu/libavutil/log.h
+/usr/include/x86_64-linux-gnu/libavutil/log.h
 stdarg.h
 -
 avutil.h
-/usr/include/i386-linux-gnu/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavutil/avutil.h
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 version.h
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 
-/usr/include/i386-linux-gnu/libavutil/macros.h
+/usr/include/x86_64-linux-gnu/libavutil/macros.h
 
-/usr/include/i386-linux-gnu/libavutil/mathematics.h
+/usr/include/x86_64-linux-gnu/libavutil/mathematics.h
 stdint.h
 -
 math.h
 -
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 rational.h
-/usr/include/i386-linux-gnu/libavutil/rational.h
+/usr/include/x86_64-linux-gnu/libavutil/rational.h
 intfloat.h
-/usr/include/i386-linux-gnu/libavutil/intfloat.h
+/usr/include/x86_64-linux-gnu/libavutil/intfloat.h
 
-/usr/include/i386-linux-gnu/libavutil/mem.h
+/usr/include/x86_64-linux-gnu/libavutil/mem.h
 limits.h
 -
 stdint.h
 -
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 error.h
-/usr/include/i386-linux-gnu/libavutil/error.h
+/usr/include/x86_64-linux-gnu/libavutil/error.h
 avutil.h
-/usr/include/i386-linux-gnu/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavutil/avutil.h
 
-/usr/include/i386-linux-gnu/libavutil/old_pix_fmts.h
+/usr/include/x86_64-linux-gnu/libavutil/old_pix_fmts.h
 
-/usr/include/i386-linux-gnu/libavutil/pixfmt.h
+/usr/include/x86_64-linux-gnu/libavutil/pixfmt.h
 libavutil/avconfig.h
-/usr/include/i386-linux-gnu/libavutil/libavutil/avconfig.h
+/usr/include/x86_64-linux-gnu/libavutil/libavutil/avconfig.h
 version.h
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 old_pix_fmts.h
-/usr/include/i386-linux-gnu/libavutil/old_pix_fmts.h
+/usr/include/x86_64-linux-gnu/libavutil/old_pix_fmts.h
 
-/usr/include/i386-linux-gnu/libavutil/rational.h
+/usr/include/x86_64-linux-gnu/libavutil/rational.h
 stdint.h
 -
 limits.h
 -
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 
-/usr/include/i386-linux-gnu/libavutil/samplefmt.h
+/usr/include/x86_64-linux-gnu/libavutil/samplefmt.h
 stdint.h
 -
 avutil.h
-/usr/include/i386-linux-gnu/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libavutil/avutil.h
 attributes.h
-/usr/include/i386-linux-gnu/libavutil/attributes.h
+/usr/include/x86_64-linux-gnu/libavutil/attributes.h
 
-/usr/include/i386-linux-gnu/libavutil/version.h
+/usr/include/x86_64-linux-gnu/libavutil/version.h
 macros.h
-/usr/include/i386-linux-gnu/libavutil/macros.h
+/usr/include/x86_64-linux-gnu/libavutil/macros.h
 
-/usr/include/i386-linux-gnu/libswscale/swscale.h
+/usr/include/x86_64-linux-gnu/libswscale/swscale.h
 stdint.h
 -
 libavutil/avutil.h
-/usr/include/i386-linux-gnu/libswscale/libavutil/avutil.h
+/usr/include/x86_64-linux-gnu/libswscale/libavutil/avutil.h
 libavutil/log.h
-/usr/include/i386-linux-gnu/libswscale/libavutil/log.h
+/usr/include/x86_64-linux-gnu/libswscale/libavutil/log.h
 libavutil/pixfmt.h
-/usr/include/i386-linux-gnu/libswscale/libavutil/pixfmt.h
+/usr/include/x86_64-linux-gnu/libswscale/libavutil/pixfmt.h
 version.h
-/usr/include/i386-linux-gnu/libswscale/version.h
+/usr/include/x86_64-linux-gnu/libswscale/version.h
 
-/usr/include/i386-linux-gnu/sys/ioctl.h
+/usr/include/x86_64-linux-gnu/sys/ioctl.h
 features.h
 -
 bits/ioctls.h
@@ -1026,7 +1026,7 @@ bits/ioctl-types.h
 sys/ttydefaults.h
 -
 
-/usr/include/i386-linux-gnu/sys/mman.h
+/usr/include/x86_64-linux-gnu/sys/mman.h
 features.h
 -
 bits/types.h
@@ -1036,7 +1036,7 @@ stddef.h
 bits/mman.h
 -
 
-/usr/include/i386-linux-gnu/sys/select.h
+/usr/include/x86_64-linux-gnu/sys/select.h
 features.h
 -
 bits/types.h
@@ -1052,7 +1052,7 @@ bits/time.h
 bits/select2.h
 -
 
-/usr/include/i386-linux-gnu/sys/stat.h
+/usr/include/x86_64-linux-gnu/sys/stat.h
 features.h
 -
 bits/types.h
@@ -1062,11 +1062,11 @@ time.h
 bits/stat.h
 -
 
-/usr/include/i386-linux-gnu/sys/sysmacros.h
+/usr/include/x86_64-linux-gnu/sys/sysmacros.h
 features.h
 -
 
-/usr/include/i386-linux-gnu/sys/time.h
+/usr/include/x86_64-linux-gnu/sys/time.h
 features.h
 -
 bits/types.h
@@ -1078,15 +1078,15 @@ bits/time.h
 sys/select.h
 -
 
-/usr/include/i386-linux-gnu/sys/timeb.h
+/usr/include/x86_64-linux-gnu/sys/timeb.h
 features.h
 -
 time.h
 -
 
-/usr/include/i386-linux-gnu/sys/ttydefaults.h
+/usr/include/x86_64-linux-gnu/sys/ttydefaults.h
 
-/usr/include/i386-linux-gnu/sys/types.h
+/usr/include/x86_64-linux-gnu/sys/types.h
 features.h
 -
 bits/types.h

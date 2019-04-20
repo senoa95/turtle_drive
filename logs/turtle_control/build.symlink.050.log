@@ -1,6 +1,0 @@
-Symlinking /home/sena/turtle_drive/devel/lib/libturtle_control.so
-Symlinking /home/sena/turtle_drive/devel/lib/pkgconfig/turtle_control.pc
-Symlinking /home/sena/turtle_drive/devel/lib/turtle_control/turtle_base
-Symlinking /home/sena/turtle_drive/devel/lib/turtle_control/teleop_turtle
-Symlinking /home/sena/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig-version.cmake
-Symlinking /home/sena/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig.cmake

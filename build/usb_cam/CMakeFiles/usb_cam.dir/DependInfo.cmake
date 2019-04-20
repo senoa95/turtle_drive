@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trex/turtle_drive/src/usb_cam/src/usb_cam.cpp" "/home/trex/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o"
+  "/home/turtle1/turtle_drive/src/usb_cam/src/usb_cam.cpp" "/home/turtle1/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,10 +16,10 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/trex/turtle_drive/src/usb_cam/include"
+  "/home/turtle1/turtle_drive/src/usb_cam/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/usr/include/i386-linux-gnu"
+  "/usr/include/x86_64-linux-gnu"
   )
 
 # Targets to which this target links.

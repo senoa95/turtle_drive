@@ -67,14 +67,14 @@ set(driver_base_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(driver_base_SOURCE_PREFIX /home/trex/turtle_drive/src/driver_common/driver_base)
-  set(driver_base_DEVEL_PREFIX /home/trex/turtle_drive/devel/.private/driver_base)
+  set(driver_base_SOURCE_PREFIX /home/turtle1/turtle_drive/src/driver_common/driver_base)
+  set(driver_base_DEVEL_PREFIX /home/turtle1/turtle_drive/devel/.private/driver_base)
   set(driver_base_INSTALL_PREFIX "")
   set(driver_base_PREFIX ${driver_base_DEVEL_PREFIX})
 else()
   set(driver_base_SOURCE_PREFIX "")
   set(driver_base_DEVEL_PREFIX "")
-  set(driver_base_INSTALL_PREFIX /home/trex/turtle_drive/install)
+  set(driver_base_INSTALL_PREFIX /home/turtle1/turtle_drive/install)
   set(driver_base_PREFIX ${driver_base_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(driver_base_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/trex/turtle_drive/devel/.private/driver_base/include;/home/trex/turtle_drive/src/driver_common/driver_base/include;/usr/include " STREQUAL " ")
+if(NOT "/home/turtle1/turtle_drive/devel/.private/driver_base/include;/home/turtle1/turtle_drive/src/driver_common/driver_base/include;/usr/include " STREQUAL " ")
   set(driver_base_INCLUDE_DIRS "")
-  set(_include_dirs "/home/trex/turtle_drive/devel/.private/driver_base/include;/home/trex/turtle_drive/src/driver_common/driver_base/include;/usr/include")
+  set(_include_dirs "/home/turtle1/turtle_drive/devel/.private/driver_base/include;/home/turtle1/turtle_drive/src/driver_common/driver_base/include;/usr/include")
   if(NOT "https://github.com/ros-drivers/driver_common/issues " STREQUAL " ")
     set(_report "Check the issue tracker 'https://github.com/ros-drivers/driver_common/issues' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT "http://www.ros.org/wiki/driver_base " STREQUAL " ")
@@ -110,7 +110,7 @@ if(NOT "/home/trex/turtle_drive/devel/.private/driver_base/include;/home/trex/tu
         message(FATAL_ERROR "Project 'driver_base' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'driver_base' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/trex/turtle_drive/src/driver_common/driver_base/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'driver_base' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/turtle1/turtle_drive/src/driver_common/driver_base/${idir}'.  ${_report}")
     endif()
     _list_append_unique(driver_base_INCLUDE_DIRS ${include})
   endforeach()
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/trex/turtle_drive/devel/.private/driver_base/lib;/home/trex/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/turtle1/turtle_drive/devel/.private/driver_base/lib;/home/turtle1/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

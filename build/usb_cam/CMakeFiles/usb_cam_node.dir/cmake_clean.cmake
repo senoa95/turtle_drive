@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o"
-  "/home/trex/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node.pdb"
-  "/home/trex/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node"
+  "/home/turtle1/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node.pdb"
+  "/home/turtle1/turtle_drive/devel/.private/usb_cam/lib/usb_cam/usb_cam_node"
 )
 
 # Per-language clean rules from dependency scanning.

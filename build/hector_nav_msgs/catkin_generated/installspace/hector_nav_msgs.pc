@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/install
+prefix=/home/turtle1/turtle_drive/install
 
 Name: hector_nav_msgs
 Description: Description of hector_nav_msgs
 Version: 0.3.5
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib 
+Cflags: -I/home/turtle1/turtle_drive/install/include
+Libs: -L/home/turtle1/turtle_drive/install/lib 
 Requires: nav_msgs geometry_msgs message_runtime

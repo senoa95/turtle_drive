@@ -5,7 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c" "/home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
+  "/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c" "/home/turtle1/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -17,12 +17,12 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/include"
+  "/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp" "/home/trex/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
+  "/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/src/jpeg_streamer.cpp" "/home/turtle1/turtle_drive/build/jpeg_streamer/CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -34,7 +34,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/trex/turtle_drive/src/camera_umd/jpeg_streamer/include"
+  "/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

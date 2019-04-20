@@ -7,14 +7,7 @@
 # new environment variables
 
 # modified environment variables
-<<<<<<< HEAD
-export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/turtle_control:$CMAKE_PREFIX_PATH"
-export PWD="/home/sena/turtle_drive/build/turtle_control"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/turtle_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/Turtles/turtle_control:$ROS_PACKAGE_PATH"
-=======
-export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/turtle_control:$CMAKE_PREFIX_PATH"
-export PWD="/home/trex/turtle_drive/build/turtle_control"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/turtle_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/Turtles/turtle_control:$ROS_PACKAGE_PATH"
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
+export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/turtle_control:$CMAKE_PREFIX_PATH"
+export PWD="/home/turtle1/turtle_drive/build/turtle_control"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/turtle_control/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/src/Turtles/turtle_control:$ROS_PACKAGE_PATH"

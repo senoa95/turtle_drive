@@ -1,43 +1,24 @@
 Determining if the pthread_create exist failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:"/usr/bin/make" "cmTC_f328f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f328f.dir/build.make CMakeFiles/cmTC_f328f.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f328f.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_f328f.dir/CheckSymbolExists.c.o   -c /home/sena/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_f328f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f328f.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_f328f.dir/CheckSymbolExists.c.o  -o cmTC_f328f -rdynamic 
-CMakeFiles/cmTC_f328f.dir/CheckSymbolExists.c.o: In function `main':
+Run Build Command:"/usr/bin/make" "cmTC_7be33/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7be33.dir/build.make CMakeFiles/cmTC_7be33.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7be33.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_7be33.dir/CheckSymbolExists.c.o   -c /home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_7be33
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7be33.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_7be33.dir/CheckSymbolExists.c.o  -o cmTC_7be33 -rdynamic 
+CMakeFiles/cmTC_7be33.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_f328f.dir/build.make:97: recipe for target 'cmTC_f328f' failed
-make[1]: *** [cmTC_f328f] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_f328f/fast' failed
-make: *** [cmTC_f328f/fast] Error 2
-=======
-Run Build Command:"/usr/bin/make" "cmTC_0c10a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0c10a.dir/build.make CMakeFiles/cmTC_0c10a.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0c10a.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_0c10a.dir/CheckSymbolExists.c.o   -c /home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_0c10a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0c10a.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_0c10a.dir/CheckSymbolExists.c.o  -o cmTC_0c10a -rdynamic 
-CMakeFiles/cmTC_0c10a.dir/CheckSymbolExists.c.o: In function `main':
-CheckSymbolExists.c:(.text+0xa): undefined reference to `pthread_create'
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0c10a.dir/build.make:97: recipe for target 'cmTC_0c10a' failed
-make[1]: *** [cmTC_0c10a] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0c10a/fast' failed
-make: *** [cmTC_0c10a/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
+CMakeFiles/cmTC_7be33.dir/build.make:97: recipe for target 'cmTC_7be33' failed
+make[1]: *** [cmTC_7be33] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_7be33/fast' failed
+make: *** [cmTC_7be33/fast] Error 2
 
-File /home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+File /home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
 #include <pthread.h>
 
@@ -53,40 +34,22 @@ int main(int argc, char** argv)
 }
 
 Determining if the function pthread_create exists in the pthreads failed with the following output:
-Change Dir: /home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp
 
-<<<<<<< HEAD
-Run Build Command:"/usr/bin/make" "cmTC_1171a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1171a.dir/build.make CMakeFiles/cmTC_1171a.dir/build
-make[1]: Entering directory '/home/sena/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1171a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_1171a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_1171a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1171a.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_1171a.dir/CheckFunctionExists.c.o  -o cmTC_1171a -rdynamic -lpthreads 
+Run Build Command:"/usr/bin/make" "cmTC_344c3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_344c3.dir/build.make CMakeFiles/cmTC_344c3.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_344c3.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_344c3.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_344c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_344c3.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_344c3.dir/CheckFunctionExists.c.o  -o cmTC_344c3 -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_1171a.dir/build.make:97: recipe for target 'cmTC_1171a' failed
-make[1]: *** [cmTC_1171a] Error 1
-make[1]: Leaving directory '/home/sena/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_1171a/fast' failed
-make: *** [cmTC_1171a/fast] Error 2
-=======
-Run Build Command:"/usr/bin/make" "cmTC_0514a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_0514a.dir/build.make CMakeFiles/cmTC_0514a.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0514a.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_0514a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0514a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0514a.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0514a.dir/CheckFunctionExists.c.o  -o cmTC_0514a -rdynamic -lpthreads 
-/usr/bin/ld: cannot find -lpthreads
-collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_0514a.dir/build.make:97: recipe for target 'cmTC_0514a' failed
-make[1]: *** [cmTC_0514a] Error 1
-make[1]: Leaving directory '/home/trex/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_0514a/fast' failed
-make: *** [cmTC_0514a/fast] Error 2
->>>>>>> e9cd62af21de1d7449f0732f6f4acbdc818f742b
+CMakeFiles/cmTC_344c3.dir/build.make:97: recipe for target 'cmTC_344c3' failed
+make[1]: *** [cmTC_344c3] Error 1
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/novatel_gps_msgs/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_344c3/fast' failed
+make: *** [cmTC_344c3/fast] Error 2
 
 

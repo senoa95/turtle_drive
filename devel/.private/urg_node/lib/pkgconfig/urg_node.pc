@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/urg_node
+prefix=/home/turtle1/turtle_drive/devel/.private/urg_node
 
 Name: urg_node
 Description: Description of urg_node
 Version: 0.1.11
-Cflags: -I/home/trex/turtle_drive/devel/.private/urg_node/include -I/home/trex/turtle_drive/src/urg_node/include
-Libs: -L/home/trex/turtle_drive/devel/.private/urg_node/lib -lurg_c_wrapper -lurg_node_driver
+Cflags: -I/home/turtle1/turtle_drive/devel/.private/urg_node/include -I/home/turtle1/turtle_drive/src/urg_node/include
+Libs: -L/home/turtle1/turtle_drive/devel/.private/urg_node/lib -lurg_c_wrapper -lurg_node_driver
 Requires: dynamic_reconfigure laser_proc message_runtime nodelet rosconsole roscpp sensor_msgs std_msgs std_srvs urg_c

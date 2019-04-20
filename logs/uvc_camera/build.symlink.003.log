@@ -1,0 +1,24 @@
+Symlinking /home/turtle1/turtle_drive/devel/lib/libnodelet_uvc_camera.so
+Symlinking /home/turtle1/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
+Symlinking /home/turtle1/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
+Symlinking /home/turtle1/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
+Symlinking /home/turtle1/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake, /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake, /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so, /home/trex/turtle_drive/devel/lib/libnodelet_uvc_camera.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node, /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node)
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node, /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_camera_node)
+Cleaning: (/home/trex/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc)
+Unlinking: /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libnodelet_uvc_camera.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
+Already unlinked: {}

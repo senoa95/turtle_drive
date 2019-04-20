@@ -1,0 +1,64 @@
+Symlinking /home/turtle1/turtle_drive/devel/lib/libopen_urg_sensor.so
+Symlinking /home/turtle1/turtle_drive/devel/lib/libliburg_c.so
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/reboot_test
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/angle_convert_test
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/get_distance_intensity
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/sensor_parameter
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/find_port
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/calculate_xy
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/sync_time_stamp
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/get_distance
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/get_multiecho
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/timeout_test
+Symlinking /home/turtle1/turtle_drive/devel/lib/urg_c/get_multiecho_intensity
+Symlinking /home/turtle1/turtle_drive/devel/lib/pkgconfig/urg_c.pc
+Symlinking /home/turtle1/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake, /home/trex/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig.cmake, /home/trex/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so, /home/trex/turtle_drive/devel/lib/libliburg_c.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so, /home/trex/turtle_drive/devel/lib/libopen_urg_sensor.so)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter, /home/trex/turtle_drive/devel/lib/urg_c/sensor_parameter)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/angle_convert_test, /home/trex/turtle_drive/devel/lib/urg_c/angle_convert_test)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp, /home/trex/turtle_drive/devel/lib/urg_c/sync_time_stamp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test, /home/trex/turtle_drive/devel/lib/urg_c/timeout_test)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_multiecho_intensity, /home/trex/turtle_drive/devel/lib/urg_c/get_multiecho_intensity)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port, /home/trex/turtle_drive/devel/lib/urg_c/find_port)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance_intensity, /home/trex/turtle_drive/devel/lib/urg_c/get_distance_intensity)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_multiecho, /home/trex/turtle_drive/devel/lib/urg_c/get_multiecho)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/calculate_xy, /home/trex/turtle_drive/devel/lib/urg_c/calculate_xy)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance, /home/trex/turtle_drive/devel/lib/urg_c/get_distance)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/urg_c/reboot_test, /home/trex/turtle_drive/devel/lib/urg_c/reboot_test)
+Cleaning: (/home/trex/turtle_drive/devel/.private/urg_c/lib/pkgconfig/urg_c.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/urg_c.pc)
+Unlinking: /home/trex/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libliburg_c.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/libopen_urg_sensor.so
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/sensor_parameter
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/angle_convert_test
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/sync_time_stamp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/timeout_test
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/get_multiecho_intensity
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/find_port
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/get_distance_intensity
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/get_multiecho
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/calculate_xy
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/get_distance
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/urg_c/reboot_test
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/urg_c.pc
+Already unlinked: {}

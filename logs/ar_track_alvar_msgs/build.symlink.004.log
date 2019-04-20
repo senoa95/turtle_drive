@@ -1,0 +1,96 @@
+Symlinking /home/turtle1/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/__init__.py
+Symlinking /home/turtle1/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarker.py
+Symlinking /home/turtle1/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarkers.py
+Symlinking /home/turtle1/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/__init__.py
+Symlinking /home/turtle1/turtle_drive/devel/lib/pkgconfig/ar_track_alvar_msgs.pc
+Symlinking /home/turtle1/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarkers.h
+Symlinking /home/turtle1/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarker.h
+Symlinking /home/turtle1/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/_index.js
+Symlinking /home/turtle1/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js
+Symlinking /home/turtle1/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/_index.js
+Symlinking /home/turtle1/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js
+Symlinking /home/turtle1/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-paths.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-extras.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig-version.cmake
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package.lisp
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarker.lisp
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/ar_track_alvar_msgs-msg.asd
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp
+Symlinking /home/turtle1/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarkers.lisp
+Symlinking /home/turtle1/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/manifest.l
+Symlinking /home/turtle1/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l
+Symlinking /home/turtle1/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/include/ar_track_alvar_msgs/AlvarMarkers.h, /home/trex/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarkers.h)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/include/ar_track_alvar_msgs/AlvarMarker.h, /home/trex/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarker.h)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/gennodejs/ros/ar_track_alvar_msgs/_index.js, /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/_index.js)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js, /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/gennodejs/ros/ar_track_alvar_msgs/msg/_index.js, /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/_index.js)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js, /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/roseus/ros/ar_track_alvar_msgs/manifest.l, /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/manifest.l)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l, /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l, /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig-version.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig-version.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-paths.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-paths.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-extras.cmake, /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-extras.cmake)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarker.lisp, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarker.lisp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/ar_track_alvar_msgs-msg.asd, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/ar_track_alvar_msgs-msg.asd)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarkers.lisp, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarkers.lisp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package.lisp, /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package.lisp)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib/pkgconfig/ar_track_alvar_msgs.pc, /home/trex/turtle_drive/devel/lib/pkgconfig/ar_track_alvar_msgs.pc)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib/python2.7/dist-packages/ar_track_alvar_msgs/__init__.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/__init__.py)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarkers.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarkers.py)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/__init__.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/__init__.py)
+Cleaning: (/home/trex/turtle_drive/devel/.private/ar_track_alvar_msgs/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarker.py, /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarker.py)
+Unlinking: /home/trex/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarkers.h
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/include/ar_track_alvar_msgs/AlvarMarker.h
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/_index.js
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarker.js
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/_index.js
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/gennodejs/ros/ar_track_alvar_msgs/msg/AlvarMarkers.js
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/manifest.l
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarkers.l
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/roseus/ros/ar_track_alvar_msgs/msg/AlvarMarker.l
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig-version.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-paths.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgsConfig.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/ar_track_alvar_msgs/cmake/ar_track_alvar_msgs-msg-extras.cmake
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarker.lisp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/ar_track_alvar_msgs-msg.asd
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package_AlvarMarkers.lisp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/share/common-lisp/ros/ar_track_alvar_msgs/msg/_package.lisp
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/pkgconfig/ar_track_alvar_msgs.pc
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/__init__.py
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarkers.py
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/__init__.py
+Already unlinked: {}
+Unlinking: /home/trex/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar_msgs/msg/_AlvarMarker.py
+Already unlinked: {}

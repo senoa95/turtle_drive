@@ -1,10 +1,10 @@
 
 "use strict";
 
-let HectorIterData = require('./HectorIterData.js');
 let HectorDebugInfo = require('./HectorDebugInfo.js');
+let HectorIterData = require('./HectorIterData.js');
 
 module.exports = {
-  HectorIterData: HectorIterData,
   HectorDebugInfo: HectorDebugInfo,
+  HectorIterData: HectorIterData,
 };

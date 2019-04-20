@@ -1,0 +1,5 @@
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+libpcap_LIBRARIES
+    linked by target "novatel_gps_driver" in directory /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
+

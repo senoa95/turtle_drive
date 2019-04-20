@@ -1,0 +1,30 @@
+[33m[1mCMake Warning[0m at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:76 (find_package):
+  Could not find a package configuration file provided by "swri_string_util"
+  with any of the following names:
+
+    swri_string_utilConfig.cmake
+    swri_string_util-config.cmake
+
+  Add the installation prefix of "swri_string_util" to CMAKE_PREFIX_PATH or
+  set "swri_string_util_DIR" to a directory containing one of the above
+  files.  If "swri_string_util" provides a separate development package or
+  SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:27 (find_package)
+
+
+[31m[1mCMake Error[0m at /opt/ros/kinetic/share/catkin/cmake/catkinConfig.cmake:83 (find_package):
+  Could not find a package configuration file provided by "swri_string_util"
+  with any of the following names:
+
+    swri_string_utilConfig.cmake
+    swri_string_util-config.cmake
+
+  Add the installation prefix of "swri_string_util" to CMAKE_PREFIX_PATH or
+  set "swri_string_util_DIR" to a directory containing one of the above
+  files.  If "swri_string_util" provides a separate development package or
+  SDK, be sure it has been installed.
+[36mCall Stack (most recent call first):[0m
+  CMakeLists.txt:27 (find_package)
+
+

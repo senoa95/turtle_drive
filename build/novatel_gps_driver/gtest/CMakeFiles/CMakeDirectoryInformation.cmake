@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gmock")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/trex/turtle_drive/build/novatel_gps_driver")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/turtle1/turtle_drive/build/novatel_gps_driver")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

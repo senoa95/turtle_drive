@@ -1,0 +1,26 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/turtle1/turtle_drive/devel;/opt/ros/kinetic
+[36m--[0m This workspace overlays: /home/turtle1/turtle_drive/devel;/opt/ros/kinetic
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/bin/empy
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/turtle1/turtle_drive/build/novatel_gps_driver/test_results
+[36m--[0m Found gmock sources under '/usr/src/gmock': gmock will be built
+[36m--[0m Found gtest sources under '/usr/src/gmock': gtests will be built
+[36m--[0m Using Python nosetests: /usr/bin/nosetests-2.7
+[36m--[0m catkin 0.7.14
+[36m--[0m Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+[36m--[0m Boost version: 1.58.0
+[36m--[0m Found the following Boost libraries:
+[36m--[0m   system
+CMake Error: The following variables are used in this project, but they are set to NOTFOUND.
+Please set them or make sure they are set and tested correctly in the CMake files:
+libpcap_LIBRARIES
+    linked by target "novatel_gps_driver" in directory /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
+
+[36m--[0m Configuring incomplete, errors occurred!
+See also "/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeOutput.log".
+See also "/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles/CMakeError.log".

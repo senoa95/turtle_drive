@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"hector_geotiff\"
 
-CXX_INCLUDES = -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore -I/home/trex/turtle_drive/src/hector_slam/hector_geotiff/include -I/home/trex/turtle_drive/src/hector_slam/hector_geotiff/include/hector_geotiff -I/home/trex/turtle_drive/devel/.private/hector_nav_msgs/include -I/home/trex/turtle_drive/src/hector_slam/hector_map_tools/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -isystem /usr/include/qt4 -isystem /usr/include/qt4/QtGui -isystem /usr/include/qt4/QtCore -I/home/turtle1/turtle_drive/src/hector_slam/hector_geotiff/include -I/home/turtle1/turtle_drive/src/hector_slam/hector_geotiff/include/hector_geotiff -I/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/include -I/home/turtle1/turtle_drive/src/hector_slam/hector_map_tools/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

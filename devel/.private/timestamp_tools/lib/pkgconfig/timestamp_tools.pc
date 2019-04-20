@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/timestamp_tools
+prefix=/home/turtle1/turtle_drive/devel/.private/timestamp_tools
 
 Name: timestamp_tools
 Description: Description of timestamp_tools
 Version: 1.6.8
-Cflags: -I/home/trex/turtle_drive/src/driver_common/timestamp_tools/include
-Libs: -L/home/trex/turtle_drive/devel/.private/timestamp_tools/lib 
+Cflags: -I/home/turtle1/turtle_drive/src/driver_common/timestamp_tools/include
+Libs: -L/home/turtle1/turtle_drive/devel/.private/timestamp_tools/lib 
 Requires: roslib roscpp
