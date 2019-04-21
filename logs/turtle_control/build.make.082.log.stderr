@@ -1,5 +1,0 @@
-/home/trex/turtle_drive/devel/.private/turtle_control/lib/libturtle_control.so: undefined reference to `turtle_control::TurtleHardware::imuCallback(novatel_msgs::CORRIMUDATA_<std::allocator<void> >)'
-collect2: error: ld returned 1 exit status
-make[2]: *** [/home/trex/turtle_drive/devel/.private/turtle_control/lib/turtle_control/turtle_base] Error 1
-make[1]: *** [CMakeFiles/turtle_base.dir/all] Error 2
-make: *** [all] Error 2

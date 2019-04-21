@@ -1,6 +1,14 @@
 roboteq/roboteq_driver
+<<<<<<< HEAD
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libroboteq_driver_script.a
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node /home/nishanth/TurtleStuff/turtle_drive/devel/lib/roboteq_driver/driver_node
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
+=======
+/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a /home/turtle1/turtle_drive/devel/lib/libroboteq_driver_script.a
+/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node /home/turtle1/turtle_drive/devel/lib/roboteq_driver/driver_node
+/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
+/home/turtle1/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake /home/turtle1/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
+/home/turtle1/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake /home/turtle1/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
+>>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311

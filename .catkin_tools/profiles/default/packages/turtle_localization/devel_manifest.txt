@@ -1,4 +1,10 @@
 turtle_localization
+<<<<<<< HEAD
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_localization/lib/pkgconfig/turtle_localization.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/turtle_localization.pc
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig.cmake
+=======
+/home/turtle1/turtle_drive/devel/.private/turtle_localization/lib/pkgconfig/turtle_localization.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/turtle_localization.pc
+/home/turtle1/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig.cmake /home/turtle1/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig.cmake
+/home/turtle1/turtle_drive/devel/.private/turtle_localization/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake /home/turtle1/turtle_drive/devel/share/turtle_localization/cmake/turtle_localizationConfig-version.cmake
+>>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311

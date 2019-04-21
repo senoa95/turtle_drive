@@ -1,4 +1,10 @@
 Turtles/turtle_description
+<<<<<<< HEAD
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/turtle_description.pc
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig.cmake
 /home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake
+=======
+/home/turtle1/turtle_drive/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/turtle_description.pc
+/home/turtle1/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig.cmake /home/turtle1/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig.cmake
+/home/turtle1/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake /home/turtle1/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake
+>>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311
