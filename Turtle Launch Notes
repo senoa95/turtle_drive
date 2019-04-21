@@ -1,0 +1,28 @@
+
+For teleop:
+
+Turtle:
+1. turtle_control/turtle_control.launch
+2. novatel_gps_driver/usb_gps.launch
+3. turtle_localization/turtle_ekf.launch
+4. obj_detect/obj_detect.launch
+
+
+Base:
+1. turtle_control/remote_joy_control.launch
+2. turtle_mapviz/turtle_mapviz.launch
+3. rviz (with config)
+
+For waypoint navigation:
+
+Turtle:
+1. turtle_control/turtle_control.launch
+2. novatel_gps_driver/usb_gps.launch
+3. turtle_localization/turtle_ekf.launch
+4. obj_detect/obj_detect.launch
+
+
+Base:
+1. turtle_control/waypoint_nav.launch
+2. turtle_mapviz/turtle_mapviz.launch
+3. rviz (with config)
