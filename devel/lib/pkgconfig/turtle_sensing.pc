@@ -1,0 +1,1 @@
+/home/trex/turtle_drive/devel/.private/turtle_sensing/lib/pkgconfig/turtle_sensing.pc

@@ -1,0 +1,2 @@
+set(novatel_gps_msgs_MESSAGE_FILES "msg/Gpgga.msg;msg/Gpgsa.msg;msg/Gpgsv.msg;msg/Gprmc.msg;msg/Inscov.msg;msg/Inspva.msg;msg/Insstdev.msg;msg/NovatelCorrectedImuData.msg;msg/NovatelExtendedSolutionStatus.msg;msg/NovatelMessageHeader.msg;msg/NovatelPosition.msg;msg/NovatelReceiverStatus.msg;msg/NovatelSignalMask.msg;msg/NovatelVelocity.msg;msg/RangeInformation.msg;msg/Range.msg;msg/Satellite.msg;msg/Time.msg;msg/TrackstatChannel.msg;msg/Trackstat.msg")
+set(novatel_gps_msgs_SERVICE_FILES "srv/NovatelFRESET.srv")

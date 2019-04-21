@@ -1,0 +1,1 @@
+/home/trex/turtle_drive/devel/.private/turtle_mapviz/lib/pkgconfig/turtle_mapviz.pc

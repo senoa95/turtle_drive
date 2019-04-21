@@ -1,5 +1,0 @@
-follow_waypoints
-/home/sena/turtle_drive/devel/.private/follow_waypoints/lib/pkgconfig/follow_waypoints.pc /home/sena/turtle_drive/devel/lib/pkgconfig/follow_waypoints.pc
-/home/sena/turtle_drive/devel/.private/follow_waypoints/lib/python2.7/dist-packages/follow_waypoints/__init__.py /home/sena/turtle_drive/devel/lib/python2.7/dist-packages/follow_waypoints/__init__.py
-/home/sena/turtle_drive/devel/.private/follow_waypoints/share/follow_waypoints/cmake/follow_waypointsConfig.cmake /home/sena/turtle_drive/devel/share/follow_waypoints/cmake/follow_waypointsConfig.cmake
-/home/sena/turtle_drive/devel/.private/follow_waypoints/share/follow_waypoints/cmake/follow_waypointsConfig-version.cmake /home/sena/turtle_drive/devel/share/follow_waypoints/cmake/follow_waypointsConfig-version.cmake

@@ -1,5 +1,0 @@
-ros_controllers/force_torque_sensor_controller
-/home/trex/turtle_drive/devel/.private/force_torque_sensor_controller/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig.cmake /home/trex/turtle_drive/devel/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig.cmake
-/home/trex/turtle_drive/devel/.private/force_torque_sensor_controller/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig-version.cmake /home/trex/turtle_drive/devel/share/force_torque_sensor_controller/cmake/force_torque_sensor_controllerConfig-version.cmake
-/home/trex/turtle_drive/devel/.private/force_torque_sensor_controller/lib/libforce_torque_sensor_controller.so /home/trex/turtle_drive/devel/lib/libforce_torque_sensor_controller.so
-/home/trex/turtle_drive/devel/.private/force_torque_sensor_controller/lib/pkgconfig/force_torque_sensor_controller.pc /home/trex/turtle_drive/devel/lib/pkgconfig/force_torque_sensor_controller.pc

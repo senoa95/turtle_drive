@@ -1,10 +1,4 @@
 hector_slam/hector_marker_drawing
-<<<<<<< HEAD
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
-=======
-/home/turtle1/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc
-/home/turtle1/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake /home/turtle1/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
-/home/turtle1/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake /home/turtle1/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
->>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311
+/home/trex/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
+/home/trex/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake /home/trex/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
+/home/trex/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc /home/trex/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc

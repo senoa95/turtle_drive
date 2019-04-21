@@ -1,0 +1,8 @@
+prefix=/home/trex/turtle_drive/install
+
+Name: obj_detect
+Description: Description of obj_detect
+Version: 0.0.0
+Cflags: 
+Libs: -L/home/trex/turtle_drive/install/lib 
+Requires: 

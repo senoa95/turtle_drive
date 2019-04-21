@@ -1,16 +1,7 @@
 camera_umd/uvc_camera
-<<<<<<< HEAD
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libnodelet_uvc_camera.so
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
-=======
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/turtle1/turtle_drive/devel/lib/libnodelet_uvc_camera.so
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/turtle1/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/turtle1/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/turtle1/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
-/home/turtle1/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/turtle1/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
->>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311
+/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
+/home/trex/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/trex/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
+/home/trex/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/trex/turtle_drive/devel/lib/libnodelet_uvc_camera.so
+/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
+/home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/trex/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
+/home/trex/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/trex/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc

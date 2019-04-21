@@ -1,0 +1,19 @@
+[35m[1mScanning dependencies of target uvc_stereo_node[0m
+[  7%] [32mBuilding CXX object CMakeFiles/uvc_stereo_node.dir/src/stereo_node.cpp.o[0m
+[35m[1mScanning dependencies of target nodelet_uvc_camera[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/nodelet_uvc_camera.dir/src/nodelets.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/uvc_stereo_node.dir/src/stereo.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/uvc_stereo_node.dir/src/uvc_cam.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/nodelet_uvc_camera.dir/src/camera.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/nodelet_uvc_camera.dir/src/stereo.cpp.o[0m
+[ 53%] [32m[1mLinking CXX executable /home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node[0m
+[ 53%] Built target uvc_stereo_node
+[35m[1mScanning dependencies of target uvc_camera_node[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/nodelet_uvc_camera.dir/src/uvc_cam.cpp.o[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o[0m
+[ 84%] [32m[1mLinking CXX shared library /home/trex/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so[0m
+[ 84%] Built target nodelet_uvc_camera
+[ 92%] [32mBuilding CXX object CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o[0m
+[100%] [32m[1mLinking CXX executable /home/trex/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node[0m
+[100%] Built target uvc_camera_node

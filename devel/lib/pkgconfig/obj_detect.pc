@@ -1,0 +1,1 @@
+/home/trex/turtle_drive/devel/.private/obj_detect/lib/pkgconfig/obj_detect.pc

@@ -1,12 +1,5 @@
 camera_umd/jpeg_streamer
-<<<<<<< HEAD
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer /home/nishanth/TurtleStuff/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake
-=======
-/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer /home/turtle1/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
-/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
-/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake /home/turtle1/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake
-/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake /home/turtle1/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
->>>>>>> 844b63cf799e1df9ff09950cf12ee0c9091f8311
+/home/trex/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake /home/trex/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
+/home/trex/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake /home/trex/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake
+/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc /home/trex/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
+/home/trex/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer /home/trex/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
