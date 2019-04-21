@@ -68,12 +68,10 @@ confidence_thresh = 0.2
 # net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 net = cv2.dnn.readNetFromCaffe(prototxt_path, caffemodel_path)
 
-# if rospy.has_param:
-# 	dev_id = rospy.get_param('/src')
-# else:
-# 	dev_id = 0
-
-dev_id = 0
+if rospy.has_param('detector/dev_id'):
+	dev_id = rospy.get_param('detector/dev_id')
+else:
+	dev_id = 0
 
 
 # initialize the video stream, allow the cammera sensor to warmup,
@@ -140,7 +138,7 @@ def CV():
 
 		label_pub = rospy.Publisher("Obj_Label", String, queue_size=10)
 		obj_pos = rospy.Publisher("Obj_Position", Floats, queue_size=10)
-		image_pub = rospy.Publisher("image_topic_2",Image, queue_size=10)
+		image_pub = rospy.Publisher("image",Image, queue_size=10)
 		bridge = CvBridge()
 		try:
 			image_pub.publish(bridge.cv2_to_imgmsg(frame, encoding="passthrough"))

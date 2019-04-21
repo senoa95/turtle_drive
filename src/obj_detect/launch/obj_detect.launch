@@ -1,9 +1,29 @@
 <?xml version="1.0"?>
 
 <launch>
-  
-    <node pkg="obj_detect" name="detector" type="objectDetect2ROS.py">
-    <param name="detector/src" type="int" value="1" />
+    
+    <group ns="right_cam">
+    <node pkg="obj_detect" name="detector" type="objectDetect2ROS.py" clear_params="true">
+        <rosparam>
+            dev_id: 1
+        </rosparam>
     </node>
+    </group>
+
+    <group ns="left_cam">
+    <node pkg="obj_detect" name="detector" type="objectDetect2ROS.py" clear_params="true">
+        <rosparam>
+            dev_id: 2
+        </rosparam>
+    </node>
+    </group>
+
+    <group ns="front_cam">
+    <node pkg="obj_detect" name="detector" type="objectDetect2ROS.py" clear_params="true">
+        <rosparam>
+            dev_id: 3
+        </rosparam>
+    </node>
+    </group>
 
 </launch>

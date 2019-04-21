@@ -189,24 +189,28 @@ void TurtleHardware::publishDriveFromMath()
   float des_xVel = cmd_vel_msg_.linear.x;
   float des_thetaDot = cmd_vel_msg_.angular.z;
 
-  std::cout << "here" << '\n';
-
+  // Calculate the linear velocity from odometry
   xVel = (((2*R*joints_[1].velocity - thetaDot*L) / 2) + ((2*R*joints_[0].velocity + thetaDot*L) / 2))/2;
 
+  // Compute the linear and angular velocity error
   xVel_err = des_xVel - xVel;
   thetaDot_err = des_thetaDot - thetaDot;
-
+  // Compute the linear and angular velocity error differential
   xVel_err_diff = xVel_err - prev_xVel_err;
   thetaDot_err_diff = thetaDot_err - prev_thetaDot_err;
+  // Compute the error integral
   xVel_err_sum = xVel_err_sum + xVel_err;
   thetaDot_err_sum = thetaDot_err_sum + thetaDot_err;
 
+  // Compute the linear velocity command
   cmd_lin_vel = kp_lin_vel*xVel_err + ki_lin_vel*xVel_err_sum + kd_lin_vel*xVel_err_diff;
+  // Compute the angular velocity command
   cmd_ang_vel = kp_ang_vel*thetaDot_err + ki_ang_vel*thetaDot_err_sum + kd_ang_vel*thetaDot_err_diff;
 
   left_msg.mode=0;
   right_msg.mode=0;
-	left_msg.setpoint= (2*cmd_lin_vel - cmd_ang_vel*L) / (2*R);
+  // set left and right wheel velocities based in
+	left_msg.setpoint= -(2*cmd_lin_vel + cmd_ang_vel*L) / (2*R);
 	right_msg.setpoint= (2*cmd_lin_vel + cmd_ang_vel*L) / (2*R);;
   left_motor_pub.publish(left_msg);
   right_motor_pub.publish(right_msg);

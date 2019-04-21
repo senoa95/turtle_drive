@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+
+<launch>
+	<include file="$(find turtle_control)/Turtles/turtle_control/launch/local_ps3"/>
+	<include file="$(find package_name)/directory/another.launch"/>
+	<include file="$(find package_name)/directory/another.launch"/>
+	<include file="$(find package_name)/directory/another.launch"/>
+    
+
+
+</launch>

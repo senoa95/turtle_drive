@@ -6,9 +6,9 @@
     <rosparam>
       verbose: true
       connection_type: serial
-      device: /dev/ttyUSB1
+      device: /dev/ttyUSB0
       publish_novatel_positions: true
-      frame_id: /world
+      frame_id: world_frame
       use_binary_messages: true
       imu_rate: 20
       imu_frame_id: base_link
