@@ -1,0 +1,39 @@
+turtle_base config:
+
+pc ip_address = 192.168.1.103
+ubiquity ip_address = 192.168.1.201
+ubiquity username = ubnt
+ubiquity password = ubnt_base
+export ROS_MASTER_URI=http://trex:11311
+export ROS_IP=192.168.1.103
+
+turtle_mule config:
+
+pc ip_address = 192.168.1.103
+ubiquity ip_address = 192.168.1.200
+ubiquity username = ubnt
+ubiquity password = ubnt
+export ROS_MASTER_URI=http://192.168.1.100:11311
+export ROS_IP=192.168.1.100
+
+
+-------------------
+
+
+Base Station Network Config:
+
+Necessary components:
+1. PC with 2 or more ethernet connections and access to WiFi
+2. Ubiquity M5 antenna
+3. Monitor (duh!)
+4. Router
+
+Configuration:
+ 
+1. Connect PC to WiFi with access to the internet.
+2. Connect one ethernet connection on PC to internet input on router. Configure this as "Shared to other computers" in IPV4 settings.
+3. Connect second ethernet connection to LAN input on router. Configure this as "Manual" in IPV4 Settings. Set a static IP address. Set the address of the router as Gateway and DNS. Open "Routes" and select "Use this connection only for resources on its network". 
+4. Configure the base station Ubiquity antenna as:
+	pc ip_address = 192.168.1.103
+	ubiquity ip_address = 192.168.1.201
+5. I still do not know how to configure the PC as a static ip so I am simply using another computer in order to serve as a base station with static ip.

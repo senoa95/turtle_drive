@@ -1,0 +1,28 @@
+Run Turtle Remotely Using Joystick:
+
+rosparam set joy_node/dev /dev/input/js1
+rosparam set joy_node/deadzone 0.3
+rosparam set joy_node/autorepeat_rate 20
+rosrun joy joy_node
+
+rosparam set joy_node/axis_linear 1
+rosparam set joy_node/axis_angular 2
+rosparam set joy_node/scale_linear 2
+rosparam set joy_node/scale_angular 2
+
+
+Check joystick with:
+ls -l /dev/input/js*
+------------------------------------------------------------
+
+Run Turtle Remotely Using keyboard:
+
+rosrun turtlesim turtle_teleop_key turtle1/cmd_vel:=/turtle_velocity_controller/cmd_vel
+
+
+----------------------------------------------------
+
+Object Detection Execute from object_detection directory:
+
+python objectDetect2ROS.py --prototxt MobileNetSSD_deploy.prototxt.txt --model MobileNetSSD_deploy.caffemodel
+
