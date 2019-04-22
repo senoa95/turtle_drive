@@ -1,1 +1,0 @@
-/home/trex/turtle_drive/devel/.private/hector_mapping/share/roseus/ros/hector_mapping/msg/HectorDebugInfo.l

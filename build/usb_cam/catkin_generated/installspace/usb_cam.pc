@@ -1,8 +1,0 @@
-prefix=/home/trex/turtle_drive/install
-
-Name: usb_cam
-Description: Description of usb_cam
-Version: 0.3.6
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib -lusb_cam
-Requires: 

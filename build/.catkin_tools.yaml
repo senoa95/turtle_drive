@@ -1,6 +1,0 @@
-devel_space: /home/trex/turtle_drive/devel
-install: false
-install_space: /home/trex/turtle_drive/install
-profile: default
-source_space: /home/trex/turtle_drive/src
-workspace: /home/trex/turtle_drive

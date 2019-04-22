@@ -1,1 +1,0 @@
-/home/trex/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig.cmake
