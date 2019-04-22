@@ -1,10 +1,4 @@
 turtle_mapviz
-<<<<<<< HEAD
-/home/turtle1/turtle_drive/devel/.private/turtle_mapviz/lib/pkgconfig/turtle_mapviz.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/turtle_mapviz.pc
-/home/turtle1/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake /home/turtle1/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake
-/home/turtle1/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake /home/turtle1/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake
-=======
-/home/trex2/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake /home/trex2/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake
-/home/trex2/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake /home/trex2/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake
-/home/trex2/turtle_drive/devel/.private/turtle_mapviz/lib/pkgconfig/turtle_mapviz.pc /home/trex2/turtle_drive/devel/lib/pkgconfig/turtle_mapviz.pc
->>>>>>> 8721e819b04b75c1baf3d0162e88e78cd1d0ac5e
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_mapviz/lib/pkgconfig/turtle_mapviz.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/turtle_mapviz.pc
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig-version.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_mapviz/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_mapviz/cmake/turtle_mapvizConfig.cmake

@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/devel/.private/turtle_sensing
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_sensing
 
 Name: turtle_sensing
 Description: Description of turtle_sensing
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/turtle1/turtle_drive/devel/.private/turtle_sensing/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_sensing/lib 
 Requires: 

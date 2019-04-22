@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/urg_node
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/urg_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/urg_node
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/urg_node
 
 # Utility rule file for dynamic_reconfigure_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend:
-	cd /home/turtle1/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/urg_node /home/nishanth/TurtleStuff/turtle_drive/src/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_py.dir/depend
 

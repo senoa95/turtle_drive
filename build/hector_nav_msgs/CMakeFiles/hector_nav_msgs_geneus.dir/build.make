@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/hector_nav_msgs
 
 # Utility rule file for hector_nav_msgs_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/hector_nav_msgs_geneus.dir/clean:
 .PHONY : CMakeFiles/hector_nav_msgs_geneus.dir/clean
 
 CMakeFiles/hector_nav_msgs_geneus.dir/depend:
-	cd /home/turtle1/turtle_drive/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/build/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/build/hector_nav_msgs /home/nishanth/TurtleStuff/turtle_drive/build/hector_nav_msgs/CMakeFiles/hector_nav_msgs_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_nav_msgs_geneus.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: turtle_description
 Description: Description of turtle_description
 Version: 0.0.1
 Cflags: 
-Libs: -L/home/turtle1/turtle_drive/install/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: 

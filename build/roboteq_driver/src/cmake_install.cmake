@@ -1,8 +1,8 @@
-# Install script for directory: /home/turtle1/turtle_drive/src/roboteq/roboteq_driver/src
+# Install script for directory: /home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/turtle1/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/nishanth/TurtleStuff/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -39,7 +39,7 @@ if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/roboteq_driver/driver_node"
          RPATH "")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/roboteq_driver" TYPE EXECUTABLE FILES "/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/roboteq_driver" TYPE EXECUTABLE FILES "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/roboteq_driver/driver_node" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/roboteq_driver/driver_node")
     file(RPATH_CHANGE

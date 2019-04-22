@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"hector_mapping\"
 
-CXX_INCLUDES = -I/home/turtle1/turtle_drive/devel/.private/hector_mapping/include -I/home/turtle1/turtle_drive/src/hector_slam/hector_mapping/include -I/home/turtle1/turtle_drive/src/hector_slam/hector_mapping/include/hector_slam_lib -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
+CXX_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_mapping/include -I/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_mapping/include -I/home/nishanth/TurtleStuff/turtle_drive/src/hector_slam/hector_mapping/include/hector_slam_lib -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/eigen3 
 

@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/urg_c
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/urg_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/urg_c
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/urg_c
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtle1/turtle_drive/build/urg_c/CMakeFiles /home/turtle1/turtle_drive/build/urg_c/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtle1/turtle_drive/build/urg_c/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

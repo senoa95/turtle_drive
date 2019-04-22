@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/usb_cam:$CMAKE_PREFIX_PATH"
-export PWD="/home/turtle1/turtle_drive/build/usb_cam"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/usb_cam/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/src/usb_cam:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/nishanth/TurtleStuff/turtle_drive/devel/.private/usb_cam:$CMAKE_PREFIX_PATH"
+export PWD="/home/nishanth/TurtleStuff/turtle_drive/build/usb_cam"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/nishanth/TurtleStuff/turtle_drive/devel/.private/usb_cam/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/nishanth/TurtleStuff/turtle_drive/src/usb_cam:$ROS_PACKAGE_PATH"

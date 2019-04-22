@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/turtle1/turtle_drive/src/usb_cam/nodes/usb_cam_node.cpp" "/home/turtle1/turtle_drive/build/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/nodes/usb_cam_node.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/usb_cam/CMakeFiles/usb_cam_node.dir/nodes/usb_cam_node.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,7 +16,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/turtle1/turtle_drive/src/usb_cam/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/usb_cam/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/x86_64-linux-gnu"
@@ -24,7 +24,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/turtle1/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake"
+  "/home/nishanth/TurtleStuff/turtle_drive/build/usb_cam/CMakeFiles/usb_cam.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

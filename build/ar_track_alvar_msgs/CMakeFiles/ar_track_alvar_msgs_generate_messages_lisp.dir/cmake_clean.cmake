@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/ar_track_alvar_msgs_generate_messages_lisp"
-  "/home/turtle1/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp"
-  "/home/turtle1/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarker.lisp"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/ar_track_alvar_msgs/share/common-lisp/ros/ar_track_alvar_msgs/msg/AlvarMarkers.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

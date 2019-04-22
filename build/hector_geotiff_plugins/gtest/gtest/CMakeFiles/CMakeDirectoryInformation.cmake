@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/usr/src/gtest")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/turtle1/turtle_drive/build/hector_geotiff_plugins")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

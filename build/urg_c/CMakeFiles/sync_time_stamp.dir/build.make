@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/urg_c
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/urg_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/urg_c
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/urg_c
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sync_time_stamp.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/sync_time_stamp.dir/progress.make
 include CMakeFiles/sync_time_stamp.dir/flags.make
 
 CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o: CMakeFiles/sync_time_stamp.dir/flags.make
-CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o: /home/turtle1/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o   -c /home/turtle1/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c
+CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o: /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o"
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c
 
 CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.i"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/turtle1/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c > CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.i
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c > CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.i
 
 CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.s"
-	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/turtle1/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c -o CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.s
+	/usr/bin/cc  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/samples/sync_time_stamp.c -o CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.s
 
 CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o.requires:
 
@@ -88,16 +88,16 @@ sync_time_stamp_OBJECTS = \
 # External object files for target sync_time_stamp
 sync_time_stamp_EXTERNAL_OBJECTS =
 
-/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o
-/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/build.make
-/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: /home/turtle1/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
-/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: /home/turtle1/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
-/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/turtle1/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp"
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/current/samples/sync_time_stamp.c.o
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/build.make
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp: CMakeFiles/sync_time_stamp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sync_time_stamp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/sync_time_stamp.dir/build: /home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp
+CMakeFiles/sync_time_stamp.dir/build: /home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp
 
 .PHONY : CMakeFiles/sync_time_stamp.dir/build
 
@@ -110,6 +110,6 @@ CMakeFiles/sync_time_stamp.dir/clean:
 .PHONY : CMakeFiles/sync_time_stamp.dir/clean
 
 CMakeFiles/sync_time_stamp.dir/depend:
-	cd /home/turtle1/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/urg_c /home/turtle1/turtle_drive/src/urg_c /home/turtle1/turtle_drive/build/urg_c /home/turtle1/turtle_drive/build/urg_c /home/turtle1/turtle_drive/build/urg_c/CMakeFiles/sync_time_stamp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_c && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/src/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c /home/nishanth/TurtleStuff/turtle_drive/build/urg_c/CMakeFiles/sync_time_stamp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sync_time_stamp.dir/depend
 

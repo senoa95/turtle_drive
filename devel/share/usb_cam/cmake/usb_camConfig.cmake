@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake

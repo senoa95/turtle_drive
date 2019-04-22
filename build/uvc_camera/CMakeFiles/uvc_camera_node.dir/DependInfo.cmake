@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/turtle1/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp" "/home/turtle1/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o"
-  "/home/turtle1/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp" "/home/turtle1/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o"
-  "/home/turtle1/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp" "/home/turtle1/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/camera.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/camera_node.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/camera_node.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/src/uvc_cam.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/uvc_camera/CMakeFiles/uvc_camera_node.dir/src/uvc_cam.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -18,7 +18,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/turtle1/turtle_drive/src/camera_umd/uvc_camera/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/camera_umd/uvc_camera/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

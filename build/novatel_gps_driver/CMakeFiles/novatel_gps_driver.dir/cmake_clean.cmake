@@ -16,8 +16,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/novatel_gps_driver.dir/src/parsers/range.cpp.o"
   "CMakeFiles/novatel_gps_driver.dir/src/parsers/time.cpp.o"
   "CMakeFiles/novatel_gps_driver.dir/src/parsers/trackstat.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so"
 )
 
 # Per-language clean rules from dependency scanning.

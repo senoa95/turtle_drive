@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: hector_slam_launch
 Description: Description of hector_slam_launch
 Version: 0.3.5
 Cflags: 
-Libs: -L/home/turtle1/turtle_drive/install/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: 

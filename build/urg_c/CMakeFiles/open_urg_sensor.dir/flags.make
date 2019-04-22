@@ -6,5 +6,5 @@ C_FLAGS = -fPIC
 
 C_DEFINES = -Dopen_urg_sensor_EXPORTS
 
-C_INCLUDES = -I/home/turtle1/turtle_drive/src/urg_c/current/include 
+C_INCLUDES = -I/home/nishanth/TurtleStuff/turtle_drive/src/urg_c/current/include 
 

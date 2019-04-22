@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig.cmake

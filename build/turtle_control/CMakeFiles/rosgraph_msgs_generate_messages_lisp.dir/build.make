@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/Turtles/turtle_control
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/turtle_control
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/turtle_control
 
 # Utility rule file for rosgraph_msgs_generate_messages_lisp.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend:
-	cd /home/turtle1/turtle_drive/build/turtle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/Turtles/turtle_control /home/turtle1/turtle_drive/src/Turtles/turtle_control /home/turtle1/turtle_drive/build/turtle_control /home/turtle1/turtle_drive/build/turtle_control /home/turtle1/turtle_drive/build/turtle_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/turtle_control && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_control /home/nishanth/TurtleStuff/turtle_drive/build/turtle_control /home/nishanth/TurtleStuff/turtle_drive/build/turtle_control /home/nishanth/TurtleStuff/turtle_drive/build/turtle_control/CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_lisp.dir/depend
 

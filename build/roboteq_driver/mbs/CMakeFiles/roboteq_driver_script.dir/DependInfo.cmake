@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/turtle1/turtle_drive/build/roboteq_driver/mbs/genc_script_hex.cpp" "/home/turtle1/turtle_drive/build/roboteq_driver/mbs/CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o"
+  "/home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver/mbs/genc_script_hex.cpp" "/home/nishanth/TurtleStuff/turtle_drive/build/roboteq_driver/mbs/CMakeFiles/roboteq_driver_script.dir/genc_script_hex.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -16,8 +16,8 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/turtle1/turtle_drive/src/roboteq/roboteq_driver/include"
-  "/home/turtle1/turtle_drive/devel/.private/roboteq_msgs/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/roboteq/roboteq_driver/include"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_msgs/include"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   )

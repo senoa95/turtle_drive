@@ -2,11 +2,9 @@
 
 
 <launch>
-	<include file="$(find turtle_control)/Turtles/turtle_control/launch/local_ps3"/>
-	<include file="$(find package_name)/directory/another.launch"/>
-	<include file="$(find package_name)/directory/another.launch"/>
-	<include file="$(find package_name)/directory/another.launch"/>
-    
-
-
+	<include file="$(find turtle_control)/launch/turtle_control.launch"/>
+	<include file="$(find novatel_gps_driver)/launch/usb_gps.launch"/>
+	<include file="$(find turtle_localization)/launch/turtle_ekf.launch"/>
+	<include file="$(find obj_detect)/launch/obj_detect.launch"/>
 </launch>
+

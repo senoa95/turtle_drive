@@ -1,16 +1,16 @@
 
 "use strict";
 
-let GetRecoveryInfo = require('./GetRecoveryInfo.js')
-let GetRobotTrajectory = require('./GetRobotTrajectory.js')
-let GetSearchPosition = require('./GetSearchPosition.js')
 let GetNormal = require('./GetNormal.js')
+let GetRobotTrajectory = require('./GetRobotTrajectory.js')
+let GetRecoveryInfo = require('./GetRecoveryInfo.js')
 let GetDistanceToObstacle = require('./GetDistanceToObstacle.js')
+let GetSearchPosition = require('./GetSearchPosition.js')
 
 module.exports = {
-  GetRecoveryInfo: GetRecoveryInfo,
-  GetRobotTrajectory: GetRobotTrajectory,
-  GetSearchPosition: GetSearchPosition,
   GetNormal: GetNormal,
+  GetRobotTrajectory: GetRobotTrajectory,
+  GetRecoveryInfo: GetRecoveryInfo,
   GetDistanceToObstacle: GetDistanceToObstacle,
+  GetSearchPosition: GetSearchPosition,
 };

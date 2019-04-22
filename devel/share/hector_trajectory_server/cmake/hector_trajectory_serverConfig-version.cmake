@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake
+/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_trajectory_server/share/hector_trajectory_server/cmake/hector_trajectory_serverConfig-version.cmake

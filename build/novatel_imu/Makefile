@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/novatel_imu
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/novatel_imu
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/novatel_imu
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/novatel_imu
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,9 +135,9 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtle1/turtle_drive/build/novatel_imu/CMakeFiles /home/turtle1/turtle_drive/build/novatel_imu/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nishanth/TurtleStuff/turtle_drive/build/novatel_imu/CMakeFiles /home/nishanth/TurtleStuff/turtle_drive/build/novatel_imu/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/turtle1/turtle_drive/build/novatel_imu/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nishanth/TurtleStuff/turtle_drive/build/novatel_imu/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

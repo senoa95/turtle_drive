@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/waypoint_nav
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_nav
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/waypoint_nav
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_nav
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/turtle1/turtle_drive/build/waypoint_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/waypoint_nav /home/turtle1/turtle_drive/src/waypoint_nav /home/turtle1/turtle_drive/build/waypoint_nav /home/turtle1/turtle_drive/build/waypoint_nav /home/turtle1/turtle_drive/build/waypoint_nav/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_nav && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_nav /home/nishanth/TurtleStuff/turtle_drive/src/waypoint_nav /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_nav /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_nav /home/nishanth/TurtleStuff/turtle_drive/build/waypoint_nav/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

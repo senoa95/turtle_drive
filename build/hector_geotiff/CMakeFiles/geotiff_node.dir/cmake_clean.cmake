@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/geotiff_node.dir/src/geotiff_node.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_node.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_node"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_node.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/hector_geotiff/lib/hector_geotiff/geotiff_node"
 )
 
 # Per-language clean rules from dependency scanning.

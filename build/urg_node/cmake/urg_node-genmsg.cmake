@@ -2,7 +2,7 @@
 
 message(STATUS "urg_node: 1 messages, 0 services")
 
-set(MSG_I_FLAGS "-Iurg_node:/home/turtle1/turtle_drive/src/urg_node/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
+set(MSG_I_FLAGS "-Iurg_node:/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg;-Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg")
 
 # Find all generators
 find_package(gencpp REQUIRED)
@@ -17,9 +17,9 @@ add_custom_target(urg_node_generate_messages ALL)
 
 
 
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_custom_target(_urg_node_generate_messages_check_deps_${_filename}
-  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "urg_node" "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" ""
+  COMMAND ${CATKIN_ENV} ${PYTHON_EXECUTABLE} ${GENMSG_CHECK_DEPS_SCRIPT} "urg_node" "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" ""
 )
 
 #
@@ -29,7 +29,7 @@ add_custom_target(_urg_node_generate_messages_check_deps_${_filename}
 ### Section generating for lang: gencpp
 ### Generating Messages
 _generate_msg_cpp(urg_node
-  "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gencpp_INSTALL_DIR}/urg_node
@@ -49,7 +49,7 @@ add_custom_target(urg_node_generate_messages_cpp
 add_dependencies(urg_node_generate_messages urg_node_generate_messages_cpp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_dependencies(urg_node_generate_messages_cpp _urg_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -62,7 +62,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS urg_node_generate_messages_cpp)
 ### Section generating for lang: geneus
 ### Generating Messages
 _generate_msg_eus(urg_node
-  "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${geneus_INSTALL_DIR}/urg_node
@@ -82,7 +82,7 @@ add_custom_target(urg_node_generate_messages_eus
 add_dependencies(urg_node_generate_messages urg_node_generate_messages_eus)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_dependencies(urg_node_generate_messages_eus _urg_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -95,7 +95,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS urg_node_generate_messages_eus)
 ### Section generating for lang: genlisp
 ### Generating Messages
 _generate_msg_lisp(urg_node
-  "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genlisp_INSTALL_DIR}/urg_node
@@ -115,7 +115,7 @@ add_custom_target(urg_node_generate_messages_lisp
 add_dependencies(urg_node_generate_messages urg_node_generate_messages_lisp)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_dependencies(urg_node_generate_messages_lisp _urg_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -128,7 +128,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS urg_node_generate_messages_lisp)
 ### Section generating for lang: gennodejs
 ### Generating Messages
 _generate_msg_nodejs(urg_node
-  "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${gennodejs_INSTALL_DIR}/urg_node
@@ -148,7 +148,7 @@ add_custom_target(urg_node_generate_messages_nodejs
 add_dependencies(urg_node_generate_messages urg_node_generate_messages_nodejs)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_dependencies(urg_node_generate_messages_nodejs _urg_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility
@@ -161,7 +161,7 @@ list(APPEND ${PROJECT_NAME}_EXPORTED_TARGETS urg_node_generate_messages_nodejs)
 ### Section generating for lang: genpy
 ### Generating Messages
 _generate_msg_py(urg_node
-  "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg"
+  "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg"
   "${MSG_I_FLAGS}"
   ""
   ${CATKIN_DEVEL_PREFIX}/${genpy_INSTALL_DIR}/urg_node
@@ -181,7 +181,7 @@ add_custom_target(urg_node_generate_messages_py
 add_dependencies(urg_node_generate_messages urg_node_generate_messages_py)
 
 # add dependencies to all check dependencies targets
-get_filename_component(_filename "/home/turtle1/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
+get_filename_component(_filename "/home/nishanth/TurtleStuff/turtle_drive/src/urg_node/msg/Status.msg" NAME_WE)
 add_dependencies(urg_node_generate_messages_py _urg_node_generate_messages_check_deps_${_filename})
 
 # target for backward compatibility

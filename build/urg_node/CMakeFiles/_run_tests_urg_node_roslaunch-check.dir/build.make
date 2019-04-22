@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/urg_node
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/urg_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/urg_node
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/urg_node
 
 # Utility rule file for _run_tests_urg_node_roslaunch-check.
 
@@ -67,6 +67,6 @@ CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/clean:
 .PHONY : CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/clean
 
 CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/depend:
-	cd /home/turtle1/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node/CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/urg_node /home/nishanth/TurtleStuff/turtle_drive/src/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node /home/nishanth/TurtleStuff/turtle_drive/build/urg_node/CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_run_tests_urg_node_roslaunch-check.dir/depend
 

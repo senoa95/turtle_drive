@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/Turtles/turtle_description
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/turtle_description
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/turtle_description
 
 # Utility rule file for _catkin_empty_exported_target.
 
@@ -67,6 +67,6 @@ CMakeFiles/_catkin_empty_exported_target.dir/clean:
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 CMakeFiles/_catkin_empty_exported_target.dir/depend:
-	cd /home/turtle1/turtle_drive/build/turtle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/Turtles/turtle_description /home/turtle1/turtle_drive/src/Turtles/turtle_description /home/turtle1/turtle_drive/build/turtle_description /home/turtle1/turtle_drive/build/turtle_description /home/turtle1/turtle_drive/build/turtle_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/turtle_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_description /home/nishanth/TurtleStuff/turtle_drive/src/Turtles/turtle_description /home/nishanth/TurtleStuff/turtle_drive/build/turtle_description /home/nishanth/TurtleStuff/turtle_drive/build/turtle_description /home/nishanth/TurtleStuff/turtle_drive/build/turtle_description/CMakeFiles/_catkin_empty_exported_target.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/_catkin_empty_exported_target.dir/depend
 

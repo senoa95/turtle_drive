@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/urg_node.dir/src/urg_node.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/urg_node/urg_node.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/urg_node/lib/urg_node/urg_node"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_node/lib/urg_node/urg_node.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_node/lib/urg_node/urg_node"
 )
 
 # Per-language clean rules from dependency scanning.

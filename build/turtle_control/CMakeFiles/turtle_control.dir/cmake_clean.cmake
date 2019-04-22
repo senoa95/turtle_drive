@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/turtle_control.dir/src/turtle_hardware.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/turtle_control/lib/libturtle_control.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/turtle_control/lib/libturtle_control.so"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_control/lib/libturtle_control.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_control/lib/libturtle_control.so"
 )
 
 # Per-language clean rules from dependency scanning.

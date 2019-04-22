@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: ar_track_alvar_msgs
 Description: Description of ar_track_alvar_msgs
 Version: 0.7.1
-Cflags: -I/home/turtle1/turtle_drive/install/include
-Libs: -L/home/turtle1/turtle_drive/install/lib 
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: message_runtime std_msgs geometry_msgs

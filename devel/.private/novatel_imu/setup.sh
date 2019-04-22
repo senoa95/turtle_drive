@@ -10,7 +10,7 @@
 
 # since this file is sourced either use the provided _CATKIN_SETUP_DIR
 # or fall back to the destination set at configure time
-: ${_CATKIN_SETUP_DIR:=/home/turtle1/turtle_drive/devel/.private/novatel_imu}
+: ${_CATKIN_SETUP_DIR:=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/novatel_imu}
 _SETUP_UTIL="$_CATKIN_SETUP_DIR/_setup_util.py"
 unset _CATKIN_SETUP_DIR
 

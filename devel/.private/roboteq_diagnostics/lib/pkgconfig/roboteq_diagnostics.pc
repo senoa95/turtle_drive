@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/devel/.private/roboteq_diagnostics
+prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics
 
 Name: roboteq_diagnostics
 Description: Description of roboteq_diagnostics
 Version: 0.2.0
 Cflags: 
-Libs: -L/home/turtle1/turtle_drive/devel/.private/roboteq_diagnostics/lib 
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics/lib 
 Requires: 

@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/install
+prefix=/home/nishanth/TurtleStuff/turtle_drive/install
 
 Name: roboteq_msgs
 Description: Description of roboteq_msgs
 Version: 0.2.0
-Cflags: -I/home/turtle1/turtle_drive/install/include
-Libs: -L/home/turtle1/turtle_drive/install/lib 
+Cflags: -I/home/nishanth/TurtleStuff/turtle_drive/install/include
+Libs: -L/home/nishanth/TurtleStuff/turtle_drive/install/lib 
 Requires: 

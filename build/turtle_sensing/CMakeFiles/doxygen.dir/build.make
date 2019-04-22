@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/turtle_sensing
+CMAKE_SOURCE_DIR = /home/nishanth/TurtleStuff/turtle_drive/src/turtle_sensing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/turtle_sensing
+CMAKE_BINARY_DIR = /home/nishanth/TurtleStuff/turtle_drive/build/turtle_sensing
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/turtle1/turtle_drive/build/turtle_sensing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/turtle_sensing /home/turtle1/turtle_drive/src/turtle_sensing /home/turtle1/turtle_drive/build/turtle_sensing /home/turtle1/turtle_drive/build/turtle_sensing /home/turtle1/turtle_drive/build/turtle_sensing/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/nishanth/TurtleStuff/turtle_drive/build/turtle_sensing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/nishanth/TurtleStuff/turtle_drive/src/turtle_sensing /home/nishanth/TurtleStuff/turtle_drive/src/turtle_sensing /home/nishanth/TurtleStuff/turtle_drive/build/turtle_sensing /home/nishanth/TurtleStuff/turtle_drive/build/turtle_sensing /home/nishanth/TurtleStuff/turtle_drive/build/turtle_sensing/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

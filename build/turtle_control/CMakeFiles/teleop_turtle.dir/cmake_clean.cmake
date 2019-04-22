@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/teleop_turtle.dir/src/teleop_turtle.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/turtle_control/lib/turtle_control/teleop_turtle.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/turtle_control/lib/turtle_control/teleop_turtle"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_control/lib/turtle_control/teleop_turtle.pdb"
+  "/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_control/lib/turtle_control/teleop_turtle"
 )
 
 # Per-language clean rules from dependency scanning.
