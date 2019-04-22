@@ -22,13 +22,6 @@ import imutils
 import time
 import cv2
 
-# class objectDetec2ROS:
-
-
-
-
-
-
 
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
@@ -49,15 +42,13 @@ CLASSES = ["background", "aeroplane", "bicycle", "bird", "boat",
 COLORS = np.random.uniform(0, 255, size=(len(CLASSES), 3))
 
 # load our serialized model from disk
-print("[INFO] loading model...")
 net = cv2.dnn.readNetFromCaffe(args["prototxt"], args["model"])
 
 # initialize the video stream, allow the cammera sensor to warmup,
-# and initialize the FPS counter
-print("[INFO] starting video stream...")
 vs = VideoStream(src=0).start()
 time.sleep(2.0)
 fps = FPS().start()
+label = ''
 
 # loop over the frames from the video stream
 while True:
@@ -101,18 +92,14 @@ while True:
 			cv2.putText(frame, label, (startX, y),
 				cv2.FONT_HERSHEY_SIMPLEX, 0.5, COLORS[idx], 2)
 
-	# show the output frame
-	# cv2.imshow("Frame", frame)
-
-
 	####### START OF ROS CONVERSION ########
 
-	rospy.init_node('my_node_name')
+	rospy.init_node('cv')
 
 
 	label_pub = rospy.Publisher("Obj_Label", String, queue_size=10)
 	obj_pos = rospy.Publisher("Obj_Position", Floats, queue_size=10)
-	image_pub = rospy.Publisher("image_topic_2",Image, queue_size=10)
+	image_pub = rospy.Publisher("Image",Image, queue_size=10)
 	bridge = CvBridge()
 	try:
 		image_pub.publish(bridge.cv2_to_imgmsg(frame, encoding="passthrough"))

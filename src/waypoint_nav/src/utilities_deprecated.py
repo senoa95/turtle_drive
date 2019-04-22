@@ -58,14 +58,17 @@ class NavController:
     def compute_err(self, current, goal):
         # Compute vector from current position to current waypoint:
         vecRobot2Wp = np.zeros((2,1))
-        vecRobot2Wp[0,0] =  current.x - self.wpList[self.currWpIdx].x
-        vecRobot2Wp[1,0] =  current.y - self.wpList[self.currWpIdx].y
+        vecRobot2Wp[0,0] =  self.wpList[self.currWpIdx].x - current.x
+        vecRobot2Wp[1,0] =  self.wpList[self.currWpIdx].y - current.y
 
-        distance2Goal = pow((pow(vecRobot2Wp[0,0],2) + pow(vecRobot2Wp[1,0],2)), 0.5)
-        theta_des_init = math.atan2(current.y - goal.y, current.x - goal.x)
-        heading_err_init = current.z - theta_des_init
-        # if heading_err_init > pi:
-        #     heading_err_init = heading_err_init - 2*pi
-        # elif heading_err_init < -pi:
-        #     heading_err_init = heading_err_init + 2*pi
+        distance2Goal = pow(pow(vecRobot2Wp[0,0],2), pow(vecRobot2Wp[1,0],2), 0.5)
+
+        theta_des_init = math.atan2(goal.y - current.y, goal.x - current.x)
+        heading_err_init = theta_des_init - current.heading
+        if heading_err_init > pi:
+            heading_err_init = heading_err_init - 2*pi
+        elif heading_err_init < -pi:
+            heading_err_init = heading_err_init + 2*pi
+
+
         return heading_err_init, distance2Goal

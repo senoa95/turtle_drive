@@ -32,7 +32,7 @@ i = 0
 
 
 # waypoint_file =  open("/home/trex/turtle_drive/src/waypoint_nav/src/test_waypoints.txt","w")
-waypoint_file =  open("/home/sena/turtle_drive/src/waypoint_nav/src/test_waypoints.txt","w")
+waypoint_file =  open("/home/turtle1/turtle_drive/src/waypoint_nav/src/test_waypoints.txt","w")
 
 def pose_callback(data):
 
@@ -70,11 +70,11 @@ def waypoint_maker():
     while not rospy.is_shutdown():
 
         euclideanDistance = math.sqrt((math.pow((current_x-previous_x),2) + math.pow((current_y-previous_y),2)))
-        yaw_delta = previous_yaw - current_yaw
+        yaw_delta = abs(previous_yaw - current_yaw)
         # print(current_x)
         # print("distance = ", euclideanDistance)
 
-        if (euclideanDistance > 2) or (yaw_delta > 0.3) :
+        if (euclideanDistance > 4) or (yaw_delta > 15) :
             print("distance = ", euclideanDistance)
             print("rotation = ", yaw_delta)
 
