@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/novatel_gps_driver
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/novatel_gps_driver
 
 # Include any dependencies generated for this target.
 include CMakeFiles/parser_tests.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/parser_tests.dir/progress.make
 include CMakeFiles/parser_tests.dir/flags.make
 
 CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o: CMakeFiles/parser_tests.dir/flags.make
-CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o: /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o -c /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp
+CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o: /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o -c /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp
 
 CMakeFiles/parser_tests.dir/test/parser_tests.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/parser_tests.dir/test/parser_tests.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp > CMakeFiles/parser_tests.dir/test/parser_tests.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp > CMakeFiles/parser_tests.dir/test/parser_tests.cpp.i
 
 CMakeFiles/parser_tests.dir/test/parser_tests.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/parser_tests.dir/test/parser_tests.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp -o CMakeFiles/parser_tests.dir/test/parser_tests.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/test/parser_tests.cpp -o CMakeFiles/parser_tests.dir/test/parser_tests.cpp.s
 
 CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o.requires:
 
@@ -88,64 +88,64 @@ parser_tests_OBJECTS = \
 # External object files for target parser_tests
 parser_tests_EXTERNAL_OBJECTS =
 
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/build.make
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: gtest/gtest/libgtest.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_math_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_serial_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_string_util.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libactionlib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf2.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libnodeletlib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libuuid.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libbondcpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libtinyxml2.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libclass_loader.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/libPocoFoundation.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libdl.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroslib.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librospack.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libpython2.7.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_program_options.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libtinyxml.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroscpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_filesystem.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_signals.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/liblog4cxx.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_regex.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librostime.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libcpp_common.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_system.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_thread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_chrono.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_date_time.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libboost_atomic.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libpthread.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libconsole_bridge.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/i386-linux-gnu/libpcap.so
-/home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests"
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/test/parser_tests.cpp.o
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/build.make
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: gtest/gtest/libgtest.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/libnovatel_gps_driver.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_math_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_serial_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libswri_string_util.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libactionlib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libtf2.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libnodeletlib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libuuid.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libbondcpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libtinyxml2.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libclass_loader.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/libPocoFoundation.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libdl.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroslib.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librospack.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libpython2.7.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libtinyxml.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroscpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/librostime.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /opt/ros/kinetic/lib/libcpp_common.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: /usr/lib/x86_64-linux-gnu/libpcap.so
+/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests: CMakeFiles/parser_tests.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/parser_tests.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/parser_tests.dir/build: /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests
+CMakeFiles/parser_tests.dir/build: /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib/novatel_gps_driver/parser_tests
 
 .PHONY : CMakeFiles/parser_tests.dir/build
 
@@ -158,6 +158,6 @@ CMakeFiles/parser_tests.dir/clean:
 .PHONY : CMakeFiles/parser_tests.dir/clean
 
 CMakeFiles/parser_tests.dir/depend:
-	cd /home/trex/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/parser_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles/parser_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/parser_tests.dir/depend
 

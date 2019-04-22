@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/novatel_gps_driver
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/novatel_gps_driver
 
 # Utility rule file for run_tests_novatel_gps_driver_rostest.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/clean:
 .PHONY : CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/clean
 
 CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/depend:
-	cd /home/trex/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver /home/trex/turtle_drive/build/novatel_gps_driver/CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/novatel_gps_driver && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver /home/turtle1/turtle_drive/build/novatel_gps_driver/CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests_novatel_gps_driver_rostest.dir/depend
 

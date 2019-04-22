@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/install
+prefix=/home/turtle1/turtle_drive/install
 
 Name: urg_c
 Description: Description of urg_c
 Version: 1.0.405
-Cflags: -I/home/trex/turtle_drive/install/include
-Libs: -L/home/trex/turtle_drive/install/lib -lliburg_c
+Cflags: -I/home/turtle1/turtle_drive/install/include
+Libs: -L/home/turtle1/turtle_drive/install/lib -lliburg_c
 Requires: 

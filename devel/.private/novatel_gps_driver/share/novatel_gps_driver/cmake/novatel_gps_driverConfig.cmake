@@ -67,14 +67,14 @@ set(novatel_gps_driver_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("TRUE" STREQUAL "TRUE")
-  set(novatel_gps_driver_SOURCE_PREFIX /home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver)
-  set(novatel_gps_driver_DEVEL_PREFIX /home/trex/turtle_drive/devel/.private/novatel_gps_driver)
+  set(novatel_gps_driver_SOURCE_PREFIX /home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver)
+  set(novatel_gps_driver_DEVEL_PREFIX /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver)
   set(novatel_gps_driver_INSTALL_PREFIX "")
   set(novatel_gps_driver_PREFIX ${novatel_gps_driver_DEVEL_PREFIX})
 else()
   set(novatel_gps_driver_SOURCE_PREFIX "")
   set(novatel_gps_driver_DEVEL_PREFIX "")
-  set(novatel_gps_driver_INSTALL_PREFIX /home/trex/turtle_drive/install)
+  set(novatel_gps_driver_INSTALL_PREFIX /home/turtle1/turtle_drive/install)
   set(novatel_gps_driver_PREFIX ${novatel_gps_driver_INSTALL_PREFIX})
 endif()
 
@@ -91,9 +91,9 @@ endif()
 # flag project as catkin-based to distinguish if a find_package()-ed project is a catkin project
 set(novatel_gps_driver_FOUND_CATKIN_PROJECT TRUE)
 
-if(NOT "/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/include;/usr/include " STREQUAL " ")
+if(NOT "/home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/include;/usr/include " STREQUAL " ")
   set(novatel_gps_driver_INCLUDE_DIRS "")
-  set(_include_dirs "/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/include;/usr/include")
+  set(_include_dirs "/home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/include;/usr/include")
   if(NOT " " STREQUAL " ")
     set(_report "Check the issue tracker '' and consider creating a ticket if the problem has not been reported yet.")
   elseif(NOT " " STREQUAL " ")
@@ -110,13 +110,13 @@ if(NOT "/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/includ
         message(FATAL_ERROR "Project 'novatel_gps_driver' specifies '${idir}' as an include dir, which is not found.  It does not exist in '${include}'.  ${_report}")
       endif()
     else()
-      message(FATAL_ERROR "Project 'novatel_gps_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/trex/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/${idir}'.  ${_report}")
+      message(FATAL_ERROR "Project 'novatel_gps_driver' specifies '${idir}' as an include dir, which is not found.  It does neither exist as an absolute directory nor in '/home/turtle1/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/${idir}'.  ${_report}")
     endif()
     _list_append_unique(novatel_gps_driver_INCLUDE_DIRS ${include})
   endforeach()
 endif()
 
-set(libraries "novatel_gps_driver;novatel_gps_driver_nodelets;/usr/lib/i386-linux-gnu/libboost_system.so;/usr/lib/i386-linux-gnu/libpcap.so")
+set(libraries "novatel_gps_driver;novatel_gps_driver_nodelets;/usr/lib/x86_64-linux-gnu/libboost_system.so;/usr/lib/x86_64-linux-gnu/libpcap.so")
 foreach(library ${libraries})
   # keep build configuration keywords, target names and absolute libraries as-is
   if("${library}" MATCHES "^(debug|optimized|general)$")
@@ -129,7 +129,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/trex/turtle_drive/devel/.private/novatel_gps_driver/lib;/home/trex/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
+    foreach(path /home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/lib;/home/turtle1/turtle_drive/devel/lib;/opt/ros/kinetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

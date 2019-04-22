@@ -7,8 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
-export PATH="/opt/ros/kinetic/bin:/home/trex/bin:/home/trex/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-export PWD="/home/trex/turtle_drive/build/catkin_tools_prebuild"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/catkin_tools_prebuild/share/common-lisp"
-export ROS_PACKAGE_PATH="/home/trex/turtle_drive/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/catkin_tools_prebuild:$CMAKE_PREFIX_PATH"
+export PWD="/home/turtle1/turtle_drive/build/catkin_tools_prebuild"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/catkin_tools_prebuild/share/common-lisp"
+export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/build/catkin_tools_prebuild:$ROS_PACKAGE_PATH"

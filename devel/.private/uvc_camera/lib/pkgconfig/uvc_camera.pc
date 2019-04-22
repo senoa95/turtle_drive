@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/uvc_camera
+prefix=/home/turtle1/turtle_drive/devel/.private/uvc_camera
 
 Name: uvc_camera
 Description: Description of uvc_camera
 Version: 0.2.7
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/uvc_camera/lib -lnodelet_uvc_camera
+Libs: -L/home/turtle1/turtle_drive/devel/.private/uvc_camera/lib -lnodelet_uvc_camera
 Requires: roscpp nodelet sensor_msgs

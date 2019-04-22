@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/driver_common/timestamp_tools
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/driver_common/timestamp_tools
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/timestamp_tools
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/timestamp_tools
 
 # Utility rule file for rosgraph_msgs_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/clean
 
 CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend:
-	cd /home/trex/turtle_drive/build/timestamp_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/driver_common/timestamp_tools /home/trex/turtle_drive/src/driver_common/timestamp_tools /home/trex/turtle_drive/build/timestamp_tools /home/trex/turtle_drive/build/timestamp_tools /home/trex/turtle_drive/build/timestamp_tools/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/timestamp_tools && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/driver_common/timestamp_tools /home/turtle1/turtle_drive/src/driver_common/timestamp_tools /home/turtle1/turtle_drive/build/timestamp_tools /home/turtle1/turtle_drive/build/timestamp_tools /home/turtle1/turtle_drive/build/timestamp_tools/CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/depend
 

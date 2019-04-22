@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/trex/turtle_drive/devel/.private/roboteq_driver:$CMAKE_PREFIX_PATH"
-export PWD="/home/trex/turtle_drive/build/roboteq_driver"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/trex/turtle_drive/devel/.private/roboteq_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/trex/turtle_drive/src/roboteq/roboteq_driver:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/roboteq_driver:$CMAKE_PREFIX_PATH"
+export PWD="/home/turtle1/turtle_drive/build/roboteq_driver"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/roboteq_driver/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/src/roboteq/roboteq_driver:$ROS_PACKAGE_PATH"

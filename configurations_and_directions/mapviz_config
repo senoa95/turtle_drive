@@ -1,0 +1,8 @@
+Add Docker:
+	sudo docker run -p 8080:8080 -d -t -v ~/mapproxy:/mapproxy danielsnider/mapproxy
+If Docker Address Already in use, restart docker:
+	sudo systemctl restart docker
+Launch turtle_mapviz:
+	roslaunch turtle_mapviz mapviz.launch
+Add tile, and specify Google Maps tile in base URL:
+	http://localhost:8080/wmts/gm_layer/gm_grid/{level}/{x}/{y}.png

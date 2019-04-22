@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics
+CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/roboteq/roboteq_diagnostics
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/trex/turtle_drive/build/roboteq_diagnostics
+CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/roboteq_diagnostics
 
 # Utility rule file for doxygen.
 
@@ -67,6 +67,6 @@ CMakeFiles/doxygen.dir/clean:
 .PHONY : CMakeFiles/doxygen.dir/clean
 
 CMakeFiles/doxygen.dir/depend:
-	cd /home/trex/turtle_drive/build/roboteq_diagnostics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics /home/trex/turtle_drive/src/roboteq/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics /home/trex/turtle_drive/build/roboteq_diagnostics/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/turtle1/turtle_drive/build/roboteq_diagnostics && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/roboteq/roboteq_diagnostics /home/turtle1/turtle_drive/src/roboteq/roboteq_diagnostics /home/turtle1/turtle_drive/build/roboteq_diagnostics /home/turtle1/turtle_drive/build/roboteq_diagnostics /home/turtle1/turtle_drive/build/roboteq_diagnostics/CMakeFiles/doxygen.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doxygen.dir/depend
 

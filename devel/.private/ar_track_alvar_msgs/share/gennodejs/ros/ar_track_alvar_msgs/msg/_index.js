@@ -1,10 +1,10 @@
 
 "use strict";
 
-let AlvarMarker = require('./AlvarMarker.js');
 let AlvarMarkers = require('./AlvarMarkers.js');
+let AlvarMarker = require('./AlvarMarker.js');
 
 module.exports = {
-  AlvarMarker: AlvarMarker,
   AlvarMarkers: AlvarMarkers,
+  AlvarMarker: AlvarMarker,
 };

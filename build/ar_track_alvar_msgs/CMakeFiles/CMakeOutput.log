@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-47-generic - i686
+The system is: Linux - 4.15.0-47-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,75 +23,75 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_64185/fast"
-/usr/bin/make -f CMakeFiles/cmTC_64185.dir/build.make CMakeFiles/cmTC_64185.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_64185.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_64185.dir/testCCompiler.c.o   -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_64185
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64185.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_64185.dir/testCCompiler.c.o  -o cmTC_64185 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_1781b/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1781b.dir/build.make CMakeFiles/cmTC_1781b.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1781b.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_1781b.dir/testCCompiler.c.o   -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_1781b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1781b.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_1781b.dir/testCCompiler.c.o  -o cmTC_1781b -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_fb71e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_fb71e.dir/build.make CMakeFiles/cmTC_fb71e.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_fb71e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb71e.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o  -o cmTC_fb71e -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_47756/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47756.dir/build.make CMakeFiles/cmTC_47756.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_47756
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47756.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o  -o cmTC_47756 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
-Target: i686-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
-COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb71e' '-rdynamic' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccknRKPK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_fb71e /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47756' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cczMc5Gu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_47756 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_fb71e/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_fb71e.dir/build.make CMakeFiles/cmTC_fb71e.dir/build]
-  ignore line: [make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_fb71e]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fb71e.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o  -o cmTC_fb71e -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_47756/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_47756.dir/build.make CMakeFiles/cmTC_47756.dir/build]
+  ignore line: [make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_47756]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47756.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o  -o cmTC_47756 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: i686-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_fb71e' '-rdynamic' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccknRKPK.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_fb71e /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/i686-linux-gnu/5/collect2] ==> ignore
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_47756' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cczMc5Gu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_47756 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccknRKPK.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cczMc5Gu.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -101,27 +101,27 @@ Parsed C implicit link information from above output:
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [elf_i386] ==> ignore
+    arg [elf_x86_64] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_fb71e] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5] ==> dir [/usr/lib/gcc/i686-linux-gnu/5]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib]
-    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [cmTC_47756] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_fb71e.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_47756.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -131,39 +131,39 @@ Parsed C implicit link information from above output:
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [--no-as-needed] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5] ==> [/usr/lib/gcc/i686-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [c]
-  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/5;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c4bd3/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c4bd3.dir/build.make CMakeFiles/cmTC_c4bd3.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c4bd3.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_c4bd3.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c4bd3
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4bd3.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_c4bd3.dir/feature_tests.c.o  -o cmTC_c4bd3 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_77e2c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_77e2c.dir/build.make CMakeFiles/cmTC_77e2c.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77e2c.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_77e2c.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_77e2c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77e2c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_77e2c.dir/feature_tests.c.o  -o cmTC_77e2c -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_e4663/fast"
-/usr/bin/make -f CMakeFiles/cmTC_e4663.dir/build.make CMakeFiles/cmTC_e4663.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_e4663.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_e4663.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_e4663
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4663.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_e4663.dir/feature_tests.c.o  -o cmTC_e4663 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_ee7dd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ee7dd.dir/build.make CMakeFiles/cmTC_ee7dd.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ee7dd.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_ee7dd.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ee7dd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee7dd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_ee7dd.dir/feature_tests.c.o  -o cmTC_ee7dd -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9d841/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9d841.dir/build.make CMakeFiles/cmTC_9d841.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_9d841.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_9d841.dir/feature_tests.c.o   -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
-Linking C executable cmTC_9d841
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9d841.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_9d841.dir/feature_tests.c.o  -o cmTC_9d841 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_eced3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eced3.dir/build.make CMakeFiles/cmTC_eced3.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eced3.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_eced3.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.c
+Linking C executable cmTC_eced3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eced3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_eced3.dir/feature_tests.c.o  -o cmTC_eced3 -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,72 +211,72 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_92f8d/fast"
-/usr/bin/make -f CMakeFiles/cmTC_92f8d.dir/build.make CMakeFiles/cmTC_92f8d.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_92f8d.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_92f8d.dir/testCXXCompiler.cxx.o -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_92f8d
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_92f8d.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_92f8d.dir/testCXXCompiler.cxx.o  -o cmTC_92f8d -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f0a2e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f0a2e.dir/build.make CMakeFiles/cmTC_f0a2e.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0a2e.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_f0a2e.dir/testCXXCompiler.cxx.o -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f0a2e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f0a2e.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f0a2e.dir/testCXXCompiler.cxx.o  -o cmTC_f0a2e -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_971e1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_971e1.dir/build.make CMakeFiles/cmTC_971e1.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_971e1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971e1.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_971e1 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_040a7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_040a7.dir/build.make CMakeFiles/cmTC_040a7.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_040a7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_040a7.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_040a7 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
-COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper
-Target: i686-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
 gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
-COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/
-LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_971e1' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686'
- /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4h97Rq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_971e1 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_040a7' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5aHPz8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_040a7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_971e1/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_971e1.dir/build.make CMakeFiles/cmTC_971e1.dir/build]
-  ignore line: [make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_971e1]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_971e1.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_971e1 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_040a7/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_040a7.dir/build.make CMakeFiles/cmTC_040a7.dir/build]
+  ignore line: [make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_040a7]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_040a7.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_040a7 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
-  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper]
-  ignore line: [Target: i686-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-i386/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-i386 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-i386 --with-arch-directory=i386 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-targets=all --enable-multiarch --disable-werror --with-arch-32=i686 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=i686-linux-gnu --host=i686-linux-gnu --target=i686-linux-gnu]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
   ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
-  ignore line: [COMPILER_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/]
-  ignore line: [LIBRARY_PATH=/usr/lib/gcc/i686-linux-gnu/5/:/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/:/usr/lib/gcc/i686-linux-gnu/5/../../../../lib/:/lib/i386-linux-gnu/:/lib/../lib/:/usr/lib/i386-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/i686-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_971e1' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=i686']
-  link line: [ /usr/lib/gcc/i686-linux-gnu/5/collect2 -plugin /usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4h97Rq.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_i386 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -z relro -o cmTC_971e1 /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o /usr/lib/gcc/i686-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/i686-linux-gnu/5 -L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu -L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib -L/lib/i386-linux-gnu -L/lib/../lib -L/usr/lib/i386-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/i686-linux-gnu/5/../../.. CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/i686-linux-gnu/5/crtend.o /usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o]
-    arg [/usr/lib/gcc/i686-linux-gnu/5/collect2] ==> ignore
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_040a7' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5aHPz8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_040a7 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/usr/lib/gcc/i686-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4h97Rq.res] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc5aHPz8.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -286,27 +286,27 @@ Parsed CXX implicit link information from above output:
     arg [--build-id] ==> ignore
     arg [--eh-frame-hdr] ==> ignore
     arg [-m] ==> ignore
-    arg [elf_i386] ==> ignore
+    arg [elf_x86_64] ==> ignore
     arg [--hash-style=gnu] ==> ignore
     arg [--as-needed] ==> ignore
     arg [-export-dynamic] ==> ignore
     arg [-dynamic-linker] ==> ignore
-    arg [/lib/ld-linux.so.2] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_971e1] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crt1.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crti.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/crtbegin.o] ==> ignore
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5] ==> dir [/usr/lib/gcc/i686-linux-gnu/5]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib]
-    arg [-L/lib/i386-linux-gnu] ==> dir [/lib/i386-linux-gnu]
+    arg [cmTC_040a7] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
-    arg [-L/usr/lib/i386-linux-gnu] ==> dir [/usr/lib/i386-linux-gnu]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
-    arg [-L/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/i686-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_971e1.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
+    arg [CMakeFiles/cmTC_040a7.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -314,39 +314,39 @@ Parsed CXX implicit link information from above output:
     arg [-lc] ==> lib [c]
     arg [-lgcc_s] ==> lib [gcc_s]
     arg [-lgcc] ==> lib [gcc]
-    arg [/usr/lib/gcc/i686-linux-gnu/5/crtend.o] ==> ignore
-    arg [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu/crtn.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o] ==> ignore
   remove lib [gcc_s]
   remove lib [gcc]
   remove lib [gcc_s]
   remove lib [gcc]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5] ==> [/usr/lib/gcc/i686-linux-gnu/5]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../../../lib] ==> [/usr/lib]
-  collapse library dir [/lib/i386-linux-gnu] ==> [/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5] ==> [/usr/lib/gcc/x86_64-linux-gnu/5]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
   collapse library dir [/lib/../lib] ==> [/lib]
-  collapse library dir [/usr/lib/i386-linux-gnu] ==> [/usr/lib/i386-linux-gnu]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
   collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
-  collapse library dir [/usr/lib/gcc/i686-linux-gnu/5/../../..] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> [/usr/lib]
   implicit libs: [stdc++;m;c]
-  implicit dirs: [/usr/lib/gcc/i686-linux-gnu/5;/usr/lib/i386-linux-gnu;/usr/lib;/lib/i386-linux-gnu;/lib]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/5;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
   implicit fwks: []
 
 
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_33e58/fast"
-/usr/bin/make -f CMakeFiles/cmTC_33e58.dir/build.make CMakeFiles/cmTC_33e58.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_33e58.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_33e58.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_33e58
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33e58.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_33e58.dir/feature_tests.cxx.o  -o cmTC_33e58 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f12c7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f12c7.dir/build.make CMakeFiles/cmTC_f12c7.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f12c7.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_f12c7.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f12c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f12c7.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f12c7.dir/feature_tests.cxx.o  -o cmTC_f12c7 -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_31c86/fast"
-/usr/bin/make -f CMakeFiles/cmTC_31c86.dir/build.make CMakeFiles/cmTC_31c86.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_31c86.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_31c86.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_31c86
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_31c86.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_31c86.dir/feature_tests.cxx.o  -o cmTC_31c86 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_42fb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_42fb6.dir/build.make CMakeFiles/cmTC_42fb6.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_42fb6.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_42fb6.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_42fb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_42fb6.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_42fb6.dir/feature_tests.cxx.o  -o cmTC_42fb6 -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_d585e/fast"
-/usr/bin/make -f CMakeFiles/cmTC_d585e.dir/build.make CMakeFiles/cmTC_d585e.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_d585e.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_d585e.dir/feature_tests.cxx.o -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_d585e
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d585e.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_d585e.dir/feature_tests.cxx.o  -o cmTC_d585e -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_a7829/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a7829.dir/build.make CMakeFiles/cmTC_a7829.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a7829.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_a7829.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_a7829
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7829.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_a7829.dir/feature_tests.cxx.o  -o cmTC_a7829 -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,30 +553,30 @@ make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CM
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_a3287/fast"
-/usr/bin/make -f CMakeFiles/cmTC_a3287.dir/build.make CMakeFiles/cmTC_a3287.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_a3287.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_a3287.dir/CheckIncludeFile.c.o   -c /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_a3287
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a3287.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_a3287.dir/CheckIncludeFile.c.o  -o cmTC_a3287 -rdynamic 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_8e14e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8e14e.dir/build.make CMakeFiles/cmTC_8e14e.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8e14e.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_8e14e.dir/CheckIncludeFile.c.o   -c /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_8e14e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e14e.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_8e14e.dir/CheckIncludeFile.c.o  -o cmTC_8e14e -rdynamic 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
+Change Dir: /home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c02d0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c02d0.dir/build.make CMakeFiles/cmTC_c02d0.dir/build
-make[1]: Entering directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c02d0.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c02d0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_c02d0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c02d0.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_c02d0.dir/CheckFunctionExists.c.o  -o cmTC_c02d0 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/trex/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_b1290/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b1290.dir/build.make CMakeFiles/cmTC_b1290.dir/build
+make[1]: Entering directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1290.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b1290.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b1290
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1290.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b1290.dir/CheckFunctionExists.c.o  -o cmTC_b1290 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/turtle1/turtle_drive/build/ar_track_alvar_msgs/CMakeFiles/CMakeTmp'
 
 

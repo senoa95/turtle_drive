@@ -1,1 +1,1 @@
-/home/trex/turtle_drive/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig.cmake
+/home/turtle1/turtle_drive/devel/.private/novatel_imu/share/novatel_imu/cmake/novatel_imuConfig.cmake

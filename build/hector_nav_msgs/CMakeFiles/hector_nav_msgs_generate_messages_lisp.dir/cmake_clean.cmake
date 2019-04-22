@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_nav_msgs_generate_messages_lisp"
-  "/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp"
-  "/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp"
-  "/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp"
-  "/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp"
-  "/home/trex/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp"
+  "/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRobotTrajectory.lisp"
+  "/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetSearchPosition.lisp"
+  "/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetNormal.lisp"
+  "/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetRecoveryInfo.lisp"
+  "/home/turtle1/turtle_drive/devel/.private/hector_nav_msgs/share/common-lisp/ros/hector_nav_msgs/srv/GetDistanceToObstacle.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

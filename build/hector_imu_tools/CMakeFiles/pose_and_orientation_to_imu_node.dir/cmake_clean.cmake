@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pose_and_orientation_to_imu_node.dir/src/pose_and_orientation_to_imu_node.cpp.o"
-  "/home/trex/turtle_drive/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
-  "/home/trex/turtle_drive/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
+  "/home/turtle1/turtle_drive/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node.pdb"
+  "/home/turtle1/turtle_drive/devel/.private/hector_imu_tools/lib/hector_imu_tools/pose_and_orientation_to_imu_node"
 )
 
 # Per-language clean rules from dependency scanning.

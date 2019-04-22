@@ -1,8 +1,8 @@
-prefix=/home/trex/turtle_drive/devel/.private/turtle_mapviz
+prefix=/home/turtle1/turtle_drive/devel/.private/turtle_mapviz
 
 Name: turtle_mapviz
 Description: Description of turtle_mapviz
 Version: 0.0.0
 Cflags: 
-Libs: -L/home/trex/turtle_drive/devel/.private/turtle_mapviz/lib 
+Libs: -L/home/turtle1/turtle_drive/devel/.private/turtle_mapviz/lib 
 Requires: 
