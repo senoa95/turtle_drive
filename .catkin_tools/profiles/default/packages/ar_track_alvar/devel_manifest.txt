@@ -1,4 +1,5 @@
 ar_track_alvar/ar_track_alvar
+<<<<<<< HEAD
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/lib/libar_track_alvar.so /home/turtle1/turtle_drive/devel/lib/libar_track_alvar.so
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/lib/libmedianFilter.so /home/turtle1/turtle_drive/devel/lib/libmedianFilter.so
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/lib/libkinect_filtering.so /home/turtle1/turtle_drive/devel/lib/libkinect_filtering.so
@@ -18,3 +19,24 @@ ar_track_alvar/ar_track_alvar
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig-usage.dox /home/turtle1/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig-usage.dox
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake /home/turtle1/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake
 /home/turtle1/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake /home/turtle1/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake
+=======
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/include/ar_track_alvar/ParamsConfig.h /home/trex2/turtle_drive/devel/include/ar_track_alvar/ParamsConfig.h
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig.wikidoc /home/trex2/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.wikidoc
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig.dox /home/trex2/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig.dox
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/docs/ParamsConfig-usage.dox /home/trex2/turtle_drive/devel/share/ar_track_alvar/docs/ParamsConfig-usage.dox
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake /home/trex2/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig-version.cmake
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake /home/trex2/turtle_drive/devel/share/ar_track_alvar/cmake/ar_track_alvarConfig.cmake
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/libmedianFilter.so /home/trex2/turtle_drive/devel/lib/libmedianFilter.so
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/libar_track_alvar.so /home/trex2/turtle_drive/devel/lib/libar_track_alvar.so
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/libkinect_filtering.so /home/trex2/turtle_drive/devel/lib/libkinect_filtering.so
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/pkgconfig/ar_track_alvar.pc /home/trex2/turtle_drive/devel/lib/pkgconfig/ar_track_alvar.pc
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/__init__.py /home/trex2/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/__init__.py
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py /home/trex2/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/__init__.py
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py /home/trex2/turtle_drive/devel/lib/python2.7/dist-packages/ar_track_alvar/cfg/ParamsConfig.py
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/individualMarkers /home/trex2/turtle_drive/devel/lib/ar_track_alvar/individualMarkers
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect /home/trex2/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundlesNoKinect
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/createMarker /home/trex2/turtle_drive/devel/lib/ar_track_alvar/createMarker
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/individualMarkersNoKinect /home/trex2/turtle_drive/devel/lib/ar_track_alvar/individualMarkersNoKinect
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundles /home/trex2/turtle_drive/devel/lib/ar_track_alvar/findMarkerBundles
+/home/trex2/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/trainMarkerBundle /home/trex2/turtle_drive/devel/lib/ar_track_alvar/trainMarkerBundle
+>>>>>>> 8721e819b04b75c1baf3d0162e88e78cd1d0ac5e

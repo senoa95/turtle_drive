@@ -6,7 +6,7 @@ import socket
 from socket import error as socket_error
 
 ###Trimble TCP Connection Initialization
-TCP_IP = '192.168.1.4'
+TCP_IP = '192.168.1.201'
 
 TCP_PORT = 5017 #this is the port number inside the trimble configuration
 
@@ -28,3 +28,4 @@ while True:
     #Recieve RTCM and write RTCM data to serial
     RTCM = s.recv(BUFFER_SIZE)
     ser.write(RTCM)
+

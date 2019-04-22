@@ -1,4 +1,5 @@
 urg_c
+<<<<<<< HEAD
 /home/turtle1/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so /home/turtle1/turtle_drive/devel/lib/libopen_urg_sensor.so
 /home/turtle1/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so /home/turtle1/turtle_drive/devel/lib/libliburg_c.so
 /home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/reboot_test /home/turtle1/turtle_drive/devel/lib/urg_c/reboot_test
@@ -15,3 +16,21 @@ urg_c
 /home/turtle1/turtle_drive/devel/.private/urg_c/lib/pkgconfig/urg_c.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/urg_c.pc
 /home/turtle1/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake /home/turtle1/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake
 /home/turtle1/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig.cmake /home/turtle1/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake
+=======
+/home/trex2/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig.cmake /home/trex2/turtle_drive/devel/share/urg_c/cmake/urg_cConfig.cmake
+/home/trex2/turtle_drive/devel/.private/urg_c/share/urg_c/cmake/urg_cConfig-version.cmake /home/trex2/turtle_drive/devel/share/urg_c/cmake/urg_cConfig-version.cmake
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/libopen_urg_sensor.so /home/trex2/turtle_drive/devel/lib/libopen_urg_sensor.so
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/libliburg_c.so /home/trex2/turtle_drive/devel/lib/libliburg_c.so
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/pkgconfig/urg_c.pc /home/trex2/turtle_drive/devel/lib/pkgconfig/urg_c.pc
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/reboot_test /home/trex2/turtle_drive/devel/lib/urg_c/reboot_test
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/angle_convert_test /home/trex2/turtle_drive/devel/lib/urg_c/angle_convert_test
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance_intensity /home/trex2/turtle_drive/devel/lib/urg_c/get_distance_intensity
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/calculate_xy /home/trex2/turtle_drive/devel/lib/urg_c/calculate_xy
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test /home/trex2/turtle_drive/devel/lib/urg_c/timeout_test
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/find_port /home/trex2/turtle_drive/devel/lib/urg_c/find_port
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/get_multiecho_intensity /home/trex2/turtle_drive/devel/lib/urg_c/get_multiecho_intensity
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter /home/trex2/turtle_drive/devel/lib/urg_c/sensor_parameter
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/get_distance /home/trex2/turtle_drive/devel/lib/urg_c/get_distance
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/get_multiecho /home/trex2/turtle_drive/devel/lib/urg_c/get_multiecho
+/home/trex2/turtle_drive/devel/.private/urg_c/lib/urg_c/sync_time_stamp /home/trex2/turtle_drive/devel/lib/urg_c/sync_time_stamp
+>>>>>>> 8721e819b04b75c1baf3d0162e88e78cd1d0ac5e

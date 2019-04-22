@@ -1,5 +1,12 @@
 camera_umd/jpeg_streamer
+<<<<<<< HEAD
 /home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer /home/turtle1/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
 /home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
 /home/turtle1/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake /home/turtle1/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake
 /home/turtle1/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake /home/turtle1/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
+=======
+/home/trex2/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake /home/trex2/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
+/home/trex2/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake /home/trex2/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake
+/home/trex2/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc /home/trex2/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
+/home/trex2/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer /home/trex2/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
+>>>>>>> 8721e819b04b75c1baf3d0162e88e78cd1d0ac5e
