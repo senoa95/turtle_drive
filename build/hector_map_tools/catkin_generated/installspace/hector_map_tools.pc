@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/install
+prefix=/home/sena/turtle_drive/install
 
 Name: hector_map_tools
 Description: Description of hector_map_tools
 Version: 0.3.5
-Cflags: -I/home/turtle1/turtle_drive/install/include -I/usr/include/eigen3
-Libs: -L/home/turtle1/turtle_drive/install/lib 
+Cflags: -I/home/sena/turtle_drive/install/include -I/usr/include/eigen3
+Libs: -L/home/sena/turtle_drive/install/lib 
 Requires: nav_msgs

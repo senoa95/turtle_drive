@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/map_to_image_node.dir/src/map_to_image_node.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/hector_compressed_map_transport/lib/hector_compressed_map_transport/map_to_image_node.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/hector_compressed_map_transport/lib/hector_compressed_map_transport/map_to_image_node"
+  "/home/sena/turtle_drive/devel/.private/hector_compressed_map_transport/lib/hector_compressed_map_transport/map_to_image_node.pdb"
+  "/home/sena/turtle_drive/devel/.private/hector_compressed_map_transport/lib/hector_compressed_map_transport/map_to_image_node"
 )
 
 # Per-language clean rules from dependency scanning.

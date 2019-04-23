@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"timestamp_tools\"
 
-CXX_INCLUDES = -I/home/turtle1/turtle_drive/src/driver_common/timestamp_tools/include 
+CXX_INCLUDES = -I/home/sena/turtle_drive/src/driver_common/timestamp_tools/include 
 

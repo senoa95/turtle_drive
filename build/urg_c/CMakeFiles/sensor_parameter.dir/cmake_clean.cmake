@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/sensor_parameter.dir/current/samples/sensor_parameter.c.o"
-  "/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter"
+  "/home/sena/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter.pdb"
+  "/home/sena/turtle_drive/devel/.private/urg_c/lib/urg_c/sensor_parameter"
 )
 
 # Per-language clean rules from dependency scanning.

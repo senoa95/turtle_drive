@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/usb_cam/lib/pkgconfig/usb_cam.pc
+/home/sena/turtle_drive/devel/.private/usb_cam/lib/pkgconfig/usb_cam.pc

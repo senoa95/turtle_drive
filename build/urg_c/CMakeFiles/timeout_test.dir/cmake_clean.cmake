@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/timeout_test.dir/current/samples/timeout_test.c.o"
-  "/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test"
+  "/home/sena/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test.pdb"
+  "/home/sena/turtle_drive/devel/.private/urg_c/lib/urg_c/timeout_test"
 )
 
 # Per-language clean rules from dependency scanning.

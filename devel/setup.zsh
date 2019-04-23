@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/catkin_tools_prebuild/setup.zsh
+/home/sena/turtle_drive/devel/.private/catkin_tools_prebuild/setup.zsh

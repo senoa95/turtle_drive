@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/urg_node
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/urg_node
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/urg_node
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/urg_node
 
 # Utility rule file for dynamic_reconfigure_generate_messages_eus.
 
@@ -67,6 +67,6 @@ CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean:
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/clean
 
 CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend:
-	cd /home/turtle1/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/src/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node /home/turtle1/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/urg_node && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/urg_node /home/sena/turtle_drive/src/urg_node /home/sena/turtle_drive/build/urg_node /home/sena/turtle_drive/build/urg_node /home/sena/turtle_drive/build/urg_node/CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/dynamic_reconfigure_generate_messages_eus.dir/depend
 

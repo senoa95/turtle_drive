@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"usb_cam\"
 
-CXX_INCLUDES = -I/home/turtle1/turtle_drive/src/usb_cam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/x86_64-linux-gnu 
+CXX_INCLUDES = -I/home/sena/turtle_drive/src/usb_cam/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp -I/usr/include/x86_64-linux-gnu 
 

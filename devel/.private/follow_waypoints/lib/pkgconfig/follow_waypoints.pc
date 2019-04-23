@@ -1,0 +1,8 @@
+prefix=/home/sena/turtle_drive/devel/.private/follow_waypoints
+
+Name: follow_waypoints
+Description: Description of follow_waypoints
+Version: 0.3.0
+Cflags: 
+Libs: -L/home/sena/turtle_drive/devel/.private/follow_waypoints/lib -lfollow_waypoints
+Requires: actionlib geometry_msgs move_base_msgs rospy smach std_msgs

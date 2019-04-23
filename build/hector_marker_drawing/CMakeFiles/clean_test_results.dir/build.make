@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/hector_slam/hector_marker_drawing
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_marker_drawing
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_marker_drawing
 
 # Utility rule file for clean_test_results.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_marker_drawing
 include CMakeFiles/clean_test_results.dir/progress.make
 
 CMakeFiles/clean_test_results:
-	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/turtle1/turtle_drive/build/hector_marker_drawing/test_results
+	/usr/bin/python /opt/ros/kinetic/share/catkin/cmake/test/remove_test_results.py /home/sena/turtle_drive/build/hector_marker_drawing/test_results
 
 clean_test_results: CMakeFiles/clean_test_results
 clean_test_results: CMakeFiles/clean_test_results.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/clean_test_results.dir/clean:
 .PHONY : CMakeFiles/clean_test_results.dir/clean
 
 CMakeFiles/clean_test_results.dir/depend:
-	cd /home/turtle1/turtle_drive/build/hector_marker_drawing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/hector_slam/hector_marker_drawing /home/turtle1/turtle_drive/src/hector_slam/hector_marker_drawing /home/turtle1/turtle_drive/build/hector_marker_drawing /home/turtle1/turtle_drive/build/hector_marker_drawing /home/turtle1/turtle_drive/build/hector_marker_drawing/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/hector_marker_drawing && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing /home/sena/turtle_drive/src/hector_slam/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing /home/sena/turtle_drive/build/hector_marker_drawing/CMakeFiles/clean_test_results.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/clean_test_results.dir/depend
 

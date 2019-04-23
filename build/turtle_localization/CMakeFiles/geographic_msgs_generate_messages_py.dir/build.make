@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/turtle_localization
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/turtle_localization
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/turtle_localization
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/turtle_localization
 
 # Utility rule file for geographic_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geographic_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geographic_msgs_generate_messages_py.dir/depend:
-	cd /home/turtle1/turtle_drive/build/turtle_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/turtle_localization /home/turtle1/turtle_drive/src/turtle_localization /home/turtle1/turtle_drive/build/turtle_localization /home/turtle1/turtle_drive/build/turtle_localization /home/turtle1/turtle_drive/build/turtle_localization/CMakeFiles/geographic_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/turtle_localization && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/turtle_localization /home/sena/turtle_drive/src/turtle_localization /home/sena/turtle_drive/build/turtle_localization /home/sena/turtle_drive/build/turtle_localization /home/sena/turtle_drive/build/turtle_localization/CMakeFiles/geographic_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geographic_msgs_generate_messages_py.dir/depend
 

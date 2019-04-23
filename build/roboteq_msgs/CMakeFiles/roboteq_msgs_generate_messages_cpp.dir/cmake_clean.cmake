@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/roboteq_msgs_generate_messages_cpp"
-  "/home/turtle1/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Command.h"
-  "/home/turtle1/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Status.h"
-  "/home/turtle1/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Feedback.h"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Status.h"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Feedback.h"
+  "/home/sena/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Command.h"
 )
 
 # Per-language clean rules from dependency scanning.

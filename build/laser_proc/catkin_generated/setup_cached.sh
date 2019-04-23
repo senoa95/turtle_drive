@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/laser_proc:$CMAKE_PREFIX_PATH"
-export PWD="/home/turtle1/turtle_drive/build/laser_proc"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/laser_proc/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/src/laser_proc:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/laser_proc:$CMAKE_PREFIX_PATH"
+export PWD="/home/sena/turtle_drive/build/laser_proc"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/laser_proc/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/laser_proc:$ROS_PACKAGE_PATH"

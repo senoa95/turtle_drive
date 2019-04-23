@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/turtle1/turtle_drive/src/ar_track_alvar/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
+/home/sena/turtle_drive/src/ar_track_alvar/ar_track_alvar/include/ar_track_alvar/filter/kinect_filtering.h
 pcl_conversions/pcl_conversions.h
 -
 pcl/point_types.h
@@ -42,7 +42,7 @@ opencv2/core/core.hpp
 tf/LinearMath/Matrix3x3.h
 -
 
-/home/turtle1/turtle_drive/src/ar_track_alvar/ar_track_alvar/src/kinect_filtering.cpp
+/home/sena/turtle_drive/src/ar_track_alvar/ar_track_alvar/src/kinect_filtering.cpp
 Eigen/Core
 -
 ar_track_alvar/filter/kinect_filtering.h

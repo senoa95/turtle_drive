@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=c++11
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"urg_node\"
 
-CXX_INCLUDES = -I/home/turtle1/turtle_drive/devel/.private/urg_node/include -I/home/turtle1/turtle_drive/src/urg_node/include -I/home/turtle1/turtle_drive/src/laser_proc/include -I/home/turtle1/turtle_drive/src/urg_c/current/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/sena/turtle_drive/devel/.private/urg_node/include -I/home/sena/turtle_drive/src/urg_node/include -I/home/sena/turtle_drive/src/laser_proc/include -I/home/sena/turtle_drive/src/urg_c/current/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

@@ -1,4 +1,4 @@
-The system is: Linux - 4.15.0-47-generic - x86_64
+The system is: Linux - 4.15.0-36-generic - x86_64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
 Compiler: /usr/bin/cc 
 Build flags: 
@@ -10,7 +10,7 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/3.5.1/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/3.5.1/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler: /usr/bin/c++ 
@@ -23,75 +23,75 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/3.5.1/CompilerIdCXX/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ef1c9/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ef1c9.dir/build.make CMakeFiles/cmTC_ef1c9.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ef1c9.dir/testCCompiler.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_ef1c9.dir/testCCompiler.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_ef1c9
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ef1c9.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_ef1c9.dir/testCCompiler.c.o  -o cmTC_ef1c9 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_da3b3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_da3b3.dir/build.make CMakeFiles/cmTC_da3b3.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_da3b3.dir/testCCompiler.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_da3b3.dir/testCCompiler.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_da3b3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_da3b3.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_da3b3.dir/testCCompiler.c.o  -o cmTC_da3b3 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_43b79/fast"
-/usr/bin/make -f CMakeFiles/cmTC_43b79.dir/build.make CMakeFiles/cmTC_43b79.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_43b79
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b79.dir/link.txt --verbose=1
-/usr/bin/cc      -v CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o  -o cmTC_43b79 -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_68cb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_68cb6.dir/build.make CMakeFiles/cmTC_68cb6.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_68cb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68cb6.dir/link.txt --verbose=1
+/usr/bin/cc      -v CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o  -o cmTC_68cb6 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43b79' '-rdynamic' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEBjk0f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_43b79 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68cb6' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJsjYvn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_68cb6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_43b79/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_43b79.dir/build.make CMakeFiles/cmTC_43b79.dir/build]
-  ignore line: [make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_43b79]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43b79.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o  -o cmTC_43b79 -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_68cb6/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_68cb6.dir/build.make CMakeFiles/cmTC_68cb6.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc     -o CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.5/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_68cb6]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_68cb6.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc      -v CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o  -o cmTC_68cb6 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_43b79' '-rdynamic' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccEBjk0f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_43b79 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_68cb6' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/ccJsjYvn.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_68cb6 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccEBjk0f.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccJsjYvn.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -109,7 +109,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_43b79] ==> ignore
+    arg [cmTC_68cb6] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -121,7 +121,7 @@ Parsed C implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_43b79.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_68cb6.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -153,17 +153,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_1d404/fast"
-/usr/bin/make -f CMakeFiles/cmTC_1d404.dir/build.make CMakeFiles/cmTC_1d404.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_1d404.dir/feature_tests.c.o
-/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_1d404.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
-Linking C executable cmTC_1d404
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d404.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_1d404.dir/feature_tests.c.o  -o cmTC_1d404 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_af1c8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_af1c8.dir/build.make CMakeFiles/cmTC_af1c8.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af1c8.dir/feature_tests.c.o
+/usr/bin/cc    -std=c11 -o CMakeFiles/cmTC_af1c8.dir/feature_tests.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_af1c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af1c8.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_af1c8.dir/feature_tests.c.o  -o cmTC_af1c8 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -173,17 +173,17 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_bd915/fast"
-/usr/bin/make -f CMakeFiles/cmTC_bd915.dir/build.make CMakeFiles/cmTC_bd915.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_bd915.dir/feature_tests.c.o
-/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_bd915.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
-Linking C executable cmTC_bd915
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bd915.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_bd915.dir/feature_tests.c.o  -o cmTC_bd915 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_707fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_707fd.dir/build.make CMakeFiles/cmTC_707fd.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_707fd.dir/feature_tests.c.o
+/usr/bin/cc    -std=c99 -o CMakeFiles/cmTC_707fd.dir/feature_tests.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_707fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_707fd.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_707fd.dir/feature_tests.c.o  -o cmTC_707fd -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -193,17 +193,17 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57af1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57af1.dir/build.make CMakeFiles/cmTC_57af1.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_57af1.dir/feature_tests.c.o
-/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_57af1.dir/feature_tests.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
-Linking C executable cmTC_57af1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57af1.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_57af1.dir/feature_tests.c.o  -o cmTC_57af1 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_dd3a0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_dd3a0.dir/build.make CMakeFiles/cmTC_dd3a0.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd3a0.dir/feature_tests.c.o
+/usr/bin/cc    -std=c90 -o CMakeFiles/cmTC_dd3a0.dir/feature_tests.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.c
+Linking C executable cmTC_dd3a0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd3a0.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_dd3a0.dir/feature_tests.c.o  -o cmTC_dd3a0 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -211,72 +211,72 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Determining if the CXX compiler works passed with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_8d06c/fast"
-/usr/bin/make -f CMakeFiles/cmTC_8d06c.dir/build.make CMakeFiles/cmTC_8d06c.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_8d06c.dir/testCXXCompiler.cxx.o
-/usr/bin/c++      -o CMakeFiles/cmTC_8d06c.dir/testCXXCompiler.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
-Linking CXX executable cmTC_8d06c
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8d06c.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_8d06c.dir/testCXXCompiler.cxx.o  -o cmTC_8d06c -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_e3f0d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e3f0d.dir/build.make CMakeFiles/cmTC_e3f0d.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e3f0d.dir/testCXXCompiler.cxx.o
+/usr/bin/c++      -o CMakeFiles/cmTC_e3f0d.dir/testCXXCompiler.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_e3f0d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e3f0d.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_e3f0d.dir/testCXXCompiler.cxx.o  -o cmTC_e3f0d -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_9fd7f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_9fd7f.dir/build.make CMakeFiles/cmTC_9fd7f.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o
-/usr/bin/c++      -o CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_9fd7f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd7f.dir/link.txt --verbose=1
-/usr/bin/c++       -v CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9fd7f -rdynamic  
+Run Build Command:"/usr/bin/make" "cmTC_790b0/fast"
+/usr/bin/make -f CMakeFiles/cmTC_790b0.dir/build.make CMakeFiles/cmTC_790b0.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++      -o CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_790b0
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_790b0.dir/link.txt --verbose=1
+/usr/bin/c++       -v CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_790b0 -rdynamic  
 Using built-in specs.
 COLLECT_GCC=/usr/bin/c++
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper
 Target: x86_64-linux-gnu
-Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
 Thread model: posix
-gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) 
+gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fd7f' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KwvX8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9fd7f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_790b0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctFfi0r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_790b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_9fd7f/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_9fd7f.dir/build.make CMakeFiles/cmTC_9fd7f.dir/build]
-  ignore line: [make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o]
-  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_9fd7f]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9fd7f.dir/link.txt --verbose=1]
-  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_9fd7f -rdynamic  ]
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_790b0/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_790b0.dir/build.make CMakeFiles/cmTC_790b0.dir/build]
+  ignore line: [make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++      -o CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.5/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_790b0]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_790b0.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++       -v CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_790b0 -rdynamic  ]
   ignore line: [Using built-in specs.]
   ignore line: [COLLECT_GCC=/usr/bin/c++]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper]
   ignore line: [Target: x86_64-linux-gnu]
-  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.11' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Ubuntu 5.4.0-6ubuntu1~16.04.10' --with-bugurl=file:///usr/share/doc/gcc-5/README.Bugs --enable-languages=c,ada,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-5 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-libmpx --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-5-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-5-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-5-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
   ignore line: [Thread model: posix]
-  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.11) ]
+  ignore line: [gcc version 5.4.0 20160609 (Ubuntu 5.4.0-6ubuntu1~16.04.10) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/5/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/5/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fd7f' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cc4KwvX8.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_9fd7f /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_790b0' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/5/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper -plugin-opt=-fresolution=/tmp/cctFfi0r.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -z relro -o cmTC_790b0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/5 -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/5/../../.. CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/5/crtend.o /usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crtn.o]
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/5/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc4KwvX8.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cctFfi0r.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -294,7 +294,7 @@ Parsed CXX implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-zrelro] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_9fd7f] ==> ignore
+    arg [cmTC_790b0] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/../../../x86_64-linux-gnu/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-linux-gnu/5/crtbegin.o] ==> ignore
@@ -306,7 +306,7 @@ Parsed CXX implicit link information from above output:
     arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-linux-gnu/5/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/5/../../..]
-    arg [CMakeFiles/cmTC_9fd7f.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [CMakeFiles/cmTC_790b0.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
     arg [-lstdc++] ==> lib [stdc++]
     arg [-lm] ==> lib [m]
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -336,17 +336,17 @@ Parsed CXX implicit link information from above output:
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_57c47/fast"
-/usr/bin/make -f CMakeFiles/cmTC_57c47.dir/build.make CMakeFiles/cmTC_57c47.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_57c47.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_57c47.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_57c47
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_57c47.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_57c47.dir/feature_tests.cxx.o  -o cmTC_57c47 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_45ccc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45ccc.dir/build.make CMakeFiles/cmTC_45ccc.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_45ccc.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++14 -o CMakeFiles/cmTC_45ccc.dir/feature_tests.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_45ccc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45ccc.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_45ccc.dir/feature_tests.cxx.o  -o cmTC_45ccc -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -409,17 +409,17 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_6c1d4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_6c1d4.dir/build.make CMakeFiles/cmTC_6c1d4.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_6c1d4.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_6c1d4.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_6c1d4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c1d4.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_6c1d4.dir/feature_tests.cxx.o  -o cmTC_6c1d4 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_804f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_804f9.dir/build.make CMakeFiles/cmTC_804f9.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_804f9.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++11 -o CMakeFiles/cmTC_804f9.dir/feature_tests.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_804f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_804f9.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_804f9.dir/feature_tests.cxx.o  -o cmTC_804f9 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -482,17 +482,17 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_773bc/fast"
-/usr/bin/make -f CMakeFiles/cmTC_773bc.dir/build.make CMakeFiles/cmTC_773bc.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_773bc.dir/feature_tests.cxx.o
-/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_773bc.dir/feature_tests.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_773bc
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_773bc.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_773bc.dir/feature_tests.cxx.o  -o cmTC_773bc -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_169d9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_169d9.dir/build.make CMakeFiles/cmTC_169d9.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_169d9.dir/feature_tests.cxx.o
+/usr/bin/c++     -std=c++98 -o CMakeFiles/cmTC_169d9.dir/feature_tests.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_169d9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_169d9.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_169d9.dir/feature_tests.cxx.o  -o cmTC_169d9 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -553,47 +553,47 @@ make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMak
     Feature record: CXX_FEATURE:0cxx_variadic_macros
     Feature record: CXX_FEATURE:0cxx_variadic_templates
 Determining if the include file pthread.h exists passed with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_84193/fast"
-/usr/bin/make -f CMakeFiles/cmTC_84193.dir/build.make CMakeFiles/cmTC_84193.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_84193.dir/CheckIncludeFile.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_84193.dir/CheckIncludeFile.c.o   -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
-Linking C executable cmTC_84193
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_84193.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_84193.dir/CheckIncludeFile.c.o  -o cmTC_84193 -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_c9a7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c9a7c.dir/build.make CMakeFiles/cmTC_c9a7c.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c9a7c.dir/CheckIncludeFile.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_c9a7c.dir/CheckIncludeFile.c.o   -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_c9a7c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c9a7c.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_c9a7c.dir/CheckIncludeFile.c.o  -o cmTC_c9a7c -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Determining if the function pthread_create exists in the pthread passed with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b20c0/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b20c0.dir/build.make CMakeFiles/cmTC_b20c0.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_b20c0.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_b20c0.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_b20c0
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b20c0.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_b20c0.dir/CheckFunctionExists.c.o  -o cmTC_b20c0 -rdynamic -lpthread 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_10605/fast"
+/usr/bin/make -f CMakeFiles/cmTC_10605.dir/build.make CMakeFiles/cmTC_10605.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_10605.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_10605.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_10605
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_10605.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_10605.dir/CheckFunctionExists.c.o  -o cmTC_10605 -rdynamic -lpthread 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
 
 Determining if the Q_WS_X11 exist passed with the following output:
-Change Dir: /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
+Change Dir: /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_b209a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_b209a.dir/build.make CMakeFiles/cmTC_b209a.dir/build
-make[1]: Entering directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_b209a.dir/CheckSymbolExists.cxx.o
-/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_b209a.dir/CheckSymbolExists.cxx.o -c /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
-Linking CXX executable cmTC_b209a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b209a.dir/link.txt --verbose=1
-/usr/bin/c++        CMakeFiles/cmTC_b209a.dir/CheckSymbolExists.cxx.o  -o cmTC_b209a -rdynamic 
-make[1]: Leaving directory '/home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Run Build Command:"/usr/bin/make" "cmTC_f1e89/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f1e89.dir/build.make CMakeFiles/cmTC_f1e89.dir/build
+make[1]: Entering directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f1e89.dir/CheckSymbolExists.cxx.o
+/usr/bin/c++    -I/usr/include/qt4   -o CMakeFiles/cmTC_f1e89.dir/CheckSymbolExists.cxx.o -c /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx
+Linking CXX executable cmTC_f1e89
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1e89.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTC_f1e89.dir/CheckSymbolExists.cxx.o  -o cmTC_f1e89 -rdynamic 
+make[1]: Leaving directory '/home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp'
 
-File /home/turtle1/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
+File /home/sena/turtle_drive/build/hector_geotiff/CMakeFiles/CMakeTmp/CheckSymbolExists.cxx:
 /* */
 #include <QtCore/qglobal.h>
 

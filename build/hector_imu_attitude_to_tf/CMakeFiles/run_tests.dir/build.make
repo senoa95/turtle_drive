@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_imu_attitude_to_tf
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_imu_attitude_to_tf
 
 # Utility rule file for run_tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/run_tests.dir/clean:
 .PHONY : CMakeFiles/run_tests.dir/clean
 
 CMakeFiles/run_tests.dir/depend:
-	cd /home/turtle1/turtle_drive/build/hector_imu_attitude_to_tf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf /home/turtle1/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf /home/turtle1/turtle_drive/build/hector_imu_attitude_to_tf /home/turtle1/turtle_drive/build/hector_imu_attitude_to_tf /home/turtle1/turtle_drive/build/hector_imu_attitude_to_tf/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/hector_imu_attitude_to_tf && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf /home/sena/turtle_drive/src/hector_slam/hector_imu_attitude_to_tf /home/sena/turtle_drive/build/hector_imu_attitude_to_tf /home/sena/turtle_drive/build/hector_imu_attitude_to_tf /home/sena/turtle_drive/build/hector_imu_attitude_to_tf/CMakeFiles/run_tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/run_tests.dir/depend
 

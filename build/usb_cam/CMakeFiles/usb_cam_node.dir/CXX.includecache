@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/turtle1/turtle_drive/src/usb_cam/include/usb_cam/usb_cam.h
+/home/sena/turtle_drive/src/usb_cam/include/usb_cam/usb_cam.h
 asm/types.h
 -
 linux/videodev2.h
@@ -26,7 +26,7 @@ sstream
 sensor_msgs/Image.h
 -
 
-/home/turtle1/turtle_drive/src/usb_cam/nodes/usb_cam_node.cpp
+/home/sena/turtle_drive/src/usb_cam/nodes/usb_cam_node.cpp
 ros/ros.h
 -
 usb_cam/usb_cam.h

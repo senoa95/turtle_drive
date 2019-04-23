@@ -1,8 +1,8 @@
-# Install script for directory: /home/turtle1/turtle_drive/src/novatel_imu
+# Install script for directory: /home/sena/turtle_drive/src/novatel_imu
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/turtle1/turtle_drive/install")
+  set(CMAKE_INSTALL_PREFIX "/home/sena/turtle_drive/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,94 +44,94 @@ endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/_setup_util.py")
+   "/home/sena/turtle_drive/install/_setup_util.py")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE PROGRAM FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/_setup_util.py")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE PROGRAM FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/_setup_util.py")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/env.sh")
+   "/home/sena/turtle_drive/install/env.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE PROGRAM FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/env.sh")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE PROGRAM FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/env.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/setup.bash")
+   "/home/sena/turtle_drive/install/setup.bash")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE FILE FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.bash")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.bash")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/setup.sh")
+   "/home/sena/turtle_drive/install/setup.sh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE FILE FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.sh")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/setup.zsh")
+   "/home/sena/turtle_drive/install/setup.zsh")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE FILE FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.zsh")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/setup.zsh")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   list(APPEND CMAKE_ABSOLUTE_DESTINATION_FILES
-   "/home/turtle1/turtle_drive/install/.rosinstall")
+   "/home/sena/turtle_drive/install/.rosinstall")
   if(CMAKE_WARN_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(WARNING "ABSOLUTE path INSTALL DESTINATION : ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-file(INSTALL DESTINATION "/home/turtle1/turtle_drive/install" TYPE FILE FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/.rosinstall")
+file(INSTALL DESTINATION "/home/sena/turtle_drive/install" TYPE FILE FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/.rosinstall")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imu.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imu.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_imu/cmake" TYPE FILE FILES
-    "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imuConfig.cmake"
-    "/home/turtle1/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imuConfig-version.cmake"
+    "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imuConfig.cmake"
+    "/home/sena/turtle_drive/build/novatel_imu/catkin_generated/installspace/novatel_imuConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_imu" TYPE FILE FILES "/home/turtle1/turtle_drive/src/novatel_imu/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/novatel_imu" TYPE FILE FILES "/home/sena/turtle_drive/src/novatel_imu/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/turtle1/turtle_drive/build/novatel_imu/gtest/cmake_install.cmake")
+  include("/home/sena/turtle_drive/build/novatel_imu/gtest/cmake_install.cmake")
 
 endif()
 
@@ -143,5 +143,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/turtle1/turtle_drive/build/novatel_imu/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/sena/turtle_drive/build/novatel_imu/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

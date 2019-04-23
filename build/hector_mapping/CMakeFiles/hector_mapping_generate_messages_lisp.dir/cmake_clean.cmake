@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/hector_mapping_generate_messages_lisp"
-  "/home/turtle1/turtle_drive/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
-  "/home/turtle1/turtle_drive/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
+  "/home/sena/turtle_drive/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorDebugInfo.lisp"
+  "/home/sena/turtle_drive/devel/.private/hector_mapping/share/common-lisp/ros/hector_mapping/msg/HectorIterData.lisp"
 )
 
 # Per-language clean rules from dependency scanning.

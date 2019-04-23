@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/ar_track_alvar/ar_track_alvar
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/ar_track_alvar/ar_track_alvar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/ar_track_alvar
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/ar_track_alvar
 
 # Utility rule file for actionlib_msgs_generate_messages_nodejs.
 
@@ -67,6 +67,6 @@ CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean:
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/clean
 
 CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/turtle1/turtle_drive/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/ar_track_alvar/ar_track_alvar /home/turtle1/turtle_drive/src/ar_track_alvar/ar_track_alvar /home/turtle1/turtle_drive/build/ar_track_alvar /home/turtle1/turtle_drive/build/ar_track_alvar /home/turtle1/turtle_drive/build/ar_track_alvar/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/ar_track_alvar && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/ar_track_alvar/ar_track_alvar /home/sena/turtle_drive/src/ar_track_alvar/ar_track_alvar /home/sena/turtle_drive/build/ar_track_alvar /home/sena/turtle_drive/build/ar_track_alvar /home/sena/turtle_drive/build/ar_track_alvar/CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/depend
 

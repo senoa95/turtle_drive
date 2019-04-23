@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/include/mongoose.h
+/home/sena/turtle_drive/src/camera_umd/jpeg_streamer/include/mongoose.h
 
-/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
+/home/sena/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.c
 sys/types.h
 -
 sys/stat.h
@@ -78,5 +78,5 @@ dlfcn.h
 pthread.h
 -
 mongoose.h
-/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.h
+/home/sena/turtle_drive/src/camera_umd/jpeg_streamer/src/mongoose.h
 

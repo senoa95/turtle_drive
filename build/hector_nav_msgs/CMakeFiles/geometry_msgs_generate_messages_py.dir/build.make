@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_nav_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_nav_msgs
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_nav_msgs
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -67,6 +67,6 @@ CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/turtle1/turtle_drive/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs /home/turtle1/turtle_drive/src/hector_slam/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs /home/turtle1/turtle_drive/build/hector_nav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/hector_nav_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_nav_msgs /home/sena/turtle_drive/src/hector_slam/hector_nav_msgs /home/sena/turtle_drive/build/hector_nav_msgs /home/sena/turtle_drive/build/hector_nav_msgs /home/sena/turtle_drive/build/hector_nav_msgs/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

@@ -1,8 +1,8 @@
-prefix=/home/turtle1/turtle_drive/devel/.private/usb_cam
+prefix=/home/sena/turtle_drive/devel/.private/usb_cam
 
 Name: usb_cam
 Description: Description of usb_cam
 Version: 0.3.6
-Cflags: -I/home/turtle1/turtle_drive/src/usb_cam/include
-Libs: -L/home/turtle1/turtle_drive/devel/.private/usb_cam/lib -lusb_cam
+Cflags: -I/home/sena/turtle_drive/src/usb_cam/include
+Libs: -L/home/sena/turtle_drive/devel/.private/usb_cam/lib -lusb_cam
 Requires: 

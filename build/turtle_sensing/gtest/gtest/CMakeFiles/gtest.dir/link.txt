@@ -1,1 +1,1 @@
-/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/turtle1/turtle_drive/build/turtle_sensing/gtest/gtest/src -lpthread -Wl,-rpath,/home/turtle1/turtle_drive/build/turtle_sensing/gtest/gtest/src 
+/usr/bin/c++  -fPIC   -shared -Wl,-soname,libgtest.so -o libgtest.so CMakeFiles/gtest.dir/src/gtest-all.cc.o  -L/home/sena/turtle_drive/build/turtle_sensing/gtest/gtest/src -lpthread -Wl,-rpath,/home/sena/turtle_drive/build/turtle_sensing/gtest/gtest/src 

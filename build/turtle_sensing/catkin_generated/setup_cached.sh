@@ -7,7 +7,7 @@
 # new environment variables
 
 # modified environment variables
-export CMAKE_PREFIX_PATH="/home/turtle1/turtle_drive/devel/.private/turtle_sensing:$CMAKE_PREFIX_PATH"
-export PWD="/home/turtle1/turtle_drive/build/turtle_sensing"
-export ROSLISP_PACKAGE_DIRECTORIES="/home/turtle1/turtle_drive/devel/.private/turtle_sensing/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
-export ROS_PACKAGE_PATH="/home/turtle1/turtle_drive/src/turtle_sensing:$ROS_PACKAGE_PATH"
+export CMAKE_PREFIX_PATH="/home/sena/turtle_drive/devel/.private/turtle_sensing:$CMAKE_PREFIX_PATH"
+export PWD="/home/sena/turtle_drive/build/turtle_sensing"
+export ROSLISP_PACKAGE_DIRECTORIES="/home/sena/turtle_drive/devel/.private/turtle_sensing/share/common-lisp:$ROSLISP_PACKAGE_DIRECTORIES"
+export ROS_PACKAGE_PATH="/home/sena/turtle_drive/src/turtle_sensing:$ROS_PACKAGE_PATH"

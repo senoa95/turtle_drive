@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/findMarkerBundlesNoKinect.dir/nodes/FindMarkerBundlesNoKinect.cpp.o"
-  "/home/turtle1/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect"
+  "/home/sena/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect.pdb"
+  "/home/sena/turtle_drive/devel/.private/ar_track_alvar/lib/ar_track_alvar/findMarkerBundlesNoKinect"
 )
 
 # Per-language clean rules from dependency scanning.

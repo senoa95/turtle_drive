@@ -7,11 +7,11 @@ C_FLAGS =
 
 C_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"jpeg_streamer\"
 
-C_INCLUDES = -I/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+C_INCLUDES = -I/home/sena/turtle_drive/src/camera_umd/jpeg_streamer/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 
 CXX_FLAGS =  
 
 CXX_DEFINES = -DROSCONSOLE_BACKEND_LOG4CXX -DROS_PACKAGE_NAME=\"jpeg_streamer\"
 
-CXX_INCLUDES = -I/home/turtle1/turtle_drive/src/camera_umd/jpeg_streamer/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
+CXX_INCLUDES = -I/home/sena/turtle_drive/src/camera_umd/jpeg_streamer/include -I/opt/ros/kinetic/include -I/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp 
 

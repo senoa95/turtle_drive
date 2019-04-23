@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/usb_cam
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/usb_cam
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/usb_cam
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/usb_cam
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/turtle1/turtle_drive/build/usb_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/usb_cam /home/turtle1/turtle_drive/src/usb_cam /home/turtle1/turtle_drive/build/usb_cam /home/turtle1/turtle_drive/build/usb_cam /home/turtle1/turtle_drive/build/usb_cam/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/usb_cam && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/usb_cam /home/sena/turtle_drive/src/usb_cam /home/sena/turtle_drive/build/usb_cam /home/sena/turtle_drive/build/usb_cam /home/sena/turtle_drive/build/usb_cam/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

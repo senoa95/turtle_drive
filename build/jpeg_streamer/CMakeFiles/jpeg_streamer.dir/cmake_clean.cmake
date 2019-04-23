@@ -1,8 +1,8 @@
 file(REMOVE_RECURSE
   "CMakeFiles/jpeg_streamer.dir/src/jpeg_streamer.cpp.o"
   "CMakeFiles/jpeg_streamer.dir/src/mongoose.c.o"
-  "/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer.pdb"
-  "/home/turtle1/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer"
+  "/home/sena/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer.pdb"
+  "/home/sena/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer"
 )
 
 # Per-language clean rules from dependency scanning.

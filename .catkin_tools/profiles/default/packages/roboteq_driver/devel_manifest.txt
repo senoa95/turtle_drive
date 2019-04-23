@@ -1,14 +1,6 @@
 roboteq/roboteq_driver
-<<<<<<< HEAD
-/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a /home/turtle1/turtle_drive/devel/lib/libroboteq_driver_script.a
-/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node /home/turtle1/turtle_drive/devel/lib/roboteq_driver/driver_node
-/home/turtle1/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc /home/turtle1/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
-/home/turtle1/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake /home/turtle1/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
-/home/turtle1/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake /home/turtle1/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
-=======
-/home/trex2/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake /home/trex2/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
-/home/trex2/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake /home/trex2/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake
-/home/trex2/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a /home/trex2/turtle_drive/devel/lib/libroboteq_driver_script.a
-/home/trex2/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc /home/trex2/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
-/home/trex2/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node /home/trex2/turtle_drive/devel/lib/roboteq_driver/driver_node
->>>>>>> 8721e819b04b75c1baf3d0162e88e78cd1d0ac5e
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/libroboteq_driver_script.a /home/sena/turtle_drive/devel/lib/libroboteq_driver_script.a
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/pkgconfig/roboteq_driver.pc /home/sena/turtle_drive/devel/lib/pkgconfig/roboteq_driver.pc
+/home/sena/turtle_drive/devel/.private/roboteq_driver/lib/roboteq_driver/driver_node /home/sena/turtle_drive/devel/lib/roboteq_driver/driver_node
+/home/sena/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig-version.cmake
+/home/sena/turtle_drive/devel/.private/roboteq_driver/share/roboteq_driver/cmake/roboteq_driverConfig.cmake /home/sena/turtle_drive/devel/share/roboteq_driver/cmake/roboteq_driverConfig.cmake

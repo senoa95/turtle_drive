@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "obj_detect"
-PROJECT_SPACE_DIR = "/home/turtle1/turtle_drive/install"
+PROJECT_SPACE_DIR = "/home/sena/turtle_drive/install"
 PROJECT_VERSION = "0.0.0"

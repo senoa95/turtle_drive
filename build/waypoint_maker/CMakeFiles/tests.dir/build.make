@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/waypoint_maker
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/waypoint_maker
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/waypoint_maker
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/waypoint_maker
 
 # Utility rule file for tests.
 
@@ -67,6 +67,6 @@ CMakeFiles/tests.dir/clean:
 .PHONY : CMakeFiles/tests.dir/clean
 
 CMakeFiles/tests.dir/depend:
-	cd /home/turtle1/turtle_drive/build/waypoint_maker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/waypoint_maker /home/turtle1/turtle_drive/src/waypoint_maker /home/turtle1/turtle_drive/build/waypoint_maker /home/turtle1/turtle_drive/build/waypoint_maker /home/turtle1/turtle_drive/build/waypoint_maker/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/waypoint_maker && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/waypoint_maker /home/sena/turtle_drive/src/waypoint_maker /home/sena/turtle_drive/build/waypoint_maker /home/sena/turtle_drive/build/waypoint_maker /home/sena/turtle_drive/build/waypoint_maker/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tests.dir/depend
 

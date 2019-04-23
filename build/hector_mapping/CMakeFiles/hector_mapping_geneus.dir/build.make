@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/turtle1/turtle_drive/src/hector_slam/hector_mapping
+CMAKE_SOURCE_DIR = /home/sena/turtle_drive/src/hector_slam/hector_mapping
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/turtle1/turtle_drive/build/hector_mapping
+CMAKE_BINARY_DIR = /home/sena/turtle_drive/build/hector_mapping
 
 # Utility rule file for hector_mapping_geneus.
 
@@ -67,6 +67,6 @@ CMakeFiles/hector_mapping_geneus.dir/clean:
 .PHONY : CMakeFiles/hector_mapping_geneus.dir/clean
 
 CMakeFiles/hector_mapping_geneus.dir/depend:
-	cd /home/turtle1/turtle_drive/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/turtle1/turtle_drive/src/hector_slam/hector_mapping /home/turtle1/turtle_drive/src/hector_slam/hector_mapping /home/turtle1/turtle_drive/build/hector_mapping /home/turtle1/turtle_drive/build/hector_mapping /home/turtle1/turtle_drive/build/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sena/turtle_drive/build/hector_mapping && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sena/turtle_drive/src/hector_slam/hector_mapping /home/sena/turtle_drive/src/hector_slam/hector_mapping /home/sena/turtle_drive/build/hector_mapping /home/sena/turtle_drive/build/hector_mapping /home/sena/turtle_drive/build/hector_mapping/CMakeFiles/hector_mapping_geneus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/hector_mapping_geneus.dir/depend
 

@@ -1,1 +1,1 @@
-/home/turtle1/turtle_drive/devel/.private/novatel_gps_driver/share/novatel_gps_driver/cmake/novatel_gps_driverConfig-version.cmake
+/home/sena/turtle_drive/devel/.private/novatel_gps_driver/share/novatel_gps_driver/cmake/novatel_gps_driverConfig-version.cmake
