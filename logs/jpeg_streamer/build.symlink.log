@@ -1,4 +1,4 @@
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/jpeg_streamer/jpeg_streamer, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/lib/pkgconfig/jpeg_streamer.pc, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/jpeg_streamer/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake)
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/jpeg_streamer/jpeg_streamer
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/jpeg_streamer.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/jpeg_streamer/cmake/jpeg_streamerConfig-version.cmake

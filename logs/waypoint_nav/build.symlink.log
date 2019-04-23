@@ -1,3 +1,3 @@
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav/lib/pkgconfig/waypoint_nav.pc, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/waypoint_nav.pc)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig-version.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig-version.cmake)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig.cmake)
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/waypoint_nav.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig.cmake

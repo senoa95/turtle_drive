@@ -1,6 +1,6 @@
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libnodelet_uvc_camera.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_camera_node)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake)
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libnodelet_uvc_camera.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake

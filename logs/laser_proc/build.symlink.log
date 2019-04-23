@@ -1,9 +1,9 @@
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/liblaser_publisher.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_publisher.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/libLaserProcNodelet.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libLaserProcNodelet.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/liblaser_proc_ROS.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_proc_ROS.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/liblaser_transport.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_transport.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/liblaser_proc_library.so, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_proc_library.so)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/laser_proc/laser_proc, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/laser_proc/laser_proc)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/pkgconfig/laser_proc.pc, /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/laser_proc.pc)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/share/laser_proc/cmake/laser_procConfig-version.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/laser_proc/cmake/laser_procConfig-version.cmake)
-Linked: (/home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/share/laser_proc/cmake/laser_procConfig.cmake, /home/nishanth/TurtleStuff/turtle_drive/devel/share/laser_proc/cmake/laser_procConfig.cmake)
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_publisher.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libLaserProcNodelet.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_proc_ROS.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_transport.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/liblaser_proc_library.so
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/laser_proc/laser_proc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/laser_proc.pc
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/laser_proc/cmake/laser_procConfig-version.cmake
+Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/laser_proc/cmake/laser_procConfig.cmake
