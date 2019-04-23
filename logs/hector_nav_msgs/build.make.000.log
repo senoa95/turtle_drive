@@ -57,11 +57,11 @@
 [ 74%] [34m[1mGenerating C++ code from hector_nav_msgs/GetRecoveryInfo.srv[0m
 [ 77%] [34m[1mGenerating C++ code from hector_nav_msgs/GetRobotTrajectory.srv[0m
 [ 81%] [34m[1mGenerating C++ code from hector_nav_msgs/GetSearchPosition.srv[0m
-[ 81%] Built target hector_nav_msgs_generate_messages_cpp
 [35m[1mScanning dependencies of target hector_nav_msgs_generate_messages_nodejs[0m
 [ 85%] [34m[1mGenerating Javascript code from hector_nav_msgs/GetNormal.srv[0m
 [ 88%] [34m[1mGenerating Javascript code from hector_nav_msgs/GetDistanceToObstacle.srv[0m
 [ 92%] [34m[1mGenerating Javascript code from hector_nav_msgs/GetRecoveryInfo.srv[0m
+[ 92%] Built target hector_nav_msgs_generate_messages_cpp
 [ 96%] [34m[1mGenerating Javascript code from hector_nav_msgs/GetRobotTrajectory.srv[0m
 [100%] [34m[1mGenerating Javascript code from hector_nav_msgs/GetSearchPosition.srv[0m
 [100%] Built target hector_nav_msgs_generate_messages_nodejs

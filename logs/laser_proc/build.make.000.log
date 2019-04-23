@@ -14,11 +14,11 @@
 [ 58%] [32mBuilding CXX object CMakeFiles/laser_proc_ROS.dir/src/LaserProcROS.cpp.o[0m
 [ 66%] [32m[1mLinking CXX shared library /home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/liblaser_proc_ROS.so[0m
 [ 66%] Built target laser_proc_ROS
-[35m[1mScanning dependencies of target LaserProcNodelet[0m
-[ 75%] [32mBuilding CXX object CMakeFiles/LaserProcNodelet.dir/src/LaserProcNodelet.cpp.o[0m
 [35m[1mScanning dependencies of target laser_proc[0m
-[ 83%] [32mBuilding CXX object CMakeFiles/laser_proc.dir/src/laser_proc.cpp.o[0m
-[ 91%] [32m[1mLinking CXX shared library /home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/libLaserProcNodelet.so[0m
-[ 91%] Built target LaserProcNodelet
-[100%] [32m[1mLinking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/laser_proc/laser_proc[0m
+[35m[1mScanning dependencies of target LaserProcNodelet[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/laser_proc.dir/src/laser_proc.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/LaserProcNodelet.dir/src/LaserProcNodelet.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable /home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/laser_proc/laser_proc[0m
+[100%] [32m[1mLinking CXX shared library /home/nishanth/TurtleStuff/turtle_drive/devel/.private/laser_proc/lib/libLaserProcNodelet.so[0m
 [100%] Built target laser_proc
+[100%] Built target LaserProcNodelet

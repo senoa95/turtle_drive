@@ -6,5 +6,10 @@
 	<include file="$(find novatel_gps_driver)/launch/usb_gps.launch"/>
 	<include file="$(find turtle_localization)/launch/turtle_ekf.launch"/>
 	<include file="$(find obj_detect)/launch/obj_detect.launch"/>
+
+	<!-- <node type="rviz" name="rviz" pkg="rviz" args="-d $(find rviz)/rviz/config_file.rviz" /> -->
+
+
+
 </launch>
 

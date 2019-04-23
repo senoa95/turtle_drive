@@ -1,7 +1,7 @@
 [35m[1mScanning dependencies of target novatel_gps_driver[0m
-[  4%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o[0m
 [  9%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_gps.cpp.o[0m
-[ 13%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestpos.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/novatel_message_extractor.cpp.o[0m
 [ 18%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/bestvel.cpp.o[0m
 [ 22%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/corrimudata.cpp.o[0m
 [ 27%] [32mBuilding CXX object CMakeFiles/novatel_gps_driver.dir/src/parsers/gpgga.cpp.o[0m

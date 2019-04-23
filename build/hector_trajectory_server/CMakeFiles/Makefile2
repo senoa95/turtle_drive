@@ -458,9 +458,9 @@ CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/nav_msgs_generate_messag
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/nav_msgs_generate_messages_py.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
-CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
 CMakeFiles/hector_trajectory_server.dir/all: CMakeFiles/tf2_msgs_generate_messages_py.dir/all

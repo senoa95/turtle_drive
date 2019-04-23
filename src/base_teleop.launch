@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+
+<launch>
+	<include file="$(find turtle_control)/launch/remote_joy_control.launch"/>
+	<include file="$(find mapviz)/launch/mapviz.launch"/>
+	<include file="$(find turtle_localization)/launch/turtle_ekf.launch"/>
+	<include file="$(find obj_detect)/launch/obj_detect.launch"/>
+</launch>
+

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_4b256/fast"
-/usr/bin/make -f CMakeFiles/cmTC_4b256.dir/build.make CMakeFiles/cmTC_4b256.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_f93a4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f93a4.dir/build.make CMakeFiles/cmTC_f93a4.dir/build
 make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_4b256.dir/CheckSymbolExists.c.o
-/usr/bin/cc     -o CMakeFiles/cmTC_4b256.dir/CheckSymbolExists.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_4b256
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b256.dir/link.txt --verbose=1
-/usr/bin/cc       CMakeFiles/cmTC_4b256.dir/CheckSymbolExists.c.o  -o cmTC_4b256 -rdynamic 
-CMakeFiles/cmTC_4b256.dir/CheckSymbolExists.c.o: In function `main':
+Building C object CMakeFiles/cmTC_f93a4.dir/CheckSymbolExists.c.o
+/usr/bin/cc     -o CMakeFiles/cmTC_f93a4.dir/CheckSymbolExists.c.o   -c /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_f93a4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f93a4.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTC_f93a4.dir/CheckSymbolExists.c.o  -o cmTC_f93a4 -rdynamic 
+CMakeFiles/cmTC_f93a4.dir/CheckSymbolExists.c.o: In function `main':
 CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_4b256.dir/build.make:97: recipe for target 'cmTC_4b256' failed
-make[1]: *** [cmTC_4b256] Error 1
+CMakeFiles/cmTC_f93a4.dir/build.make:97: recipe for target 'cmTC_f93a4' failed
+make[1]: *** [cmTC_f93a4] Error 1
 make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_4b256/fast' failed
-make: *** [cmTC_4b256/fast] Error 2
+Makefile:126: recipe for target 'cmTC_f93a4/fast' failed
+make: *** [cmTC_f93a4/fast] Error 2
 
 File /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_07f8f/fast"
-/usr/bin/make -f CMakeFiles/cmTC_07f8f.dir/build.make CMakeFiles/cmTC_07f8f.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_8baec/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8baec.dir/build.make CMakeFiles/cmTC_8baec.dir/build
 make[1]: Entering directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_07f8f.dir/CheckFunctionExists.c.o
-/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_07f8f.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
-Linking C executable cmTC_07f8f
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_07f8f.dir/link.txt --verbose=1
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_07f8f.dir/CheckFunctionExists.c.o  -o cmTC_07f8f -rdynamic -lpthreads 
+Building C object CMakeFiles/cmTC_8baec.dir/CheckFunctionExists.c.o
+/usr/bin/cc    -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_8baec.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.5/Modules/CheckFunctionExists.c
+Linking C executable cmTC_8baec
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8baec.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_8baec.dir/CheckFunctionExists.c.o  -o cmTC_8baec -rdynamic -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_07f8f.dir/build.make:97: recipe for target 'cmTC_07f8f' failed
-make[1]: *** [cmTC_07f8f] Error 1
+CMakeFiles/cmTC_8baec.dir/build.make:97: recipe for target 'cmTC_8baec' failed
+make[1]: *** [cmTC_8baec] Error 1
 make[1]: Leaving directory '/home/nishanth/TurtleStuff/turtle_drive/build/hector_geotiff_plugins/CMakeFiles/CMakeTmp'
-Makefile:126: recipe for target 'cmTC_07f8f/fast' failed
-make: *** [cmTC_07f8f/fast] Error 2
+Makefile:126: recipe for target 'cmTC_8baec/fast' failed
+make: *** [cmTC_8baec/fast] Error 2
 
 
