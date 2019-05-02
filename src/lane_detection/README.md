@@ -34,28 +34,6 @@ python tools/test_lanenet.py --is_batch False --batch_size 1
 --weights_path path/to/your/model_weights_file 
 --image_path data/tusimple_test_image/0.jpg
 ```
-The results are as follows:
-
-`Test Input Image`
-
-![Test Input](https://raw.githubusercontent.com/senoa95/turtle_drive/master/src/lane_detection/data/tusimple_test_image/0.jpg)
-
-`Test Lane Mask Image`
-
-![Test Lane_Mask](/data/source_image/lanenet_mask_result.png)
-
-`Test Lane Binary Segmentation Image`
-
-![Test Lane_Binary_Seg](/data/source_image/lanenet_binary_seg.png)
-
-`Test Lane Instance Segmentation Image`
-
-![Test Lane_Instance_Seg](/data/source_image/lanenet_instance_seg.png)
-
-`Test Lane Instance Embedding Image`
-
-![Test Lane_Embedding](/data/source_image/lanenet_embedding.png)
-
 If you want to test the model on a whole dataset you may call
 ```
 python tools/test_lanenet.py --is_batch True --batch_size 2 --save_dir data/tusimple_test_image/ret 
@@ -95,23 +73,6 @@ You can also continue the training process from the snapshot by
 ```
 python tools/train_lanenet.py --net vgg --dataset_dir data/training_data_example/ --weights_path path/to/your/last/checkpoint
 ```
-
-You may monitor the training process using tensorboard tools
-
-During my experiment the `Total loss` drops as follows:  
-![Training loss](/data/source_image/total_loss.png)
-
-The `Binary Segmentation loss` drops as follows:  
-![Training binary_seg_loss](/data/source_image/binary_seg_loss.png)
-
-The `Instance Segmentation loss` drops as follows:  
-![Training instance_seg_loss](/data/source_image/instance_seg_loss.png)
-
-## Experiment
-The accuracy during training process rises as follows: 
-![Training accuracy](/data/source_image/accuracy.png)
-
-Please cite my repo [lanenet-lane-detection](https://github.com/MaybeShewill-CV/lanenet-lane-detection) if you use it.
 
 ## Recently updates 2018.11.10
 Adjust some basic cnn op according to the new tensorflow api. Use the 
