@@ -38,7 +38,7 @@ The results are as follows:
 
 `Test Input Image`
 
-![Test Input](/data/tusimple_test_image/0.jpg)
+![Test Input](https://raw.githubusercontent.com/senoa95/turtle_drive/master/src/lane_detection/data/tusimple_test_image/0.jpg)
 
 `Test Lane Mask Image`
 
