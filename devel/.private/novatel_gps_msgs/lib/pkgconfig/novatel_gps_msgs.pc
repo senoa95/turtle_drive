@@ -1,8 +1,0 @@
-prefix=/home/sena/turtle_drive/devel/.private/novatel_gps_msgs
-
-Name: novatel_gps_msgs
-Description: Description of novatel_gps_msgs
-Version: 3.4.0
-Cflags: -I/home/sena/turtle_drive/devel/.private/novatel_gps_msgs/include
-Libs: -L/home/sena/turtle_drive/devel/.private/novatel_gps_msgs/lib 
-Requires: message_runtime std_msgs

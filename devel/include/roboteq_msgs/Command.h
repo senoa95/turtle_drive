@@ -1,1 +1,0 @@
-/home/sena/turtle_drive/devel/.private/roboteq_msgs/include/roboteq_msgs/Command.h

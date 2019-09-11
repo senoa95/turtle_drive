@@ -1,8 +1,0 @@
-prefix=/home/sena/turtle_drive/install
-
-Name: turtle_control
-Description: Description of turtle_control
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/sena/turtle_drive/install/lib 
-Requires: 

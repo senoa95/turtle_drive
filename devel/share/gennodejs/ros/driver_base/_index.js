@@ -1,1 +1,0 @@
-/home/sena/turtle_drive/devel/.private/driver_base/share/gennodejs/ros/driver_base/_index.js

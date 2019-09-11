@@ -1,1 +1,0 @@
-/home/sena/turtle_drive/devel/.private/ar_track_alvar_msgs/include/ar_track_alvar_msgs/AlvarMarker.h

@@ -1,8 +1,0 @@
-prefix=/home/sena/turtle_drive/devel/.private/roboteq_msgs
-
-Name: roboteq_msgs
-Description: Description of roboteq_msgs
-Version: 0.2.0
-Cflags: -I/home/sena/turtle_drive/devel/.private/roboteq_msgs/include
-Libs: -L/home/sena/turtle_drive/devel/.private/roboteq_msgs/lib 
-Requires: 
