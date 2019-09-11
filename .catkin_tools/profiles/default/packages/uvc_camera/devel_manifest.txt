@@ -1,7 +1,0 @@
-camera_umd/uvc_camera
-/home/sena/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/sena/turtle_drive/devel/lib/libnodelet_uvc_camera.so
-/home/sena/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/sena/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
-/home/sena/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/sena/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
-/home/sena/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/sena/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
-/home/sena/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/sena/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
-/home/sena/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/sena/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake
