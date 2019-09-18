@@ -1,8 +1,0 @@
-prefix=/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_mapviz
-
-Name: turtle_mapviz
-Description: Description of turtle_mapviz
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/nishanth/TurtleStuff/turtle_drive/devel/.private/turtle_mapviz/lib 
-Requires: 

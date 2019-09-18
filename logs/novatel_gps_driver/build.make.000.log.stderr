@@ -1,3 +1,0 @@
-[01m[K/home/nishanth/TurtleStuff/turtle_drive/src/novatel_gps_driver/novatel_gps_driver/src/nodelets/novatel_gps_nodelet.cpp:775:22:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
-           std::cout<<'what is this';
-[01;32m[K                      ^[m[K

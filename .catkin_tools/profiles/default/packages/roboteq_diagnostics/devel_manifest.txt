@@ -1,4 +1,0 @@
-roboteq/roboteq_diagnostics
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics/lib/pkgconfig/roboteq_diagnostics.pc /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/roboteq_diagnostics.pc
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics/share/roboteq_diagnostics/cmake/roboteq_diagnosticsConfig-version.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/roboteq_diagnostics/cmake/roboteq_diagnosticsConfig-version.cmake
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/roboteq_diagnostics/share/roboteq_diagnostics/cmake/roboteq_diagnosticsConfig.cmake /home/nishanth/TurtleStuff/turtle_drive/devel/share/roboteq_diagnostics/cmake/roboteq_diagnosticsConfig.cmake
