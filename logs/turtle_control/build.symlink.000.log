@@ -1,6 +1,0 @@
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/libturtle_control.so
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/pkgconfig/turtle_control.pc
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/turtle_control/turtle_base
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/lib/turtle_control/teleop_turtle
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig-version.cmake
-Symlinking /home/nishanth/TurtleStuff/turtle_drive/devel/share/turtle_control/cmake/turtle_controlConfig.cmake

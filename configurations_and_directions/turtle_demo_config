@@ -35,5 +35,5 @@ Configuration:
 3. Connect second ethernet connection to LAN input on router. Configure this as "Manual" in IPV4 Settings. Set a static IP address. Set the address of the router as Gateway and DNS. Open "Routes" and select "Use this connection only for resources on its network". 
 4. Configure the base station Ubiquity antenna as:
 	pc ip_address = 192.168.1.103
-	ubiquity ip_address = 192.168.1.201
+	ubiquity ip_address = 192.168.1.200
 5. I still do not know how to configure the PC as a static ip so I am simply using another computer in order to serve as a base station with static ip.

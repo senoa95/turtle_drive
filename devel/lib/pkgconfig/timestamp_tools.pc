@@ -1,1 +1,0 @@
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/timestamp_tools/lib/pkgconfig/timestamp_tools.pc

@@ -1,1 +1,0 @@
-/home/nishanth/TurtleStuff/turtle_drive/devel/.private/urg_node/share/roseus/ros/urg_node/manifest.l
