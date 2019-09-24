@@ -1,5 +1,0 @@
-Turtles/turtle_description
-/home/base/workspace/turtle_drive/devel/.private/turtle_description/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/turtle_description/lib/pkgconfig/turtle_description.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/turtle_description.pc
-/home/base/workspace/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig.cmake /home/base/workspace/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/turtle_description/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/turtle_description/cmake/turtle_descriptionConfig-version.cmake

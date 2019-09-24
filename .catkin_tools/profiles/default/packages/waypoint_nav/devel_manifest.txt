@@ -1,5 +1,0 @@
-waypoint_nav
-/home/base/workspace/turtle_drive/devel/.private/waypoint_nav/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/waypoint_nav/lib/pkgconfig/waypoint_nav.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/waypoint_nav.pc
-/home/base/workspace/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig.cmake /home/base/workspace/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/waypoint_nav/share/waypoint_nav/cmake/waypoint_navConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/waypoint_nav/cmake/waypoint_navConfig-version.cmake

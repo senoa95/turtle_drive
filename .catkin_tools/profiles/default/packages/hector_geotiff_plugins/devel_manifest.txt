@@ -1,6 +1,0 @@
-hector_slam/hector_geotiff_plugins
-/home/base/workspace/turtle_drive/devel/.private/hector_geotiff_plugins/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/hector_geotiff_plugins/lib/libhector_geotiff_plugins.so /home/base/workspace/turtle_drive/devel/lib/libhector_geotiff_plugins.so
-/home/base/workspace/turtle_drive/devel/.private/hector_geotiff_plugins/lib/pkgconfig/hector_geotiff_plugins.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/hector_geotiff_plugins.pc
-/home/base/workspace/turtle_drive/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake /home/base/workspace/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/hector_geotiff_plugins/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/hector_geotiff_plugins/cmake/hector_geotiff_pluginsConfig-version.cmake

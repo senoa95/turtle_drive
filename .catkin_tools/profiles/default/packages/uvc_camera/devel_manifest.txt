@@ -1,8 +1,0 @@
-camera_umd/uvc_camera
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/lib/libnodelet_uvc_camera.so /home/base/workspace/turtle_drive/devel/lib/libnodelet_uvc_camera.so
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/lib/pkgconfig/uvc_camera.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/uvc_camera.pc
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_camera_node /home/base/workspace/turtle_drive/devel/lib/uvc_camera/uvc_camera_node
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/lib/uvc_camera/uvc_stereo_node /home/base/workspace/turtle_drive/devel/lib/uvc_camera/uvc_stereo_node
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig.cmake /home/base/workspace/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/uvc_camera/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/uvc_camera/cmake/uvc_cameraConfig-version.cmake

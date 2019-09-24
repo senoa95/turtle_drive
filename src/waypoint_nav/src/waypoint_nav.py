@@ -7,12 +7,14 @@ from geometry_msgs.msg import Pose,Twist,Point32
 from sensor_msgs.msg import NavSatFix
 from novatel_gps_msgs.msg import Inspva
 from std_msgs.msg import Float32
+from nav_msgs.msg import Odometry
 from utilities import Point, DiffDriverVehicle, NavController
 import transforms3d as tf
 import numpy as np
 import os
 import rospkg
 import utm
+import time
 
 rospack = rospkg.RosPack()
 
@@ -20,11 +22,13 @@ rospack = rospkg.RosPack()
 pi = np.pi
 
 # Define global variables:
+global odom
+odom = Odometry()
 global currentPos
 currentPos = Point32()
 global file_name
 # file_name = rospy.get_param("/file_name")
-file_name = "/home/turtle1/turtle_drive/src/waypoint_nav/src/test_waypoints.txt"
+file_name = "/home/sena/turtle_drive/src/waypoint_nav/src/test_waypoints.txt"
 # Callback function for subscriber to Position and orientation topic:
 
 def pose_callback(data):
@@ -42,6 +46,17 @@ def heading_callback(data):
     global currentPos
 
     currentPos.z =  data.azimuth
+
+def odom_callback(data):
+    global odom
+
+    odom.pose.x = data.Pose.Quaternion.x
+    odom.pose.y = data.Pose.Quaternion.y
+    odom.pose.z = data.Pose.Quaternion.z
+    odom.pose.w = data.Pose.Quaternion.w
+    odom.twist.x = data.Pose.Point.x
+    odom.twist.y = data.Pose.Point.y
+    odom.twist.z = data.Pose.Point.z
 
 # 1. Initialize function definition:
 def initialize():
@@ -62,6 +77,8 @@ def initialize():
 def execute(cntrl):
 
     global currentPos
+    global odom
+
     distance2Goal = 0
     heading_err_init = 0
     heading_err_goal = 0
@@ -71,28 +88,33 @@ def execute(cntrl):
     cmd_vel.linear.y = 0
     cmd_vel.linear.z = 0
 
-    k_p_heading_init = 0.01
-    k_i_heading_init = 0
-    k_d_heading_init = 0.001
-    k_heading_init_low = 0.01
-    k_heading_goal = 0.01
-    k_dist = 0.5
-
-    # Setup the ROS publishers and subscribers:
-    rospy.Subscriber("/fix", NavSatFix, pose_callback)
-    rospy.Subscriber("/inspva", Inspva, heading_callback)
-    pub_goal = rospy.Publisher('/current_goal',Point32,queue_size=10)
-    pub_vel = rospy.Publisher('turtle_velocity_controller/cmd_vel', Twist,queue_size=10)
-    rospy.init_node('waypoint_ctlr', anonymous=False)
-
-    rate = rospy.Rate(10)
-
     # Initialize:
     # 1. Parameters:
     euclideanError = 0
     prev_heading_err_init = 0
     heading_err_init_sum = 0
     heading_err_init_diff = 0
+    heading_err_goal_sum = 0
+    adjusted_heading = False
+
+    k_p_heading_init = 1
+    k_i_heading_init = 0
+    k_d_heading_init = 0
+    k_heading_init_low = 0.1
+    k_p_heading_goal = 1
+    k_i_heading_goal = 0
+    k_dist = 0.8
+
+    # Setup the ROS publishers and subscribers:
+    rospy.Subscriber("/fix", NavSatFix, pose_callback)
+    rospy.Subscriber("/inspva", Inspva, heading_callback)
+    # rospy.Subscriber("turtle_velocity_controller/odom", Odometry, odom_callback)
+    pub_goal = rospy.Publisher('/current_goal',Point32,queue_size=10)
+    pub_vel = rospy.Publisher('turtle_velocity_controller/cmd_vel', Twist,queue_size=10)
+    rospy.init_node('waypoint_ctlr', anonymous=False)
+
+    rate = rospy.Rate(10)
+
 
     # 2. Goal:
     goal = cntrl.wpList[cntrl.currWpIdx]
@@ -104,47 +126,81 @@ def execute(cntrl):
     while not rospy.is_shutdown():
 
         # Compute the new Euclidean error:
-        current_goal = Point32(goal.x,goal.y,goal.heading)
-        print('current Index: ',cntrl.currWpIdx)
+        heading_goal = goal.heading * pi/180
+
+        if heading_goal > pi:
+            heading_goal = heading_goal - 2*pi
+
+        curr_heading = currentPos.z * pi/180
+
+        if curr_heading > pi:
+            curr_heading = curr_heading - 2*pi
+
+        current_goal = Point32(goal.x,goal.y,heading_goal)
+        # print('current Index: ',cntrl.currWpIdx)
+
+        print('initial heading error', heading_err_init)
+        print('distance from goal', distance2Goal)
+        print('current point', currentPos.x, currentPos.y)
+        print('current heading', curr_heading)
+        print('goal point', goal.x, goal.y)
+        print('goal heading', heading_goal)
+        print('goal heading error', heading_err_goal)
+
         pub_goal.publish(current_goal)
 
         # Case #1:Vehicle is in the vicinity of current goal point (waypoint):
-        if (abs(distance2Goal) < 1):
-            # calculate theta_des_1
-            heading_err_goal = currentPos.z - current_goal.z
-            if abs(heading_err_goal) < 5:
+        if (abs(distance2Goal) < 4):
+            heading_err_goal = curr_heading - heading_goal
+            if abs(heading_err_goal) < pi/4:
                 print (" Reached Waypoint # ", cntrl.currWpIdx +1)
                 # Update goal Point to next point in the waypoint list:
                 cntrl.currWpIdx +=1
+                if cntrl.currWpIdx < cntrl.nPts:
+                    goal = cntrl.wpList[cntrl.currWpIdx]
+                    print (" New goal ")
+                    # print (goal.x)
+                    # print (goal.y)
+                    # print (goal.heading)
+                else:
+                    print (" --- All Waypoints have been conquered! Mission Accomplished Mr Hunt !!! --- ")
+                    break
             else:
-                cmd_vel.angular.z = k_heading_goal*heading_err_goal;
+                # while abs(heading_err_goal) > 5:
+                cmd_vel.angular.z = k_p_heading_goal*heading_err_goal + k_p_heading_goal*heading_err_goal_sum
+                # cmd_vel.linear.x = 0.1
+                heading_err_goal_sum = heading_err_goal_sum +  heading_err_goal
                 print('distance less than threshold, working on heading error')
 
 
-
-            if cntrl.currWpIdx < cntrl.nPts:
-                goal = cntrl.wpList[cntrl.currWpIdx]
-            else:
-                print (" --- All Waypoints have been conquered! Mission Accomplished Mr Hunt !!! --- ")
-                break
-
-
-            # print (" New goal is: ")
-            # print (goal.x)
-            # print (goal.y)
-            # print (goal.heading)
         else:
-            if abs(heading_err_init) > 50:
+            if abs(heading_err_init) > 0.03:
+                # while abs(heading_err_init) > 50:
                 print('Far from waypoint. Working on initial heading')
-                print(heading_err_init)
-                cmd_vel.angular.z = k_p_heading_init*heading_err_init + k_i_heading_init*heading_err_init_sum + k_d_heading_init*heading_err_init_diff
-                cmd_vel.linear.x = 0;
+                # print(odom.pose.w)
+                cmd_vel.linear.x = 0
+
+                if heading_err_init > 0:
+                    cmd_vel.angular.z = (k_p_heading_init*heading_err_init + k_i_heading_init*heading_err_init_sum + k_d_heading_init*heading_err_init_diff)
+                else:
+                    cmd_vel.angular.z = k_p_heading_init*heading_err_init + k_i_heading_init*heading_err_init_sum + k_d_heading_init*heading_err_init_diff
+                adjusted_heading = True
             else:
-                print(currentPos.x)
-                print(currentPos.y)
+                # print(distance2Goal)
+                # while abs(distance2Goal) > 1:
                 print('initial heading adjusted. Going to waypoint.')
-                cmd_vel.angular.z = 0 #k_heading_init_low*heading_err_init;
+                print('Distance to Goal', distance2Goal)
+                if adjusted_heading:
+                    time.sleep(0.1)
+                    adjusted_heading = False
+
                 cmd_vel.linear.x = k_dist*distance2Goal;
+                if (heading_err_init > pi/2):
+                    cmd_vel.angular.z = k_heading_init_low*(heading_err_init - pi); #changed here
+                elif (heading_err_init < -pi/2):
+                    cmd_vel.angular.z = k_heading_init_low*(heading_err_init + pi); #changed here
+                else:
+                    cmd_vel.angular.z = k_heading_init_low*heading_err_init #changed here
 
         # Case #2:
         #Compute the error between the goal and current
@@ -154,8 +210,16 @@ def execute(cntrl):
         prev_heading_err_init = heading_err_init
 
         # Publish the computed command:
+        if abs(cmd_vel.angular.z) > 2:
+            cmd_vel.angular.z = (cmd_vel.angular.z/abs(cmd_vel.angular.z))*2
+        if cmd_vel.linear.x > 2:
+            cmd_vel.linear.x = (cmd_vel.linear.x/abs(cmd_vel.linear.x))*2
+        cmd_vel.linear.y = 0
+        cmd_vel.linear.z = 0
+        cmd_vel.angular.x = 0
+        cmd_vel.angular.y = 0
         pub_vel.publish(cmd_vel)
-
+        time.sleep(0.3)
         rate.sleep()
 
     rospy.spin()

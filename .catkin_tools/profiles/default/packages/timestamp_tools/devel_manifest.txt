@@ -1,5 +1,0 @@
-driver_common/timestamp_tools
-/home/base/workspace/turtle_drive/devel/.private/timestamp_tools/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/timestamp_tools/lib/pkgconfig/timestamp_tools.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/timestamp_tools.pc
-/home/base/workspace/turtle_drive/devel/.private/timestamp_tools/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake /home/base/workspace/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/timestamp_tools/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/timestamp_tools/cmake/timestamp_toolsConfig-version.cmake

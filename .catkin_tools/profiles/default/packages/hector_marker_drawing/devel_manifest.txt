@@ -1,5 +1,0 @@
-hector_slam/hector_marker_drawing
-/home/base/workspace/turtle_drive/devel/.private/hector_marker_drawing/cmake.lock /home/base/workspace/turtle_drive/devel/./cmake.lock
-/home/base/workspace/turtle_drive/devel/.private/hector_marker_drawing/lib/pkgconfig/hector_marker_drawing.pc /home/base/workspace/turtle_drive/devel/lib/pkgconfig/hector_marker_drawing.pc
-/home/base/workspace/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake /home/base/workspace/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig.cmake
-/home/base/workspace/turtle_drive/devel/.private/hector_marker_drawing/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake /home/base/workspace/turtle_drive/devel/share/hector_marker_drawing/cmake/hector_marker_drawingConfig-version.cmake
