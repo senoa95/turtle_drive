@@ -16,7 +16,7 @@ pitch  = 0;        % pitch of the camera in degrees
 %%
 sensor = monoCamera(camIntrinsics, height, 'Pitch', pitch);
 %%
-if robotics.ros.internal.Global.isNodeActive == 0
+if ros.internal.Global.isNodeActive == 0
     rosinit
 end
 
@@ -30,7 +30,7 @@ imshow(frame)
 
 %%
 distAheadOfSensor = 35; % in meters, as previously specified in monoCamera height input
-spaceToOneSide    = 5;  % all other distance quantities are also in meters
+spaceToOneSide    = 20;  % all other distance quantities are also in meters
 bottomOffset      = 0.5;
 
 outView   = [bottomOffset, distAheadOfSensor, -spaceToOneSide, spaceToOneSide]; % [xmin, xmax, ymin, ymax]

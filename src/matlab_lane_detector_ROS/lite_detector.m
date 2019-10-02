@@ -16,11 +16,11 @@ height = 0.3;    % mounting height in meters from the ground
 pitch  = 0;        % pitch of the camera in degrees
 sensor = monoCamera(camIntrinsics, height, 'Pitch', pitch);
 %% initialize matlab ros node
-if robotics.ros.internal.Global.isNodeActive == 0
+if ros.internal.Global.isNodeActive == 0
     rosinit
 end
 
-for i = 1:10000
+for i = 1:1000000
 %% subscribe to compressed camera image
 cam_topic = '/usb_cam/image_raw/compressed';
 sub = rossubscriber(cam_topic);
@@ -28,8 +28,8 @@ msg = sub.receive;
 frame = msg.readImage;
 
 %% specify lane detection parameters
-distAheadOfSensor = 15; % in meters, as previously specified in monoCamera height input
-spaceToOneSide    = 5;  % all other distance quantities are also in meters
+distAheadOfSensor = 55; % in meters, as previously specified in monoCamera height input
+spaceToOneSide    = 20;  % all other distance quantities are also in meters
 bottomOffset      = 0;
 
 outView   = [bottomOffset, distAheadOfSensor, -spaceToOneSide, spaceToOneSide]; % [xmin, xmax, ymin, ymax]
@@ -128,9 +128,24 @@ if ~isempty(rightEgoBoundary)
     disp(rightEgoBoundary.Parameters)
 end
 
+[birdsEyeWithEgoLane,frameWithEgoLane] = showLanes(birdsEyeImage,leftEgoBoundary,rightEgoBoundary,birdsEyeConfig,bottomOffset,distAheadOfSensor,frame,sensor);
+subplot('Position', [0, 0, 0.5, 1.0]) % [left, bottom, width, height] in normalized units
+imshow(birdsEyeWithEgoLane)
+subplot('Position', [0.5, 0, 0.5, 1.0])
+imshow(frameWithEgoLane)
 
 end
 %% supporting functions
+
+function [birdsEyeWithEgoLane,frameWithEgoLane] =showLanes(birdsEyeImage,leftEgoBoundary,rightEgoBoundary,birdsEyeConfig,bottomOffset,distAheadOfSensor,frame,sensor)
+
+xVehiclePoints = bottomOffset:distAheadOfSensor;
+birdsEyeWithEgoLane = insertLaneBoundary(birdsEyeImage, leftEgoBoundary , birdsEyeConfig, xVehiclePoints, 'Color','Red');
+birdsEyeWithEgoLane = insertLaneBoundary(birdsEyeWithEgoLane, rightEgoBoundary, birdsEyeConfig, xVehiclePoints, 'Color','Green');
+
+frameWithEgoLane = insertLaneBoundary(frame, leftEgoBoundary, sensor, xVehiclePoints, 'Color','Red');
+frameWithEgoLane = insertLaneBoundary(frameWithEgoLane, rightEgoBoundary, sensor, xVehiclePoints, 'Color','Green');
+end
 
 function imageROI = vehicleToImageROI(birdsEyeConfig, vehicleROI)
 
