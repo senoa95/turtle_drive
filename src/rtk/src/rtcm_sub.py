@@ -22,13 +22,13 @@ def rtcm_subscriber():
     print('here')
 
     while not rospy.is_shutdown():
-        rospy.sleep(1)
+        rospy.sleep(0.05)
 
     # Open Serial connection
-        ser = serial.Serial('/dev/ttyUSB0',115200,rtscts=True,dsrdtr=True)
+        ser = serial.Serial('/dev/ttyUSB1',115200,rtscts=True,dsrdtr=True)
 
     # SETTING UP Novatel to take RTCM correction
-        ser.write('INTERFACEMODE USB1 RTCM NOVATEL ON\r\n')
+        ser.write('INTERFACEMODE USB2 RTCM NOVATEL ON\r\n')
         ser.write('INSCOMMAND ENABLE\r')
         ser.write('LOG USB1 INSPVA ONTIME \r\n')
         ser.write(RTCM)
